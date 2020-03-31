@@ -1,0 +1,18 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.mda.mda_data_manager`
+===========================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.mda.mda_data_manager
+
+
+Module Contents
+---------------
+
+.. py:class:: MdaDataManager(directories)
+
+   Bases: :class:`fl.datamigration.nwb.common.data_manager.DataManager`
+
+   .. method:: read_data(self, dataset_id, file_id)
+
+
+
+

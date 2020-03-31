@@ -1,0 +1,16 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.mda.fl_mda_builder`
+=========================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.mda.fl_mda_builder
+
+
+Module Contents
+---------------
+
+.. py:class:: FlMdaBuilder(sampling_rate)
+
+   .. method:: build(self, electrode_table_region, data)
+
+
+
+

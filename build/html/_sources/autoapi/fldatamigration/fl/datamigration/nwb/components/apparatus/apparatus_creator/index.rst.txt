@@ -1,0 +1,17 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.apparatus.apparatus_creator`
+==================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.apparatus.apparatus_creator
+
+
+Module Contents
+---------------
+
+.. py:class:: ApparatusCreator
+
+   .. method:: create_apparatus(cls, fl_apparatus)
+      :classmethod:
+
+
+
+

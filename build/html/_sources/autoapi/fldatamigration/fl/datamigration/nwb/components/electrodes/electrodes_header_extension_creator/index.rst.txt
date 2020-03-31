@@ -1,0 +1,17 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.electrodes.electrodes_header_extension_creator`
+=====================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.electrodes.electrodes_header_extension_creator
+
+
+Module Contents
+---------------
+
+.. py:class:: ElectrodesHeaderExtensionCreator
+
+   .. method:: create_electrodes_header_extension(cls, spike_n_trodes)
+      :classmethod:
+
+
+
+

@@ -1,0 +1,26 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.dio.dio_files`
+====================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.dio.dio_files
+
+
+Module Contents
+---------------
+
+.. py:class:: DioFiles(directories, dio_metadata)
+
+   .. method:: get_files(self)
+
+
+
+   .. method:: __filter_files(cls, multiple_datasets_dio_files, dio_metadata)
+      :classmethod:
+
+
+
+   .. method:: __get_dict(cls, directory)
+      :classmethod:
+
+
+
+

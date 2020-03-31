@@ -1,0 +1,31 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.dio.dio_builder`
+======================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.dio.dio_builder
+
+
+Module Contents
+---------------
+
+.. data:: path
+   
+
+   
+
+.. py:class:: DioBuilder(data, dio_metadata)
+
+   .. method:: build(self)
+
+
+
+   .. method:: __create_behavioral_events(cls)
+      :classmethod:
+
+
+
+   .. method:: __build_timeseries(cls, name, description, data)
+      :classmethod:
+
+
+
+

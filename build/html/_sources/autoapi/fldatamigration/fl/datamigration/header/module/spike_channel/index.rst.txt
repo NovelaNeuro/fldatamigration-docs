@@ -1,0 +1,12 @@
+:mod:`fldatamigration.fl.datamigration.header.module.spike_channel`
+===================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.header.module.spike_channel
+
+
+Module Contents
+---------------
+
+.. py:class:: SpikeChannel(element)
+
+

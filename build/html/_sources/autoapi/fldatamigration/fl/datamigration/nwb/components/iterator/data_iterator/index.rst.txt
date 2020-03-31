@@ -1,0 +1,45 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.iterator.data_iterator`
+=============================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.iterator.data_iterator
+
+
+Module Contents
+---------------
+
+.. py:class:: DataIterator(data)
+
+   Bases: :class:`hdmf.data_utils.AbstractDataChunkIterator`
+
+   .. method:: __iter__(self)
+
+
+
+   .. method:: _get_selection(self)
+
+
+
+   .. method:: get_selection(number_of_threads, current_dataset, dataset_file_length, current_file, number_of_rows)
+      :staticmethod:
+
+
+
+   .. method:: recommended_chunk_shape(self)
+
+
+
+   .. method:: recommended_data_shape(self)
+
+
+
+   .. method:: dtype(self)
+      :property:
+
+
+
+   .. method:: maxshape(self)
+      :property:
+
+
+
+

@@ -1,0 +1,32 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.analog.analog_creator`
+============================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.analog.analog_creator
+
+
+Module Contents
+---------------
+
+.. data:: path
+   
+
+   
+
+.. py:class:: AnalogCreator
+
+   .. method:: create(cls, fl_analog)
+      :classmethod:
+
+
+
+   .. method:: __create_behavioral_events()
+      :staticmethod:
+
+
+
+   .. method:: __build_timeseries(name, data, timestamps)
+      :staticmethod:
+
+
+
+

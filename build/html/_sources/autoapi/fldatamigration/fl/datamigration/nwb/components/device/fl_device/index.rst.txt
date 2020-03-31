@@ -1,0 +1,12 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.device.fl_device`
+=======================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.device.fl_device
+
+
+Module Contents
+---------------
+
+.. py:class:: FlDevice(name)
+
+

@@ -1,0 +1,12 @@
+:mod:`fldatamigration.fl.datamigration.header.module.spike_n_trode`
+===================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.header.module.spike_n_trode
+
+
+Module Contents
+---------------
+
+.. py:class:: SpikeNTrode(element)
+
+

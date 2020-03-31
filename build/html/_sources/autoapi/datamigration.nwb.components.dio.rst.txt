@@ -1,0 +1,41 @@
+datamigration.nwb.components.dio package
+========================================
+
+.. automodule:: datamigration.nwb.components.dio
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: datamigration.nwb.components.dio.dio_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.dio.dio_extractor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.dio.dio_files
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.dio.dio_injector
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.dio.dio_manager
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

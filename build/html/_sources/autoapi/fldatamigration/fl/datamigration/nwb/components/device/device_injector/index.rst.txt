@@ -1,0 +1,21 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.device.device_injector`
+=============================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.device.device_injector
+
+
+Module Contents
+---------------
+
+.. py:class:: DeviceInjector
+
+   .. method:: inject_all_devices(self, nwb_content, devices)
+
+
+
+   .. method:: __inject_device(nwb_content, device)
+      :staticmethod:
+
+
+
+

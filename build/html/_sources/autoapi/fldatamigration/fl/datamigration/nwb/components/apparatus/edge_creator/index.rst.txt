@@ -1,0 +1,17 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.apparatus.edge_creator`
+=============================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.apparatus.edge_creator
+
+
+Module Contents
+---------------
+
+.. py:class:: EdgeCreator
+
+   .. method:: create(cls, id, edge_nodes)
+      :classmethod:
+
+
+
+

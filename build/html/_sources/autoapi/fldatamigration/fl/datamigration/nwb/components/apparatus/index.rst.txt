@@ -1,0 +1,21 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.apparatus`
+================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.apparatus
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   apparatus_creator/index.rst
+   edge_creator/index.rst
+   fl_apparatus/index.rst
+   fl_apparatus_builder/index.rst
+   fl_apparatus_extractor/index.rst
+   fl_apparatus_manager/index.rst
+   node_creator/index.rst
+
+

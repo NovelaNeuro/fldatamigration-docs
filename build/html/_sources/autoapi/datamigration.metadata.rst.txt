@@ -1,0 +1,23 @@
+datamigration.metadata package
+==============================
+
+.. automodule:: datamigration.metadata
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: datamigration.metadata.metadata_extractor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.metadata.metadata_manager
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

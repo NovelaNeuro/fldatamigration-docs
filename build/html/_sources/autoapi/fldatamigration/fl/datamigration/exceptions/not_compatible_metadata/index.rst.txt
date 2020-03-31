@@ -1,0 +1,14 @@
+:mod:`fldatamigration.fl.datamigration.exceptions.not_compatible_metadata`
+==========================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.exceptions.not_compatible_metadata
+
+
+Module Contents
+---------------
+
+.. py:exception:: NotCompatibleMetadata
+
+   Bases: :class:`Exception`
+
+

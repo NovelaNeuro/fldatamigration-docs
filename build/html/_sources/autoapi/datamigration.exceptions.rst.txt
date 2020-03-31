@@ -1,0 +1,35 @@
+datamigration.exceptions package
+================================
+
+.. automodule:: datamigration.exceptions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: datamigration.exceptions.missing_data_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.exceptions.none_param_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.exceptions.not_compatible_metadata
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.exceptions.not_equal_param_length_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

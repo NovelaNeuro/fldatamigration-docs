@@ -1,0 +1,17 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.position.fl_position_builder`
+===================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.position.fl_position_builder
+
+
+Module Contents
+---------------
+
+.. py:class:: FlPositionBuilder
+
+   .. method:: build(position_data, timestamps)
+      :staticmethod:
+
+
+
+

@@ -1,0 +1,16 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.electrodes.fl_electrode_builder`
+======================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.electrodes.fl_electrode_builder
+
+
+Module Contents
+---------------
+
+.. py:class:: FlElectrodesBuilder
+
+   .. method:: build(self, electrode_group)
+
+
+
+

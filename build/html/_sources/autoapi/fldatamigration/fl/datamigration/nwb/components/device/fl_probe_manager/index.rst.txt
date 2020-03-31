@@ -1,0 +1,20 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.device.fl_probe_manager`
+==============================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.device.fl_probe_manager
+
+
+Module Contents
+---------------
+
+.. py:class:: FlProbeManager(probes_metadata, electrode_groups_metadata)
+
+   .. method:: get_fl_probes_list(self)
+
+
+
+   .. method:: _build_single_probe(self, electrode_group_metadata, probe_counter)
+
+
+
+

@@ -1,0 +1,17 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.ntrodes.ntrodes_creator`
+==============================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.ntrodes.ntrodes_creator
+
+
+Module Contents
+---------------
+
+.. py:class:: NTrodesCreator
+
+   .. method:: create_ntrode(fl_ntrodes)
+      :staticmethod:
+
+
+
+

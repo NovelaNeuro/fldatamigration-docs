@@ -1,0 +1,400 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>datamigration package &mdash; fldatamigration 0.1.005 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="datamigration.exceptions package" href="datamigration.exceptions.html" />
+    <link rel="prev" title="API Documentation" href="../api.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> fldatamigration
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../README.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README.html#prerequisites">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README.html#how-to-use-it">How to use it</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../api.html">API Documentation</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">datamigration package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.exceptions.html">datamigration.exceptions package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.header.html">datamigration.header package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.metadata.html">datamigration.metadata package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.nwb.html">datamigration.nwb package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.processing.html">datamigration.processing package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.tools.html">datamigration.tools package</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../help.html">Need help?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../LICENSE.html">License</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">fldatamigration</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../api.html">API Documentation</a> &raquo;</li>
+        
+      <li>datamigration package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/autoapi/datamigration.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-datamigration">
+<span id="datamigration-package"></span><h1>datamigration package<a class="headerlink" href="#module-datamigration" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="datamigration.exceptions.html">datamigration.exceptions package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="datamigration.exceptions.html#module-datamigration.exceptions.missing_data_exception">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="datamigration.header.html">datamigration.header package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="datamigration.header.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.header.header_checker.html">datamigration.header.header_checker package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="datamigration.header.header_checker.html#module-datamigration.header.header_checker.header_comparator">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.header.module.html">datamigration.header.module package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="datamigration.header.module.html#module-datamigration.header.module.argument">Submodules</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="datamigration.header.html#module-datamigration.header.xml_extractor">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="datamigration.metadata.html">datamigration.metadata package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="datamigration.metadata.html#module-datamigration.metadata.metadata_extractor">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="datamigration.nwb.html">datamigration.nwb package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="datamigration.nwb.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.nwb.common.html">datamigration.nwb.common package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="datamigration.nwb.common.html#module-datamigration.nwb.common.data_manager">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.nwb.components.html">datamigration.nwb.components package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="datamigration.nwb.components.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="datamigration.nwb.components.analog.html">datamigration.nwb.components.analog package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="datamigration.nwb.components.analog.html#module-datamigration.nwb.components.analog.analog_creator">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="datamigration.nwb.components.apparatus.html">datamigration.nwb.components.apparatus package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="datamigration.nwb.components.apparatus.html#module-datamigration.nwb.components.apparatus.apparatus_creator">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="datamigration.nwb.components.device.html">datamigration.nwb.components.device package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="datamigration.nwb.components.device.html#module-datamigration.nwb.components.device.device_factory">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="datamigration.nwb.components.dio.html">datamigration.nwb.components.dio package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="datamigration.nwb.components.dio.html#module-datamigration.nwb.components.dio.dio_builder">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="datamigration.nwb.components.electrode_group.html">datamigration.nwb.components.electrode_group package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="datamigration.nwb.components.electrode_group.html#module-datamigration.nwb.components.electrode_group.electrode_group_factory">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="datamigration.nwb.components.electrodes.html">datamigration.nwb.components.electrodes package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="datamigration.nwb.components.electrodes.html#module-datamigration.nwb.components.electrodes.electrode_creator">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="datamigration.nwb.components.iterator.html">datamigration.nwb.components.iterator package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="datamigration.nwb.components.iterator.html#module-datamigration.nwb.components.iterator.data_iterator">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="datamigration.nwb.components.mda.html">datamigration.nwb.components.mda package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="datamigration.nwb.components.mda.html#module-datamigration.nwb.components.mda.electrical_series_creator">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="datamigration.nwb.components.ntrodes.html">datamigration.nwb.components.ntrodes package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="datamigration.nwb.components.ntrodes.html#module-datamigration.nwb.components.ntrodes.fl_ntrodes">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="datamigration.nwb.components.position.html">datamigration.nwb.components.position package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="datamigration.nwb.components.position.html#module-datamigration.nwb.components.position.fl_position">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="datamigration.nwb.components.processing_module.html">datamigration.nwb.components.processing_module package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="datamigration.nwb.components.processing_module.html#module-datamigration.nwb.components.processing_module.processing_module_creator">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="datamigration.nwb.components.table_region.html">datamigration.nwb.components.table_region package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="datamigration.nwb.components.table_region.html#module-datamigration.nwb.components.table_region.table_region_builder">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l5"><a class="reference internal" href="datamigration.nwb.components.task.html">datamigration.nwb.components.task package</a><ul>
+<li class="toctree-l6"><a class="reference internal" href="datamigration.nwb.components.task.html#module-datamigration.nwb.components.task.task_builder">Submodules</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="datamigration.processing.html">datamigration.processing package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="datamigration.processing.html#module-datamigration.processing.continuous_time_extractor">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="datamigration.tools.html">datamigration.tools package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="datamigration.tools.html#module-datamigration.tools.abstract_file_downloader">Submodules</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="module-datamigration.nwb_file_builder">
+<span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-datamigration.nwb_file_builder" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="datamigration.nwb_file_builder.NWBFileBuilder">
+<em class="property">class </em><code class="sig-name descname">NWBFileBuilder</code><span class="sig-paren">(</span><em class="sig-param">data_path</em>, <em class="sig-param">animal_name</em>, <em class="sig-param">date</em>, <em class="sig-param">nwb_metadata</em>, <em class="sig-param">process_dio=True</em>, <em class="sig-param">process_mda=True</em>, <em class="sig-param">process_analog=True</em>, <em class="sig-param">output_file='output.nwb'</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb_file_builder.NWBFileBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>unpack data from preprocessing folder specified by arguments, and write those data into NWB file format</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_path</strong> (<em>string</em>) – path to directory containing all experiments data</p></li>
+<li><p><strong>animal_name</strong> (<em>string</em>) – directory name which represents animal subject of experiment</p></li>
+<li><p><strong>date</strong> (<em>string</em>) – date of experiment</p></li>
+<li><p><strong>nwb_metadata</strong> (<a class="reference internal" href="datamigration.metadata.html#datamigration.metadata.metadata_manager.MetadataManager" title="datamigration.metadata.metadata_manager.MetadataManager"><em>MetadataManager</em></a>) – object containig metadata about experiment</p></li>
+<li><p><strong>process_dio</strong> (<em>boolean</em>) – flag if dio data should be processed</p></li>
+<li><p><strong>process_mda</strong> (<em>boolean</em>) – flag if mda data should be processed</p></li>
+<li><p><strong>process_analog</strong> (<em>boolean</em>) – flag if analog data should be processed</p></li>
+<li><p><strong>output_file</strong> (<em>string</em>) – path and name specifying where .nwb file gonna be written</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="datamigration.nwb_file_builder.NWBFileBuilder.build">
+<code class="sig-name descname">build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb_file_builder.NWBFileBuilder.build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="datamigration.nwb_file_builder.NWBFileBuilder.write">
+<code class="sig-name descname">write</code><span class="sig-paren">(</span><em class="sig-param">content</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb_file_builder.NWBFileBuilder.write" title="Permalink to this definition">¶</a></dt>
+<dd><p>write nwb file handler with colected data into actual file</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-datamigration.raw_to_nwb_builder"></span><dl class="class">
+<dt id="datamigration.raw_to_nwb_builder.RawToNWBBuilder">
+<em class="property">class </em><code class="sig-name descname">RawToNWBBuilder</code><span class="sig-paren">(</span><em class="sig-param">data_path</em>, <em class="sig-param">animal_name</em>, <em class="sig-param">dates</em>, <em class="sig-param">nwb_metadata</em>, <em class="sig-param">output_path=''</em>, <em class="sig-param">extract_analog=True</em>, <em class="sig-param">extract_spikes=False</em>, <em class="sig-param">extract_lfps=False</em>, <em class="sig-param">extract_dio=True</em>, <em class="sig-param">extract_mda=True</em>, <em class="sig-param">overwrite=True</em>, <em class="sig-param">lfp_export_args=('-highpass'</em>, <em class="sig-param">'0'</em>, <em class="sig-param">'-lowpass'</em>, <em class="sig-param">'400'</em>, <em class="sig-param">'-interp'</em>, <em class="sig-param">'0'</em>, <em class="sig-param">'-userefs'</em>, <em class="sig-param">'0'</em>, <em class="sig-param">'-outputrate'</em>, <em class="sig-param">'1500')</em>, <em class="sig-param">mda_export_args=('-usespikefilters'</em>, <em class="sig-param">'0'</em>, <em class="sig-param">'-interp'</em>, <em class="sig-param">'0'</em>, <em class="sig-param">'-userefs'</em>, <em class="sig-param">'0')</em>, <em class="sig-param">parallel_instances=4</em>, <em class="sig-param">analog_export_args=()</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.raw_to_nwb_builder.RawToNWBBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_path</strong> (<em>string</em>) – path to directory containing all experiments data</p></li>
+<li><p><strong>animal_name</strong> (<em>string</em>) – directory name which represents animal subject of experiment</p></li>
+<li><p><strong>dates</strong> (<em>list of strings</em>) – dates of experiments on above animal</p></li>
+<li><p><strong>nwb_metadata</strong> (<a class="reference internal" href="datamigration.metadata.html#datamigration.metadata.metadata_manager.MetadataManager" title="datamigration.metadata.metadata_manager.MetadataManager"><em>MetadataManager</em></a>) – object containig metadata about experiment</p></li>
+<li><p><strong>output_path</strong> (<em>string</em>) – path and name specifying where .nwb file gonna be written</p></li>
+<li><p><strong>extract_analog</strong> (<em>boolean</em>) – flag if analog data should be extracted and processed from raw data</p></li>
+<li><p><strong>extract_spikes</strong> (<em>boolean</em>) – flag if spikes data should be extracted and processed from raw data</p></li>
+<li><p><strong>extract_lfps</strong> (<em>boolean</em>) – flag  if lfps data should be extracted and processed from raw data</p></li>
+<li><p><strong>extract_dio</strong> (<em>boolean</em>) – flag if dio data should be extracted and processed from raw data</p></li>
+<li><p><strong>extract_mda</strong> (<em>boolean</em>) – flag if mda data should be extracted and processed from raw data</p></li>
+<li><p><strong>overwrite</strong> (<em>boolean</em>) – flag if current extracted data in preprocessed folder content should be overwritten</p></li>
+<li><p><strong>lfp_export_args</strong> (<em>tuple of strings</em>) – parameters to launch lfp extraction from spikegadgets</p></li>
+<li><p><strong>mda_export_args</strong> (<em>tuple of strings</em>) – parameters to launch mda extraction from spikegadgets</p></li>
+<li><p><strong>analog_export_args</strong> (<em>tuple of strings</em>) – parameters to launch analog extraction from spikegadgets</p></li>
+<li><p><strong>parallel_instances</strong> (<em>int</em>) – number of parallel processes used during processing data</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="datamigration.raw_to_nwb_builder.RawToNWBBuilder.build_nwb">
+<code class="sig-name descname">build_nwb</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.raw_to_nwb_builder.RawToNWBBuilder.build_nwb" title="Permalink to this definition">¶</a></dt>
+<dd><p>builds nwb file for experiments from given dates</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="datamigration.raw_to_nwb_builder.RawToNWBBuilder.cleanup">
+<code class="sig-name descname">cleanup</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.raw_to_nwb_builder.RawToNWBBuilder.cleanup" title="Permalink to this definition">¶</a></dt>
+<dd><p>remove all temporary files structure from preprocessing folder</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="datamigration.exceptions.html" class="btn btn-neutral float-right" title="datamigration.exceptions package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../api.html" class="btn btn-neutral float-left" title="API Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Novela
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

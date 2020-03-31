@@ -1,0 +1,290 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>datamigration.nwb.components.dio package &mdash; fldatamigration 0.1.005 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="datamigration.nwb.components.electrode_group package" href="datamigration.nwb.components.electrode_group.html" />
+    <link rel="prev" title="datamigration.nwb.components.device package" href="datamigration.nwb.components.device.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> fldatamigration
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../README.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README.html#prerequisites">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README.html#how-to-use-it">How to use it</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../api.html">API Documentation</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="datamigration.html">datamigration package</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="datamigration.exceptions.html">datamigration.exceptions package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.header.html">datamigration.header package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.metadata.html">datamigration.metadata package</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="datamigration.nwb.html">datamigration.nwb package</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="datamigration.nwb.common.html">datamigration.nwb.common package</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="datamigration.nwb.components.html">datamigration.nwb.components package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.processing.html">datamigration.processing package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.tools.html">datamigration.tools package</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../help.html">Need help?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../LICENSE.html">License</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">fldatamigration</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../api.html">API Documentation</a> &raquo;</li>
+        
+          <li><a href="datamigration.html">datamigration package</a> &raquo;</li>
+        
+          <li><a href="datamigration.nwb.html">datamigration.nwb package</a> &raquo;</li>
+        
+          <li><a href="datamigration.nwb.components.html">datamigration.nwb.components package</a> &raquo;</li>
+        
+      <li>datamigration.nwb.components.dio package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/autoapi/datamigration.nwb.components.dio.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-datamigration.nwb.components.dio">
+<span id="datamigration-nwb-components-dio-package"></span><h1>datamigration.nwb.components.dio package<a class="headerlink" href="#module-datamigration.nwb.components.dio" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-datamigration.nwb.components.dio.dio_builder">
+<span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-datamigration.nwb.components.dio.dio_builder" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="datamigration.nwb.components.dio.dio_builder.DioBuilder">
+<em class="property">class </em><code class="sig-name descname">DioBuilder</code><span class="sig-paren">(</span><em class="sig-param">data</em>, <em class="sig-param">dio_metadata</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_builder.DioBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="datamigration.nwb.components.dio.dio_builder.DioBuilder.build">
+<code class="sig-name descname">build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_builder.DioBuilder.build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-datamigration.nwb.components.dio.dio_extractor"></span><dl class="class">
+<dt id="datamigration.nwb.components.dio.dio_extractor.DioExtractor">
+<em class="property">class </em><code class="sig-name descname">DioExtractor</code><a class="headerlink" href="#datamigration.nwb.components.dio.dio_extractor.DioExtractor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="datamigration.nwb.components.dio.dio_extractor.DioExtractor.extract_dio_for_single_dataset">
+<em class="property">static </em><code class="sig-name descname">extract_dio_for_single_dataset</code><span class="sig-paren">(</span><em class="sig-param">filtered_files</em>, <em class="sig-param">continuous_time_file</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_extractor.DioExtractor.extract_dio_for_single_dataset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-datamigration.nwb.components.dio.dio_files"></span><dl class="class">
+<dt id="datamigration.nwb.components.dio.dio_files.DioFiles">
+<em class="property">class </em><code class="sig-name descname">DioFiles</code><span class="sig-paren">(</span><em class="sig-param">directories</em>, <em class="sig-param">dio_metadata</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_files.DioFiles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="datamigration.nwb.components.dio.dio_files.DioFiles.get_files">
+<code class="sig-name descname">get_files</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_files.DioFiles.get_files" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-datamigration.nwb.components.dio.dio_injector"></span><dl class="class">
+<dt id="datamigration.nwb.components.dio.dio_injector.DioInjector">
+<em class="property">class </em><code class="sig-name descname">DioInjector</code><span class="sig-paren">(</span><em class="sig-param">nwb_content</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_injector.DioInjector" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="datamigration.nwb.components.dio.dio_injector.DioInjector.inject">
+<code class="sig-name descname">inject</code><span class="sig-paren">(</span><em class="sig-param">behavioral_events</em>, <em class="sig-param">processing_module_name</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_injector.DioInjector.inject" title="Permalink to this definition">¶</a></dt>
+<dd><p>insert behavioral events to specified processing module in nwb file</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-datamigration.nwb.components.dio.dio_manager"></span><dl class="class">
+<dt id="datamigration.nwb.components.dio.dio_manager.DioManager">
+<em class="property">class </em><code class="sig-name descname">DioManager</code><span class="sig-paren">(</span><em class="sig-param">dio_files</em>, <em class="sig-param">dio_metadata</em>, <em class="sig-param">continuous_time_files</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_manager.DioManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="datamigration.nwb.components.dio.dio_manager.DioManager.get_dio">
+<code class="sig-name descname">get_dio</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_manager.DioManager.get_dio" title="Permalink to this definition">¶</a></dt>
+<dd><p>“extract data from DIO files and match them with metadata</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="datamigration.nwb.components.electrode_group.html" class="btn btn-neutral float-right" title="datamigration.nwb.components.electrode_group package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="datamigration.nwb.components.device.html" class="btn btn-neutral float-left" title="datamigration.nwb.components.device package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Novela
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

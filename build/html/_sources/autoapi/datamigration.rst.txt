@@ -1,0 +1,35 @@
+datamigration package
+=====================
+
+.. automodule:: datamigration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+
+   datamigration.exceptions
+   datamigration.header
+   datamigration.metadata
+   datamigration.nwb
+   datamigration.processing
+   datamigration.tools
+
+Submodules
+----------
+
+
+.. automodule:: datamigration.nwb_file_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.raw_to_nwb_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
