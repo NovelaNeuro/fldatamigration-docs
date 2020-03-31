@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.mda.table_region_builder
-   :members:
-   :undoc-members:
-   :show-inheritance:

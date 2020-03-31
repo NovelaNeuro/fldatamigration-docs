@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.position.pos_timestamp_manager
-   :members:
-   :undoc-members:
-   :show-inheritance:

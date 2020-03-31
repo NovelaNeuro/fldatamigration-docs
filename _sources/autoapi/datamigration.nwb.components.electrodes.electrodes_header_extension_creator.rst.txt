@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.electrodes.electrodes_header_extension_creator
-   :members:
-   :undoc-members:
-   :show-inheritance:

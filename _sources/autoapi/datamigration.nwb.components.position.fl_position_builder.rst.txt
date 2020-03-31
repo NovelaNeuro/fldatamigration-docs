@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.position.fl_position_builder
-   :members:
-   :undoc-members:
-   :show-inheritance:

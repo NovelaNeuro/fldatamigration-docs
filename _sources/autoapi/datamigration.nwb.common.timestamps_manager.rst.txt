@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.common.timestamps_manager
-   :members:
-   :undoc-members:
-   :show-inheritance:

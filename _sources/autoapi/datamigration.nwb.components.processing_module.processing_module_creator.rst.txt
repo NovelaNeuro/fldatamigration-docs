@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.processing_module.processing_module_creator
-   :members:
-   :undoc-members:
-   :show-inheritance:

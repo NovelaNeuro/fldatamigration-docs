@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.iterator.single_thread_timestamp_iterator
-   :members:
-   :undoc-members:
-   :show-inheritance:

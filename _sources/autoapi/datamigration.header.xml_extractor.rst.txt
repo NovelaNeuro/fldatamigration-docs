@@ -1,4 +1,0 @@
-.. automodule:: datamigration.header.xml_extractor
-   :members:
-   :undoc-members:
-   :show-inheritance:

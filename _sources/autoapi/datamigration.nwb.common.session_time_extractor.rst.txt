@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.common.session_time_extractor
-   :members:
-   :undoc-members:
-   :show-inheritance:

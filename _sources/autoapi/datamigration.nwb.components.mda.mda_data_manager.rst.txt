@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.mda.mda_data_manager
-   :members:
-   :undoc-members:
-   :show-inheritance:

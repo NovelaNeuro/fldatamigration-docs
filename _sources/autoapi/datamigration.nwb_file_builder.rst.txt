@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb_file_builder
-   :members:
-   :undoc-members:
-   :show-inheritance:

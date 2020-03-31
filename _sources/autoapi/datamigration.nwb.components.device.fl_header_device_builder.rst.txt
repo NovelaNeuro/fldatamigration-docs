@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.device.fl_header_device_builder
-   :members:
-   :undoc-members:
-   :show-inheritance:

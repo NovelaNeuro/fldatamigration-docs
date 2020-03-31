@@ -1,4 +1,0 @@
-.. automodule:: datamigration.tools.abstract_file_downloader
-   :members:
-   :undoc-members:
-   :show-inheritance:

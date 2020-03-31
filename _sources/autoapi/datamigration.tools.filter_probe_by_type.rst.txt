@@ -1,4 +1,0 @@
-.. automodule:: datamigration.tools.filter_probe_by_type
-   :members:
-   :undoc-members:
-   :show-inheritance:

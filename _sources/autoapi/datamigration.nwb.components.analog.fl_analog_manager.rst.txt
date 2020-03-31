@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.analog.fl_analog_manager
-   :members:
-   :undoc-members:
-   :show-inheritance:

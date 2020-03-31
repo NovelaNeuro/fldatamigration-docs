@@ -1,4 +1,0 @@
-.. automodule:: datamigration.header.module.spike_n_trode
-   :members:
-   :undoc-members:
-   :show-inheritance:

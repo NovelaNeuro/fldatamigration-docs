@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.ntrodes.fl_ntrodes_builder
-   :members:
-   :undoc-members:
-   :show-inheritance:

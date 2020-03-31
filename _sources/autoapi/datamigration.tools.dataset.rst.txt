@@ -1,4 +1,0 @@
-.. automodule:: datamigration.tools.dataset
-   :members:
-   :undoc-members:
-   :show-inheritance:

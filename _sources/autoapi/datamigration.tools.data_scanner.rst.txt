@@ -1,4 +1,0 @@
-.. automodule:: datamigration.tools.data_scanner
-   :members:
-   :undoc-members:
-   :show-inheritance:

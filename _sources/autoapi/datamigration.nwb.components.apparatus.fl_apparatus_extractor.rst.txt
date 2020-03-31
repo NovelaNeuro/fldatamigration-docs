@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.apparatus.fl_apparatus_extractor
-   :members:
-   :undoc-members:
-   :show-inheritance:

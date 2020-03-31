@@ -1,4 +1,0 @@
-.. automodule:: datamigration.exceptions.missing_data_exception
-   :members:
-   :undoc-members:
-   :show-inheritance:

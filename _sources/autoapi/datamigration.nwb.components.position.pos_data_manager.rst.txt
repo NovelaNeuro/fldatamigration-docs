@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.position.pos_data_manager
-   :members:
-   :undoc-members:
-   :show-inheritance:

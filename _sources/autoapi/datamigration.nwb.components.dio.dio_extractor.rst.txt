@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.dio.dio_extractor
-   :members:
-   :undoc-members:
-   :show-inheritance:

@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.analog.fl_analog_extractor
-   :members:
-   :undoc-members:
-   :show-inheritance:

@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.mda.electrical_series_creator
-   :members:
-   :undoc-members:
-   :show-inheritance:

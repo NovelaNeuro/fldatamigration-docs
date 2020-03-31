@@ -1,4 +1,0 @@
-.. automodule:: datamigration.exceptions.not_equal_param_length_exception
-   :members:
-   :undoc-members:
-   :show-inheritance:

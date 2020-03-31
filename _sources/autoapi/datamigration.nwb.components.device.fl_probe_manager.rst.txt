@@ -1,4 +1,0 @@
-.. automodule:: datamigration.nwb.components.device.fl_probe_manager
-   :members:
-   :undoc-members:
-   :show-inheritance:
