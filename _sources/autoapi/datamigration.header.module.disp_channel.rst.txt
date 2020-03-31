@@ -1,0 +1,4 @@
+.. automodule:: datamigration.header.module.disp_channel
+   :members:
+   :undoc-members:
+   :show-inheritance:

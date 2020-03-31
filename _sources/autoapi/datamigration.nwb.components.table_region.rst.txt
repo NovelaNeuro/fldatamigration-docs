@@ -1,0 +1,17 @@
+datamigration.nwb.components.table\_region package
+==================================================
+
+.. automodule:: datamigration.nwb.components.table_region
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: datamigration.nwb.components.table_region.table_region_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

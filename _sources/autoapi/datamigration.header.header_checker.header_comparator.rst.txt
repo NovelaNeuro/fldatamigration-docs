@@ -1,0 +1,4 @@
+.. automodule:: datamigration.header.header_checker.header_comparator
+   :members:
+   :undoc-members:
+   :show-inheritance:

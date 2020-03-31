@@ -1,0 +1,12 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.device.fl_probe`
+======================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.device.fl_probe
+
+
+Module Contents
+---------------
+
+.. py:class:: FlProbe(metadata, probe_id)
+
+

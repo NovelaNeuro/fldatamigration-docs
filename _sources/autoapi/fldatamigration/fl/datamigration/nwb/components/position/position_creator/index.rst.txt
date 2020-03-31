@@ -1,0 +1,17 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.position.position_creator`
+================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.position.position_creator
+
+
+Module Contents
+---------------
+
+.. py:class:: PositionCreator
+
+   .. method:: create(fl_position)
+      :staticmethod:
+
+
+
+

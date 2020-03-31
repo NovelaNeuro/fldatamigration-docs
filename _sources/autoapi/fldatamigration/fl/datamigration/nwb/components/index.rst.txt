@@ -1,0 +1,27 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components`
+======================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components
+
+
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   analog/index.rst
+   apparatus/index.rst
+   device/index.rst
+   dio/index.rst
+   electrode_group/index.rst
+   electrodes/index.rst
+   iterator/index.rst
+   mda/index.rst
+   ntrodes/index.rst
+   position/index.rst
+   processing_module/index.rst
+   table_region/index.rst
+   task/index.rst
+
+

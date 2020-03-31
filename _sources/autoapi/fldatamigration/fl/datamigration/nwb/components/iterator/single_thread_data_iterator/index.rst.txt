@@ -1,0 +1,31 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.iterator.single_thread_data_iterator`
+===========================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.iterator.single_thread_data_iterator
+
+
+Module Contents
+---------------
+
+.. py:class:: SingleThreadDataIterator(data)
+
+   Bases: :class:`fl.datamigration.nwb.components.iterator.data_iterator.DataIterator`
+
+   .. attribute:: next
+      
+
+      
+
+   .. method:: __iter__(self)
+
+
+
+   .. method:: __next__(self)
+
+
+
+   .. method:: __get_data_from_file(self)
+
+
+
+

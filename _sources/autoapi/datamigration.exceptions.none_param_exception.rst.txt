@@ -1,0 +1,4 @@
+.. automodule:: datamigration.exceptions.none_param_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:

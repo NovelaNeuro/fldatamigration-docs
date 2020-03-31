@@ -1,0 +1,4 @@
+.. automodule:: datamigration.header.module.device
+   :members:
+   :undoc-members:
+   :show-inheritance:

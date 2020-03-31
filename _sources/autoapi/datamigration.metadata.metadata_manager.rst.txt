@@ -1,0 +1,4 @@
+.. automodule:: datamigration.metadata.metadata_manager
+   :members:
+   :undoc-members:
+   :show-inheritance:

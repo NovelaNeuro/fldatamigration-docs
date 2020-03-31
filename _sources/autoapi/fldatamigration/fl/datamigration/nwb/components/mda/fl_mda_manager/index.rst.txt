@@ -1,0 +1,16 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.mda.fl_mda_manager`
+=========================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.mda.fl_mda_manager
+
+
+Module Contents
+---------------
+
+.. py:class:: FlMdaManager(nwb_content, sampling_rate, datasets)
+
+   .. method:: get_data(self)
+
+
+
+

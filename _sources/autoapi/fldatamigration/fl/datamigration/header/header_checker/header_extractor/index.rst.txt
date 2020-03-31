@@ -1,0 +1,16 @@
+:mod:`fldatamigration.fl.datamigration.header.header_checker.header_extractor`
+==============================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.header.header_checker.header_extractor
+
+
+Module Contents
+---------------
+
+.. py:class:: HeaderFilesExtractor
+
+   .. method:: extract_headers_from_rec_files(self, rec_files)
+
+
+
+

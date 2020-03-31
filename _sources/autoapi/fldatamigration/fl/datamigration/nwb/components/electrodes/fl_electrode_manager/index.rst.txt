@@ -1,0 +1,20 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.electrodes.fl_electrode_manager`
+======================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.electrodes.fl_electrode_manager
+
+
+Module Contents
+---------------
+
+.. py:class:: FlElectrodeManager(probes_metadata, electrode_groups_metadata)
+
+   .. method:: get_fl_electrodes(self, electrode_groups)
+
+
+
+   .. method:: __validate_parameters(self, electrode_groups)
+
+
+
+

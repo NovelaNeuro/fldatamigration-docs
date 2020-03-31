@@ -1,0 +1,21 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.electrodes.electrode_creator`
+===================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.electrodes.electrode_creator
+
+
+Module Contents
+---------------
+
+.. py:class:: ElectrodesCreator
+
+   .. method:: create(self, nwb_content, fl_electrode)
+
+
+
+   .. method:: __validate_parameters(fl_electrode, nwb_content)
+      :staticmethod:
+
+
+
+

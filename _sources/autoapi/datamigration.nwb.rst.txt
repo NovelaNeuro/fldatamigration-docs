@@ -1,0 +1,15 @@
+datamigration.nwb package
+=========================
+
+.. automodule:: datamigration.nwb
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+
+   datamigration.nwb.common
+   datamigration.nwb.components

@@ -1,0 +1,4 @@
+.. automodule:: datamigration.tools.file_sorter
+   :members:
+   :undoc-members:
+   :show-inheritance:

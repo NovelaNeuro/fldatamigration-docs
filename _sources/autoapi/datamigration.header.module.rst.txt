@@ -1,0 +1,101 @@
+datamigration.header.module package
+===================================
+
+.. automodule:: datamigration.header.module
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: datamigration.header.module.argument
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.aux_display_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.channel
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.device
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.disp_channel
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.global_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.hardware_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.header
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.module_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.single_module_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.spike_channel
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.spike_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.spike_n_trode
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.header.module.stream_display
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

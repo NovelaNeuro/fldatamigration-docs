@@ -1,0 +1,16 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.electrodes.electrode_metadata_extension_creator`
+======================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.electrodes.electrode_metadata_extension_creator
+
+
+Module Contents
+---------------
+
+.. py:class:: ElectrodesMetadataExtensionCreator
+
+   .. method:: create_extensions(self, electrode)
+
+
+
+

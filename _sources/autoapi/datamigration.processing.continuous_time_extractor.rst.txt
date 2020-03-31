@@ -1,0 +1,4 @@
+.. automodule:: datamigration.processing.continuous_time_extractor
+   :members:
+   :undoc-members:
+   :show-inheritance:

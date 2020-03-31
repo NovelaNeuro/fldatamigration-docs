@@ -1,0 +1,4 @@
+.. automodule:: datamigration.nwb.components.electrodes.fl_electrodes
+   :members:
+   :undoc-members:
+   :show-inheritance:

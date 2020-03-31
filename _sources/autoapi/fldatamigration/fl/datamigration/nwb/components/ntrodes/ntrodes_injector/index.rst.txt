@@ -1,0 +1,17 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.ntrodes.ntrodes_injector`
+===============================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.ntrodes.ntrodes_injector
+
+
+Module Contents
+---------------
+
+.. py:class:: NTrodesInjector
+
+   .. method:: inject_ntrode(nwb_content, ntrode)
+      :staticmethod:
+
+
+
+

@@ -1,0 +1,4 @@
+.. automodule:: datamigration.header.module.spike_channel
+   :members:
+   :undoc-members:
+   :show-inheritance:

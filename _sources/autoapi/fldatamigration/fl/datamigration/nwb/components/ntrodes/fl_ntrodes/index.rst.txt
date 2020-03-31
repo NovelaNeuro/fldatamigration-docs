@@ -1,0 +1,12 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.ntrodes.fl_ntrodes`
+=========================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.ntrodes.fl_ntrodes
+
+
+Module Contents
+---------------
+
+.. py:class:: FlNTrodes(metadata, device, bad_channels, map_list)
+
+

@@ -1,0 +1,17 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.electrodes.electrode_ntrode_extension_creator`
+====================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.electrodes.electrode_ntrode_extension_creator
+
+
+Module Contents
+---------------
+
+.. py:class:: ElectrodesNtrodeExtensionCreator
+
+   .. method:: create_electrodes_ntrode_extension(cls, metadata)
+      :classmethod:
+
+
+
+

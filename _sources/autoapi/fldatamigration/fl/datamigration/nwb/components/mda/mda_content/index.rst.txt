@@ -1,0 +1,12 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.mda.mda_content`
+======================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.mda.mda_content
+
+
+Module Contents
+---------------
+
+.. py:class:: MdaContent(mda_data, mda_timestamps)
+
+

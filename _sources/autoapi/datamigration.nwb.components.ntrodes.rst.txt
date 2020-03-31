@@ -1,0 +1,41 @@
+datamigration.nwb.components.ntrodes package
+============================================
+
+.. automodule:: datamigration.nwb.components.ntrodes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: datamigration.nwb.components.ntrodes.fl_ntrodes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.ntrodes.fl_ntrodes_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.ntrodes.fl_ntrodes_extractor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.ntrodes.ntrodes_creator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.ntrodes.ntrodes_injector
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

@@ -1,0 +1,17 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.electrode_group.electrode_group_factory`
+==============================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.electrode_group.electrode_group_factory
+
+
+Module Contents
+---------------
+
+.. py:class:: ElectrodeGroupFactory
+
+   .. method:: create_nwb_electrode_group(cls, fl_nwb_electrode_group)
+      :classmethod:
+
+
+
+

@@ -1,0 +1,118 @@
+:mod:`fldatamigration.fl.datamigration.header.xml_extractor`
+============================================================
+
+.. py:module:: fldatamigration.fl.datamigration.header.xml_extractor
+
+.. autoapi-nested-parse::
+
+   Module to extract XML from REC file, read it and validate
+
+   Class:
+       XMLExtractor()
+
+
+
+Module Contents
+---------------
+
+.. py:class:: XMLExtractor(rec_path='../data/REC_sample.xml', xml_path='../data/output.xml', xsd_path=None)
+
+   Class to extract XML file from REC file, read XML, validate XML with XSD file
+
+   .. method:: extract_xml_from_rec_file()
+
+      
+
+   .. method:: read_xml_from_rec_file()
+
+      
+
+   .. method:: read_xml_from_xml_file()
+
+      
+
+   .. method:: set_rec_path()
+
+      
+
+   .. method:: set_xml_path()
+
+      
+
+   .. method:: get_rec_path()
+
+      
+
+   .. method:: get_xml_path()
+
+      
+
+   .. method:: is_valid()
+
+      
+      
+
+   .. attribute:: rec_path
+      :annotation: = 
+
+      
+
+   .. attribute:: xml_path
+      :annotation: = 
+
+      
+
+   .. attribute:: xsd_path
+      :annotation: = 
+
+      
+
+   .. method:: extract_xml_from_rec_file(self)
+
+
+      Extract XML from REC file
+
+
+   .. method:: read_xml_from_rec_file(self)
+
+
+      Read XML from REC file
+
+
+   .. method:: read_xml_from_xml_file(self)
+
+
+      Read XML through logging.info
+
+
+   .. method:: set_rec_path(self, rec_path)
+
+
+      Set path to REC file
+
+
+   .. method:: set_xml_path(self, xml_path)
+
+
+      Set path to XML file
+
+
+   .. method:: get_rec_path(self)
+
+
+      Get path to REC file
+
+
+   .. method:: get_xml_path(self)
+
+
+      Get path to XML file
+
+
+   .. method:: is_valid(self)
+
+
+      Check if XML is valid with XSD file
+
+
+

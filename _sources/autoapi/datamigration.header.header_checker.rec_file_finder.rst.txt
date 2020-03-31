@@ -1,0 +1,4 @@
+.. automodule:: datamigration.header.header_checker.rec_file_finder
+   :members:
+   :undoc-members:
+   :show-inheritance:

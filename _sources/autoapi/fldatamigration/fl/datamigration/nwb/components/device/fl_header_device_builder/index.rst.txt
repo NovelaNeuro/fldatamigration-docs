@@ -1,0 +1,17 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.device.fl_header_device_builder`
+======================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.device.fl_header_device_builder
+
+
+Module Contents
+---------------
+
+.. py:class:: FlHeaderDeviceBuilder
+
+   .. method:: build(name, global_configuration)
+      :staticmethod:
+
+
+
+

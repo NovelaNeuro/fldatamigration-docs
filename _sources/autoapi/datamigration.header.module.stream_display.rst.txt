@@ -1,0 +1,4 @@
+.. automodule:: datamigration.header.module.stream_display
+   :members:
+   :undoc-members:
+   :show-inheritance:

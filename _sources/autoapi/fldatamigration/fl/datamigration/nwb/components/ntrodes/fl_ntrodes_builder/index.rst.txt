@@ -1,0 +1,16 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.ntrodes.fl_ntrodes_builder`
+=================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.ntrodes.fl_ntrodes_builder
+
+
+Module Contents
+---------------
+
+.. py:class:: FlNTrodesBuilder(metadata)
+
+   .. method:: build(self, nwb_content)
+
+
+
+

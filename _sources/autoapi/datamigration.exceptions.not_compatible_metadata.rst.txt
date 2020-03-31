@@ -1,0 +1,4 @@
+.. automodule:: datamigration.exceptions.not_compatible_metadata
+   :members:
+   :undoc-members:
+   :show-inheritance:

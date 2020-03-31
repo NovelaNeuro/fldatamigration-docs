@@ -1,0 +1,12 @@
+:mod:`fldatamigration.fl.datamigration.header.module.spike_configuration`
+=========================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.header.module.spike_configuration
+
+
+Module Contents
+---------------
+
+.. py:class:: SpikeConfiguration(element)
+
+
