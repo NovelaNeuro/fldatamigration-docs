@@ -1,2 +1,3 @@
 baseurl: "/fldatamigration-docs"
 url: "https://novelaneuro.github.io/"
+theme: jekyll-theme-leap-day
