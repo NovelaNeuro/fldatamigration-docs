@@ -1,0 +1,18 @@
+:mod:`fldatamigration.fl.datamigration.exceptions.invalid_input_exception`
+==========================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.exceptions.invalid_input_exception
+
+
+Module Contents
+---------------
+
+.. py:exception:: InvalidInputException
+
+   Bases: :class:`fl.datamigration.exceptions.invalid_exception.InvalidException`
+
+   .. method:: __str__(self)
+
+
+
+

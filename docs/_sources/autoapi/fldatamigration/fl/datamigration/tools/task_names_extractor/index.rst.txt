@@ -1,0 +1,16 @@
+:mod:`fldatamigration.fl.datamigration.tools.task_names_extractor`
+==================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.tools.task_names_extractor
+
+
+Module Contents
+---------------
+
+.. py:class:: TaskNamesExtractor(tasks)
+
+   .. method:: get_task_names(self)
+
+
+
+

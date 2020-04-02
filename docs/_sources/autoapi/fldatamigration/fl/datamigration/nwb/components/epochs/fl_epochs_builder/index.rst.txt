@@ -1,0 +1,16 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.epochs.fl_epochs_builder`
+===============================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.epochs.fl_epochs_builder
+
+
+Module Contents
+---------------
+
+.. py:class:: FlEpochsBuilder(tags, tasks)
+
+   .. method:: build(self, epochs_extracted_session_times)
+
+
+
+

@@ -16,6 +16,7 @@ Subpackages
    nwb/index.rst
    processing/index.rst
    tools/index.rst
+   validation/index.rst
 
 
 Submodules

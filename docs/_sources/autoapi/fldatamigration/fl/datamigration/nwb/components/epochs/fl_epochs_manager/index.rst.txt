@@ -1,0 +1,16 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.epochs.fl_epochs_manager`
+===============================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.epochs.fl_epochs_manager
+
+
+Module Contents
+---------------
+
+.. py:class:: FlEpochsManager(datasets, tasks)
+
+   .. method:: get_epochs(self)
+
+
+
+

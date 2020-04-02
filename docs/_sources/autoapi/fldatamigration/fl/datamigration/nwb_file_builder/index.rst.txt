@@ -27,7 +27,7 @@ Module Contents
    :type animal_name: string
    :param date: date of experiment
    :type date: string
-   :param nwb_metadata: object containig metadata about experiment
+   :param nwb_metadata: object contains metadata about experiment
    :type nwb_metadata: MetadataManager
    :param process_dio: flag if dio data should be processed
    :type process_dio: boolean
@@ -37,6 +37,10 @@ Module Contents
    :type process_analog: boolean
    :param output_file: path and name specifying where .nwb file gonna be written
    :type output_file: string
+
+   .. method:: extract_datasets(self, animal_name, date)
+
+
 
    .. method:: build(self)
 
@@ -85,6 +89,10 @@ Module Contents
 
 
    .. method:: __build_and_inject_mda(self, nwb_content)
+
+
+
+   .. method:: __build_and_inject_epochs(self, nwb_content)
 
 
 

@@ -10,6 +10,48 @@ Submodules
 ----------
 
 
+.. automodule:: datamigration.exceptions.different_number_of_tasks_and_epochs_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.exceptions.empty_string_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.exceptions.incorrect_type_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.exceptions.invalid_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.exceptions.invalid_header_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.exceptions.invalid_input_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.exceptions.invalid_metadata_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: datamigration.exceptions.missing_data_exception
    :members:
    :undoc-members:

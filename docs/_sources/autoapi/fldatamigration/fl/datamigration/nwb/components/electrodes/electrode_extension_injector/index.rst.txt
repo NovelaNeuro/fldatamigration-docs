@@ -19,7 +19,7 @@ Module Contents
 
 .. py:class:: ElectrodeExtensionInjector
 
-   .. method:: inject_extensions(self, nwb_content, metadata_extension, header_extension, ntrodes_extension)
+   .. method:: inject_extensions(self, nwb_content, metadata_extension, header_extension, ntrodes_extension_ntrode_id, ntrodes_extension_bad_channels)
 
 
 
@@ -33,7 +33,7 @@ Module Contents
 
 
 
-   .. method:: __join_extensions_to_electrodes(metadata_extension, header_extension, ntrodes_extension, nwb_content)
+   .. method:: __join_extensions_to_electrodes(metadata_extension, header_extension, ntrodes_extension_ntrode_id, ntrodes_extension_bad_channels, nwb_content)
       :staticmethod:
 
 

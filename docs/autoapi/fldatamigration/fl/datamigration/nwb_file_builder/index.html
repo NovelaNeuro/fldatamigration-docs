@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>fldatamigration.fl.datamigration.nwb_file_builder &mdash; fldatamigration 0.1.005 documentation</title>
+  <title>fldatamigration.fl.datamigration.nwb_file_builder &mdash; fldatamigration 0.1.004 documentation</title>
   
 
   
@@ -173,7 +173,7 @@
 <li><p><strong>data_path</strong> (<em>string</em>) – path to directory containing all experiments data</p></li>
 <li><p><strong>animal_name</strong> (<em>string</em>) – directory name which represents animal subject of experiment</p></li>
 <li><p><strong>date</strong> (<em>string</em>) – date of experiment</p></li>
-<li><p><strong>nwb_metadata</strong> (<a class="reference internal" href="../../../../datamigration.metadata.html#datamigration.metadata.metadata_manager.MetadataManager" title="datamigration.metadata.metadata_manager.MetadataManager"><em>MetadataManager</em></a>) – object containig metadata about experiment</p></li>
+<li><p><strong>nwb_metadata</strong> (<a class="reference internal" href="../../../../datamigration.metadata.html#datamigration.metadata.metadata_manager.MetadataManager" title="datamigration.metadata.metadata_manager.MetadataManager"><em>MetadataManager</em></a>) – object contains metadata about experiment</p></li>
 <li><p><strong>process_dio</strong> (<em>boolean</em>) – flag if dio data should be processed</p></li>
 <li><p><strong>process_mda</strong> (<em>boolean</em>) – flag if mda data should be processed</p></li>
 <li><p><strong>process_analog</strong> (<em>boolean</em>) – flag if analog data should be processed</p></li>
@@ -181,6 +181,11 @@
 </ul>
 </dd>
 </dl>
+<dl class="method">
+<dt id="fldatamigration.fl.datamigration.nwb_file_builder.NWBFileBuilder.extract_datasets">
+<code class="sig-name descname">extract_datasets</code><span class="sig-paren">(</span><em class="sig-param">self</em>, <em class="sig-param">animal_name</em>, <em class="sig-param">date</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb_file_builder.NWBFileBuilder.extract_datasets" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="method">
 <dt id="fldatamigration.fl.datamigration.nwb_file_builder.NWBFileBuilder.build">
 <code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param">self</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb_file_builder.NWBFileBuilder.build" title="Permalink to this definition">¶</a></dt>
@@ -240,6 +245,11 @@
 <dl class="method">
 <dt id="fldatamigration.fl.datamigration.nwb_file_builder.NWBFileBuilder.__build_and_inject_mda">
 <code class="sig-name descname">__build_and_inject_mda</code><span class="sig-paren">(</span><em class="sig-param">self</em>, <em class="sig-param">nwb_content</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb_file_builder.NWBFileBuilder.__build_and_inject_mda" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="fldatamigration.fl.datamigration.nwb_file_builder.NWBFileBuilder.__build_and_inject_epochs">
+<code class="sig-name descname">__build_and_inject_epochs</code><span class="sig-paren">(</span><em class="sig-param">self</em>, <em class="sig-param">nwb_content</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb_file_builder.NWBFileBuilder.__build_and_inject_epochs" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

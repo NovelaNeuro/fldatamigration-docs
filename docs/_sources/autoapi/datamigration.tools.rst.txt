@@ -46,6 +46,12 @@ Submodules
    :show-inheritance:
 
 
+.. automodule:: datamigration.tools.task_names_extractor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: datamigration.tools.validate_parameters
    :members:
    :undoc-members:

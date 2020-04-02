@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>datamigration.exceptions package &mdash; fldatamigration 0.1.005 documentation</title>
+  <title>datamigration.exceptions package &mdash; fldatamigration 0.1.004 documentation</title>
   
 
   
@@ -92,6 +92,7 @@
 <li class="toctree-l3"><a class="reference internal" href="datamigration.nwb.html">datamigration.nwb package</a></li>
 <li class="toctree-l3"><a class="reference internal" href="datamigration.processing.html">datamigration.processing package</a></li>
 <li class="toctree-l3"><a class="reference internal" href="datamigration.tools.html">datamigration.tools package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="datamigration.validation.html">datamigration.validation package</a></li>
 </ul>
 </li>
 </ul>
@@ -168,9 +169,51 @@
             
   <div class="section" id="module-datamigration.exceptions">
 <span id="datamigration-exceptions-package"></span><h1>datamigration.exceptions package<a class="headerlink" href="#module-datamigration.exceptions" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="module-datamigration.exceptions.missing_data_exception">
-<span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-datamigration.exceptions.missing_data_exception" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-datamigration.exceptions.different_number_of_tasks_and_epochs_exception">
+<span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-datamigration.exceptions.different_number_of_tasks_and_epochs_exception" title="Permalink to this headline">¶</a></h2>
 <dl class="exception">
+<dt id="datamigration.exceptions.different_number_of_tasks_and_epochs_exception.DifferentNumberOfTasksAndEpochsException">
+<em class="property">exception </em><code class="sig-name descname">DifferentNumberOfTasksAndEpochsException</code><a class="headerlink" href="#datamigration.exceptions.different_number_of_tasks_and_epochs_exception.DifferentNumberOfTasksAndEpochsException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<span class="target" id="module-datamigration.exceptions.empty_string_exception"></span><dl class="exception">
+<dt id="datamigration.exceptions.empty_string_exception.EmptyStringException">
+<em class="property">exception </em><code class="sig-name descname">EmptyStringException</code><a class="headerlink" href="#datamigration.exceptions.empty_string_exception.EmptyStringException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<span class="target" id="module-datamigration.exceptions.incorrect_type_exception"></span><dl class="exception">
+<dt id="datamigration.exceptions.incorrect_type_exception.IncorrectTypeException">
+<em class="property">exception </em><code class="sig-name descname">IncorrectTypeException</code><span class="sig-paren">(</span><em class="sig-param">parameter</em>, <em class="sig-param">expected_type</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.exceptions.incorrect_type_exception.IncorrectTypeException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<span class="target" id="module-datamigration.exceptions.invalid_exception"></span><dl class="exception">
+<dt id="datamigration.exceptions.invalid_exception.InvalidException">
+<em class="property">exception </em><code class="sig-name descname">InvalidException</code><span class="sig-paren">(</span><em class="sig-param">*args</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.exceptions.invalid_exception.InvalidException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+</dd></dl>
+
+<span class="target" id="module-datamigration.exceptions.invalid_header_exception"></span><dl class="exception">
+<dt id="datamigration.exceptions.invalid_header_exception.InvalidHeaderException">
+<em class="property">exception </em><code class="sig-name descname">InvalidHeaderException</code><span class="sig-paren">(</span><em class="sig-param">*args</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.exceptions.invalid_header_exception.InvalidHeaderException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">fl.datamigration.exceptions.invalid_exception.InvalidException</span></code></p>
+</dd></dl>
+
+<span class="target" id="module-datamigration.exceptions.invalid_input_exception"></span><dl class="exception">
+<dt id="datamigration.exceptions.invalid_input_exception.InvalidInputException">
+<em class="property">exception </em><code class="sig-name descname">InvalidInputException</code><span class="sig-paren">(</span><em class="sig-param">*args</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.exceptions.invalid_input_exception.InvalidInputException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">fl.datamigration.exceptions.invalid_exception.InvalidException</span></code></p>
+</dd></dl>
+
+<span class="target" id="module-datamigration.exceptions.invalid_metadata_exception"></span><dl class="exception">
+<dt id="datamigration.exceptions.invalid_metadata_exception.InvalidMetadataException">
+<em class="property">exception </em><code class="sig-name descname">InvalidMetadataException</code><span class="sig-paren">(</span><em class="sig-param">*args</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.exceptions.invalid_metadata_exception.InvalidMetadataException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">fl.datamigration.exceptions.invalid_exception.InvalidException</span></code></p>
+</dd></dl>
+
+<span class="target" id="module-datamigration.exceptions.missing_data_exception"></span><dl class="exception">
 <dt id="datamigration.exceptions.missing_data_exception.MissingDataException">
 <em class="property">exception </em><code class="sig-name descname">MissingDataException</code><a class="headerlink" href="#datamigration.exceptions.missing_data_exception.MissingDataException" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>

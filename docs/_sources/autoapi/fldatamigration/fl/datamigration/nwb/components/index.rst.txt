@@ -16,6 +16,7 @@ Subpackages
    dio/index.rst
    electrode_group/index.rst
    electrodes/index.rst
+   epochs/index.rst
    iterator/index.rst
    mda/index.rst
    ntrodes/index.rst

@@ -17,6 +17,7 @@ Subpackages
    datamigration.nwb.components.dio
    datamigration.nwb.components.electrode_group
    datamigration.nwb.components.electrodes
+   datamigration.nwb.components.epochs
    datamigration.nwb.components.iterator
    datamigration.nwb.components.mda
    datamigration.nwb.components.ntrodes

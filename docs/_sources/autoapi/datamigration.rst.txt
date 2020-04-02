@@ -17,6 +17,7 @@ Subpackages
    datamigration.nwb
    datamigration.processing
    datamigration.tools
+   datamigration.validation
 
 Submodules
 ----------

@@ -1,0 +1,47 @@
+datamigration.nwb.components.epochs package
+===========================================
+
+.. automodule:: datamigration.nwb.components.epochs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: datamigration.nwb.components.epochs.epochs_injector
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.epochs.epochs_tag_extractor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.epochs.fl_epochs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.epochs.fl_epochs_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.epochs.fl_epochs_extractor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.epochs.fl_epochs_manager
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

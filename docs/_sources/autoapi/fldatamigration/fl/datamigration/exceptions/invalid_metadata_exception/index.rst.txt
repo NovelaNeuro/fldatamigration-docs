@@ -1,0 +1,18 @@
+:mod:`fldatamigration.fl.datamigration.exceptions.invalid_metadata_exception`
+=============================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.exceptions.invalid_metadata_exception
+
+
+Module Contents
+---------------
+
+.. py:exception:: InvalidMetadataException
+
+   Bases: :class:`fl.datamigration.exceptions.invalid_exception.InvalidException`
+
+   .. method:: __str__(self)
+
+
+
+

@@ -1,0 +1,18 @@
+:mod:`fldatamigration.fl.datamigration.exceptions.incorrect_type_exception`
+===========================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.exceptions.incorrect_type_exception
+
+
+Module Contents
+---------------
+
+.. py:exception:: IncorrectTypeException(parameter, expected_type)
+
+   Bases: :class:`Exception`
+
+   .. method:: __str__(self)
+
+
+
+

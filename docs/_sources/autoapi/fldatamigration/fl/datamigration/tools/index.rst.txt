@@ -16,6 +16,7 @@ Submodules
    file_downloader/index.rst
    file_sorter/index.rst
    filter_probe_by_type/index.rst
+   task_names_extractor/index.rst
    validate_parameters/index.rst
 
 
