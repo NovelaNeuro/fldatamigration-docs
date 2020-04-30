@@ -6,6 +6,15 @@ datamigration.nwb.components.device package
    :undoc-members:
    :show-inheritance:
 
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   datamigration.nwb.components.device.shanks
+   datamigration.nwb.components.device.shanks_electrodes
+
 Submodules
 ----------
 

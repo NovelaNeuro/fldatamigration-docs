@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>datamigration.nwb.components.electrode_group package &mdash; fldatamigration 0.1.004 documentation</title>
+  <title>datamigration.nwb.components.electrode_group package &mdash; fldatamigration 0.1.006 documentation</title>
   
 
   
@@ -33,6 +33,7 @@
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="datamigration.nwb.components.electrodes package" href="datamigration.nwb.components.electrodes.html" />
@@ -179,53 +180,53 @@
 <span id="datamigration-nwb-components-electrode-group-package"></span><h1>datamigration.nwb.components.electrode_group package<a class="headerlink" href="#module-datamigration.nwb.components.electrode_group" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-datamigration.nwb.components.electrode_group.electrode_group_factory">
 <span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-datamigration.nwb.components.electrode_group.electrode_group_factory" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
+<dl class="py class">
 <dt id="datamigration.nwb.components.electrode_group.electrode_group_factory.ElectrodeGroupFactory">
 <em class="property">class </em><code class="sig-name descname">ElectrodeGroupFactory</code><a class="headerlink" href="#datamigration.nwb.components.electrode_group.electrode_group_factory.ElectrodeGroupFactory" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
-<dt id="datamigration.nwb.components.electrode_group.electrode_group_factory.ElectrodeGroupFactory.create_nwb_electrode_group">
-<em class="property">classmethod </em><code class="sig-name descname">create_nwb_electrode_group</code><span class="sig-paren">(</span><em class="sig-param">fl_nwb_electrode_group</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrode_group.electrode_group_factory.ElectrodeGroupFactory.create_nwb_electrode_group" title="Permalink to this definition">¶</a></dt>
+<dl class="py method">
+<dt id="datamigration.nwb.components.electrode_group.electrode_group_factory.ElectrodeGroupFactory.create_electrode_group">
+<em class="property">classmethod </em><code class="sig-name descname">create_electrode_group</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">fl_electrode_group</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrode_group.electrode_group_factory.ElectrodeGroupFactory.create_electrode_group" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.electrode_group.electrode_group_injector"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.electrode_group.electrode_group_injector"></span><dl class="py class">
 <dt id="datamigration.nwb.components.electrode_group.electrode_group_injector.ElectrodeGroupInjector">
 <em class="property">class </em><code class="sig-name descname">ElectrodeGroupInjector</code><a class="headerlink" href="#datamigration.nwb.components.electrode_group.electrode_group_injector.ElectrodeGroupInjector" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.electrode_group.electrode_group_injector.ElectrodeGroupInjector.inject_all_electrode_groups">
-<code class="sig-name descname">inject_all_electrode_groups</code><span class="sig-paren">(</span><em class="sig-param">nwb_content</em>, <em class="sig-param">electrode_groups</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrode_group.electrode_group_injector.ElectrodeGroupInjector.inject_all_electrode_groups" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">inject_all_electrode_groups</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nwb_content</span></em>, <em class="sig-param"><span class="n">electrode_groups</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrode_group.electrode_group_injector.ElectrodeGroupInjector.inject_all_electrode_groups" title="Permalink to this definition">¶</a></dt>
 <dd><p>insert electrode groups to nwb file</p>
 </dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.electrode_group.fl_electrode_group_manager"></span><dl class="class">
-<dt id="datamigration.nwb.components.electrode_group.fl_electrode_group_manager.FlElectrodeGroupManager">
-<em class="property">class </em><code class="sig-name descname">FlElectrodeGroupManager</code><span class="sig-paren">(</span><em class="sig-param">electrode_groups_metadata</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrode_group.fl_electrode_group_manager.FlElectrodeGroupManager" title="Permalink to this definition">¶</a></dt>
+<span class="target" id="module-datamigration.nwb.components.electrode_group.fl_electrode_group"></span><dl class="py class">
+<dt id="datamigration.nwb.components.electrode_group.fl_electrode_group.FlElectrodeGroup">
+<em class="property">class </em><code class="sig-name descname">FlElectrodeGroup</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">metadata</span></em>, <em class="sig-param"><span class="n">device</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrode_group.fl_electrode_group.FlElectrodeGroup" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
-<dt id="datamigration.nwb.components.electrode_group.fl_electrode_group_manager.FlElectrodeGroupManager.get_fl_nwb_electrode_groups">
-<code class="sig-name descname">get_fl_nwb_electrode_groups</code><span class="sig-paren">(</span><em class="sig-param">probes</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrode_group.fl_electrode_group_manager.FlElectrodeGroupManager.get_fl_nwb_electrode_groups" title="Permalink to this definition">¶</a></dt>
+</dd></dl>
+
+<span class="target" id="module-datamigration.nwb.components.electrode_group.fl_electrode_group_builder"></span><dl class="py class">
+<dt id="datamigration.nwb.components.electrode_group.fl_electrode_group_builder.FlElectrodeGroupBuilder">
+<em class="property">class </em><code class="sig-name descname">FlElectrodeGroupBuilder</code><a class="headerlink" href="#datamigration.nwb.components.electrode_group.fl_electrode_group_builder.FlElectrodeGroupBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="datamigration.nwb.components.electrode_group.fl_electrode_group_builder.FlElectrodeGroupBuilder.build">
+<em class="property">static </em><code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">metadata</span></em>, <em class="sig-param"><span class="n">device</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrode_group.fl_electrode_group_builder.FlElectrodeGroupBuilder.build" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.electrode_group.fl_nwb_electrode_group"></span><dl class="class">
-<dt id="datamigration.nwb.components.electrode_group.fl_nwb_electrode_group.FlNwbElectrodeGroup">
-<em class="property">class </em><code class="sig-name descname">FlNwbElectrodeGroup</code><span class="sig-paren">(</span><em class="sig-param">metadata</em>, <em class="sig-param">device</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrode_group.fl_nwb_electrode_group.FlNwbElectrodeGroup" title="Permalink to this definition">¶</a></dt>
+<span class="target" id="module-datamigration.nwb.components.electrode_group.fl_electrode_group_manager"></span><dl class="py class">
+<dt id="datamigration.nwb.components.electrode_group.fl_electrode_group_manager.FlElectrodeGroupManager">
+<em class="property">class </em><code class="sig-name descname">FlElectrodeGroupManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">electrode_groups_metadata</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrode_group.fl_electrode_group_manager.FlElectrodeGroupManager" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-</dd></dl>
-
-<span class="target" id="module-datamigration.nwb.components.electrode_group.fl_nwb_electrode_group_builder"></span><dl class="class">
-<dt id="datamigration.nwb.components.electrode_group.fl_nwb_electrode_group_builder.FlNwbElectrodeGroupBuilder">
-<em class="property">class </em><code class="sig-name descname">FlNwbElectrodeGroupBuilder</code><a class="headerlink" href="#datamigration.nwb.components.electrode_group.fl_nwb_electrode_group_builder.FlNwbElectrodeGroupBuilder" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
-<dt id="datamigration.nwb.components.electrode_group.fl_nwb_electrode_group_builder.FlNwbElectrodeGroupBuilder.build">
-<code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param">metadata</em>, <em class="sig-param">device</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrode_group.fl_nwb_electrode_group_builder.FlNwbElectrodeGroupBuilder.build" title="Permalink to this definition">¶</a></dt>
+<dl class="py method">
+<dt id="datamigration.nwb.components.electrode_group.fl_electrode_group_manager.FlElectrodeGroupManager.get_fl_electrode_groups">
+<code class="sig-name descname">get_fl_electrode_groups</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">probes</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrode_group.fl_electrode_group_manager.FlElectrodeGroupManager.get_fl_electrode_groups" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

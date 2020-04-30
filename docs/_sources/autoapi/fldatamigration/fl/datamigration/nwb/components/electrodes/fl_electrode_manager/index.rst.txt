@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: FlElectrodeManager(probes_metadata, electrode_groups_metadata)
 
    .. method:: get_fl_electrodes(self, electrode_groups)

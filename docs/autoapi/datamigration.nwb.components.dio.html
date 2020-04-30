@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>datamigration.nwb.components.dio package &mdash; fldatamigration 0.1.004 documentation</title>
+  <title>datamigration.nwb.components.dio package &mdash; fldatamigration 0.1.006 documentation</title>
   
 
   
@@ -33,10 +33,11 @@
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="datamigration.nwb.components.electrode_group package" href="datamigration.nwb.components.electrode_group.html" />
-    <link rel="prev" title="datamigration.nwb.components.device package" href="datamigration.nwb.components.device.html" /> 
+    <link rel="prev" title="datamigration.nwb.components.device.shanks_electrodes package" href="datamigration.nwb.components.device.shanks_electrodes.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -179,56 +180,56 @@
 <span id="datamigration-nwb-components-dio-package"></span><h1>datamigration.nwb.components.dio package<a class="headerlink" href="#module-datamigration.nwb.components.dio" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-datamigration.nwb.components.dio.dio_builder">
 <span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-datamigration.nwb.components.dio.dio_builder" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
+<dl class="py class">
 <dt id="datamigration.nwb.components.dio.dio_builder.DioBuilder">
-<em class="property">class </em><code class="sig-name descname">DioBuilder</code><span class="sig-paren">(</span><em class="sig-param">data</em>, <em class="sig-param">dio_metadata</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_builder.DioBuilder" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">DioBuilder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">dio_metadata</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_builder.DioBuilder" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.dio.dio_builder.DioBuilder.build">
 <code class="sig-name descname">build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_builder.DioBuilder.build" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.dio.dio_extractor"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.dio.dio_extractor"></span><dl class="py class">
 <dt id="datamigration.nwb.components.dio.dio_extractor.DioExtractor">
 <em class="property">class </em><code class="sig-name descname">DioExtractor</code><a class="headerlink" href="#datamigration.nwb.components.dio.dio_extractor.DioExtractor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.dio.dio_extractor.DioExtractor.extract_dio_for_single_dataset">
-<em class="property">static </em><code class="sig-name descname">extract_dio_for_single_dataset</code><span class="sig-paren">(</span><em class="sig-param">filtered_files</em>, <em class="sig-param">continuous_time_file</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_extractor.DioExtractor.extract_dio_for_single_dataset" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">extract_dio_for_single_dataset</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filtered_files</span></em>, <em class="sig-param"><span class="n">continuous_time_file</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_extractor.DioExtractor.extract_dio_for_single_dataset" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.dio.dio_files"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.dio.dio_files"></span><dl class="py class">
 <dt id="datamigration.nwb.components.dio.dio_files.DioFiles">
-<em class="property">class </em><code class="sig-name descname">DioFiles</code><span class="sig-paren">(</span><em class="sig-param">directories</em>, <em class="sig-param">dio_metadata</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_files.DioFiles" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">DioFiles</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">directories</span></em>, <em class="sig-param"><span class="n">dio_metadata</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_files.DioFiles" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.dio.dio_files.DioFiles.get_files">
 <code class="sig-name descname">get_files</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_files.DioFiles.get_files" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.dio.dio_injector"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.dio.dio_injector"></span><dl class="py class">
 <dt id="datamigration.nwb.components.dio.dio_injector.DioInjector">
-<em class="property">class </em><code class="sig-name descname">DioInjector</code><span class="sig-paren">(</span><em class="sig-param">nwb_content</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_injector.DioInjector" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">DioInjector</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_injector.DioInjector" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.dio.dio_injector.DioInjector.inject">
-<code class="sig-name descname">inject</code><span class="sig-paren">(</span><em class="sig-param">behavioral_events</em>, <em class="sig-param">processing_module_name</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_injector.DioInjector.inject" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">inject</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">behavioral_events</span></em>, <em class="sig-param"><span class="n">processing_module_name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_injector.DioInjector.inject" title="Permalink to this definition">¶</a></dt>
 <dd><p>insert behavioral events to specified processing module in nwb file</p>
 </dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.dio.dio_manager"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.dio.dio_manager"></span><dl class="py class">
 <dt id="datamigration.nwb.components.dio.dio_manager.DioManager">
-<em class="property">class </em><code class="sig-name descname">DioManager</code><span class="sig-paren">(</span><em class="sig-param">dio_files</em>, <em class="sig-param">dio_metadata</em>, <em class="sig-param">continuous_time_files</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_manager.DioManager" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">DioManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dio_files</span></em>, <em class="sig-param"><span class="n">dio_metadata</span></em>, <em class="sig-param"><span class="n">continuous_time_files</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_manager.DioManager" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.dio.dio_manager.DioManager.get_dio">
 <code class="sig-name descname">get_dio</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.dio.dio_manager.DioManager.get_dio" title="Permalink to this definition">¶</a></dt>
 <dd><p>“extract data from DIO files and match them with metadata</p>
@@ -250,7 +251,7 @@
         <a href="datamigration.nwb.components.electrode_group.html" class="btn btn-neutral float-right" title="datamigration.nwb.components.electrode_group package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="datamigration.nwb.components.device.html" class="btn btn-neutral float-left" title="datamigration.nwb.components.device package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="datamigration.nwb.components.device.shanks_electrodes.html" class="btn btn-neutral float-left" title="datamigration.nwb.components.device.shanks_electrodes package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -1,0 +1,18 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.pos_invalid_times.fl_pos_invalid_time_builder`
+====================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.pos_invalid_times.fl_pos_invalid_time_builder
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlPosInvalidTimeBuilder
+
+   .. method:: build(start_time: float, stop_time: float)
+      :staticmethod:
+
+
+
+

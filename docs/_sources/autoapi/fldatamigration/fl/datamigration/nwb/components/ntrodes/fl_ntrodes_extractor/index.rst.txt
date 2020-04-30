@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: FlNTrodesExtractor
 
    .. method:: extract_device(ntrode_metadata, nwb_content)

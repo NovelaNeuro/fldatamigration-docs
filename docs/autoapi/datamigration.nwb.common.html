@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>datamigration.nwb.common package &mdash; fldatamigration 0.1.004 documentation</title>
+  <title>datamigration.nwb.common package &mdash; fldatamigration 0.1.006 documentation</title>
   
 
   
@@ -33,6 +33,7 @@
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="datamigration.nwb.components package" href="datamigration.nwb.components.html" />
@@ -177,85 +178,85 @@
 <span id="datamigration-nwb-common-package"></span><h1>datamigration.nwb.common package<a class="headerlink" href="#module-datamigration.nwb.common" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-datamigration.nwb.common.data_manager">
 <span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-datamigration.nwb.common.data_manager" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
+<dl class="py class">
 <dt id="datamigration.nwb.common.data_manager.DataManager">
-<em class="property">class </em><code class="sig-name descname">DataManager</code><span class="sig-paren">(</span><em class="sig-param">directories</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.data_manager.DataManager" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">DataManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">directories</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.data_manager.DataManager" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.common.data_manager.DataManager.get_directories">
 <code class="sig-name descname">get_directories</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.data_manager.DataManager.get_directories" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.common.data_manager.DataManager.get_file_lenghts_in_datasets">
 <code class="sig-name descname">get_file_lenghts_in_datasets</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.data_manager.DataManager.get_file_lenghts_in_datasets" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.common.data_manager.DataManager.get_final_data_shape">
 <code class="sig-name descname">get_final_data_shape</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.data_manager.DataManager.get_final_data_shape" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.common.data_manager.DataManager.get_number_of_datasets">
 <code class="sig-name descname">get_number_of_datasets</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.data_manager.DataManager.get_number_of_datasets" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.common.data_manager.DataManager.get_number_of_files_per_dataset">
 <code class="sig-name descname">get_number_of_files_per_dataset</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.data_manager.DataManager.get_number_of_files_per_dataset" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.common.data_manager.DataManager.get_number_of_rows_per_file">
 <code class="sig-name descname">get_number_of_rows_per_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.data_manager.DataManager.get_number_of_rows_per_file" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.common.data_manager.DataManager.read_data">
-<em class="property">abstract </em><code class="sig-name descname">read_data</code><span class="sig-paren">(</span><em class="sig-param">dataset_id</em>, <em class="sig-param">file_id</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.data_manager.DataManager.read_data" title="Permalink to this definition">¶</a></dt>
+<em class="property">abstract </em><code class="sig-name descname">read_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dataset_id</span></em>, <em class="sig-param"><span class="n">file_id</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.data_manager.DataManager.read_data" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.common.session_time_extractor"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.common.session_time_extractor"></span><dl class="py class">
 <dt id="datamigration.nwb.common.session_time_extractor.SessionTimeExtractor">
-<em class="property">class </em><code class="sig-name descname">SessionTimeExtractor</code><span class="sig-paren">(</span><em class="sig-param">datasets</em>, <em class="sig-param">animal_name</em>, <em class="sig-param">date</em>, <em class="sig-param">dataset_names</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.session_time_extractor.SessionTimeExtractor" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">SessionTimeExtractor</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">datasets</span></em>, <em class="sig-param"><span class="n">animal_name</span></em>, <em class="sig-param"><span class="n">date</span></em>, <em class="sig-param"><span class="n">dataset_names</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.session_time_extractor.SessionTimeExtractor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.common.session_time_extractor.SessionTimeExtractor.get_session_start_time">
 <code class="sig-name descname">get_session_start_time</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.session_time_extractor.SessionTimeExtractor.get_session_start_time" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.common.timestamps_manager"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.common.timestamps_manager"></span><dl class="py class">
 <dt id="datamigration.nwb.common.timestamps_manager.TimestampManager">
-<em class="property">class </em><code class="sig-name descname">TimestampManager</code><span class="sig-paren">(</span><em class="sig-param">directories</em>, <em class="sig-param">continuous_time_directories</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.timestamps_manager.TimestampManager" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">TimestampManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">directories</span></em>, <em class="sig-param"><span class="n">continuous_time_directories</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.timestamps_manager.TimestampManager" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.common.timestamps_manager.TimestampManager.get_file_lenghts_in_datasets">
 <code class="sig-name descname">get_file_lenghts_in_datasets</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.timestamps_manager.TimestampManager.get_file_lenghts_in_datasets" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.common.timestamps_manager.TimestampManager.get_final_data_shape">
 <code class="sig-name descname">get_final_data_shape</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.timestamps_manager.TimestampManager.get_final_data_shape" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.common.timestamps_manager.TimestampManager.get_number_of_datasets">
 <code class="sig-name descname">get_number_of_datasets</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.timestamps_manager.TimestampManager.get_number_of_datasets" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.common.timestamps_manager.TimestampManager.read_timestamps_ids">
-<code class="sig-name descname">read_timestamps_ids</code><span class="sig-paren">(</span><em class="sig-param">dataset_id</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.timestamps_manager.TimestampManager.read_timestamps_ids" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">read_timestamps_ids</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dataset_id</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.timestamps_manager.TimestampManager.read_timestamps_ids" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.common.timestamps_manager.TimestampManager.retrieve_real_timestamps">
-<code class="sig-name descname">retrieve_real_timestamps</code><span class="sig-paren">(</span><em class="sig-param">dataset_id</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.timestamps_manager.TimestampManager.retrieve_real_timestamps" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">retrieve_real_timestamps</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dataset_id</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.common.timestamps_manager.TimestampManager.retrieve_real_timestamps" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

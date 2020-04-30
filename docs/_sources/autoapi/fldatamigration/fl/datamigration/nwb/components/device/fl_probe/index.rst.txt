@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
-.. py:class:: FlProbe(metadata, probe_id)
+
+.. py:class:: FlProbe(metadata, probe_id, shanks)
 
 

@@ -7,11 +7,12 @@
 Module Contents
 ---------------
 
-.. py:class:: TaskValidator(number_of_epochs, tasks)
+
+.. py:class:: TaskValidator(tasks)
 
    Bases: :class:`fl.datamigration.validation.validator.Validator`
 
-   .. method:: createSummary(self)
+   .. method:: create_summary(self)
 
 
 

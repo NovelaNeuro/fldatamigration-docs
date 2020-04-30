@@ -1,0 +1,18 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.device.shanks.fl_shank_builder`
+=====================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.device.shanks.fl_shank_builder
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlShankBuilder
+
+   .. method:: build(shank_id, shanks_electrodes)
+      :staticmethod:
+
+
+
+

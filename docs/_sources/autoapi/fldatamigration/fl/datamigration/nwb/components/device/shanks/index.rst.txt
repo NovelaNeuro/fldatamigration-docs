@@ -1,0 +1,18 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.device.shanks`
+====================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.device.shanks
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   fl_shank/index.rst
+   fl_shank_builder/index.rst
+   fl_shank_manager/index.rst
+   shank_creator/index.rst
+
+

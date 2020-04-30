@@ -4,6 +4,15 @@
 .. py:module:: fldatamigration.fl.datamigration.tools
 
 
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   beartype/index.rst
+
+
 Submodules
 ----------
 .. toctree::

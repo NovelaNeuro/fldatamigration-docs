@@ -7,9 +7,15 @@
 Module Contents
 ---------------
 
+
 .. py:class:: FlElectrodeGroupManager(electrode_groups_metadata)
 
-   .. method:: get_fl_nwb_electrode_groups(self, probes)
+   .. method:: get_fl_electrode_groups(self, probes)
+
+
+
+   .. method:: __get_probe_by_type(probes, probe_type)
+      :staticmethod:
 
 
 

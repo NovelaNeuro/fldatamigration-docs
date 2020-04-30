@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>datamigration.nwb.components.epochs package &mdash; fldatamigration 0.1.004 documentation</title>
+  <title>datamigration.nwb.components.epochs package &mdash; fldatamigration 0.1.006 documentation</title>
   
 
   
@@ -33,10 +33,11 @@
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="datamigration.nwb.components.iterator package" href="datamigration.nwb.components.iterator.html" />
-    <link rel="prev" title="datamigration.nwb.components.electrodes package" href="datamigration.nwb.components.electrodes.html" /> 
+    <link rel="prev" title="datamigration.nwb.components.electrodes.extension package" href="datamigration.nwb.components.electrodes.extension.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -179,61 +180,61 @@
 <span id="datamigration-nwb-components-epochs-package"></span><h1>datamigration.nwb.components.epochs package<a class="headerlink" href="#module-datamigration.nwb.components.epochs" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-datamigration.nwb.components.epochs.epochs_injector">
 <span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-datamigration.nwb.components.epochs.epochs_injector" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
+<dl class="py class">
 <dt id="datamigration.nwb.components.epochs.epochs_injector.EpochsInjector">
 <em class="property">class </em><code class="sig-name descname">EpochsInjector</code><a class="headerlink" href="#datamigration.nwb.components.epochs.epochs_injector.EpochsInjector" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.epochs.epochs_injector.EpochsInjector.inject">
-<em class="property">static </em><code class="sig-name descname">inject</code><span class="sig-paren">(</span><em class="sig-param">fl_epochs</em>, <em class="sig-param">nwb_content</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.epochs_injector.EpochsInjector.inject" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">inject</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">fl_epochs</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.epochs_injector.EpochsInjector.inject" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.epochs.epochs_tag_extractor"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.epochs.epochs_tag_extractor"></span><dl class="py class">
 <dt id="datamigration.nwb.components.epochs.epochs_tag_extractor.EpochsTagExtractor">
-<em class="property">class </em><code class="sig-name descname">EpochsTagExtractor</code><span class="sig-paren">(</span><em class="sig-param">datasets</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.epochs_tag_extractor.EpochsTagExtractor" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">EpochsTagExtractor</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">datasets</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.epochs_tag_extractor.EpochsTagExtractor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.epochs.epochs_tag_extractor.EpochsTagExtractor.get_tags">
 <code class="sig-name descname">get_tags</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.epochs_tag_extractor.EpochsTagExtractor.get_tags" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.epochs.fl_epochs"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.epochs.fl_epochs"></span><dl class="py class">
 <dt id="datamigration.nwb.components.epochs.fl_epochs.FlEpochs">
-<em class="property">class </em><code class="sig-name descname">FlEpochs</code><span class="sig-paren">(</span><em class="sig-param">session_start_times</em>, <em class="sig-param">session_end_times</em>, <em class="sig-param">tags</em>, <em class="sig-param">tasks</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.fl_epochs.FlEpochs" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlEpochs</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">session_start_times</span></em>, <em class="sig-param"><span class="n">session_end_times</span></em>, <em class="sig-param"><span class="n">tags</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.fl_epochs.FlEpochs" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.epochs.fl_epochs_builder"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.epochs.fl_epochs_builder"></span><dl class="py class">
 <dt id="datamigration.nwb.components.epochs.fl_epochs_builder.FlEpochsBuilder">
-<em class="property">class </em><code class="sig-name descname">FlEpochsBuilder</code><span class="sig-paren">(</span><em class="sig-param">tags</em>, <em class="sig-param">tasks</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.fl_epochs_builder.FlEpochsBuilder" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlEpochsBuilder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tags</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.fl_epochs_builder.FlEpochsBuilder" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.epochs.fl_epochs_builder.FlEpochsBuilder.build">
-<code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param">epochs_extracted_session_times</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.fl_epochs_builder.FlEpochsBuilder.build" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">epochs_extracted_session_times</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.fl_epochs_builder.FlEpochsBuilder.build" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.epochs.fl_epochs_extractor"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.epochs.fl_epochs_extractor"></span><dl class="py class">
 <dt id="datamigration.nwb.components.epochs.fl_epochs_extractor.FlEpochsExtractor">
-<em class="property">class </em><code class="sig-name descname">FlEpochsExtractor</code><span class="sig-paren">(</span><em class="sig-param">continuous_time_files</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.fl_epochs_extractor.FlEpochsExtractor" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlEpochsExtractor</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">continuous_time_files</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.fl_epochs_extractor.FlEpochsExtractor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.epochs.fl_epochs_extractor.FlEpochsExtractor.extract_epochs">
 <code class="sig-name descname">extract_epochs</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.fl_epochs_extractor.FlEpochsExtractor.extract_epochs" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.epochs.fl_epochs_manager"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.epochs.fl_epochs_manager"></span><dl class="py class">
 <dt id="datamigration.nwb.components.epochs.fl_epochs_manager.FlEpochsManager">
-<em class="property">class </em><code class="sig-name descname">FlEpochsManager</code><span class="sig-paren">(</span><em class="sig-param">datasets</em>, <em class="sig-param">tasks</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.fl_epochs_manager.FlEpochsManager" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlEpochsManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">datasets</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.fl_epochs_manager.FlEpochsManager" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.epochs.fl_epochs_manager.FlEpochsManager.get_epochs">
 <code class="sig-name descname">get_epochs</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.epochs.fl_epochs_manager.FlEpochsManager.get_epochs" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
@@ -254,7 +255,7 @@
         <a href="datamigration.nwb.components.iterator.html" class="btn btn-neutral float-right" title="datamigration.nwb.components.iterator package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="datamigration.nwb.components.electrodes.html" class="btn btn-neutral float-left" title="datamigration.nwb.components.electrodes package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="datamigration.nwb.components.electrodes.extension.html" class="btn btn-neutral float-left" title="datamigration.nwb.components.electrodes.extension package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

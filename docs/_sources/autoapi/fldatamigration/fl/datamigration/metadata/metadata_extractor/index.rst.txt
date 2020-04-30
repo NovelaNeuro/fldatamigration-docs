@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: MetadataExtractor
 
    .. method:: extract_metadata(metadata_path)

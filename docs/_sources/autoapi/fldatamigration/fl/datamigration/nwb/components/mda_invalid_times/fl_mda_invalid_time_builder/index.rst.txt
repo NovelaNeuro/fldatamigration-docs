@@ -1,0 +1,18 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_builder`
+====================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_builder
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlMdaInvalidTimeBuilder
+
+   .. method:: build(start_time: float, stop_time: float)
+      :staticmethod:
+
+
+
+

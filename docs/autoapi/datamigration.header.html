@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>datamigration.header package &mdash; fldatamigration 0.1.004 documentation</title>
+  <title>datamigration.header package &mdash; fldatamigration 0.1.006 documentation</title>
   
 
   
@@ -33,6 +33,7 @@
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="datamigration.header.header_checker package" href="datamigration.header.header_checker.html" />
@@ -195,110 +196,110 @@
 <dt>Class:</dt><dd><p>XMLExtractor()</p>
 </dd>
 </dl>
-<dl class="class">
+<dl class="py class">
 <dt id="datamigration.header.xml_extractor.XMLExtractor">
-<em class="property">class </em><code class="sig-name descname">XMLExtractor</code><span class="sig-paren">(</span><em class="sig-param">rec_path='../data/REC_sample.xml'</em>, <em class="sig-param">xml_path='../data/output.xml'</em>, <em class="sig-param">xsd_path=None</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.header.xml_extractor.XMLExtractor" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">XMLExtractor</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">rec_path</span><span class="o">=</span><span class="default_value">'../data/REC_sample.xml'</span></em>, <em class="sig-param"><span class="n">xml_path</span><span class="o">=</span><span class="default_value">'../data/output.xml'</span></em>, <em class="sig-param"><span class="n">xsd_path</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.header.xml_extractor.XMLExtractor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>Class to extract XML file from REC file, read XML, validate XML with XSD file</p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.header.xml_extractor.XMLExtractor.extract_xml_from_rec_file">
 <code class="sig-name descname">extract_xml_from_rec_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.header.xml_extractor.XMLExtractor.extract_xml_from_rec_file" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.header.xml_extractor.XMLExtractor.read_xml_from_rec_file">
 <code class="sig-name descname">read_xml_from_rec_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.header.xml_extractor.XMLExtractor.read_xml_from_rec_file" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.header.xml_extractor.XMLExtractor.read_xml_from_xml_file">
 <code class="sig-name descname">read_xml_from_xml_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.header.xml_extractor.XMLExtractor.read_xml_from_xml_file" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.header.xml_extractor.XMLExtractor.set_rec_path">
 <code class="sig-name descname">set_rec_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.header.xml_extractor.XMLExtractor.set_rec_path" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.header.xml_extractor.XMLExtractor.set_xml_path">
 <code class="sig-name descname">set_xml_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.header.xml_extractor.XMLExtractor.set_xml_path" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.header.xml_extractor.XMLExtractor.get_rec_path">
 <code class="sig-name descname">get_rec_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.header.xml_extractor.XMLExtractor.get_rec_path" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.header.xml_extractor.XMLExtractor.get_xml_path">
 <code class="sig-name descname">get_xml_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.header.xml_extractor.XMLExtractor.get_xml_path" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.header.xml_extractor.XMLExtractor.is_valid">
 <code class="sig-name descname">is_valid</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.header.xml_extractor.XMLExtractor.is_valid" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
-<dt>
-<code class="sig-name descname">extract_xml_from_rec_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span></dt>
+<dl class="py method">
+<dt id="id0">
+<code class="sig-name descname">extract_xml_from_rec_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#id0" title="Permalink to this definition">¶</a></dt>
 <dd><p>Extract XML from REC file</p>
 </dd></dl>
 
-<dl class="method">
-<dt>
-<code class="sig-name descname">get_rec_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span></dt>
+<dl class="py method">
+<dt id="id1">
+<code class="sig-name descname">get_rec_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#id1" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get path to REC file</p>
 </dd></dl>
 
-<dl class="method">
-<dt>
-<code class="sig-name descname">get_xml_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span></dt>
+<dl class="py method">
+<dt id="id2">
+<code class="sig-name descname">get_xml_path</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#id2" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get path to XML file</p>
 </dd></dl>
 
-<dl class="method">
-<dt>
-<code class="sig-name descname">is_valid</code><span class="sig-paren">(</span><span class="sig-paren">)</span></dt>
+<dl class="py method">
+<dt id="id3">
+<code class="sig-name descname">is_valid</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#id3" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if XML is valid with XSD file</p>
 </dd></dl>
 
-<dl class="method">
-<dt>
-<code class="sig-name descname">read_xml_from_rec_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span></dt>
+<dl class="py method">
+<dt id="id4">
+<code class="sig-name descname">read_xml_from_rec_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#id4" title="Permalink to this definition">¶</a></dt>
 <dd><p>Read XML from REC file</p>
 </dd></dl>
 
-<dl class="method">
-<dt>
-<code class="sig-name descname">read_xml_from_xml_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span></dt>
+<dl class="py method">
+<dt id="id5">
+<code class="sig-name descname">read_xml_from_xml_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#id5" title="Permalink to this definition">¶</a></dt>
 <dd><p>Read XML through logging.info</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="datamigration.header.xml_extractor.XMLExtractor.rec_path">
 <code class="sig-name descname">rec_path</code><em class="property"> = ''</em><a class="headerlink" href="#datamigration.header.xml_extractor.XMLExtractor.rec_path" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
-<dt>
-<code class="sig-name descname">set_rec_path</code><span class="sig-paren">(</span><em class="sig-param">rec_path</em><span class="sig-paren">)</span></dt>
+<dl class="py method">
+<dt id="id6">
+<code class="sig-name descname">set_rec_path</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">rec_path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#id6" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set path to REC file</p>
 </dd></dl>
 
-<dl class="method">
-<dt>
-<code class="sig-name descname">set_xml_path</code><span class="sig-paren">(</span><em class="sig-param">xml_path</em><span class="sig-paren">)</span></dt>
+<dl class="py method">
+<dt id="id7">
+<code class="sig-name descname">set_xml_path</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">xml_path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#id7" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set path to XML file</p>
 </dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="datamigration.header.xml_extractor.XMLExtractor.xml_path">
 <code class="sig-name descname">xml_path</code><em class="property"> = ''</em><a class="headerlink" href="#datamigration.header.xml_extractor.XMLExtractor.xml_path" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="attribute">
+<dl class="py attribute">
 <dt id="datamigration.header.xml_extractor.XMLExtractor.xsd_path">
 <code class="sig-name descname">xsd_path</code><em class="property"> = ''</em><a class="headerlink" href="#datamigration.header.xml_extractor.XMLExtractor.xsd_path" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>

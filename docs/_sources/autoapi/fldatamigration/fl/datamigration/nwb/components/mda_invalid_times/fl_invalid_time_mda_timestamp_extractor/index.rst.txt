@@ -1,0 +1,34 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor`
+================================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlInvalidTimeMdaTimestampExtractor(datasets: list)
+
+   .. method:: get_converted_timestamps(self)
+
+
+
+   .. method:: __convert_timestamps(timestamps, continuous_time_dicts)
+      :staticmethod:
+
+
+
+   .. method:: __read_mda_timestamps(self)
+
+
+
+   .. method:: __get_mda_timestamp_files(self)
+
+
+
+   .. method:: __get_continuous_time_dicts(self)
+
+
+
+

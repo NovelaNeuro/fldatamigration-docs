@@ -15,6 +15,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: XMLExtractor(rec_path='../data/REC_sample.xml', xml_path='../data/output.xml', xsd_path=None)
 
    Class to extract XML file from REC file, read XML, validate XML with XSD file

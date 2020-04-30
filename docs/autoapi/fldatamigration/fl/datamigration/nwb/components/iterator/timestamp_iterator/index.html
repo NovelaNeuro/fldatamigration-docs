@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator &mdash; fldatamigration 0.1.004 documentation</title>
+  <title>fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator &mdash; fldatamigration 0.1.006 documentation</title>
   
 
   
@@ -33,6 +33,7 @@
   
   <link rel="stylesheet" href="../../../../../../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../../../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../../../../_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="../../../../../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../../../../../search.html" /> 
 </head>
@@ -153,38 +154,38 @@
 <span id="fldatamigration-fl-datamigration-nwb-components-iterator-timestamp-iterator"></span><h1><a class="reference internal" href="#module-fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator" title="fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator</span></code></a><a class="headerlink" href="#module-fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-contents">
 <h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
+<dl class="py class">
 <dt id="fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator">
-<em class="property">class </em><code class="sig-name descname">TimestampIterator</code><span class="sig-paren">(</span><em class="sig-param">data</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">TimestampIterator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">hdmf.data_utils.AbstractDataChunkIterator</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.__iter__">
-<code class="sig-name descname">__iter__</code><span class="sig-paren">(</span><em class="sig-param">self</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.__iter__" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">__iter__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.__iter__" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.get_data_from_file">
-<em class="property">static </em><code class="sig-name descname">get_data_from_file</code><span class="sig-paren">(</span><em class="sig-param">data</em>, <em class="sig-param">current_dataset</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.get_data_from_file" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">get_data_from_file</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">current_dataset</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.get_data_from_file" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.recommended_chunk_shape">
-<code class="sig-name descname">recommended_chunk_shape</code><span class="sig-paren">(</span><em class="sig-param">self</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.recommended_chunk_shape" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">recommended_chunk_shape</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.recommended_chunk_shape" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.recommended_data_shape">
-<code class="sig-name descname">recommended_data_shape</code><span class="sig-paren">(</span><em class="sig-param">self</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.recommended_data_shape" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">recommended_data_shape</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.recommended_data_shape" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.dtype">
-<em class="property">property </em><code class="sig-name descname">dtype</code><span class="sig-paren">(</span><em class="sig-param">self</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.dtype" title="Permalink to this definition">¶</a></dt>
+<em class="property">property </em><code class="sig-name descname">dtype</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.dtype" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.maxshape">
-<em class="property">property </em><code class="sig-name descname">maxshape</code><span class="sig-paren">(</span><em class="sig-param">self</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.maxshape" title="Permalink to this definition">¶</a></dt>
+<em class="property">property </em><code class="sig-name descname">maxshape</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.maxshape" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

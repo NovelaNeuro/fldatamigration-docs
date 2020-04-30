@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>About &mdash; fldatamigration 0.1.004 documentation</title>
+  <title>About &mdash; fldatamigration 0.1.006 documentation</title>
   
 
   
@@ -33,6 +33,7 @@
   
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="API Documentation" href="api.html" />
@@ -153,8 +154,8 @@
             
   <div class="section" id="about">
 <h1>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h1>
-<p>fldatamigration is a python package for converting SpikeGadgets rec files to NWB files.<br>
-It converts experiment data from <code class="docutils literal notranslate"><span class="pre">/raw</span></code> folder to <code class="docutils literal notranslate"><span class="pre">.nwb</span></code> file. It utilizes rec_to_binaries package for preprocessing phase.<br>
+<p>fldatamigration is a python conda package for converting SpikeGadgets rec files to NWB files.<br>
+It converts experiment data from <code class="docutils literal notranslate"><span class="pre">/raw</span></code> or <code class="docutils literal notranslate"><span class="pre">/preprocessing</span></code> folder to <code class="docutils literal notranslate"><span class="pre">.nwb</span></code> file. It utilizes rec_to_binaries package for preprocessing phase.<br>
 <a class="reference external" href="https://github.com/LorenFrankLab/rec_to_binaries">https://github.com/LorenFrankLab/rec_to_binaries</a><br></p>
 </div>
 <div class="section" id="prerequisites">
@@ -172,10 +173,8 @@ If Spike Gadgets is in default location: <br></p>
 </li>
 <li><p>Download miniconda from <br>
 <a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">https://docs.conda.io/en/latest/miniconda.html</a> <br></p></li>
-<li><p>Download <code class="docutils literal notranslate"><span class="pre">fldatamigration.yml</span></code> from <br>
-<a class="reference external" href="https://anaconda.org/NovelaKRK/fldatamigration/files">https://anaconda.org/NovelaKRK/fldatamigration/files</a></p></li>
-<li><p>Build fldatamigration environment:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda env create -f fldatamigration.yml
+<li><p>Install fldatamigration package:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install -c conda-forge -c novelakrk fldatamigration
 </pre></div>
 </div>
 </li>
@@ -226,9 +225,13 @@ If Spike Gadgets is in default location:</p>
 <ol>
 <li><p>Download example notebook file from <br>
 <a class="reference external" href="https://anaconda.org/NovelaKRK/nwb_generation/notebook">https://anaconda.org/NovelaKRK/nwb_generation/notebook</a></p></li>
-<li><p>In terminal navigate to notebook file location</p></li>
+<li><p>In terminal navigate to notebook file location</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>fldatamigration/fl/notebooks
+</pre></div>
+</div>
+</li>
 <li><p>Run jupyter notebook</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter notebook
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter notebook nwb_generation.ipynb
 </pre></div>
 </div>
 </li>
@@ -278,10 +281,10 @@ If Spike Gadgets is in default location:</p>
      <span class="n">device_type</span><span class="p">:</span> <span class="mi">128</span><span class="n">c</span><span class="o">-</span><span class="mi">4</span><span class="n">s8mm6cm</span><span class="o">-</span><span class="mi">20</span><span class="n">um</span><span class="o">-</span><span class="mi">40</span><span class="n">um</span><span class="o">-</span><span class="n">sl</span>
      <span class="n">description</span><span class="p">:</span> <span class="s1">&#39;Probe 2&#39;</span>
  <span class="c1"># Ntrodes list which refer 1:1 to &lt;SpikeNTrode&gt; elements from xml header existing in rec binary file.</span>
- <span class="c1"># ntrode_id has to match to SpikeNTrode id, probe_id refers to electrode group,</span>
+ <span class="c1"># ntrode_id has to match to SpikeNTrode id, electrode_group_id refers to electrode group,</span>
  <span class="c1"># bad_channels is a list of broken channels in the map, where map corresponds to the electrode channels</span>
    <span class="o">-</span> <span class="n">ntrode_id</span><span class="p">:</span> <span class="mi">1</span> 
-     <span class="n">probe_id</span><span class="p">:</span> <span class="mi">0</span> 
+     <span class="n">electrode_group_id</span><span class="p">:</span> <span class="mi">0</span> 
      <span class="n">bad_channels</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
      <span class="nb">map</span><span class="p">:</span>  
        <span class="mi">0</span><span class="p">:</span> <span class="mi">0</span>
@@ -289,7 +292,7 @@ If Spike Gadgets is in default location:</p>
        <span class="mi">2</span><span class="p">:</span> <span class="mi">2</span>
        <span class="mi">3</span><span class="p">:</span> <span class="mi">3</span>
    <span class="o">-</span> <span class="n">ntrode_id</span><span class="p">:</span> <span class="mi">2</span>
-     <span class="n">probe_id</span><span class="p">:</span> <span class="mi">0</span>
+     <span class="n">electrode_group_id</span><span class="p">:</span> <span class="mi">0</span>
      <span class="n">bad_channels</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
      <span class="nb">map</span><span class="p">:</span>
        <span class="mi">0</span><span class="p">:</span> <span class="mi">4</span>
@@ -330,30 +333,89 @@ If Spike Gadgets is in default location:</p>
 </div>
 </li>
 <li><p>Input files <code class="docutils literal notranslate"><span class="pre">metadata.yml</span></code> as well as <code class="docutils literal notranslate"><span class="pre">probe[1-N].yml</span></code> are validated against rec files headers.</p></li>
-<li><p>Initialize RawToNWBBuilder, which requires <code class="docutils literal notranslate"><span class="pre">animal_name</span></code>, <code class="docutils literal notranslate"><span class="pre">data_path</span></code> and <code class="docutils literal notranslate"><span class="pre">dates</span></code> which exist in your experiment folder.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">builder</span> <span class="o">=</span> RawToNWBBuilder<span class="o">(</span><span class="nv">animal_name</span><span class="o">=</span><span class="s1">&#39;beans&#39;</span>,
-                          <span class="nv">data_path</span><span class="o">=</span><span class="s1">&#39;../test/test_data/&#39;</span>,
-                          <span class="nv">dates</span><span class="o">=[</span><span class="s1">&#39;20190718&#39;</span><span class="o">]</span>,
-                          <span class="nv">nwb_metadata</span><span class="o">=</span>metadata,
-                          <span class="nv">output_path</span><span class="o">=</span><span class="s1">&#39;/out/nwb&#39;</span>
-                          <span class="o">)</span>
+<li><p>We provide two class to generate the NWB file. <br></p></li>
+</ol>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">RawToNWBBuilder</span></code> - To generate NWB file from raw data. <br></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">NWBFileBuilder</span></code> - To generate NWB file from preprocessed data. <br></p></li>
+</ul>
+<div class="section" id="raw-data">
+<h2>Raw data<a class="headerlink" href="#raw-data" title="Permalink to this headline">¶</a></h2>
+<p>Initialize RawToNWBBuilder, which requires <code class="docutils literal notranslate"><span class="pre">animal_name</span></code>, <code class="docutils literal notranslate"><span class="pre">data_path</span></code> and <code class="docutils literal notranslate"><span class="pre">dates</span></code> which exist in your experiment folder. Next build the NWB using <code class="docutils literal notranslate"><span class="pre">build_nwb()</span></code>.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">builder</span> <span class="o">=</span> RawToNWBBuilder<span class="o">(</span>
+          <span class="nv">animal_name</span><span class="o">=</span><span class="s1">&#39;beans&#39;</span>,
+          <span class="nv">data_path</span><span class="o">=</span><span class="s1">&#39;../test/test_data/&#39;</span>,
+          <span class="nv">dates</span><span class="o">=[</span><span class="s1">&#39;20190718&#39;</span><span class="o">]</span>,
+          <span class="nv">nwb_metadata</span><span class="o">=</span>metadata,
+          <span class="nv">output_path</span><span class="o">=</span><span class="s1">&#39;/out/nwb&#39;</span>
+           <span class="o">)</span>
+builder.build_nwb<span class="o">()</span>
 </pre></div>
 </div>
 <p>raw_to_nwb_builder arguments</p>
-<p><strong>data_path</strong> = <code class="docutils literal notranslate"><span class="pre">string</span></code> path to the parent folder of animal_name</p>
-<p><strong>animal_name</strong> = <code class="docutils literal notranslate"><span class="pre">string</span></code> name of the folder that contain few dates-folders</p>
-<p><strong>dates</strong> = <code class="docutils literal notranslate"><span class="pre">list</span> <span class="pre">of</span> <span class="pre">strings</span></code> names of folders that contain experiment data</p>
-<p><strong>nwb_metadata</strong> = <code class="docutils literal notranslate"><span class="pre">MetadataManager</span></code> object with metadata.yml and probes.yml</p>
-<p><strong>output_path</strong> = <code class="docutils literal notranslate"><span class="pre">string</span></code> path specifying location and name of result file (dafault ‘output.nwb’)</br></p>
-<p><strong>extract_analog</strong> = <code class="docutils literal notranslate"><span class="pre">boolean</span></code> flag specifying if analog data should be extracted from raw (default False)</br></p>
-<p><strong>extract_spikes</strong> = <code class="docutils literal notranslate"><span class="pre">boolean</span></code> flag specifying if spikes data should be extracted from raw (default False)</br></p>
-<p><strong>extract_lfps</strong> = <code class="docutils literal notranslate"><span class="pre">boolean</span></code> flag specifying if lfp data should be extracted from raw (default False)</br></p>
-<p><strong>extract_dio</strong> = <code class="docutils literal notranslate"><span class="pre">boolean</span></code> flag specifying if dio data should be extracted from raw (default True)</br></p>
-<p><strong>extract_mda</strong> = <code class="docutils literal notranslate"><span class="pre">boolean</span></code> flag specifying if mda data should be extracted from raw (default True)</br></p>
-<p><strong>parallel_instances</strong> = <code class="docutils literal notranslate"><span class="pre">int</span></code> number of threads, optimal value highly depends on hardware (default 4)</br></p>
-<p><strong>overwrite</strong> = <code class="docutils literal notranslate"><span class="pre">boolean</span></code>  If true, will overwrite existing files. (default True)</br></p>
-<p><strong>analog_export_args</strong> = <code class="docutils literal notranslate"><span class="pre">tuple</span> <span class="pre">of</span> <span class="pre">strings</span></code> path to rec header file which overrides all headers existing in rec binary files e.g <code class="docutils literal notranslate"><span class="pre">_DEFAULT_ANALOG_EXPORT_ARGS</span> <span class="pre">=</span> <span class="pre">('-reconfig',</span> <span class="pre">str(path)</span> <span class="pre">+</span> <span class="pre">'/test/datamigration/res/reconfig_header.xml')</span></code></br></p>
-</li>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>  **data_path** = `string` path to the parent folder of animal_name&lt;br&gt;
+
+  **animal_name** = `string` name of the folder that contain few dates-folders&lt;br&gt;
+
+  **dates** = `list of strings` names of folders that contain experiment data&lt;br&gt;
+
+  **nwb_metadata** = `MetadataManager` object with metadata.yml and probes.yml&lt;br&gt;
+
+  **output_path** = `string` path specifying location and name of result file (dafault &#39;output.nwb&#39;)&lt;br&gt;
+
+  **extract_analog** = `boolean` flag specifying if analog data should be extracted from raw (default True)&lt;br&gt;
+
+  **extract_spikes** = `boolean` flag specifying if spikes data should be extracted from raw (default False)&lt;br&gt;
+
+  **extract_lfps** = `boolean` flag specifying if lfp data should be extracted from raw (default False)&lt;br&gt;
+
+  **extract_dio** = `boolean` flag specifying if dio data should be extracted from raw (default True)&lt;br&gt;
+
+  **extract_mda** = `boolean` flag specifying if mda data should be extracted from raw (default True)&lt;br&gt;
+
+  **parallel_instances** = `int` number of threads, optimal value highly depends on hardware (default 4)&lt;br&gt;
+  
+  **overwrite** = `boolean`  If true, will overwrite existing files. (default True)&lt;br&gt;
+  
+  **analog_export_args** = `tuple of strings` path to rec header file which overrides all headers existing in rec binary files e.g `_DEFAULT_ANALOG_EXPORT_ARGS = (&#39;-reconfig&#39;, str(path) + &#39;/test/datamigration/res/reconfig_header.xml&#39;)`&lt;br&gt;
+</pre></div>
+</div>
+</div>
+<div class="section" id="preprocessed-data">
+<h2>Preprocessed data<a class="headerlink" href="#preprocessed-data" title="Permalink to this headline">¶</a></h2>
+<p>If you have already preprocessed data or RawToNwb process crashed during building file you can initialize NWBFileBuilder, which requires <code class="docutils literal notranslate"><span class="pre">data_path</span></code>, <code class="docutils literal notranslate"><span class="pre">animal_name</span></code>, <code class="docutils literal notranslate"><span class="pre">date</span></code>, <code class="docutils literal notranslate"><span class="pre">nwb_metadata</span></code>. Next build the NWB using <code class="docutils literal notranslate"><span class="pre">build()</span></code> and write it to file by <code class="docutils literal notranslate"><span class="pre">write(content)</span></code> method.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">builder</span> <span class="o">=</span> NWBFileBuilder<span class="o">(</span>
+         <span class="nv">data_path</span><span class="o">=</span><span class="s1">&#39;../data/&#39;</span>,
+         <span class="nv">animal_name</span><span class="o">=</span><span class="s1">&#39;beans&#39;</span>,
+         <span class="nv">date</span><span class="o">=</span><span class="s1">&#39;20190718&#39;</span>,
+         <span class="nv">nwb_metadata</span><span class="o">=</span>metadata,
+         <span class="nv">process_dio</span><span class="o">=</span>True,
+         <span class="nv">process_mda</span><span class="o">=</span>True,
+         <span class="nv">process_analog</span><span class="o">=</span>True
+     <span class="o">)</span>
+<span class="nv">content</span> <span class="o">=</span> builder.build<span class="o">()</span>
+builder.write<span class="o">(</span>content<span class="o">)</span>
+</pre></div>
+</div>
+<p>NWBFileBuilder arguments</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> **data_path** = `string` path to directory containing all experiments data&lt;br&gt;
+ 
+ **animal_name** = `string` directory name which represents animal subject of experiment&lt;br&gt;
+ 
+ **date** = `string` date of experiment&lt;br&gt;
+ 
+ **nwb_metadata** = `MetadataManager` object contains metadata about experiment&lt;br&gt;
+ 
+ **process_dio** = `boolean` flag if dio data should be processed&lt;br&gt;
+ 
+ **process_mda** = `boolean` flag if mda data should be processed&lt;br&gt;
+ 
+ **process_analog** = `boolean` flag if analog data should be processed&lt;br&gt;
+ 
+ **output_file** = `string` path and name specifying where .nwb file gonna be written&lt;br&gt;
+</pre></div>
+</div>
+<ol>
 <li><p>Make sure that the data structure in given directory (in that case <code class="docutils literal notranslate"><span class="pre">test_data</span></code>) looks similar to following example:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span> --test_data
    <span class="p">|</span>
@@ -586,6 +648,7 @@ If Spike Gadgets is in default location:</p>
 </pre></div>
 </div>
 <p>When processing completes, a nwb file is created in the output_path directory</p>
+</div>
 </div>
 
 

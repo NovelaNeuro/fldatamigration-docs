@@ -1,0 +1,17 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager`
+==========================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlElectrodeExtensionManager(probes_metadata, metadata, header)
+
+   .. method:: get_fl_electrodes_extension(self)
+
+
+
+

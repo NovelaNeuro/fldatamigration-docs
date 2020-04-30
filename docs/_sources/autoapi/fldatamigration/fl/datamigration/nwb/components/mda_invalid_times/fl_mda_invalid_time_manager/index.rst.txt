@@ -1,0 +1,25 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager`
+====================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlMdaInvalidTimeManager(sampling_rate: float, datasets: list)
+
+   .. method:: get_mda_invalid_times(self)
+
+
+
+   .. method:: __build_mda_invalid_times(self, timestamps, period)
+
+
+
+   .. method:: __build_gaps_from_single_epoch(self, timestamps, period=None, unfinished_gap=None, last_timestamp=None)
+
+
+
+

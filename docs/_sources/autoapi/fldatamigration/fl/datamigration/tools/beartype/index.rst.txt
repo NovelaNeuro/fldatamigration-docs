@@ -1,0 +1,15 @@
+:mod:`fldatamigration.fl.datamigration.tools.beartype`
+======================================================
+
+.. py:module:: fldatamigration.fl.datamigration.tools.beartype
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   beartype/index.rst
+
+

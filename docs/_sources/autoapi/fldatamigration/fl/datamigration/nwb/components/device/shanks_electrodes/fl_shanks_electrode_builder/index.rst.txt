@@ -1,0 +1,18 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.device.shanks_electrodes.fl_shanks_electrode_builder`
+===========================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.device.shanks_electrodes.fl_shanks_electrode_builder
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlShanksElectrodeBuilder
+
+   .. method:: build(electrode_metadata)
+      :staticmethod:
+
+
+
+

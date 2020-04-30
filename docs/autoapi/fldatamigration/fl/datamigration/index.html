@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>fldatamigration.fl.datamigration &mdash; fldatamigration 0.1.004 documentation</title>
+  <title>fldatamigration.fl.datamigration &mdash; fldatamigration 0.1.006 documentation</title>
   
 
   
@@ -33,6 +33,7 @@
   
   <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" /> 
 </head>
@@ -221,7 +222,9 @@
 <li class="toctree-l3"><a class="reference internal" href="nwb/components/epochs/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.nwb.components.epochs</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="nwb/components/iterator/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.nwb.components.iterator</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="nwb/components/mda/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.nwb.components.mda</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="nwb/components/mda_invalid_times/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.nwb.components.mda_invalid_times</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="nwb/components/ntrodes/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.nwb.components.ntrodes</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="nwb/components/pos_invalid_times/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.nwb.components.pos_invalid_times</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="nwb/components/position/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.nwb.components.position</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="nwb/components/processing_module/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.nwb.components.processing_module</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="nwb/components/table_region/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.nwb.components.table_region</span></code></a></li>
@@ -236,6 +239,10 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="tools/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.tools</span></code></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tools/beartype/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.tools.beartype</span></code></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="tools/beartype/beartype/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.tools.beartype.beartype</span></code></a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="tools/abstract_file_downloader/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.tools.abstract_file_downloader</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="tools/data_scanner/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.tools.data_scanner</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="tools/dataset/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.tools.dataset</span></code></a></li>
@@ -247,20 +254,18 @@
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="validation/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation</span></code></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="validation/export_args_validation_summary/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.export_args_validation_summary</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="validation/export_args_validator/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.export_args_validator</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation/metadata_validation_summary/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.metadata_validation_summary</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation/metadata_validator/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.metadata_validator</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation/not_empty_validation_summary/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.not_empty_validation_summary</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation/not_empty_validator/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.not_empty_validator</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="validation/not_none_validation_summary/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.not_none_validation_summary</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="validation/not_none_validator/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.not_none_validator</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation/ntrode_validation_summary/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.ntrode_validation_summary</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation/ntrode_validator/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.ntrode_validator</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation/preprocessing_validation_summary/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.preprocessing_validation_summary</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation/preprocessing_validator/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.preprocessing_validator</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation/task_validation_summary/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.task_validation_summary</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation/task_validator/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.task_validator</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="validation/type_validation_summary/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.type_validation_summary</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="validation/type_validator/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.type_validator</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation/validation_registrator/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.validation_registrator</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation/validation_summary/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.validation_summary</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="validation/validator/index.html"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.validation.validator</span></code></a></li>

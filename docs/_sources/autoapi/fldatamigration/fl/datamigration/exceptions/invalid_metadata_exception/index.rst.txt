@@ -7,7 +7,7 @@
 Module Contents
 ---------------
 
-.. py:exception:: InvalidMetadataException
+.. py:exception:: InvalidMetadataException(*args)
 
    Bases: :class:`fl.datamigration.exceptions.invalid_exception.InvalidException`
 

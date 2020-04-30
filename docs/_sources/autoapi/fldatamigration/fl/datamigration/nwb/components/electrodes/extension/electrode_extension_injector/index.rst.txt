@@ -1,0 +1,46 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.electrodes.extension.electrode_extension_injector`
+========================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.electrodes.extension.electrode_extension_injector
+
+
+Module Contents
+---------------
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: ElectrodeExtensionInjector
+
+   .. method:: inject_extensions(self, nwb_content, fl_electrode_extension)
+
+
+
+   .. method:: __validate_parameters(self, fl_electrode_extension)
+
+
+
+   .. method:: __validate_extension_length(*args)
+      :staticmethod:
+
+
+
+   .. method:: __adjust_extension_length(rel_x, extension, msg)
+      :staticmethod:
+
+
+
+   .. method:: __join_extensions_to_electrodes(nwb_content, fl_electrode_extension)
+      :staticmethod:
+
+
+
+

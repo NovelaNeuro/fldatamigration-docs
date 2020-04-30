@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: PreprocessingValidator(data_path, epochs, data_types_for_scanning)
 
    Bases: :class:`fl.datamigration.validation.validator.Validator`
@@ -28,7 +29,7 @@ Module Contents
       
       
 
-   .. method:: createSummary(self)
+   .. method:: create_summary(self)
 
 
       Creates ValidationSummary object with the results of validation

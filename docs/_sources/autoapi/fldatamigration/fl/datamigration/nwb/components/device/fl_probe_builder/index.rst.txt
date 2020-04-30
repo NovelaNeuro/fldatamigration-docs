@@ -7,9 +7,10 @@
 Module Contents
 ---------------
 
+
 .. py:class:: FlProbeBuilder
 
-   .. method:: build(metadata, probe_id)
+   .. method:: build(metadata, probe_id, shanks)
       :staticmethod:
 
 

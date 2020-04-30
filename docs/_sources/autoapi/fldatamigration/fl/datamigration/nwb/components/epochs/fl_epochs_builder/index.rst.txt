@@ -7,7 +7,8 @@
 Module Contents
 ---------------
 
-.. py:class:: FlEpochsBuilder(tags, tasks)
+
+.. py:class:: FlEpochsBuilder(tags)
 
    .. method:: build(self, epochs_extracted_session_times)
 

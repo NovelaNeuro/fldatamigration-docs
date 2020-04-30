@@ -7,9 +7,10 @@
 Module Contents
 ---------------
 
+
 .. py:class:: Validator
 
-   .. method:: createSummary(self)
+   .. method:: create_summary(self)
 
 
 

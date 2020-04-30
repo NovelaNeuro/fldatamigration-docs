@@ -6,6 +6,14 @@ datamigration.tools package
    :undoc-members:
    :show-inheritance:
 
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   datamigration.tools.beartype
+
 Submodules
 ----------
 

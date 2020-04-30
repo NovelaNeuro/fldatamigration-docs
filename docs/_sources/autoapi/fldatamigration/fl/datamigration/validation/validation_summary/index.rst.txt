@@ -7,9 +7,10 @@
 Module Contents
 ---------------
 
+
 .. py:class:: ValidationSummary
 
-   .. method:: isValid(self)
+   .. method:: is_valid(self)
 
 
 
