@@ -13,6 +13,7 @@ Module Contents
    Bases: :class:`fl.datamigration.validation.validator.Validator`
 
    Class to validate if preprocessing data is complete
+
    :param all_data_dirs: all directories contained in directory <animal name>/<preprocessing>/<date>
    :type all_data_dirs: list of strings
    :param epochs: list of all epochs

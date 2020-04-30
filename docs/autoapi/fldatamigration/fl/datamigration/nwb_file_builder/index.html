@@ -167,7 +167,21 @@
 <dl class="py class">
 <dt id="fldatamigration.fl.datamigration.nwb_file_builder.NWBFileBuilder">
 <em class="property">class </em><code class="sig-name descname">NWBFileBuilder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_path</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">animal_name</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">date</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">nwb_metadata</span><span class="p">:</span> <span class="n">MetadataManager</span></em>, <em class="sig-param"><span class="n">process_dio</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_mda</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_analog</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">output_file</span><span class="p">:</span> <span class="n">str</span> <span class="o">=</span> <span class="default_value">'output.nwb'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb_file_builder.NWBFileBuilder" title="Permalink to this definition">¶</a></dt>
-<dd><p>unpack data from preprocessing folder specified by arguments, and write those data into NWB file format</p>
+<dd><p>Unpack data from preprocessing folder specified by arguments, and write those data into NWB file format</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_path</strong> (<em>string</em>) – path to directory containing all experiments data</p></li>
+<li><p><strong>animal_name</strong> (<em>string</em>) – directory name which represents animal subject of experiment</p></li>
+<li><p><strong>date</strong> (<em>string</em>) – date of experiment</p></li>
+<li><p><strong>nwb_metadata</strong> (<a class="reference internal" href="../../../../datamigration.metadata.html#datamigration.metadata.metadata_manager.MetadataManager" title="datamigration.metadata.metadata_manager.MetadataManager"><em>MetadataManager</em></a>) – object contains metadata about experiment</p></li>
+<li><p><strong>process_dio</strong> (<em>boolean</em>) – flag if dio data should be processed</p></li>
+<li><p><strong>process_mda</strong> (<em>boolean</em>) – flag if mda data should be processed</p></li>
+<li><p><strong>process_analog</strong> (<em>boolean</em>) – flag if analog data should be processed</p></li>
+<li><p><strong>output_file</strong> (<em>string</em>) – path and name specifying where .nwb file gonna be written</p></li>
+</ul>
+</dd>
+</dl>
 <dl class="py method">
 <dt id="fldatamigration.fl.datamigration.nwb_file_builder.NWBFileBuilder.extract_datasets">
 <code class="sig-name descname">extract_datasets</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">animal_name</span></em>, <em class="sig-param"><span class="n">date</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb_file_builder.NWBFileBuilder.extract_datasets" title="Permalink to this definition">¶</a></dt>
