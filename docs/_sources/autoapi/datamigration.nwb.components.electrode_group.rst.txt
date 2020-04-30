@@ -22,19 +22,19 @@ Submodules
    :show-inheritance:
 
 
+.. automodule:: datamigration.nwb.components.electrode_group.fl_electrode_group
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.electrode_group.fl_electrode_group_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: datamigration.nwb.components.electrode_group.fl_electrode_group_manager
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: datamigration.nwb.components.electrode_group.fl_nwb_electrode_group
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: datamigration.nwb.components.electrode_group.fl_nwb_electrode_group_builder
    :members:
    :undoc-members:
    :show-inheritance:

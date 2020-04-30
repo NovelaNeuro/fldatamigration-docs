@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: FlEpochsExtractor(continuous_time_files)
 
    .. method:: extract_epochs(self)

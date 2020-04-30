@@ -4,6 +4,16 @@
 .. py:module:: fldatamigration.fl.datamigration.nwb.components.device
 
 
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   shanks/index.rst
+   shanks_electrodes/index.rst
+
+
 Submodules
 ----------
 .. toctree::

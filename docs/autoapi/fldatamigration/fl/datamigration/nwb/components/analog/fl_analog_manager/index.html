@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager &mdash; fldatamigration 0.1.004 documentation</title>
+  <title>fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager &mdash; fldatamigration 0.1.006 documentation</title>
   
 
   
@@ -33,6 +33,7 @@
   
   <link rel="stylesheet" href="../../../../../../../../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../../../../../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../../../../_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="../../../../../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../../../../../search.html" /> 
 </head>
@@ -153,28 +154,28 @@
 <span id="fldatamigration-fl-datamigration-nwb-components-analog-fl-analog-manager"></span><h1><a class="reference internal" href="#module-fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager" title="fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager</span></code></a><a class="headerlink" href="#module-fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-contents">
 <h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
+<dl class="py class">
 <dt id="fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager">
-<em class="property">class </em><code class="sig-name descname">FlAnalogManager</code><span class="sig-paren">(</span><em class="sig-param">analog_files</em>, <em class="sig-param">continuous_time_files</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager" title="Permalink to this definition">¶</a></dt>
-<dd><dl class="method">
+<em class="property">class </em><code class="sig-name descname">FlAnalogManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">analog_files</span></em>, <em class="sig-param"><span class="n">continuous_time_files</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py method">
 <dt id="fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager.get_analog">
-<code class="sig-name descname">get_analog</code><span class="sig-paren">(</span><em class="sig-param">self</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager.get_analog" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_analog</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager.get_analog" title="Permalink to this definition">¶</a></dt>
 <dd><p>“extract data from analog files</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager.__merge_epochs">
-<em class="property">static </em><code class="sig-name descname">__merge_epochs</code><span class="sig-paren">(</span><em class="sig-param">data_from_multiple_datasets</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager.__merge_epochs" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">__merge_epochs</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_from_multiple_datasets</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager.__merge_epochs" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager.__merge_analog_sensors">
-<em class="property">classmethod </em><code class="sig-name descname">__merge_analog_sensors</code><span class="sig-paren">(</span><em class="sig-param">cls</em>, <em class="sig-param">merged_epochs</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager.__merge_analog_sensors" title="Permalink to this definition">¶</a></dt>
+<em class="property">classmethod </em><code class="sig-name descname">__merge_analog_sensors</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cls</span></em>, <em class="sig-param"><span class="n">merged_epochs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager.__merge_analog_sensors" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager.__get_timestamps">
-<em class="property">classmethod </em><code class="sig-name descname">__get_timestamps</code><span class="sig-paren">(</span><em class="sig-param">cls</em>, <em class="sig-param">merged_epochs</em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager.__get_timestamps" title="Permalink to this definition">¶</a></dt>
+<em class="property">classmethod </em><code class="sig-name descname">__get_timestamps</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cls</span></em>, <em class="sig-param"><span class="n">merged_epochs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.analog.fl_analog_manager.FlAnalogManager.__get_timestamps" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

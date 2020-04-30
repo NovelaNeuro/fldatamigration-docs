@@ -6,41 +6,19 @@ datamigration.nwb.components.electrodes package
    :undoc-members:
    :show-inheritance:
 
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   datamigration.nwb.components.electrodes.extension
+
 Submodules
 ----------
 
 
 .. automodule:: datamigration.nwb.components.electrodes.electrode_creator
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: datamigration.nwb.components.electrodes.electrode_extension_creator
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: datamigration.nwb.components.electrodes.electrode_extension_injector
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: datamigration.nwb.components.electrodes.electrode_metadata_extension_creator
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: datamigration.nwb.components.electrodes.electrode_ntrode_extension_creator
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: datamigration.nwb.components.electrodes.electrodes_header_extension_creator
    :members:
    :undoc-members:
    :show-inheritance:

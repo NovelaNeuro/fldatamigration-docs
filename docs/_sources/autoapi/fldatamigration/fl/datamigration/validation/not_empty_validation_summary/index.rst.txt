@@ -7,11 +7,12 @@
 Module Contents
 ---------------
 
+
 .. py:class:: NotEmptyValidationSummary(parameter)
 
    Bases: :class:`fl.datamigration.validation.validation_summary.ValidationSummary`
 
-   .. method:: isValid(self)
+   .. method:: is_valid(self)
 
 
 

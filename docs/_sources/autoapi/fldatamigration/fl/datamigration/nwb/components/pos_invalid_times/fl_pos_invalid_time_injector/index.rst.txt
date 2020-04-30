@@ -1,0 +1,25 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.pos_invalid_times.fl_pos_invalid_time_injector`
+=====================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.pos_invalid_times.fl_pos_invalid_time_injector
+
+
+Module Contents
+---------------
+
+
+.. py:class:: PosInvalidTimeInjector
+
+   .. method:: inject_all(gaps, nwb_content)
+      :staticmethod:
+
+
+
+   .. method:: inject(gap, nwb_content)
+      :staticmethod:
+
+
+      insert invalid times to nwb file
+
+
+

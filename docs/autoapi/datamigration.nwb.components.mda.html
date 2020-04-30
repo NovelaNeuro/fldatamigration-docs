@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>datamigration.nwb.components.mda package &mdash; fldatamigration 0.1.004 documentation</title>
+  <title>datamigration.nwb.components.mda package &mdash; fldatamigration 0.1.006 documentation</title>
   
 
   
@@ -33,9 +33,10 @@
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="datamigration.nwb.components.ntrodes package" href="datamigration.nwb.components.ntrodes.html" />
+    <link rel="next" title="datamigration.nwb.components.mda_invalid_times package" href="datamigration.nwb.components.mda_invalid_times.html" />
     <link rel="prev" title="datamigration.nwb.components.iterator package" href="datamigration.nwb.components.iterator.html" /> 
 </head>
 
@@ -179,96 +180,96 @@
 <span id="datamigration-nwb-components-mda-package"></span><h1>datamigration.nwb.components.mda package<a class="headerlink" href="#module-datamigration.nwb.components.mda" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-datamigration.nwb.components.mda.electrical_series_creator">
 <span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-datamigration.nwb.components.mda.electrical_series_creator" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
+<dl class="py class">
 <dt id="datamigration.nwb.components.mda.electrical_series_creator.ElectricalSeriesCreator">
 <em class="property">class </em><code class="sig-name descname">ElectricalSeriesCreator</code><a class="headerlink" href="#datamigration.nwb.components.mda.electrical_series_creator.ElectricalSeriesCreator" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.mda.electrical_series_creator.ElectricalSeriesCreator.create_mda">
-<em class="property">classmethod </em><code class="sig-name descname">create_mda</code><span class="sig-paren">(</span><em class="sig-param">fl_mda</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.electrical_series_creator.ElectricalSeriesCreator.create_mda" title="Permalink to this definition">¶</a></dt>
+<em class="property">classmethod </em><code class="sig-name descname">create_mda</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">fl_mda</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.electrical_series_creator.ElectricalSeriesCreator.create_mda" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.mda.fl_mda"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.mda.fl_mda"></span><dl class="py class">
 <dt id="datamigration.nwb.components.mda.fl_mda.FlMda">
-<em class="property">class </em><code class="sig-name descname">FlMda</code><span class="sig-paren">(</span><em class="sig-param">sampling_rate</em>, <em class="sig-param">electrode_table_region</em>, <em class="sig-param">mda_data</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.fl_mda.FlMda" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlMda</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sampling_rate</span></em>, <em class="sig-param"><span class="n">electrode_table_region</span></em>, <em class="sig-param"><span class="n">mda_data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.fl_mda.FlMda" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.mda.fl_mda_builder"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.mda.fl_mda_builder"></span><dl class="py class">
 <dt id="datamigration.nwb.components.mda.fl_mda_builder.FlMdaBuilder">
-<em class="property">class </em><code class="sig-name descname">FlMdaBuilder</code><span class="sig-paren">(</span><em class="sig-param">sampling_rate</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.fl_mda_builder.FlMdaBuilder" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlMdaBuilder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sampling_rate</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.fl_mda_builder.FlMdaBuilder" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.mda.fl_mda_builder.FlMdaBuilder.build">
-<code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param">electrode_table_region</em>, <em class="sig-param">data</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.fl_mda_builder.FlMdaBuilder.build" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">electrode_table_region</span></em>, <em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.fl_mda_builder.FlMdaBuilder.build" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.mda.fl_mda_extractor"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.mda.fl_mda_extractor"></span><dl class="py class">
 <dt id="datamigration.nwb.components.mda.fl_mda_extractor.FlMdaExtractor">
-<em class="property">class </em><code class="sig-name descname">FlMdaExtractor</code><span class="sig-paren">(</span><em class="sig-param">datasets</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.fl_mda_extractor.FlMdaExtractor" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlMdaExtractor</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">datasets</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.fl_mda_extractor.FlMdaExtractor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.mda.fl_mda_extractor.FlMdaExtractor.get_data">
 <code class="sig-name descname">get_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.fl_mda_extractor.FlMdaExtractor.get_data" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.mda.fl_mda_manager"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.mda.fl_mda_manager"></span><dl class="py class">
 <dt id="datamigration.nwb.components.mda.fl_mda_manager.FlMdaManager">
-<em class="property">class </em><code class="sig-name descname">FlMdaManager</code><span class="sig-paren">(</span><em class="sig-param">nwb_content</em>, <em class="sig-param">sampling_rate</em>, <em class="sig-param">datasets</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.fl_mda_manager.FlMdaManager" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlMdaManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nwb_content</span></em>, <em class="sig-param"><span class="n">sampling_rate</span></em>, <em class="sig-param"><span class="n">datasets</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.fl_mda_manager.FlMdaManager" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.mda.fl_mda_manager.FlMdaManager.get_data">
 <code class="sig-name descname">get_data</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.fl_mda_manager.FlMdaManager.get_data" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.mda.mda_content"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.mda.mda_content"></span><dl class="py class">
 <dt id="datamigration.nwb.components.mda.mda_content.MdaContent">
-<em class="property">class </em><code class="sig-name descname">MdaContent</code><span class="sig-paren">(</span><em class="sig-param">mda_data</em>, <em class="sig-param">mda_timestamps</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.mda_content.MdaContent" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">MdaContent</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">mda_data</span></em>, <em class="sig-param"><span class="n">mda_timestamps</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.mda_content.MdaContent" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.mda.mda_data_manager"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.mda.mda_data_manager"></span><dl class="py class">
 <dt id="datamigration.nwb.components.mda.mda_data_manager.MdaDataManager">
-<em class="property">class </em><code class="sig-name descname">MdaDataManager</code><span class="sig-paren">(</span><em class="sig-param">directories</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.mda_data_manager.MdaDataManager" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">MdaDataManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">directories</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.mda_data_manager.MdaDataManager" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">fl.datamigration.nwb.common.data_manager.DataManager</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.mda.mda_data_manager.MdaDataManager.read_data">
-<code class="sig-name descname">read_data</code><span class="sig-paren">(</span><em class="sig-param">dataset_id</em>, <em class="sig-param">file_id</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.mda_data_manager.MdaDataManager.read_data" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">read_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dataset_id</span></em>, <em class="sig-param"><span class="n">file_id</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.mda_data_manager.MdaDataManager.read_data" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.mda.mda_injector"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.mda.mda_injector"></span><dl class="py class">
 <dt id="datamigration.nwb.components.mda.mda_injector.MdaInjector">
 <em class="property">class </em><code class="sig-name descname">MdaInjector</code><a class="headerlink" href="#datamigration.nwb.components.mda.mda_injector.MdaInjector" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.mda.mda_injector.MdaInjector.inject_mda">
-<em class="property">static </em><code class="sig-name descname">inject_mda</code><span class="sig-paren">(</span><em class="sig-param">electrical_series</em>, <em class="sig-param">nwb_content</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.mda_injector.MdaInjector.inject_mda" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">inject_mda</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">electrical_series</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.mda_injector.MdaInjector.inject_mda" title="Permalink to this definition">¶</a></dt>
 <dd><p>insert electrical series to nwb file</p>
 </dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.mda.mda_timestamp_manager"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.mda.mda_timestamp_manager"></span><dl class="py class">
 <dt id="datamigration.nwb.components.mda.mda_timestamp_manager.MdaTimestampDataManager">
-<em class="property">class </em><code class="sig-name descname">MdaTimestampDataManager</code><span class="sig-paren">(</span><em class="sig-param">directories</em>, <em class="sig-param">continuous_time_directories</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.mda_timestamp_manager.MdaTimestampDataManager" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">MdaTimestampDataManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">directories</span></em>, <em class="sig-param"><span class="n">continuous_time_directories</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.mda_timestamp_manager.MdaTimestampDataManager" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">fl.datamigration.nwb.common.timestamps_manager.TimestampManager</span></code></p>
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.mda.table_region_builder"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.mda.table_region_builder"></span><dl class="py class">
 <dt id="datamigration.nwb.components.mda.table_region_builder.TableRegionBuilder">
-<em class="property">class </em><code class="sig-name descname">TableRegionBuilder</code><span class="sig-paren">(</span><em class="sig-param">nwb_content</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.table_region_builder.TableRegionBuilder" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">TableRegionBuilder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.table_region_builder.TableRegionBuilder" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.mda.table_region_builder.TableRegionBuilder.build">
 <code class="sig-name descname">build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda.table_region_builder.TableRegionBuilder.build" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
@@ -286,7 +287,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="datamigration.nwb.components.ntrodes.html" class="btn btn-neutral float-right" title="datamigration.nwb.components.ntrodes package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="datamigration.nwb.components.mda_invalid_times.html" class="btn btn-neutral float-right" title="datamigration.nwb.components.mda_invalid_times package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="datamigration.nwb.components.iterator.html" class="btn btn-neutral float-left" title="datamigration.nwb.components.iterator package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

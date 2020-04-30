@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: TaskNamesExtractor(tasks)
 
    .. method:: get_task_names(self)

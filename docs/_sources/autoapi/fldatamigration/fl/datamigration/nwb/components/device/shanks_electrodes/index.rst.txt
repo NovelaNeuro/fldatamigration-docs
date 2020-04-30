@@ -1,0 +1,18 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.device.shanks_electrodes`
+===============================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.device.shanks_electrodes
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   fl_shanks_electrode/index.rst
+   fl_shanks_electrode_builder/index.rst
+   fl_shanks_electrode_manager/index.rst
+   shanks_electrode_creator/index.rst
+
+

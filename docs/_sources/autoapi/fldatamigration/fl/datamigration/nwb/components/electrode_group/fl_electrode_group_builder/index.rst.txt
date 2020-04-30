@@ -1,0 +1,18 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.electrode_group.fl_electrode_group_builder`
+=================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.electrode_group.fl_electrode_group_builder
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlElectrodeGroupBuilder
+
+   .. method:: build(metadata, device)
+      :staticmethod:
+
+
+
+

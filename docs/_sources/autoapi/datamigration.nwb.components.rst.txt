@@ -10,6 +10,7 @@ Subpackages
 -----------
 
 .. toctree::
+   :maxdepth: 4
 
    datamigration.nwb.components.analog
    datamigration.nwb.components.apparatus
@@ -20,7 +21,9 @@ Subpackages
    datamigration.nwb.components.epochs
    datamigration.nwb.components.iterator
    datamigration.nwb.components.mda
+   datamigration.nwb.components.mda_invalid_times
    datamigration.nwb.components.ntrodes
+   datamigration.nwb.components.pos_invalid_times
    datamigration.nwb.components.position
    datamigration.nwb.components.processing_module
    datamigration.nwb.components.table_region

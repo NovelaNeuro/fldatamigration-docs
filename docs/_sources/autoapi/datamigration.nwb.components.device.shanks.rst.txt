@@ -1,0 +1,35 @@
+datamigration.nwb.components.device.shanks package
+==================================================
+
+.. automodule:: datamigration.nwb.components.device.shanks
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: datamigration.nwb.components.device.shanks.fl_shank
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.device.shanks.fl_shank_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.device.shanks.fl_shank_manager
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: datamigration.nwb.components.device.shanks.shank_creator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

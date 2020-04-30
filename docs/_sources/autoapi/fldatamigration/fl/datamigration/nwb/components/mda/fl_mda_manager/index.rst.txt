@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: FlMdaManager(nwb_content, sampling_rate, datasets)
 
    .. method:: get_data(self)

@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: HeaderComparator(xml_headers)
 
    .. method:: compare(self)

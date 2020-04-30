@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>datamigration.metadata package &mdash; fldatamigration 0.1.004 documentation</title>
+  <title>datamigration.metadata package &mdash; fldatamigration 0.1.006 documentation</title>
   
 
   
@@ -33,6 +33,7 @@
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="datamigration.nwb package" href="datamigration.nwb.html" />
@@ -171,29 +172,21 @@
 <span id="datamigration-metadata-package"></span><h1>datamigration.metadata package<a class="headerlink" href="#module-datamigration.metadata" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-datamigration.metadata.metadata_extractor">
 <span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-datamigration.metadata.metadata_extractor" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
+<dl class="py class">
 <dt id="datamigration.metadata.metadata_extractor.MetadataExtractor">
 <em class="property">class </em><code class="sig-name descname">MetadataExtractor</code><a class="headerlink" href="#datamigration.metadata.metadata_extractor.MetadataExtractor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.metadata.metadata_extractor.MetadataExtractor.extract_metadata">
-<em class="property">static </em><code class="sig-name descname">extract_metadata</code><span class="sig-paren">(</span><em class="sig-param">metadata_path</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.metadata.metadata_extractor.MetadataExtractor.extract_metadata" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">extract_metadata</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">metadata_path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.metadata.metadata_extractor.MetadataExtractor.extract_metadata" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.metadata.metadata_manager"></span><dl class="class">
+<span class="target" id="module-datamigration.metadata.metadata_manager"></span><dl class="py class">
 <dt id="datamigration.metadata.metadata_manager.MetadataManager">
-<em class="property">class </em><code class="sig-name descname">MetadataManager</code><span class="sig-paren">(</span><em class="sig-param">metadata_path</em>, <em class="sig-param">probes_paths</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.metadata.metadata_manager.MetadataManager" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">MetadataManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">metadata_path</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">probes_paths</span><span class="p">:</span> <span class="n">list</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.metadata.metadata_manager.MetadataManager" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><ul class="simple">
-<li><p><strong>metadata_path</strong> (<em>string</em>) – path to file .yml with metadata describing experiment</p></li>
-<li><p><strong>probes_paths</strong> (<em>list of strings</em>) – list of paths to .yml files with data describing probes used in experiment</p></li>
-</ul>
-</dd>
-</dl>
 </dd></dl>
 
 </div>

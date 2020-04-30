@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>datamigration.nwb.components.iterator package &mdash; fldatamigration 0.1.004 documentation</title>
+  <title>datamigration.nwb.components.iterator package &mdash; fldatamigration 0.1.006 documentation</title>
   
 
   
@@ -33,6 +33,7 @@
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="datamigration.nwb.components.mda package" href="datamigration.nwb.components.mda.html" />
@@ -179,11 +180,11 @@
 <span id="datamigration-nwb-components-iterator-package"></span><h1>datamigration.nwb.components.iterator package<a class="headerlink" href="#module-datamigration.nwb.components.iterator" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-datamigration.nwb.components.iterator.data_iterator">
 <span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-datamigration.nwb.components.iterator.data_iterator" title="Permalink to this headline">¶</a></h2>
-<dl class="class">
+<dl class="py class">
 <dt id="datamigration.nwb.components.iterator.data_iterator.DataIterator">
-<em class="property">class </em><code class="sig-name descname">DataIterator</code><span class="sig-paren">(</span><em class="sig-param">data</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.data_iterator.DataIterator" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">DataIterator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.data_iterator.DataIterator" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">hdmf.data_utils.AbstractDataChunkIterator</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.data_iterator.DataIterator.dtype">
 <em class="property">property </em><code class="sig-name descname">dtype</code><a class="headerlink" href="#datamigration.nwb.components.iterator.data_iterator.DataIterator.dtype" title="Permalink to this definition">¶</a></dt>
 <dd><p>Define the data type of the array</p>
@@ -194,12 +195,12 @@
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.data_iterator.DataIterator.get_selection">
-<em class="property">static </em><code class="sig-name descname">get_selection</code><span class="sig-paren">(</span><em class="sig-param">number_of_threads</em>, <em class="sig-param">current_dataset</em>, <em class="sig-param">dataset_file_length</em>, <em class="sig-param">current_file</em>, <em class="sig-param">number_of_rows</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.data_iterator.DataIterator.get_selection" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">get_selection</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">number_of_threads</span></em>, <em class="sig-param"><span class="n">current_dataset</span></em>, <em class="sig-param"><span class="n">dataset_file_length</span></em>, <em class="sig-param"><span class="n">current_file</span></em>, <em class="sig-param"><span class="n">number_of_rows</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.data_iterator.DataIterator.get_selection" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.data_iterator.DataIterator.maxshape">
 <em class="property">property </em><code class="sig-name descname">maxshape</code><a class="headerlink" href="#datamigration.nwb.components.iterator.data_iterator.DataIterator.maxshape" title="Permalink to this definition">¶</a></dt>
 <dd><p>Property describing the maximum shape of the data array that is being iterated over</p>
@@ -211,7 +212,7 @@ resized. Axes with None are unlimited.</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.data_iterator.DataIterator.recommended_chunk_shape">
 <code class="sig-name descname">recommended_chunk_shape</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.data_iterator.DataIterator.recommended_chunk_shape" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recommend the chunk shape for the data array.</p>
@@ -224,7 +225,7 @@ iteration process.</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.data_iterator.DataIterator.recommended_data_shape">
 <code class="sig-name descname">recommended_data_shape</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.data_iterator.DataIterator.recommended_data_shape" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recommend the initial shape for the data array.</p>
@@ -242,16 +243,16 @@ to grow. This should not be None.</p>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.iterator.multi_thread_data_iterator"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.iterator.multi_thread_data_iterator"></span><dl class="py class">
 <dt id="datamigration.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator">
-<em class="property">class </em><code class="sig-name descname">MultiThreadDataIterator</code><span class="sig-paren">(</span><em class="sig-param">data</em>, <em class="sig-param">number_of_threads=6</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">MultiThreadDataIterator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">number_of_threads</span><span class="o">=</span><span class="default_value">6</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">fl.datamigration.nwb.components.iterator.data_iterator.DataIterator</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator.get_data_from_file">
-<em class="property">static </em><code class="sig-name descname">get_data_from_file</code><span class="sig-paren">(</span><em class="sig-param">data</em>, <em class="sig-param">current_dataset</em>, <em class="sig-param">current_file</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator.get_data_from_file" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">get_data_from_file</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">current_dataset</span></em>, <em class="sig-param"><span class="n">current_file</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator.get_data_from_file" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator.next">
 <code class="sig-name descname">next</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator.next" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the next data chunk or raise a StopIteration exception if all chunks have been retrieved.</p>
@@ -269,11 +270,11 @@ is often useful to define the DataChunk.selection of the current chunk</p>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.iterator.multi_thread_timestamp_iterator"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.iterator.multi_thread_timestamp_iterator"></span><dl class="py class">
 <dt id="datamigration.nwb.components.iterator.multi_thread_timestamp_iterator.MultiThreadTimestampIterator">
-<em class="property">class </em><code class="sig-name descname">MultiThreadTimestampIterator</code><span class="sig-paren">(</span><em class="sig-param">data</em>, <em class="sig-param">number_of_threads=6</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.multi_thread_timestamp_iterator.MultiThreadTimestampIterator" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">MultiThreadTimestampIterator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">number_of_threads</span><span class="o">=</span><span class="default_value">6</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.multi_thread_timestamp_iterator.MultiThreadTimestampIterator" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.multi_thread_timestamp_iterator.MultiThreadTimestampIterator.next">
 <code class="sig-name descname">next</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.multi_thread_timestamp_iterator.MultiThreadTimestampIterator.next" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the next data chunk or raise a StopIteration exception if all chunks have been retrieved.</p>
@@ -291,11 +292,11 @@ is often useful to define the DataChunk.selection of the current chunk</p>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.iterator.single_thread_data_iterator"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.iterator.single_thread_data_iterator"></span><dl class="py class">
 <dt id="datamigration.nwb.components.iterator.single_thread_data_iterator.SingleThreadDataIterator">
-<em class="property">class </em><code class="sig-name descname">SingleThreadDataIterator</code><span class="sig-paren">(</span><em class="sig-param">data</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.single_thread_data_iterator.SingleThreadDataIterator" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">SingleThreadDataIterator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.single_thread_data_iterator.SingleThreadDataIterator" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">fl.datamigration.nwb.components.iterator.data_iterator.DataIterator</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.single_thread_data_iterator.SingleThreadDataIterator.next">
 <code class="sig-name descname">next</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.single_thread_data_iterator.SingleThreadDataIterator.next" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the next data chunk or raise a StopIteration exception if all chunks have been retrieved.</p>
@@ -313,11 +314,11 @@ is often useful to define the DataChunk.selection of the current chunk</p>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.iterator.single_thread_timestamp_iterator"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.iterator.single_thread_timestamp_iterator"></span><dl class="py class">
 <dt id="datamigration.nwb.components.iterator.single_thread_timestamp_iterator.SingleThreadTimestampIterator">
-<em class="property">class </em><code class="sig-name descname">SingleThreadTimestampIterator</code><span class="sig-paren">(</span><em class="sig-param">data</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.single_thread_timestamp_iterator.SingleThreadTimestampIterator" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">SingleThreadTimestampIterator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.single_thread_timestamp_iterator.SingleThreadTimestampIterator" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">fl.datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.single_thread_timestamp_iterator.SingleThreadTimestampIterator.next">
 <code class="sig-name descname">next</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.single_thread_timestamp_iterator.SingleThreadTimestampIterator.next" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the next data chunk or raise a StopIteration exception if all chunks have been retrieved.</p>
@@ -335,11 +336,11 @@ is often useful to define the DataChunk.selection of the current chunk</p>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.nwb.components.iterator.timestamp_iterator"></span><dl class="class">
+<span class="target" id="module-datamigration.nwb.components.iterator.timestamp_iterator"></span><dl class="py class">
 <dt id="datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator">
-<em class="property">class </em><code class="sig-name descname">TimestampIterator</code><span class="sig-paren">(</span><em class="sig-param">data</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">TimestampIterator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">hdmf.data_utils.AbstractDataChunkIterator</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">abc.ABC</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.dtype">
 <em class="property">property </em><code class="sig-name descname">dtype</code><a class="headerlink" href="#datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.dtype" title="Permalink to this definition">¶</a></dt>
 <dd><p>Define the data type of the array</p>
@@ -350,12 +351,12 @@ is often useful to define the DataChunk.selection of the current chunk</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.get_data_from_file">
-<em class="property">static </em><code class="sig-name descname">get_data_from_file</code><span class="sig-paren">(</span><em class="sig-param">data</em>, <em class="sig-param">current_dataset</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.get_data_from_file" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">get_data_from_file</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">current_dataset</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.get_data_from_file" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.maxshape">
 <em class="property">property </em><code class="sig-name descname">maxshape</code><a class="headerlink" href="#datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.maxshape" title="Permalink to this definition">¶</a></dt>
 <dd><p>Property describing the maximum shape of the data array that is being iterated over</p>
@@ -367,7 +368,7 @@ resized. Axes with None are unlimited.</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.recommended_chunk_shape">
 <code class="sig-name descname">recommended_chunk_shape</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.recommended_chunk_shape" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recommend the chunk shape for the data array.</p>
@@ -380,7 +381,7 @@ iteration process.</p>
 </dl>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.recommended_data_shape">
 <code class="sig-name descname">recommended_data_shape</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.iterator.timestamp_iterator.TimestampIterator.recommended_data_shape" title="Permalink to this definition">¶</a></dt>
 <dd><p>Recommend the initial shape for the data array.</p>

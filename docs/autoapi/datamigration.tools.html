@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>datamigration.tools package &mdash; fldatamigration 0.1.004 documentation</title>
+  <title>datamigration.tools package &mdash; fldatamigration 0.1.006 documentation</title>
   
 
   
@@ -33,9 +33,10 @@
   
   <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="datamigration.validation package" href="datamigration.validation.html" />
+    <link rel="next" title="datamigration.tools.beartype package" href="datamigration.tools.beartype.html" />
     <link rel="prev" title="datamigration.processing package" href="datamigration.processing.html" /> 
 </head>
 
@@ -91,7 +92,10 @@
 <li class="toctree-l3"><a class="reference internal" href="datamigration.metadata.html">datamigration.metadata package</a></li>
 <li class="toctree-l3"><a class="reference internal" href="datamigration.nwb.html">datamigration.nwb package</a></li>
 <li class="toctree-l3"><a class="reference internal" href="datamigration.processing.html">datamigration.processing package</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">datamigration.tools package</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">datamigration.tools package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="datamigration.tools.beartype.html">datamigration.tools.beartype package</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="datamigration.validation.html">datamigration.validation package</a></li>
 </ul>
 </li>
@@ -169,6 +173,17 @@
             
   <div class="section" id="module-datamigration.tools">
 <span id="datamigration-tools-package"></span><h1>datamigration.tools package<a class="headerlink" href="#module-datamigration.tools" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="datamigration.tools.beartype.html">datamigration.tools.beartype package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="datamigration.tools.beartype.html#module-datamigration.tools.beartype.beartype">Submodules</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 <div class="section" id="module-datamigration.tools.abstract_file_downloader">
 <span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-datamigration.tools.abstract_file_downloader" title="Permalink to this headline">¶</a></h2>
 <p>Module with Interface to download a file</p>
@@ -176,7 +191,7 @@
 <dt>Class:</dt><dd><p>AbstractFileDownloader()</p>
 </dd>
 </dl>
-<dl class="class">
+<dl class="py class">
 <dt id="datamigration.tools.abstract_file_downloader.AbstractFileDownloader">
 <em class="property">class </em><code class="sig-name descname">AbstractFileDownloader</code><a class="headerlink" href="#datamigration.tools.abstract_file_downloader.AbstractFileDownloader" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
@@ -186,103 +201,103 @@
 start_downloading()</p>
 </dd>
 </dl>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.abstract_file_downloader.AbstractFileDownloader.download_file">
-<em class="property">abstract </em><code class="sig-name descname">download_file</code><span class="sig-paren">(</span><em class="sig-param">url</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.abstract_file_downloader.AbstractFileDownloader.download_file" title="Permalink to this definition">¶</a></dt>
+<em class="property">abstract </em><code class="sig-name descname">download_file</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.abstract_file_downloader.AbstractFileDownloader.download_file" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check parameters and call start_downloading(url)</p>
 <p>:param : param url: custom url to file</p>
 </dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.abstract_file_downloader.AbstractFileDownloader.start_downloading">
-<em class="property">abstract </em><code class="sig-name descname">start_downloading</code><span class="sig-paren">(</span><em class="sig-param">url</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.abstract_file_downloader.AbstractFileDownloader.start_downloading" title="Permalink to this definition">¶</a></dt>
+<em class="property">abstract </em><code class="sig-name descname">start_downloading</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.abstract_file_downloader.AbstractFileDownloader.start_downloading" title="Permalink to this definition">¶</a></dt>
 <dd><p>Start downloading from url</p>
 <p>:param : param url: url to file</p>
 </dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.tools.data_scanner"></span><dl class="class">
+<span class="target" id="module-datamigration.tools.data_scanner"></span><dl class="py class">
 <dt id="datamigration.tools.data_scanner.DataScanner">
-<em class="property">class </em><code class="sig-name descname">DataScanner</code><span class="sig-paren">(</span><em class="sig-param">data_path</em>, <em class="sig-param">animal_name</em>, <em class="sig-param">nwb_metadata</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">DataScanner</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_path</span></em>, <em class="sig-param"><span class="n">animal_name</span></em>, <em class="sig-param"><span class="n">nwb_metadata</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.data_scanner.DataScanner.extract_data_from_all_dates_folders">
 <code class="sig-name descname">extract_data_from_all_dates_folders</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.extract_data_from_all_dates_folders" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.data_scanner.DataScanner.extract_data_from_date_folder">
-<code class="sig-name descname">extract_data_from_date_folder</code><span class="sig-paren">(</span><em class="sig-param">date</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.extract_data_from_date_folder" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">extract_data_from_date_folder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">date</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.extract_data_from_date_folder" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.data_scanner.DataScanner.extract_data_from_dates_folders">
-<code class="sig-name descname">extract_data_from_dates_folders</code><span class="sig-paren">(</span><em class="sig-param">dates</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.extract_data_from_dates_folders" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">extract_data_from_dates_folders</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dates</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.extract_data_from_dates_folders" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.data_scanner.DataScanner.get_all_animals">
 <code class="sig-name descname">get_all_animals</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.get_all_animals" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.data_scanner.DataScanner.get_all_data_from_dataset">
-<code class="sig-name descname">get_all_data_from_dataset</code><span class="sig-paren">(</span><em class="sig-param">date</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.get_all_data_from_dataset" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_all_data_from_dataset</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">date</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.get_all_data_from_dataset" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.data_scanner.DataScanner.get_all_datasets">
-<code class="sig-name descname">get_all_datasets</code><span class="sig-paren">(</span><em class="sig-param">animal</em>, <em class="sig-param">date</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.get_all_datasets" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_all_datasets</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">animal</span></em>, <em class="sig-param"><span class="n">date</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.get_all_datasets" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.data_scanner.DataScanner.get_all_epochs">
-<code class="sig-name descname">get_all_epochs</code><span class="sig-paren">(</span><em class="sig-param">date</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.get_all_epochs" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_all_epochs</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">date</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.get_all_epochs" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.data_scanner.DataScanner.get_all_experiment_dates">
-<code class="sig-name descname">get_all_experiment_dates</code><span class="sig-paren">(</span><em class="sig-param">animal</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.get_all_experiment_dates" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_all_experiment_dates</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">animal</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.get_all_experiment_dates" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.data_scanner.DataScanner.get_mda_timestamps">
-<code class="sig-name descname">get_mda_timestamps</code><span class="sig-paren">(</span><em class="sig-param">animal</em>, <em class="sig-param">date</em>, <em class="sig-param">dataset</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.get_mda_timestamps" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_mda_timestamps</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">animal</span></em>, <em class="sig-param"><span class="n">date</span></em>, <em class="sig-param"><span class="n">dataset</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.get_mda_timestamps" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.data_scanner.DataScanner.get_probes_from_directory">
-<em class="property">static </em><code class="sig-name descname">get_probes_from_directory</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.get_probes_from_directory" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">get_probes_from_directory</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">path</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.data_scanner.DataScanner.get_probes_from_directory" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.tools.dataset"></span><dl class="class">
+<span class="target" id="module-datamigration.tools.dataset"></span><dl class="py class">
 <dt id="datamigration.tools.dataset.Dataset">
-<em class="property">class </em><code class="sig-name descname">Dataset</code><span class="sig-paren">(</span><em class="sig-param">name</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.dataset.Dataset" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">Dataset</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.dataset.Dataset" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.dataset.Dataset.add_data_to_dataset">
-<code class="sig-name descname">add_data_to_dataset</code><span class="sig-paren">(</span><em class="sig-param">folder_path</em>, <em class="sig-param">data_type</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.dataset.Dataset.add_data_to_dataset" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">add_data_to_dataset</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">folder_path</span></em>, <em class="sig-param"><span class="n">data_type</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.dataset.Dataset.add_data_to_dataset" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.dataset.Dataset.get_all_data_from_dataset">
-<code class="sig-name descname">get_all_data_from_dataset</code><span class="sig-paren">(</span><em class="sig-param">data_type</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.dataset.Dataset.get_all_data_from_dataset" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_all_data_from_dataset</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_type</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.dataset.Dataset.get_all_data_from_dataset" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.dataset.Dataset.get_continuous_time">
 <code class="sig-name descname">get_continuous_time</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.dataset.Dataset.get_continuous_time" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.dataset.Dataset.get_data_path_from_dataset">
-<code class="sig-name descname">get_data_path_from_dataset</code><span class="sig-paren">(</span><em class="sig-param">data_type</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.dataset.Dataset.get_data_path_from_dataset" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_data_path_from_dataset</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_type</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.dataset.Dataset.get_data_path_from_dataset" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.dataset.Dataset.get_mda_timestamps">
 <code class="sig-name descname">get_mda_timestamps</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.dataset.Dataset.get_mda_timestamps" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
@@ -294,17 +309,17 @@ start_downloading()</p>
 <dt>Class:</dt><dd><p>FileDownloader()</p>
 </dd>
 </dl>
-<dl class="class">
+<dl class="py class">
 <dt id="datamigration.tools.file_downloader.FileDownloader">
-<em class="property">class </em><code class="sig-name descname">FileDownloader</code><span class="sig-paren">(</span><em class="sig-param">url='https://www.dropbox.com/s/a7ddruxoffgbe7y/AC13_d27_WhereAreWeNow.rec?dl=1'</em>, <em class="sig-param">download_path='../data/file.rec'</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.file_downloader.FileDownloader" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FileDownloader</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span><span class="o">=</span><span class="default_value">'https://www.dropbox.com/s/a7ddruxoffgbe7y/AC13_d27_WhereAreWeNow.rec?dl=1'</span></em>, <em class="sig-param"><span class="n">download_path</span><span class="o">=</span><span class="default_value">'../data/file.rec'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.file_downloader.FileDownloader" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">fl.datamigration.tools.abstract_file_downloader.AbstractFileDownloader</span></code></p>
 <p>Class to download a file</p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.file_downloader.FileDownloader.download_file">
 <code class="sig-name descname">download_file</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.file_downloader.FileDownloader.download_file" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.file_downloader.FileDownloader.start_downloading">
 <code class="sig-name descname">start_downloading</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.file_downloader.FileDownloader.start_downloading" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
@@ -320,9 +335,9 @@ start_downloading()</p>
 </dl>
 </dd>
 </dl>
-<dl class="method">
-<dt>
-<code class="sig-name descname">download_file</code><span class="sig-paren">(</span><em class="sig-param">url=''</em><span class="sig-paren">)</span></dt>
+<dl class="py method">
+<dt id="id0">
+<code class="sig-name descname">download_file</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span><span class="o">=</span><span class="default_value">''</span></em><span class="sig-paren">)</span><a class="headerlink" href="#id0" title="Permalink to this definition">¶</a></dt>
 <dd><p>Check if User type custom url. If yes, start downloading,
 if no check if file already exist.
 If no, start downloading from default url.</p>
@@ -338,50 +353,50 @@ If no, start downloading from default url.</p>
 </div></blockquote>
 </dd></dl>
 
-<dl class="method">
-<dt>
-<code class="sig-name descname">start_downloading</code><span class="sig-paren">(</span><em class="sig-param">url</em><span class="sig-paren">)</span></dt>
+<dl class="py method">
+<dt id="id1">
+<code class="sig-name descname">start_downloading</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="headerlink" href="#id1" title="Permalink to this definition">¶</a></dt>
 <dd><p>Start downloading from url and save file to default path</p>
 <p>:param : param url: url to file</p>
 </dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.tools.file_sorter"></span><dl class="class">
+<span class="target" id="module-datamigration.tools.file_sorter"></span><dl class="py class">
 <dt id="datamigration.tools.file_sorter.FileSorter">
 <em class="property">class </em><code class="sig-name descname">FileSorter</code><a class="headerlink" href="#datamigration.tools.file_sorter.FileSorter" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.file_sorter.FileSorter.sort_filenames">
-<em class="property">static </em><code class="sig-name descname">sort_filenames</code><span class="sig-paren">(</span><em class="sig-param">filenames</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.file_sorter.FileSorter.sort_filenames" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">sort_filenames</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">filenames</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.file_sorter.FileSorter.sort_filenames" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.tools.filter_probe_by_type"></span><dl class="function">
+<span class="target" id="module-datamigration.tools.filter_probe_by_type"></span><dl class="py function">
 <dt id="datamigration.tools.filter_probe_by_type.filter_probe_by_type">
-<code class="sig-name descname">filter_probe_by_type</code><span class="sig-paren">(</span><em class="sig-param">probes_content</em>, <em class="sig-param">device_type</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.filter_probe_by_type.filter_probe_by_type" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">filter_probe_by_type</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">probes_content</span></em>, <em class="sig-param"><span class="n">device_type</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.filter_probe_by_type.filter_probe_by_type" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<span class="target" id="module-datamigration.tools.task_names_extractor"></span><dl class="class">
+<span class="target" id="module-datamigration.tools.task_names_extractor"></span><dl class="py class">
 <dt id="datamigration.tools.task_names_extractor.TaskNamesExtractor">
-<em class="property">class </em><code class="sig-name descname">TaskNamesExtractor</code><span class="sig-paren">(</span><em class="sig-param">tasks</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.task_names_extractor.TaskNamesExtractor" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">TaskNamesExtractor</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">tasks</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.task_names_extractor.TaskNamesExtractor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
-<dl class="method">
+<dl class="py method">
 <dt id="datamigration.tools.task_names_extractor.TaskNamesExtractor.get_task_names">
 <code class="sig-name descname">get_task_names</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.task_names_extractor.TaskNamesExtractor.get_task_names" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
-<span class="target" id="module-datamigration.tools.validate_parameters"></span><dl class="function">
+<span class="target" id="module-datamigration.tools.validate_parameters"></span><dl class="py function">
 <dt id="datamigration.tools.validate_parameters.validate_parameters_equal_length">
-<code class="sig-name descname">validate_parameters_equal_length</code><span class="sig-paren">(</span><em class="sig-param">class_name</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.validate_parameters.validate_parameters_equal_length" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">validate_parameters_equal_length</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">class_name</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.validate_parameters.validate_parameters_equal_length" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
-<dl class="function">
+<dl class="py function">
 <dt id="datamigration.tools.validate_parameters.validate_parameters_not_none">
-<code class="sig-name descname">validate_parameters_not_none</code><span class="sig-paren">(</span><em class="sig-param">class_name</em>, <em class="sig-param">*args</em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.validate_parameters.validate_parameters_not_none" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">validate_parameters_not_none</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">class_name</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.tools.validate_parameters.validate_parameters_not_none" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </div>
@@ -395,7 +410,7 @@ If no, start downloading from default url.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="datamigration.validation.html" class="btn btn-neutral float-right" title="datamigration.validation package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="datamigration.tools.beartype.html" class="btn btn-neutral float-right" title="datamigration.tools.beartype package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="datamigration.processing.html" class="btn btn-neutral float-left" title="datamigration.processing package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

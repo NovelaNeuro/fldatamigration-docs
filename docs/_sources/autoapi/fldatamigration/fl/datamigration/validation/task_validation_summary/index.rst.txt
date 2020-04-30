@@ -7,11 +7,12 @@
 Module Contents
 ---------------
 
-.. py:class:: TaskValidationSummary(number_of_epochs, tasks)
+
+.. py:class:: TaskValidationSummary(tasks)
 
    Bases: :class:`fl.datamigration.validation.validation_summary.ValidationSummary`
 
-   .. method:: isValid(self)
+   .. method:: is_valid(self)
 
 
 

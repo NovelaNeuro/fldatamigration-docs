@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: TimestampIterator(data)
 
    Bases: :class:`hdmf.data_utils.AbstractDataChunkIterator`, :class:`abc.ABC`

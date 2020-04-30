@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: FlMda(sampling_rate, electrode_table_region, mda_data)
 
 

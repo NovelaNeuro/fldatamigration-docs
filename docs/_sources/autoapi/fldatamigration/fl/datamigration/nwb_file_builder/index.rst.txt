@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. data:: path
    
 
@@ -17,26 +18,9 @@ Module Contents
 
    
 
-.. py:class:: NWBFileBuilder(data_path, animal_name, date, nwb_metadata, process_dio=True, process_mda=True, process_analog=True, output_file='output.nwb')
+.. py:class:: NWBFileBuilder(data_path: str, animal_name: str, date: str, nwb_metadata: MetadataManager, process_dio: bool = True, process_mda: bool = True, process_analog: bool = True, output_file: str = 'output.nwb')
 
    unpack data from preprocessing folder specified by arguments, and write those data into NWB file format
-
-   :param data_path: path to directory containing all experiments data
-   :type data_path: string
-   :param animal_name: directory name which represents animal subject of experiment
-   :type animal_name: string
-   :param date: date of experiment
-   :type date: string
-   :param nwb_metadata: object contains metadata about experiment
-   :type nwb_metadata: MetadataManager
-   :param process_dio: flag if dio data should be processed
-   :type process_dio: boolean
-   :param process_mda: flag if mda data should be processed
-   :type process_mda: boolean
-   :param process_analog: flag if analog data should be processed
-   :type process_analog: boolean
-   :param output_file: path and name specifying where .nwb file gonna be written
-   :type output_file: string
 
    .. method:: extract_datasets(self, animal_name, date)
 
@@ -64,11 +48,19 @@ Module Contents
 
 
 
-   .. method:: __build_and_inject_probes(self, nwb_content)
+   .. method:: __build_shanks_electrodes(self)
 
 
 
-   .. method:: __build_and_inject_nwb_electrode_group(self, nwb_content, probes)
+   .. method:: __build_shanks(self, shanks_electrodes_dict)
+
+
+
+   .. method:: __build_and_inject_probes(self, nwb_content, shanks_dict)
+
+
+
+   .. method:: __build_and_inject_electrode_group(self, nwb_content, probes)
 
 
 
@@ -93,6 +85,14 @@ Module Contents
 
 
    .. method:: __build_and_inject_epochs(self, nwb_content)
+
+
+
+   .. method:: build_and_inject_mda_invalid_times(self, nwb_content)
+
+
+
+   .. method:: build_and_inject_pos_invalid_times(self, nwb_content)
 
 
 

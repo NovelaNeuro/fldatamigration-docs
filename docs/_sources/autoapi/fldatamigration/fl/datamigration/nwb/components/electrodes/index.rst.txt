@@ -4,6 +4,15 @@
 .. py:module:: fldatamigration.fl.datamigration.nwb.components.electrodes
 
 
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   extension/index.rst
+
+
 Submodules
 ----------
 .. toctree::
@@ -11,11 +20,6 @@ Submodules
    :maxdepth: 1
 
    electrode_creator/index.rst
-   electrode_extension_creator/index.rst
-   electrode_extension_injector/index.rst
-   electrode_metadata_extension_creator/index.rst
-   electrode_ntrode_extension_creator/index.rst
-   electrodes_header_extension_creator/index.rst
    fl_electrode_builder/index.rst
    fl_electrode_manager/index.rst
    fl_electrodes/index.rst

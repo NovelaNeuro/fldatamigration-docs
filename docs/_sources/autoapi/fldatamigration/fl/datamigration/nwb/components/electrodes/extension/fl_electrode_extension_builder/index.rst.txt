@@ -1,0 +1,22 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_builder`
+==========================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_builder
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlElectrodeExtensionBuilder(probes_metadata, electrode_groups_metadata, ntrode_metadata, header)
+
+   .. method:: build(self)
+
+
+
+   .. method:: __validate_parameters(class_name, probes_metadata, electrode_groups_metadata, ntrode_metadata, header)
+      :staticmethod:
+
+
+
+

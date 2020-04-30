@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: MetadataValidator(metadata_path, probes_paths)
 
    Bases: :class:`fl.datamigration.validation.validator.Validator`
@@ -22,7 +23,7 @@ Module Contents
       
       
 
-   .. method:: createSummary(self)
+   .. method:: create_summary(self)
 
 
 

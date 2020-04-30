@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: SessionTimeExtractor(datasets, animal_name, date, dataset_names)
 
    .. method:: get_session_start_time(self)

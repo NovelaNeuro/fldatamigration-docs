@@ -7,6 +7,7 @@
 Module Contents
 ---------------
 
+
 .. py:class:: DioInjector(nwb_content)
 
    .. method:: inject(self, behavioral_events, processing_module_name)

@@ -12,8 +12,8 @@ Submodules
 
    electrode_group_factory/index.rst
    electrode_group_injector/index.rst
+   fl_electrode_group/index.rst
+   fl_electrode_group_builder/index.rst
    fl_electrode_group_manager/index.rst
-   fl_nwb_electrode_group/index.rst
-   fl_nwb_electrode_group_builder/index.rst
 
 

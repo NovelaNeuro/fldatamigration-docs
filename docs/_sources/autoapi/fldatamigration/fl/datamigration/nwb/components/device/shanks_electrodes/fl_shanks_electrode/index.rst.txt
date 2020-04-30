@@ -1,0 +1,13 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.device.shanks_electrodes.fl_shanks_electrode`
+===================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.device.shanks_electrodes.fl_shanks_electrode
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlShanksElectrode(shanks_electrode_id, rel_x, rel_y, rel_z)
+
+
