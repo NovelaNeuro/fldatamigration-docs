@@ -33,7 +33,7 @@ Module Contents
 
    
 
-.. py:class:: RawToNWBBuilder(data_path: str, animal_name: str, dates: list, nwb_metadata: MetadataManager, output_path: str = '', extract_analog: bool = True, extract_spikes: bool = False, extract_lfps: bool = False, extract_dio: bool = True, extract_mda: bool = True, overwrite: bool = True, lfp_export_args: tuple = _DEFAULT_LFP_EXPORT_ARGS, mda_export_args: tuple = _DEFAULT_MDA_EXPORT_ARGS, parallel_instances: int = 4, analog_export_args: tuple = _DEFAULT_ANALOG_EXPORT_ARGS)
+.. py:class:: RawToNWBBuilder(data_path: str, animal_name: str, dates: list, nwb_metadata: MetadataManager, associated_files: list, output_path: str = '', extract_analog: bool = True, extract_spikes: bool = False, extract_lfps: bool = False, extract_dio: bool = True, extract_mda: bool = True, overwrite: bool = True, lfp_export_args: tuple = _DEFAULT_LFP_EXPORT_ARGS, mda_export_args: tuple = _DEFAULT_MDA_EXPORT_ARGS, parallel_instances: int = 4, analog_export_args: tuple = _DEFAULT_ANALOG_EXPORT_ARGS)
 
    Unpack data from raw folder specified by arguments, and write those data into NWB file format
 

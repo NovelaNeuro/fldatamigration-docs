@@ -23,7 +23,6 @@ Module Contents
 
       
       
-      
 
    .. method:: create_summary(self)
 

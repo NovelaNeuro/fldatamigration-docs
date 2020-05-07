@@ -8,6 +8,6 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlElectrode(electrode_group)
+.. py:class:: FlElectrode(electrode_id, electrode_group)
 
 

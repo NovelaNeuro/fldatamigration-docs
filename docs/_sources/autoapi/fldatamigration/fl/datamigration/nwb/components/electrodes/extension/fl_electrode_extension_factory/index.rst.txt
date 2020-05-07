@@ -20,6 +20,11 @@ Module Contents
 
 
 
+   .. method:: create_channel_id(cls, ntrode_metadata)
+      :classmethod:
+
+
+
    .. method:: create_bad_channels(cls, ntrode_metadata)
       :classmethod:
 

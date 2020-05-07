@@ -8,13 +8,13 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlElectrodeGroupManager(electrode_groups_metadata)
+.. py:class:: FlElectrodeGroupManager(electrode_groups_metadata: list)
 
-   .. method:: get_fl_electrode_groups(self, probes)
+   .. method:: get_fl_electrode_groups(self, probes: list, electrode_groups_valid_map: set)
 
 
 
-   .. method:: __get_probe_by_type(probes, probe_type)
+   .. method:: __get_probe_by_type(probes: list, probe_type: str)
       :staticmethod:
 
 

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager &mdash; fldatamigration 0.1.006 documentation</title>
+  <title>fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager &mdash; fldatamigration 0.1.007 documentation</title>
   
 
   
@@ -163,13 +163,28 @@
 <dd></dd></dl>
 
 <dl class="py method">
-<dt id="fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.__build_mda_invalid_times">
-<code class="sig-name descname">__build_mda_invalid_times</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">timestamps</span></em>, <em class="sig-param"><span class="n">period</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.__build_mda_invalid_times" title="Permalink to this definition">¶</a></dt>
+<dt id="fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.__add_gap_between_epochs">
+<code class="sig-name descname">__add_gap_between_epochs</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">gap_between_datasets</span></em>, <em class="sig-param"><span class="n">invalid_times</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.__add_gap_between_epochs" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
-<dt id="fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.__build_gaps_from_single_epoch">
-<code class="sig-name descname">__build_gaps_from_single_epoch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">timestamps</span></em>, <em class="sig-param"><span class="n">period</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">unfinished_gap</span><span class="o">=</span><span class="default_value">None</span></em>, <em class="sig-param"><span class="n">last_timestamp</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.__build_gaps_from_single_epoch" title="Permalink to this definition">¶</a></dt>
+<dt id="fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.check_for_gap_between_datasets">
+<code class="sig-name descname">check_for_gap_between_datasets</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">expected_time_between_timestamps</span></em>, <em class="sig-param"><span class="n">timestamps</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.check_for_gap_between_datasets" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.get_invalid_times_from_single_epoch">
+<code class="sig-name descname">get_invalid_times_from_single_epoch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">epoch</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.get_invalid_times_from_single_epoch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.get_invalid_times_from_single_epoch_raw_timestamps">
+<code class="sig-name descname">get_invalid_times_from_single_epoch_raw_timestamps</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">sample_count</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.get_invalid_times_from_single_epoch_raw_timestamps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.convert_timestamps_in_invalid_times_from_single_epoch">
+<code class="sig-name descname">convert_timestamps_in_invalid_times_from_single_epoch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">timestamps</span></em>, <em class="sig-param"><span class="n">continuous_time_dict</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.convert_timestamps_in_invalid_times_from_single_epoch" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

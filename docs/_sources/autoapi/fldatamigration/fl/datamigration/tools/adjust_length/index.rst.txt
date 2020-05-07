@@ -1,0 +1,23 @@
+:mod:`fldatamigration.fl.datamigration.tools.adjust_length`
+===========================================================
+
+.. py:module:: fldatamigration.fl.datamigration.tools.adjust_length
+
+
+Module Contents
+---------------
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. function:: adjust_extension_length(rel_x, extension, msg)
+
+

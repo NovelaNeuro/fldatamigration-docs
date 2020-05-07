@@ -1,0 +1,17 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.associated_files.fl_associated_files_manager`
+===================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.associated_files.fl_associated_files_manager
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlAssociatedFilesManager(files: list, files_metadata: list)
+
+   .. method:: get_fl_associated_files(self)
+
+
+
+

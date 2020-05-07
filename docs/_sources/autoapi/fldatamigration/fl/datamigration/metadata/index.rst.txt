@@ -10,6 +10,7 @@ Submodules
    :titlesonly:
    :maxdepth: 1
 
+   corrupted_data_manager/index.rst
    metadata_extractor/index.rst
    metadata_manager/index.rst
 

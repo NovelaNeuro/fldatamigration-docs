@@ -8,6 +8,6 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlElectrodeGroup(metadata, device)
+.. py:class:: FlElectrodeGroup(name, description, location, device)
 
 

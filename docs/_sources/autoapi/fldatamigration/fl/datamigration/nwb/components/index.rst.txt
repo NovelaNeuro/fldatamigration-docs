@@ -12,6 +12,7 @@ Subpackages
 
    analog/index.rst
    apparatus/index.rst
+   associated_files/index.rst
    device/index.rst
    dio/index.rst
    electrode_group/index.rst

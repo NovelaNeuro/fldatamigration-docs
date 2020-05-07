@@ -10,6 +10,12 @@ Submodules
 ----------
 
 
+.. automodule:: datamigration.exceptions.corrupted_data_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: datamigration.exceptions.different_number_of_tasks_and_epochs_exception
    :members:
    :undoc-members:

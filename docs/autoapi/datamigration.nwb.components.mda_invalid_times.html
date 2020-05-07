@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>datamigration.nwb.components.mda_invalid_times package &mdash; fldatamigration 0.1.006 documentation</title>
+  <title>datamigration.nwb.components.mda_invalid_times package &mdash; fldatamigration 0.1.007 documentation</title>
   
 
   
@@ -182,11 +182,16 @@
 <span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-datamigration.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt id="datamigration.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor.FlInvalidTimeMdaTimestampExtractor">
-<em class="property">class </em><code class="sig-name descname">FlInvalidTimeMdaTimestampExtractor</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">datasets</span><span class="p">:</span> <span class="n">list</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor.FlInvalidTimeMdaTimestampExtractor" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlInvalidTimeMdaTimestampExtractor</code><a class="headerlink" href="#datamigration.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor.FlInvalidTimeMdaTimestampExtractor" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="py method">
-<dt id="datamigration.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor.FlInvalidTimeMdaTimestampExtractor.get_converted_timestamps">
-<code class="sig-name descname">get_converted_timestamps</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor.FlInvalidTimeMdaTimestampExtractor.get_converted_timestamps" title="Permalink to this definition">¶</a></dt>
+<dt id="datamigration.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor.FlInvalidTimeMdaTimestampExtractor.get_continuous_time_dict">
+<em class="property">static </em><code class="sig-name descname">get_continuous_time_dict</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">epoch</span><span class="p">:</span> <span class="n">fl.datamigration.tools.dataset.Dataset</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor.FlInvalidTimeMdaTimestampExtractor.get_continuous_time_dict" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="datamigration.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor.FlInvalidTimeMdaTimestampExtractor.get_sample_count_from_single_epoch">
+<code class="sig-name descname">get_sample_count_from_single_epoch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">epoch</span><span class="p">:</span> <span class="n">fl.datamigration.tools.dataset.Dataset</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor.FlInvalidTimeMdaTimestampExtractor.get_sample_count_from_single_epoch" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -223,6 +228,26 @@
 <dt id="datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager">
 <em class="property">class </em><code class="sig-name descname">FlMdaInvalidTimeManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sampling_rate</span><span class="p">:</span> <span class="n">float</span></em>, <em class="sig-param"><span class="n">datasets</span><span class="p">:</span> <span class="n">list</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.check_for_gap_between_datasets">
+<code class="sig-name descname">check_for_gap_between_datasets</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">expected_time_between_timestamps</span></em>, <em class="sig-param"><span class="n">timestamps</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.check_for_gap_between_datasets" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.convert_timestamps_in_invalid_times_from_single_epoch">
+<code class="sig-name descname">convert_timestamps_in_invalid_times_from_single_epoch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">timestamps</span></em>, <em class="sig-param"><span class="n">continuous_time_dict</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.convert_timestamps_in_invalid_times_from_single_epoch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.get_invalid_times_from_single_epoch">
+<code class="sig-name descname">get_invalid_times_from_single_epoch</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">epoch</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.get_invalid_times_from_single_epoch" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.get_invalid_times_from_single_epoch_raw_timestamps">
+<code class="sig-name descname">get_invalid_times_from_single_epoch_raw_timestamps</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sample_count</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.get_invalid_times_from_single_epoch_raw_timestamps" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="py method">
 <dt id="datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.get_mda_invalid_times">
 <code class="sig-name descname">get_mda_invalid_times</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.mda_invalid_times.fl_mda_invalid_time_manager.FlMdaInvalidTimeManager.get_mda_invalid_times" title="Permalink to this definition">¶</a></dt>

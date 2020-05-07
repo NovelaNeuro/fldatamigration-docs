@@ -14,11 +14,23 @@ Module Contents
 
 
 
-   .. method:: __build_mda_invalid_times(self, timestamps, period)
+   .. method:: __add_gap_between_epochs(self, gap_between_datasets, invalid_times)
 
 
 
-   .. method:: __build_gaps_from_single_epoch(self, timestamps, period=None, unfinished_gap=None, last_timestamp=None)
+   .. method:: check_for_gap_between_datasets(self, expected_time_between_timestamps, timestamps)
+
+
+
+   .. method:: get_invalid_times_from_single_epoch(self, epoch)
+
+
+
+   .. method:: get_invalid_times_from_single_epoch_raw_timestamps(self, sample_count)
+
+
+
+   .. method:: convert_timestamps_in_invalid_times_from_single_epoch(self, timestamps, continuous_time_dict)
 
 
 

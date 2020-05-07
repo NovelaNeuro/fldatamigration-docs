@@ -1,0 +1,18 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.associated_files.associated_files_creator`
+================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.associated_files.associated_files_creator
+
+
+Module Contents
+---------------
+
+
+.. py:class:: AssociatedFilesCreator
+
+   .. method:: create(cls, fl_associated_file)
+      :classmethod:
+
+
+
+

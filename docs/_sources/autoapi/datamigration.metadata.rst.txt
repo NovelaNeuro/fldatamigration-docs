@@ -10,6 +10,12 @@ Submodules
 ----------
 
 
+.. automodule:: datamigration.metadata.corrupted_data_manager
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: datamigration.metadata.metadata_extractor
    :members:
    :undoc-members:
