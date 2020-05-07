@@ -8,13 +8,19 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlElectrodeManager(probes_metadata, electrode_groups_metadata)
+.. py:class:: FlElectrodeManager(probes_metadata: list, electrode_groups_metadata: list)
 
-   .. method:: get_fl_electrodes(self, electrode_groups)
+   .. method:: get_fl_electrodes(self, electrode_groups: list, electrodes_valid_map: list, electrode_groups_valid_map: set)
 
 
 
-   .. method:: __validate_parameters(self, electrode_groups)
+   .. method:: __get_electrode_group(electrode_group_metadata, electrode_groups)
+      :staticmethod:
+
+
+
+   .. method:: __validate_parameters(electrode_groups: list)
+      :staticmethod:
 
 
 

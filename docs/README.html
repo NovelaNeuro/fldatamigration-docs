@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>About &mdash; fldatamigration 0.1.006 documentation</title>
+  <title>About &mdash; fldatamigration 0.1.007 documentation</title>
   
 
   
@@ -360,6 +360,8 @@ builder.build_nwb<span class="o">()</span>
   **dates** = `list of strings` names of folders that contain experiment data&lt;br&gt;
 
   **nwb_metadata** = `MetadataManager` object with metadata.yml and probes.yml&lt;br&gt;
+  
+  **associated_files** = `list of strings` paths to associated files&lt;br&gt;
 
   **output_path** = `string` path specifying location and name of result file (dafault &#39;output.nwb&#39;)&lt;br&gt;
 
@@ -405,6 +407,8 @@ builder.write<span class="o">(</span>content<span class="o">)</span>
  **date** = `string` date of experiment&lt;br&gt;
  
  **nwb_metadata** = `MetadataManager` object contains metadata about experiment&lt;br&gt;
+
+ **associated_files** = `list of strings` paths to associated files&lt;br&gt; 
  
  **process_dio** = `boolean` flag if dio data should be processed&lt;br&gt;
  

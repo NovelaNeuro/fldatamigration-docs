@@ -8,13 +8,13 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlProbeManager(probes_metadata, electrode_groups_metadata)
+.. py:class:: FlProbeManager(probes_metadata: list)
 
-   .. method:: get_fl_probes(self, shanks_dict)
+   .. method:: get_fl_probes(self, shanks_dict: dict, probes_valid_map: set)
 
 
 
-   .. method:: _build_single_probe(self, probe_metadata, shanks)
+   .. method:: _build_single_probe(self, probe_metadata: dict, shanks: list)
 
 
 

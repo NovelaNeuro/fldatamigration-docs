@@ -10,6 +10,7 @@ Submodules
    :titlesonly:
    :maxdepth: 1
 
+   corrupted_data_exception/index.rst
    different_number_of_tasks_and_epochs_exception/index.rst
    empty_string_exception/index.rst
    incorrect_type_exception/index.rst

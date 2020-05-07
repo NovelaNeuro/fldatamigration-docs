@@ -15,6 +15,11 @@ Module Contents
    :param probes_paths: list of paths to .yml files with data describing probes used in experiment
    :type probes_paths: list of strings
 
+   .. method:: __validate(metadata_path, probes_paths)
+      :staticmethod:
+
+
+
    .. method:: __get_metadata(self, metadata_path)
 
 

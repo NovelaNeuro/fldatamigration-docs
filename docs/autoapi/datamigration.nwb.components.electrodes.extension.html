@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>datamigration.nwb.components.electrodes.extension package &mdash; fldatamigration 0.1.006 documentation</title>
+  <title>datamigration.nwb.components.electrodes.extension package &mdash; fldatamigration 0.1.007 documentation</title>
   
 
   
@@ -188,24 +188,24 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="py method">
 <dt id="datamigration.nwb.components.electrodes.extension.electrode_extension_injector.ElectrodeExtensionInjector.inject_extensions">
-<code class="sig-name descname">inject_extensions</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nwb_content</span></em>, <em class="sig-param"><span class="n">fl_electrode_extension</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.electrode_extension_injector.ElectrodeExtensionInjector.inject_extensions" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">inject_extensions</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nwb_content</span><span class="p">:</span> <span class="n">pynwb.file.NWBFile</span></em>, <em class="sig-param"><span class="n">fl_electrode_extension</span><span class="p">:</span> <span class="n">fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension.FlElectrodeExtension</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.electrode_extension_injector.ElectrodeExtensionInjector.inject_extensions" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
 <span class="target" id="module-datamigration.nwb.components.electrodes.extension.fl_electrode_extension"></span><dl class="py class">
 <dt id="datamigration.nwb.components.electrodes.extension.fl_electrode_extension.FlElectrodeExtension">
-<em class="property">class </em><code class="sig-name descname">FlElectrodeExtension</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">rel</span></em>, <em class="sig-param"><span class="n">hw_chan</span></em>, <em class="sig-param"><span class="n">ntrode_id</span></em>, <em class="sig-param"><span class="n">bad_channels</span></em>, <em class="sig-param"><span class="n">probe_shank</span></em>, <em class="sig-param"><span class="n">probe_channel</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.fl_electrode_extension.FlElectrodeExtension" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlElectrodeExtension</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">rel_x</span></em>, <em class="sig-param"><span class="n">rel_y</span></em>, <em class="sig-param"><span class="n">rel_z</span></em>, <em class="sig-param"><span class="n">hw_chan</span></em>, <em class="sig-param"><span class="n">ntrode_id</span></em>, <em class="sig-param"><span class="n">channel_id</span></em>, <em class="sig-param"><span class="n">bad_channels</span></em>, <em class="sig-param"><span class="n">probe_shank</span></em>, <em class="sig-param"><span class="n">probe_channel</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.fl_electrode_extension.FlElectrodeExtension" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 </dd></dl>
 
 <span class="target" id="module-datamigration.nwb.components.electrodes.extension.fl_electrode_extension_builder"></span><dl class="py class">
 <dt id="datamigration.nwb.components.electrodes.extension.fl_electrode_extension_builder.FlElectrodeExtensionBuilder">
-<em class="property">class </em><code class="sig-name descname">FlElectrodeExtensionBuilder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">probes_metadata</span></em>, <em class="sig-param"><span class="n">electrode_groups_metadata</span></em>, <em class="sig-param"><span class="n">ntrode_metadata</span></em>, <em class="sig-param"><span class="n">header</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.fl_electrode_extension_builder.FlElectrodeExtensionBuilder" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlElectrodeExtensionBuilder</code><a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.fl_electrode_extension_builder.FlElectrodeExtensionBuilder" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="py method">
 <dt id="datamigration.nwb.components.electrodes.extension.fl_electrode_extension_builder.FlElectrodeExtensionBuilder.build">
-<code class="sig-name descname">build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.fl_electrode_extension_builder.FlElectrodeExtensionBuilder.build" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">rel_x</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">rel_y</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">rel_z</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">hw_chan</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">ntrode_id</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">channel_id</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">bad_channels</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">probe_shank</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">probe_channel</span><span class="p">:</span> <span class="n">list</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.fl_electrode_extension_builder.FlElectrodeExtensionBuilder.build" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -217,6 +217,11 @@
 <dl class="py method">
 <dt id="datamigration.nwb.components.electrodes.extension.fl_electrode_extension_factory.FlElectrodeExtensionFactory.create_bad_channels">
 <em class="property">classmethod </em><code class="sig-name descname">create_bad_channels</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ntrode_metadata</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.fl_electrode_extension_factory.FlElectrodeExtensionFactory.create_bad_channels" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="datamigration.nwb.components.electrodes.extension.fl_electrode_extension_factory.FlElectrodeExtensionFactory.create_channel_id">
+<em class="property">classmethod </em><code class="sig-name descname">create_channel_id</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ntrode_metadata</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.fl_electrode_extension_factory.FlElectrodeExtensionFactory.create_channel_id" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py method">
@@ -248,11 +253,11 @@
 
 <span class="target" id="module-datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager"></span><dl class="py class">
 <dt id="datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager">
-<em class="property">class </em><code class="sig-name descname">FlElectrodeExtensionManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">probes_metadata</span></em>, <em class="sig-param"><span class="n">metadata</span></em>, <em class="sig-param"><span class="n">header</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlElectrodeExtensionManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">probes_metadata</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">metadata</span><span class="p">:</span> <span class="n">dict</span></em>, <em class="sig-param"><span class="n">header</span><span class="p">:</span> <span class="n">fl.datamigration.header.module.header.Header</span></em><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="py method">
 <dt id="datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager.get_fl_electrodes_extension">
-<code class="sig-name descname">get_fl_electrodes_extension</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager.get_fl_electrodes_extension" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_fl_electrodes_extension</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">electrodes_valid_map</span><span class="p">:</span> <span class="n">list</span></em><span class="sig-paren">)</span> &#x2192; fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension.FlElectrodeExtension<a class="headerlink" href="#datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager.get_fl_electrodes_extension" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

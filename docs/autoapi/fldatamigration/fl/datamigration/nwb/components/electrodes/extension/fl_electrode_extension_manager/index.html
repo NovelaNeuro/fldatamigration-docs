@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager &mdash; fldatamigration 0.1.006 documentation</title>
+  <title>fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager &mdash; fldatamigration 0.1.007 documentation</title>
   
 
   
@@ -154,12 +154,32 @@
 <span id="fldatamigration-fl-datamigration-nwb-components-electrodes-extension-fl-electrode-extension-manager"></span><h1><a class="reference internal" href="#module-fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager" title="fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager"><code class="xref py py-mod docutils literal notranslate"><span class="pre">fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager</span></code></a><a class="headerlink" href="#module-fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-contents">
 <h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+<dl class="py data">
+<dt id="fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.path">
+<code class="sig-name descname">path</code><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt id="fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.logger">
+<code class="sig-name descname">logger</code><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.logger" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="py class">
 <dt id="fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager">
-<em class="property">class </em><code class="sig-name descname">FlElectrodeExtensionManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">probes_metadata</span></em>, <em class="sig-param"><span class="n">metadata</span></em>, <em class="sig-param"><span class="n">header</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlElectrodeExtensionManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">probes_metadata</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">metadata</span><span class="p">:</span> <span class="n">dict</span></em>, <em class="sig-param"><span class="n">header</span><span class="p">:</span> <span class="n">Header</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py method">
 <dt id="fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager.get_fl_electrodes_extension">
-<code class="sig-name descname">get_fl_electrodes_extension</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager.get_fl_electrodes_extension" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_fl_electrodes_extension</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">electrodes_valid_map</span><span class="p">:</span> <span class="n">list</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager.get_fl_electrodes_extension" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager.__validate_extension_length">
+<em class="property">static </em><code class="sig-name descname">__validate_extension_length</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager.__validate_extension_length" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager.__filter_extension_list_with_electrodes_valid_map">
+<em class="property">static </em><code class="sig-name descname">__filter_extension_list_with_electrodes_valid_map</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">electrodes_valid_map</span></em>, <em class="sig-param"><span class="n">extension</span></em><span class="sig-paren">)</span><a class="headerlink" href="#fldatamigration.fl.datamigration.nwb.components.electrodes.extension.fl_electrode_extension_manager.FlElectrodeExtensionManager.__filter_extension_list_with_electrodes_valid_map" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

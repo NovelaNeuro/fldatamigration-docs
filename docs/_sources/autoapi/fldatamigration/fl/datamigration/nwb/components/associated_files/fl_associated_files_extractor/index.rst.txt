@@ -1,0 +1,17 @@
+:mod:`fldatamigration.fl.datamigration.nwb.components.associated_files.fl_associated_files_extractor`
+=====================================================================================================
+
+.. py:module:: fldatamigration.fl.datamigration.nwb.components.associated_files.fl_associated_files_extractor
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlAssociatedFilesExtractor(files: list)
+
+   .. method:: extract(self)
+
+
+
+

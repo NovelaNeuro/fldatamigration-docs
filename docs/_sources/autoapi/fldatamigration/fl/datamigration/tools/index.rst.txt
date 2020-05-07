@@ -20,6 +20,7 @@ Submodules
    :maxdepth: 1
 
    abstract_file_downloader/index.rst
+   adjust_length/index.rst
    data_scanner/index.rst
    dataset/index.rst
    file_downloader/index.rst

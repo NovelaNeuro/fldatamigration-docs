@@ -8,13 +8,9 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlElectrodeExtensionBuilder(probes_metadata, electrode_groups_metadata, ntrode_metadata, header)
+.. py:class:: FlElectrodeExtensionBuilder
 
-   .. method:: build(self)
-
-
-
-   .. method:: __validate_parameters(class_name, probes_metadata, electrode_groups_metadata, ntrode_metadata, header)
+   .. method:: build(rel_x: list, rel_y: list, rel_z: list, hw_chan: list, ntrode_id: list, channel_id: list, bad_channels: list, probe_shank: list, probe_channel: list)
       :staticmethod:
 
 

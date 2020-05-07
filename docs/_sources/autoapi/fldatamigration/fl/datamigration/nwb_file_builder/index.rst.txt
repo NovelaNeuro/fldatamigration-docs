@@ -18,7 +18,7 @@ Module Contents
 
    
 
-.. py:class:: NWBFileBuilder(data_path: str, animal_name: str, date: str, nwb_metadata: MetadataManager, process_dio: bool = True, process_mda: bool = True, process_analog: bool = True, output_file: str = 'output.nwb')
+.. py:class:: NWBFileBuilder(data_path: str, animal_name: str, date: str, nwb_metadata: MetadataManager, associated_files: list = [], process_dio: bool = True, process_mda: bool = True, process_analog: bool = True, output_file: str = 'output.nwb')
 
    Unpack data from preprocessing folder specified by arguments, and write those data into NWB file format
 
@@ -30,6 +30,8 @@ Module Contents
    :type date: string
    :param nwb_metadata: object contains metadata about experiment
    :type nwb_metadata: MetadataManager
+   :param associated_files: list of paths to files stored inside nwb
+   :type associated_files: list of strings
    :param process_dio: flag if dio data should be processed
    :type process_dio: boolean
    :param process_mda: flag if mda data should be processed
@@ -53,6 +55,10 @@ Module Contents
       write nwb file handler with colected data into actual file
 
 
+   .. method:: __build_corrupted_data_manager(self)
+
+
+
    .. method:: __build_and_inject_analog(self, nwb_content)
 
 
@@ -73,19 +79,19 @@ Module Contents
 
 
 
-   .. method:: __build_and_inject_probes(self, nwb_content, shanks_dict)
+   .. method:: __build_and_inject_probes(self, nwb_content, shanks_dict, probes_valid_map)
 
 
 
-   .. method:: __build_and_inject_electrode_group(self, nwb_content, probes)
+   .. method:: __build_and_inject_electrode_group(self, nwb_content, probes, electrode_groups_valid_map)
 
 
 
-   .. method:: __build_and_inject_electrodes(self, nwb_content, electrode_groups)
+   .. method:: __build_and_inject_electrodes(self, nwb_content, electrode_groups, electrodes_valid_map, electrode_groups_valid_map)
 
 
 
-   .. method:: __build_and_inject_electrodes_extensions(self, nwb_content)
+   .. method:: __build_and_inject_electrodes_extensions(self, nwb_content, electrodes_valid_map)
 
 
 
@@ -94,6 +100,10 @@ Module Contents
 
 
    .. method:: __get_continuous_time_files(self)
+
+
+
+   .. method:: __build_and_inject_associated_files(self, nwb_content)
 
 
 

@@ -8,9 +8,18 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlInvalidTimeMdaTimestampExtractor(datasets: list)
+.. py:class:: FlInvalidTimeMdaTimestampExtractor
 
-   .. method:: get_converted_timestamps(self)
+   .. method:: get_sample_count_from_single_epoch(self, epoch: Dataset)
+
+
+
+   .. method:: __read_mda_timestamps_from_single_epoch(self, timestamp_file)
+
+
+
+   .. method:: get_continuous_time_dict(epoch: Dataset)
+      :staticmethod:
 
 
 
@@ -19,15 +28,7 @@ Module Contents
 
 
 
-   .. method:: __read_mda_timestamps(self)
-
-
-
-   .. method:: __get_mda_timestamp_files(self)
-
-
-
-   .. method:: __get_continuous_time_dicts(self)
+   .. method:: __get_mda_timestamp_file(self, epoch)
 
 
 

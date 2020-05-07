@@ -10,7 +10,8 @@ Module Contents
 
 .. py:class:: FlElectrodesBuilder
 
-   .. method:: build(self, electrode_group)
+   .. method:: build(electrode_id: int, electrode_group: ElectrodeGroup)
+      :staticmethod:
 
 
 
