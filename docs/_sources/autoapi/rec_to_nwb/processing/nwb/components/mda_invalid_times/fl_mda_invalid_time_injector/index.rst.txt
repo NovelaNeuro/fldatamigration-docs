@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.nwb.components.mda_invalid_times.fl_mda_invalid_time_injector`
+==========================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.mda_invalid_times.fl_mda_invalid_time_injector
+
+
+Module Contents
+---------------
+
+
+.. py:class:: MdaInvalidTimeInjector
+
+   .. method:: inject_all(gaps, nwb_content)
+      :staticmethod:
+
+
+      insert invalid times to nwb file
+
+
+   .. method:: inject(gap, nwb_content)
+      :staticmethod:
+
+
+
+

@@ -1,0 +1,29 @@
+:mod:`rec_to_nwb.processing.nwb.components.mda.mda_timestamp_manager`
+=====================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.mda.mda_timestamp_manager
+
+
+Module Contents
+---------------
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: MdaTimestampDataManager(directories, continuous_time_directories)
+
+   Bases: :class:`rec_to_nwb.processing.nwb.common.timestamps_manager.TimestampManager`
+
+   .. method:: _get_timestamps(self, dataset_id)
+
+
+
+

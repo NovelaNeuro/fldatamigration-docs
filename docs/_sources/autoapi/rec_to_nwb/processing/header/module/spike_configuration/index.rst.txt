@@ -1,0 +1,13 @@
+:mod:`rec_to_nwb.processing.header.module.spike_configuration`
+==============================================================
+
+.. py:module:: rec_to_nwb.processing.header.module.spike_configuration
+
+
+Module Contents
+---------------
+
+
+.. py:class:: SpikeConfiguration(element)
+
+

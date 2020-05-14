@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.nwb.components.position.fl_position_extractor`
+==========================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.position.fl_position_extractor
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlPositionExtractor(datasets)
+
+   .. method:: __extract_data(self)
+
+
+
+   .. method:: get_position(self)
+
+
+
+   .. method:: get_timestamps(self)
+
+
+
+

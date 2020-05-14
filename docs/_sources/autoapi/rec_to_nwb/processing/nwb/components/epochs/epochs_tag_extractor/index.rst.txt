@@ -1,0 +1,17 @@
+:mod:`rec_to_nwb.processing.nwb.components.epochs.epochs_tag_extractor`
+=======================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.epochs.epochs_tag_extractor
+
+
+Module Contents
+---------------
+
+
+.. py:class:: EpochsTagExtractor(datasets)
+
+   .. method:: get_tags(self)
+
+
+
+

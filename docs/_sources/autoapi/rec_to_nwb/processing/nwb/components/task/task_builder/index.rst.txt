@@ -1,0 +1,21 @@
+:mod:`rec_to_nwb.processing.nwb.components.task.task_builder`
+=============================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.task.task_builder
+
+
+Module Contents
+---------------
+
+
+.. py:class:: TaskBuilder(metadata)
+
+   .. method:: build(self)
+
+
+
+   .. method:: __build_tasks_dynamictable(self)
+
+
+
+

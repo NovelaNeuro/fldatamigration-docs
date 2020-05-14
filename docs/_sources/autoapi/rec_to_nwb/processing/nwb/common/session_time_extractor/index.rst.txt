@@ -1,0 +1,22 @@
+:mod:`rec_to_nwb.processing.nwb.common.session_time_extractor`
+==============================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.common.session_time_extractor
+
+
+Module Contents
+---------------
+
+
+.. py:class:: SessionTimeExtractor(datasets, animal_name, date, dataset_names)
+
+   .. method:: get_session_start_time(self)
+
+
+
+   .. method:: __read_continuous_time(continuous_time_file)
+      :staticmethod:
+
+
+
+

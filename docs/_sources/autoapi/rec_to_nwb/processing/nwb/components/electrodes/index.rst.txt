@@ -1,0 +1,27 @@
+:mod:`rec_to_nwb.processing.nwb.components.electrodes`
+======================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.electrodes
+
+
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   extension/index.rst
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   electrode_creator/index.rst
+   fl_electrode_builder/index.rst
+   fl_electrode_manager/index.rst
+   fl_electrodes/index.rst
+
+

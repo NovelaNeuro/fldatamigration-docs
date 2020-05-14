@@ -1,0 +1,13 @@
+:mod:`rec_to_nwb.processing.header.module.spike_n_trode`
+========================================================
+
+.. py:module:: rec_to_nwb.processing.header.module.spike_n_trode
+
+
+Module Contents
+---------------
+
+
+.. py:class:: SpikeNTrode(element)
+
+

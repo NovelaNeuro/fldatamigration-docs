@@ -1,0 +1,35 @@
+:mod:`rec_to_nwb.processing.metadata.metadata_manager`
+======================================================
+
+.. py:module:: rec_to_nwb.processing.metadata.metadata_manager
+
+
+Module Contents
+---------------
+
+
+.. py:class:: MetadataManager(metadata_path: str, probes_paths: list)
+
+   :param metadata_path: path to file .yml with metadata describing experiment
+   :type metadata_path: string
+   :param probes_paths: list of paths to .yml files with data describing probes used in experiment
+   :type probes_paths: list of strings
+
+   .. method:: __validate(metadata_path, probes_paths)
+      :staticmethod:
+
+
+
+   .. method:: __get_metadata(self, metadata_path)
+
+
+
+   .. method:: __get_probes(self, probes_paths)
+
+
+
+   .. method:: __str__(self)
+
+
+
+

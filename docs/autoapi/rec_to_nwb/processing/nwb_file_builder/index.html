@@ -1,0 +1,337 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>rec_to_nwb.processing.nwb_file_builder &mdash; rec_to_nwb 0.1.008 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../../../../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/graphviz.css" type="text/css" />
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> rec_to_nwb
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../README.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../README.html#prerequisites">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../README.html#how-to-use-it">How to use it</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../api.html">API Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../help.html">Need help?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../LICENSE.html">License</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">rec_to_nwb</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html">Docs</a> &raquo;</li>
+        
+      <li><code class="xref py py-mod docutils literal notranslate"><span class="pre">rec_to_nwb.processing.nwb_file_builder</span></code></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../../../../_sources/autoapi/rec_to_nwb/processing/nwb_file_builder/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-rec_to_nwb.processing.nwb_file_builder">
+<span id="rec-to-nwb-processing-nwb-file-builder"></span><h1><a class="reference internal" href="#module-rec_to_nwb.processing.nwb_file_builder" title="rec_to_nwb.processing.nwb_file_builder"><code class="xref py py-mod docutils literal notranslate"><span class="pre">rec_to_nwb.processing.nwb_file_builder</span></code></a><a class="headerlink" href="#module-rec_to_nwb.processing.nwb_file_builder" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-contents">
+<h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+<dl class="py data">
+<dt id="rec_to_nwb.processing.nwb_file_builder.path">
+<code class="sig-name descname">path</code><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.path" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py data">
+<dt id="rec_to_nwb.processing.nwb_file_builder.logger">
+<code class="sig-name descname">logger</code><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.logger" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder">
+<em class="property">class </em><code class="sig-name descname">NWBFileBuilder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_path</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">animal_name</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">date</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">nwb_metadata</span><span class="p">:</span> <span class="n">MetadataManager</span></em>, <em class="sig-param"><span class="n">associated_files</span><span class="p">:</span> <span class="n">list</span> <span class="o">=</span> <span class="default_value">[]</span></em>, <em class="sig-param"><span class="n">process_dio</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_mda</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_analog</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">output_file</span><span class="p">:</span> <span class="n">str</span> <span class="o">=</span> <span class="default_value">'output.nwb'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Unpack data from preprocessing folder specified by arguments, and write those data into NWB file format</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_path</strong> (<em>string</em>) – path to directory containing all experiments data</p></li>
+<li><p><strong>animal_name</strong> (<em>string</em>) – directory name which represents animal subject of experiment</p></li>
+<li><p><strong>date</strong> (<em>string</em>) – date of experiment</p></li>
+<li><p><strong>nwb_metadata</strong> (<a class="reference internal" href="../../../processing.metadata.html#processing.metadata.metadata_manager.MetadataManager" title="processing.metadata.metadata_manager.MetadataManager"><em>MetadataManager</em></a>) – object contains metadata about experiment</p></li>
+<li><p><strong>associated_files</strong> (<em>list of strings</em>) – list of paths to files stored inside nwb</p></li>
+<li><p><strong>process_dio</strong> (<em>boolean</em>) – flag if dio data should be processed</p></li>
+<li><p><strong>process_mda</strong> (<em>boolean</em>) – flag if mda data should be processed</p></li>
+<li><p><strong>process_analog</strong> (<em>boolean</em>) – flag if analog data should be processed</p></li>
+<li><p><strong>output_file</strong> (<em>string</em>) – path and name specifying where .nwb file gonna be written</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.extract_datasets">
+<code class="sig-name descname">extract_datasets</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">animal_name</span></em>, <em class="sig-param"><span class="n">date</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.extract_datasets" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.build">
+<code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.write">
+<code class="sig-name descname">write</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.write" title="Permalink to this definition">¶</a></dt>
+<dd><p>write nwb file handler with colected data into actual file</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_corrupted_data_manager">
+<code class="sig-name descname">__build_corrupted_data_manager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_corrupted_data_manager" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_analog">
+<code class="sig-name descname">__build_and_inject_analog</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_analog" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_processing_module">
+<code class="sig-name descname">__build_and_inject_processing_module</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_processing_module" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_header_device">
+<code class="sig-name descname">__build_and_inject_header_device</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_header_device" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_shanks_electrodes">
+<code class="sig-name descname">__build_shanks_electrodes</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_shanks_electrodes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_shanks">
+<code class="sig-name descname">__build_shanks</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">shanks_electrodes_dict</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_shanks" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_probes">
+<code class="sig-name descname">__build_and_inject_probes</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em>, <em class="sig-param"><span class="n">shanks_dict</span></em>, <em class="sig-param"><span class="n">probes_valid_map</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_probes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_electrode_group">
+<code class="sig-name descname">__build_and_inject_electrode_group</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em>, <em class="sig-param"><span class="n">probes</span></em>, <em class="sig-param"><span class="n">electrode_groups_valid_map</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_electrode_group" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_electrodes">
+<code class="sig-name descname">__build_and_inject_electrodes</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em>, <em class="sig-param"><span class="n">electrode_groups</span></em>, <em class="sig-param"><span class="n">electrodes_valid_map</span></em>, <em class="sig-param"><span class="n">electrode_groups_valid_map</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_electrodes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_electrodes_extensions">
+<code class="sig-name descname">__build_and_inject_electrodes_extensions</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em>, <em class="sig-param"><span class="n">electrodes_valid_map</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_electrodes_extensions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_dio">
+<code class="sig-name descname">__build_and_inject_dio</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_dio" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__get_continuous_time_files">
+<code class="sig-name descname">__get_continuous_time_files</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__get_continuous_time_files" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_associated_files">
+<code class="sig-name descname">__build_and_inject_associated_files</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_associated_files" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_mda">
+<code class="sig-name descname">__build_and_inject_mda</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_mda" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_epochs">
+<code class="sig-name descname">__build_and_inject_epochs</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.__build_and_inject_epochs" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.build_and_inject_mda_invalid_times">
+<code class="sig-name descname">build_and_inject_mda_invalid_times</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.build_and_inject_mda_invalid_times" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.build_and_inject_pos_invalid_times">
+<code class="sig-name descname">build_and_inject_pos_invalid_times</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.build_and_inject_pos_invalid_times" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.build_and_inject_pos_valid_times">
+<code class="sig-name descname">build_and_inject_pos_valid_times</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb_file_builder.NWBFileBuilder.build_and_inject_pos_valid_times" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Novela
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

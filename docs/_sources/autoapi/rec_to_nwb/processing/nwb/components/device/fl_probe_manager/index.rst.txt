@@ -1,0 +1,21 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.fl_probe_manager`
+===================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.fl_probe_manager
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlProbeManager(probes_metadata: list)
+
+   .. method:: get_fl_probes(self, shanks_dict: dict, probes_valid_map: set)
+
+
+
+   .. method:: _build_single_probe(self, probe_metadata: dict, shanks: list)
+
+
+
+

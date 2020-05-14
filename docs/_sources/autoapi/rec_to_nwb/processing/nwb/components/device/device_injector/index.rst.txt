@@ -1,0 +1,22 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.device_injector`
+==================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.device_injector
+
+
+Module Contents
+---------------
+
+
+.. py:class:: DeviceInjector
+
+   .. method:: inject_all_devices(self, nwb_content, devices)
+
+
+
+   .. method:: __inject_device(nwb_content, device)
+      :staticmethod:
+
+
+
+

@@ -1,0 +1,33 @@
+:mod:`rec_to_nwb.processing.time.continuous_time_extractor`
+===========================================================
+
+.. py:module:: rec_to_nwb.processing.time.continuous_time_extractor
+
+
+Module Contents
+---------------
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: ContinuousTimeExtractor
+
+   .. method:: get_continuous_time_dict(files)
+      :staticmethod:
+
+
+
+   .. method:: get_continuous_time_dict_file(file)
+      :staticmethod:
+
+
+
+

@@ -1,0 +1,37 @@
+processing package
+==================
+
+.. automodule:: processing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   processing.exceptions
+   processing.header
+   processing.metadata
+   processing.nwb
+   processing.time
+   processing.tools
+   processing.validation
+
+Submodules
+----------
+
+
+.. automodule:: processing.nwb_file_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.raw_to_nwb_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

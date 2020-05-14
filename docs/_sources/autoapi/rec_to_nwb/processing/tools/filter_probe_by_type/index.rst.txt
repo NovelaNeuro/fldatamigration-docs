@@ -1,0 +1,13 @@
+:mod:`rec_to_nwb.processing.tools.filter_probe_by_type`
+=======================================================
+
+.. py:module:: rec_to_nwb.processing.tools.filter_probe_by_type
+
+
+Module Contents
+---------------
+
+
+.. function:: filter_probe_by_type(probes_content, device_type)
+
+

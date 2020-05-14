@@ -1,0 +1,18 @@
+:mod:`rec_to_nwb.processing.exceptions.invalid_exception`
+=========================================================
+
+.. py:module:: rec_to_nwb.processing.exceptions.invalid_exception
+
+
+Module Contents
+---------------
+
+.. py:exception:: InvalidException(*args)
+
+   Bases: :class:`Exception`
+
+   .. method:: __str__(self)
+
+
+
+

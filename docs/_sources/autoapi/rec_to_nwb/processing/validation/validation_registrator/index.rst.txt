@@ -1,0 +1,23 @@
+:mod:`rec_to_nwb.processing.validation.validation_registrator`
+==============================================================
+
+.. py:module:: rec_to_nwb.processing.validation.validation_registrator
+
+
+Module Contents
+---------------
+
+
+.. py:class:: ValidationRegistrator
+
+   Bases: :class:`rec_to_nwb.processing.validation.validator.Validator`
+
+   .. method:: register(self, validator)
+
+
+
+   .. method:: validate(self)
+
+
+
+

@@ -1,0 +1,16 @@
+:mod:`rec_to_nwb.processing.tools.validate_parameters`
+======================================================
+
+.. py:module:: rec_to_nwb.processing.tools.validate_parameters
+
+
+Module Contents
+---------------
+
+
+.. function:: validate_parameters_not_none(class_name, *args)
+
+
+.. function:: validate_parameters_equal_length(class_name, *args)
+
+

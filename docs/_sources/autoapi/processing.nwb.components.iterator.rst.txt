@@ -1,0 +1,47 @@
+processing.nwb.components.iterator package
+==========================================
+
+.. automodule:: processing.nwb.components.iterator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: processing.nwb.components.iterator.data_iterator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.iterator.multi_thread_data_iterator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.iterator.multi_thread_timestamp_iterator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.iterator.single_thread_data_iterator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.iterator.single_thread_timestamp_iterator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.iterator.timestamp_iterator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

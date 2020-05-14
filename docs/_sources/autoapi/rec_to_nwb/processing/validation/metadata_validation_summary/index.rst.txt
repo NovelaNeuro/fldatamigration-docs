@@ -1,0 +1,20 @@
+:mod:`rec_to_nwb.processing.validation.metadata_validation_summary`
+===================================================================
+
+.. py:module:: rec_to_nwb.processing.validation.metadata_validation_summary
+
+
+Module Contents
+---------------
+
+
+.. py:class:: MetadataValidationSummary(missing_metadata)
+
+   Bases: :class:`rec_to_nwb.processing.validation.validation_summary.ValidationSummary`
+
+   .. method:: is_valid(self)
+      :property:
+
+
+
+

@@ -1,0 +1,21 @@
+:mod:`rec_to_nwb.processing.nwb.components.position.pos_data_manager`
+=====================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.position.pos_data_manager
+
+
+Module Contents
+---------------
+
+
+.. py:class:: PosDataManager(directories)
+
+   Bases: :class:`rec_to_nwb.processing.nwb.common.data_manager.DataManager`
+
+   .. method:: read_data(self, dataset_id, file_id)
+
+
+      extract data from POS files and build FlPos
+
+
+

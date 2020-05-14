@@ -1,0 +1,26 @@
+processing.header package
+=========================
+
+.. automodule:: processing.header
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   processing.header.header_checker
+   processing.header.module
+
+Submodules
+----------
+
+
+.. automodule:: processing.header.xml_extractor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

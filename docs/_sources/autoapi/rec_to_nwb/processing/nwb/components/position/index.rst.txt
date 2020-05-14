@@ -1,0 +1,21 @@
+:mod:`rec_to_nwb.processing.nwb.components.position`
+====================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.position
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   fl_position/index.rst
+   fl_position_builder/index.rst
+   fl_position_extractor/index.rst
+   fl_position_manager/index.rst
+   pos_data_manager/index.rst
+   pos_timestamp_manager/index.rst
+   position_creator/index.rst
+
+

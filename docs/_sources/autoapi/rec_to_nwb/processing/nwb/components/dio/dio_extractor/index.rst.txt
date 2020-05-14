@@ -1,0 +1,38 @@
+:mod:`rec_to_nwb.processing.nwb.components.dio.dio_extractor`
+=============================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.dio.dio_extractor
+
+
+Module Contents
+---------------
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: DioExtractor
+
+   .. method:: extract_dio_for_single_dataset(filtered_files, continuous_time_file)
+      :staticmethod:
+
+
+
+   .. method:: __get_dio_time_series(dio_data, continuoues_time_dict)
+      :staticmethod:
+
+
+
+   .. method:: __convert_keys(continuous_time_dict, keys)
+      :staticmethod:
+
+
+
+

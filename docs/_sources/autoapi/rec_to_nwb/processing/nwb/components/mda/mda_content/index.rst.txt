@@ -1,0 +1,13 @@
+:mod:`rec_to_nwb.processing.nwb.components.mda.mda_content`
+===========================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.mda.mda_content
+
+
+Module Contents
+---------------
+
+
+.. py:class:: MdaContent(mda_data, mda_timestamps)
+
+
