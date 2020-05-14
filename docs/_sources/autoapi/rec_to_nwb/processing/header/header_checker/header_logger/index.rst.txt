@@ -1,0 +1,28 @@
+:mod:`rec_to_nwb.processing.header.header_checker.header_logger`
+================================================================
+
+.. py:module:: rec_to_nwb.processing.header.header_checker.header_logger
+
+
+Module Contents
+---------------
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: HeaderLogger
+
+   .. method:: log_header_differences(headers_differences, rec_files_list)
+      :staticmethod:
+
+
+
+

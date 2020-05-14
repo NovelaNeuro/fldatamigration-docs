@@ -1,0 +1,29 @@
+:mod:`rec_to_nwb.processing.validation.ntrode_validator`
+========================================================
+
+.. py:module:: rec_to_nwb.processing.validation.ntrode_validator
+
+
+Module Contents
+---------------
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: NTrodeValidator(metadata, header)
+
+   Bases: :class:`rec_to_nwb.processing.validation.validator.Validator`
+
+   .. method:: create_summary(self)
+
+
+
+

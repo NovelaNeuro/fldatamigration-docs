@@ -1,0 +1,15 @@
+:mod:`rec_to_nwb.processing.nwb.components.table_region`
+========================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.table_region
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   table_region_builder/index.rst
+
+

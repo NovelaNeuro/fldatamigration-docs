@@ -1,0 +1,16 @@
+processing.nwb package
+======================
+
+.. automodule:: processing.nwb
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   processing.nwb.common
+   processing.nwb.components

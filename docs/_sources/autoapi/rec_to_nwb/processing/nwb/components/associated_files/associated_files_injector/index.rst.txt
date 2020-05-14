@@ -1,0 +1,22 @@
+:mod:`rec_to_nwb.processing.nwb.components.associated_files.associated_files_injector`
+======================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.associated_files.associated_files_injector
+
+
+Module Contents
+---------------
+
+
+.. py:class:: AssociatedFilesInjector
+
+   "Inject associated_files object inside NWBFile".
+
+   .. method:: inject(cls, associated_files, processing_module_name, nwb_content)
+      :classmethod:
+
+
+      insert associated_files extension to specified processing module in nwb file
+
+
+

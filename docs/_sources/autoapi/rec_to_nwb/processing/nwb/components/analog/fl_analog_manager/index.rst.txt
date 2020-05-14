@@ -1,0 +1,34 @@
+:mod:`rec_to_nwb.processing.nwb.components.analog.fl_analog_manager`
+====================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.analog.fl_analog_manager
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlAnalogManager(analog_files, continuous_time_files)
+
+   .. method:: get_analog(self)
+
+
+      "extract data from analog files
+
+
+   .. method:: __merge_epochs(data_from_multiple_datasets)
+      :staticmethod:
+
+
+
+   .. method:: __merge_analog_sensors(cls, merged_epochs)
+      :classmethod:
+
+
+
+   .. method:: __get_timestamps(cls, merged_epochs)
+      :classmethod:
+
+
+
+

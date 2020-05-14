@@ -1,0 +1,38 @@
+:mod:`rec_to_nwb.processing.nwb.components.pos_invalid_times.fl_pos_invalid_time_manager`
+=========================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.pos_invalid_times.fl_pos_invalid_time_manager
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlPosInvalidTimeManager(datasets: list)
+
+   .. method:: get_pos_invalid_times(self)
+
+
+
+   .. method:: get_pos_timestamps(self)
+
+
+
+   .. method:: __build_pos_invalid_times(self, timestamps, period)
+
+
+
+   .. method:: __get_pos_valid_times(self, timestamps, period, eps=0.0001)
+
+
+
+   .. method:: __get_pos_invalid_times(self, timestamps, period, eps=0.0001)
+
+
+
+   .. method:: __calculate_pos_period(timestamps)
+      :staticmethod:
+
+
+
+

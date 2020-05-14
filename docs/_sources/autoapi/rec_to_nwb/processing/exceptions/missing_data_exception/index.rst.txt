@@ -1,0 +1,14 @@
+:mod:`rec_to_nwb.processing.exceptions.missing_data_exception`
+==============================================================
+
+.. py:module:: rec_to_nwb.processing.exceptions.missing_data_exception
+
+
+Module Contents
+---------------
+
+.. py:exception:: MissingDataException
+
+   Bases: :class:`Exception`
+
+

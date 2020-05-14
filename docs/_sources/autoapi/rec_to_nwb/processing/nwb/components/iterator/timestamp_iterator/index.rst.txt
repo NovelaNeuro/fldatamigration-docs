@@ -1,0 +1,42 @@
+:mod:`rec_to_nwb.processing.nwb.components.iterator.timestamp_iterator`
+=======================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.iterator.timestamp_iterator
+
+
+Module Contents
+---------------
+
+
+.. py:class:: TimestampIterator(data)
+
+   Bases: :class:`hdmf.data_utils.AbstractDataChunkIterator`, :class:`abc.ABC`
+
+   .. method:: __iter__(self)
+
+
+
+   .. method:: get_data_from_file(data, current_dataset)
+      :staticmethod:
+
+
+
+   .. method:: recommended_chunk_shape(self)
+
+
+
+   .. method:: recommended_data_shape(self)
+
+
+
+   .. method:: dtype(self)
+      :property:
+
+
+
+   .. method:: maxshape(self)
+      :property:
+
+
+
+

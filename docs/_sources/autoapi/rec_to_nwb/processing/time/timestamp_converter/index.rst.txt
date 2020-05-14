@@ -1,0 +1,28 @@
+:mod:`rec_to_nwb.processing.time.timestamp_converter`
+=====================================================
+
+.. py:module:: rec_to_nwb.processing.time.timestamp_converter
+
+
+Module Contents
+---------------
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: TimestampConverter
+
+   .. method:: convert_timestamps(continuous_time_dict, timestamps)
+      :staticmethod:
+
+
+
+

@@ -1,0 +1,18 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.fl_header_device_builder`
+===========================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.fl_header_device_builder
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlHeaderDeviceBuilder
+
+   .. method:: build(name, global_configuration)
+      :staticmethod:
+
+
+
+

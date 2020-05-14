@@ -1,0 +1,37 @@
+:mod:`rec_to_nwb.processing.nwb.components.electrodes.extension.fl_electrode_extension_manager`
+===============================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.electrodes.extension.fl_electrode_extension_manager
+
+
+Module Contents
+---------------
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: FlElectrodeExtensionManager(probes_metadata: list, metadata: dict, header: Header)
+
+   .. method:: get_fl_electrodes_extension(self, electrodes_valid_map: list)
+
+
+
+   .. method:: __validate_extension_length(*args)
+      :staticmethod:
+
+
+
+   .. method:: __filter_extension_list_with_electrodes_valid_map(electrodes_valid_map, extension)
+      :staticmethod:
+
+
+
+

@@ -1,0 +1,381 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>processing package &mdash; rec_to_nwb 0.1.008 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/graphviz.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="processing.exceptions package" href="processing.exceptions.html" />
+    <link rel="prev" title="API Documentation" href="../api.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> rec_to_nwb
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../README.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README.html#prerequisites">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../README.html#how-to-use-it">How to use it</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../api.html">API Documentation</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">processing package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="processing.exceptions.html">processing.exceptions package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="processing.header.html">processing.header package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="processing.metadata.html">processing.metadata package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="processing.nwb.html">processing.nwb package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="processing.time.html">processing.time package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="processing.tools.html">processing.tools package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="processing.validation.html">processing.validation package</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../help.html">Need help?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../LICENSE.html">License</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">rec_to_nwb</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../api.html">API Documentation</a> &raquo;</li>
+        
+      <li>processing package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/autoapi/processing.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="module-processing">
+<span id="processing-package"></span><h1>processing package<a class="headerlink" href="#module-processing" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="processing.exceptions.html">processing.exceptions package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="processing.exceptions.html#module-processing.exceptions.corrupted_data_exception">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="processing.header.html">processing.header package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="processing.header.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="processing.header.header_checker.html">processing.header.header_checker package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="processing.header.header_checker.html#module-processing.header.header_checker.header_comparator">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="processing.header.module.html">processing.header.module package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="processing.header.module.html#module-processing.header.module.argument">Submodules</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="processing.header.html#module-processing.header.xml_extractor">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="processing.metadata.html">processing.metadata package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="processing.metadata.html#module-processing.metadata.corrupted_data_manager">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="processing.nwb.html">processing.nwb package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="processing.nwb.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="processing.nwb.common.html">processing.nwb.common package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="processing.nwb.common.html#module-processing.nwb.common.data_manager">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="processing.nwb.components.html">processing.nwb.components package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="processing.nwb.components.html#subpackages">Subpackages</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="processing.time.html">processing.time package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="processing.time.html#module-processing.time.continuous_time_extractor">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="processing.tools.html">processing.tools package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="processing.tools.html#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="processing.tools.beartype.html">processing.tools.beartype package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="processing.tools.beartype.html#module-processing.tools.beartype.beartype">Submodules</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="processing.tools.html#module-processing.tools.abstract_file_downloader">Submodules</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="processing.validation.html">processing.validation package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="processing.validation.html#module-processing.validation.metadata_validation_summary">Submodules</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="module-processing.nwb_file_builder">
+<span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-processing.nwb_file_builder" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="processing.nwb_file_builder.NWBFileBuilder">
+<em class="property">class </em><code class="sig-name descname">NWBFileBuilder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_path</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">animal_name</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">date</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">nwb_metadata</span><span class="p">:</span> <span class="n"><a class="reference internal" href="rec_to_nwb/processing/metadata/metadata_manager/index.html#rec_to_nwb.processing.metadata.metadata_manager.MetadataManager" title="rec_to_nwb.processing.metadata.metadata_manager.MetadataManager">rec_to_nwb.processing.metadata.metadata_manager.MetadataManager</a></span></em>, <em class="sig-param"><span class="n">associated_files</span><span class="p">:</span> <span class="n">list</span> <span class="o">=</span> <span class="default_value">[]</span></em>, <em class="sig-param"><span class="n">process_dio</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_mda</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_analog</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">output_file</span><span class="p">:</span> <span class="n">str</span> <span class="o">=</span> <span class="default_value">'output.nwb'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb_file_builder.NWBFileBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Unpack data from preprocessing folder specified by arguments, and write those data into NWB file format</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_path</strong> (<em>string</em>) – path to directory containing all experiments data</p></li>
+<li><p><strong>animal_name</strong> (<em>string</em>) – directory name which represents animal subject of experiment</p></li>
+<li><p><strong>date</strong> (<em>string</em>) – date of experiment</p></li>
+<li><p><strong>nwb_metadata</strong> (<a class="reference internal" href="processing.metadata.html#processing.metadata.metadata_manager.MetadataManager" title="processing.metadata.metadata_manager.MetadataManager"><em>MetadataManager</em></a>) – object contains metadata about experiment</p></li>
+<li><p><strong>associated_files</strong> (<em>list of strings</em>) – list of paths to files stored inside nwb</p></li>
+<li><p><strong>process_dio</strong> (<em>boolean</em>) – flag if dio data should be processed</p></li>
+<li><p><strong>process_mda</strong> (<em>boolean</em>) – flag if mda data should be processed</p></li>
+<li><p><strong>process_analog</strong> (<em>boolean</em>) – flag if analog data should be processed</p></li>
+<li><p><strong>output_file</strong> (<em>string</em>) – path and name specifying where .nwb file gonna be written</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="processing.nwb_file_builder.NWBFileBuilder.build">
+<code class="sig-name descname">build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb_file_builder.NWBFileBuilder.build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="processing.nwb_file_builder.NWBFileBuilder.build_and_inject_mda_invalid_times">
+<code class="sig-name descname">build_and_inject_mda_invalid_times</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb_file_builder.NWBFileBuilder.build_and_inject_mda_invalid_times" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="processing.nwb_file_builder.NWBFileBuilder.build_and_inject_pos_invalid_times">
+<code class="sig-name descname">build_and_inject_pos_invalid_times</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb_file_builder.NWBFileBuilder.build_and_inject_pos_invalid_times" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="processing.nwb_file_builder.NWBFileBuilder.build_and_inject_pos_valid_times">
+<code class="sig-name descname">build_and_inject_pos_valid_times</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nwb_content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb_file_builder.NWBFileBuilder.build_and_inject_pos_valid_times" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="processing.nwb_file_builder.NWBFileBuilder.extract_datasets">
+<code class="sig-name descname">extract_datasets</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">animal_name</span></em>, <em class="sig-param"><span class="n">date</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb_file_builder.NWBFileBuilder.extract_datasets" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="processing.nwb_file_builder.NWBFileBuilder.write">
+<code class="sig-name descname">write</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">content</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb_file_builder.NWBFileBuilder.write" title="Permalink to this definition">¶</a></dt>
+<dd><p>write nwb file handler with colected data into actual file</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-processing.raw_to_nwb_builder"></span><dl class="py class">
+<dt id="processing.raw_to_nwb_builder.RawToNWBBuilder">
+<em class="property">class </em><code class="sig-name descname">RawToNWBBuilder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_path</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">animal_name</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">dates</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">nwb_metadata</span><span class="p">:</span> <span class="n"><a class="reference internal" href="rec_to_nwb/processing/metadata/metadata_manager/index.html#rec_to_nwb.processing.metadata.metadata_manager.MetadataManager" title="rec_to_nwb.processing.metadata.metadata_manager.MetadataManager">rec_to_nwb.processing.metadata.metadata_manager.MetadataManager</a></span></em>, <em class="sig-param"><span class="n">associated_files</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">output_path</span><span class="p">:</span> <span class="n">str</span> <span class="o">=</span> <span class="default_value">''</span></em>, <em class="sig-param"><span class="n">extract_analog</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">extract_spikes</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">False</span></em>, <em class="sig-param"><span class="n">extract_lfps</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">False</span></em>, <em class="sig-param"><span class="n">extract_dio</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">extract_mda</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">overwrite</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">lfp_export_args</span><span class="p">:</span> <span class="n">tuple</span> <span class="o">=</span> <span class="default_value">'-highpass', '0', '-lowpass', '400', '-interp', '0', '-userefs', '0', '-outputrate', '1500'</span></em>, <em class="sig-param"><span class="n">mda_export_args</span><span class="p">:</span> <span class="n">tuple</span> <span class="o">=</span> <span class="default_value">'-usespikefilters', '0', '-interp', '0', '-userefs', '0'</span></em>, <em class="sig-param"><span class="n">parallel_instances</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">4</span></em>, <em class="sig-param"><span class="n">analog_export_args</span><span class="p">:</span> <span class="n">tuple</span> <span class="o">=</span> <span class="default_value">()</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.raw_to_nwb_builder.RawToNWBBuilder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>Unpack data from raw folder specified by arguments, and write those data into NWB file format</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data_path</strong> (<em>string</em>) – path to directory containing all experiments data</p></li>
+<li><p><strong>animal_name</strong> (<em>string</em>) – directory name which represents animal subject of experiment</p></li>
+<li><p><strong>dates</strong> (<em>list of strings</em>) – dates of experiments on above animal</p></li>
+<li><p><strong>nwb_metadata</strong> (<a class="reference internal" href="processing.metadata.html#processing.metadata.metadata_manager.MetadataManager" title="processing.metadata.metadata_manager.MetadataManager"><em>MetadataManager</em></a>) – object containig metadata about experiment</p></li>
+<li><p><strong>output_path</strong> (<em>string</em>) – path and name specifying where .nwb file gonna be written</p></li>
+<li><p><strong>extract_analog</strong> (<em>boolean</em>) – flag if analog data should be extracted and processed from raw data</p></li>
+<li><p><strong>extract_spikes</strong> (<em>boolean</em>) – flag if spikes data should be extracted and processed from raw data</p></li>
+<li><p><strong>extract_lfps</strong> (<em>boolean</em>) – flag  if lfps data should be extracted and processed from raw data</p></li>
+<li><p><strong>extract_dio</strong> (<em>boolean</em>) – flag if dio data should be extracted and processed from raw data</p></li>
+<li><p><strong>extract_mda</strong> (<em>boolean</em>) – flag if mda data should be extracted and processed from raw data</p></li>
+<li><p><strong>overwrite</strong> (<em>boolean</em>) – flag if current extracted data in preprocessed folder content should be overwritten</p></li>
+<li><p><strong>lfp_export_args</strong> (<em>tuple of strings</em>) – parameters to launch lfp extraction from spikegadgets</p></li>
+<li><p><strong>mda_export_args</strong> (<em>tuple of strings</em>) – parameters to launch mda extraction from spikegadgets</p></li>
+<li><p><strong>analog_export_args</strong> (<em>tuple of strings</em>) – parameters to launch analog extraction from spikegadgets</p></li>
+<li><p><strong>parallel_instances</strong> (<em>int</em>) – number of parallel processes used during processing data</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="processing.raw_to_nwb_builder.RawToNWBBuilder.build_nwb">
+<code class="sig-name descname">build_nwb</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#processing.raw_to_nwb_builder.RawToNWBBuilder.build_nwb" title="Permalink to this definition">¶</a></dt>
+<dd><p>builds nwb file for experiments from given dates</p>
+</dd></dl>
+
+<dl class="py method">
+<dt id="processing.raw_to_nwb_builder.RawToNWBBuilder.cleanup">
+<code class="sig-name descname">cleanup</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#processing.raw_to_nwb_builder.RawToNWBBuilder.cleanup" title="Permalink to this definition">¶</a></dt>
+<dd><p>remove all temporary files structure from preprocessing folder</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="processing.exceptions.html" class="btn btn-neutral float-right" title="processing.exceptions package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../api.html" class="btn btn-neutral float-left" title="API Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Novela
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

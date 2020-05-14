@@ -1,0 +1,35 @@
+:mod:`rec_to_nwb.processing.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor`
+=====================================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.mda_invalid_times.fl_invalid_time_mda_timestamp_extractor
+
+
+Module Contents
+---------------
+
+
+.. py:class:: FlInvalidTimeMdaTimestampExtractor
+
+   .. method:: get_sample_count_from_single_epoch(self, epoch: Dataset)
+
+
+
+   .. method:: __read_mda_timestamps_from_single_epoch(self, timestamp_file)
+
+
+
+   .. method:: get_continuous_time_dict(epoch: Dataset)
+      :staticmethod:
+
+
+
+   .. method:: __convert_timestamps(timestamps, continuous_time_dicts)
+      :staticmethod:
+
+
+
+   .. method:: __get_mda_timestamp_file(self, epoch)
+
+
+
+

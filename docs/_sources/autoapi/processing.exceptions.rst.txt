@@ -1,0 +1,83 @@
+processing.exceptions package
+=============================
+
+.. automodule:: processing.exceptions
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: processing.exceptions.corrupted_data_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.exceptions.different_number_of_tasks_and_epochs_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.exceptions.empty_string_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.exceptions.incorrect_type_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.exceptions.invalid_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.exceptions.invalid_header_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.exceptions.invalid_input_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.exceptions.invalid_metadata_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.exceptions.missing_data_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.exceptions.none_param_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.exceptions.not_compatible_metadata
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.exceptions.not_equal_param_length_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

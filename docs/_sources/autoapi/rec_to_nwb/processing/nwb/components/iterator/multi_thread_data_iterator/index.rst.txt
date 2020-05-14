@@ -1,0 +1,29 @@
+:mod:`rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator`
+===============================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator
+
+
+Module Contents
+---------------
+
+
+.. py:class:: MultiThreadDataIterator(data, number_of_threads=6)
+
+   Bases: :class:`rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator`
+
+   .. attribute:: next
+      
+
+      
+
+   .. method:: __next__(self)
+
+
+
+   .. method:: get_data_from_file(data, current_dataset, current_file)
+      :staticmethod:
+
+
+
+

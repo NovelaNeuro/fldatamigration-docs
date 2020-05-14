@@ -1,0 +1,63 @@
+:mod:`rec_to_nwb.processing.validation.preprocessing_validator`
+===============================================================
+
+.. py:module:: rec_to_nwb.processing.validation.preprocessing_validator
+
+
+Module Contents
+---------------
+
+
+.. py:class:: PreprocessingValidator(data_path, epochs, data_types_for_scanning)
+
+   Bases: :class:`rec_to_nwb.processing.validation.validator.Validator`
+
+   Class to validate if preprocessing data is complete
+
+   :param all_data_dirs: all directories contained in directory <animal name>/<preprocessing>/<date>
+   :type all_data_dirs: list of strings
+   :param epochs: list of all epochs
+   :type epochs: list of strings
+   :param data_types_to_check: types of data required
+   :type data_types_to_check: dictionary
+
+   .. method:: get_missing_preprocessing_data()
+
+      
+
+   .. method:: __check_single_epoch()
+
+      
+      
+
+   .. method:: create_summary(self)
+
+
+      Creates ValidationSummary object with the results of validation
+
+      :returns: missing preprocessing files
+      :rtype: PreprocessingValidationSummary
+
+
+   .. method:: __get_missing_preprocessing_data(self)
+
+
+      Get list of missing preprocessing files
+
+      :returns: missing preprocessing files
+      :rtype: List of strings
+
+
+   .. method:: __check_single_epoch(self, epoch)
+
+
+      finds missing data in single epoch
+
+      :param epoch: name of epoch to check
+      :type epoch: string
+
+      :returns: missing preprocessing files from checked epoch
+      :rtype: List of strings
+
+
+

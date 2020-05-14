@@ -1,0 +1,28 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.device_factory`
+=================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.device_factory
+
+
+Module Contents
+---------------
+
+
+.. py:class:: DeviceFactory
+
+   .. method:: create_device(cls, fl_device)
+      :classmethod:
+
+
+
+   .. method:: create_probe(cls, fl_probe)
+      :classmethod:
+
+
+
+   .. method:: create_header_device(cls, fl_header_device)
+      :classmethod:
+
+
+
+
