@@ -40,7 +40,7 @@ Module Contents
 
 
 
-   .. method:: create_probe_channel(cls, ntrode_metadata)
+   .. method:: create_probe_electrode(cls, probes_metadata, electrode_groups_metadata)
       :classmethod:
 
 

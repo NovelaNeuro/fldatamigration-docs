@@ -10,7 +10,12 @@ Module Contents
 
 .. py:class:: PosValidTimeInjector
 
-   .. method:: inject(valid_times, nwb_content)
+   .. method:: inject_all(valid_times, nwb_content)
+      :staticmethod:
+
+
+
+   .. method:: inject(single_interval, intervals)
       :staticmethod:
 
 

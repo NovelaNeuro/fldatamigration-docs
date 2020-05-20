@@ -10,16 +10,14 @@ Module Contents
 
 .. py:class:: PosInvalidTimeInjector
 
-   .. method:: inject_all(gaps, nwb_content)
+   .. method:: inject_all(valid_times, nwb_content)
       :staticmethod:
 
 
 
-   .. method:: inject(gap, nwb_content)
+   .. method:: inject(single_interval, intervals)
       :staticmethod:
 
-
-      insert invalid times to nwb file
 
 
 
