@@ -10,14 +10,12 @@ Module Contents
 
 .. py:class:: MdaInvalidTimeInjector
 
-   .. method:: inject_all(gaps, nwb_content)
+   .. method:: inject_all(valid_times, nwb_content)
       :staticmethod:
 
 
-      insert invalid times to nwb file
 
-
-   .. method:: inject(gap, nwb_content)
+   .. method:: inject(single_interval, intervals)
       :staticmethod:
 
 

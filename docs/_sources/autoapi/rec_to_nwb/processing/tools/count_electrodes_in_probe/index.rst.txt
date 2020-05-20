@@ -1,0 +1,13 @@
+:mod:`rec_to_nwb.processing.tools.count_electrodes_in_probe`
+============================================================
+
+.. py:module:: rec_to_nwb.processing.tools.count_electrodes_in_probe
+
+
+Module Contents
+---------------
+
+
+.. function:: count_electrodes_in_probe(probe_content: dict) -> int
+
+

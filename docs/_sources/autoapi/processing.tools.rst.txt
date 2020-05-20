@@ -30,6 +30,18 @@ Submodules
    :show-inheritance:
 
 
+.. automodule:: processing.tools.count_electrodes_in_ntrode
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.tools.count_electrodes_in_probe
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: processing.tools.data_scanner
    :members:
    :undoc-members:

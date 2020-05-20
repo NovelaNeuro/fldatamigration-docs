@@ -21,6 +21,8 @@ Submodules
 
    abstract_file_downloader/index.rst
    adjust_length/index.rst
+   count_electrodes_in_ntrode/index.rst
+   count_electrodes_in_probe/index.rst
    data_scanner/index.rst
    dataset/index.rst
    file_downloader/index.rst

@@ -8,6 +8,6 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlElectrodeExtension(rel_x, rel_y, rel_z, hw_chan, ntrode_id, channel_id, bad_channels, probe_shank, probe_channel)
+.. py:class:: FlElectrodeExtension(rel_x, rel_y, rel_z, hw_chan, ntrode_id, channel_id, bad_channels, probe_shank, probe_electrode)
 
 
