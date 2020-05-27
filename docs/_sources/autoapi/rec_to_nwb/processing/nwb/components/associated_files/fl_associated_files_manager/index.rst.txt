@@ -8,7 +8,7 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlAssociatedFilesManager(files: list, files_metadata: list)
+.. py:class:: FlAssociatedFilesManager(associated_files_metadata: list)
 
    .. method:: get_fl_associated_files(self)
 

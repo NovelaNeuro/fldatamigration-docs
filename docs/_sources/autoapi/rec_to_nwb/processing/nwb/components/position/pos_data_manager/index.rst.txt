@@ -18,4 +18,16 @@ Module Contents
       extract data from POS files and build FlPos
 
 
+   .. method:: get_column_labels(self)
+
+
+      extract column labels from POS files
+
+
+   .. method:: get_column_labels_as_string(self)
+
+
+      extract column labels from POS files and converts them do single string
+
+
 

@@ -18,6 +18,7 @@ Submodules
    invalid_header_exception/index.rst
    invalid_input_exception/index.rst
    invalid_metadata_exception/index.rst
+   invalid_xml_exception/index.rst
    missing_data_exception/index.rst
    none_param_exception/index.rst
    not_compatible_metadata/index.rst

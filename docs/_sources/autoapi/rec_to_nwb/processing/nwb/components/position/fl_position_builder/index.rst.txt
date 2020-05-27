@@ -10,7 +10,7 @@ Module Contents
 
 .. py:class:: FlPositionBuilder
 
-   .. method:: build(position_data, timestamps, conversion)
+   .. method:: build(position_data, column_labels, timestamps, conversion)
       :staticmethod:
 
 

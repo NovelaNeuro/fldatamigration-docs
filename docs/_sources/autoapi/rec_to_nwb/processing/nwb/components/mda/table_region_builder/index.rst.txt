@@ -14,4 +14,8 @@ Module Contents
 
 
 
+   .. method:: __get_region(self)
+
+
+
 

@@ -58,6 +58,12 @@ Submodules
    :show-inheritance:
 
 
+.. automodule:: processing.exceptions.invalid_xml_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: processing.exceptions.missing_data_exception
    :members:
    :undoc-members:

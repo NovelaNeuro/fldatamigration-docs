@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>About &mdash; rec_to_nwb 0.1.009 documentation</title>
+  <title>About &mdash; rec_to_nwb 0.1.010 documentation</title>
   
 
   
@@ -263,15 +263,16 @@ If Spike Gadgets is in default location:</p>
    <span class="p">]</span>
  <span class="c1"># Associated files which describe content of files stored inside nwb as text.</span>
     <span class="n">associated_files</span><span class="p">:</span>
-  <span class="o">-</span>  <span class="n">name</span><span class="p">:</span> <span class="n">example_name1</span>
-     <span class="n">description</span><span class="p">:</span> <span class="n">exmaple</span> <span class="n">description</span> <span class="mi">1</span>
-  <span class="o">-</span>  <span class="n">name</span><span class="p">:</span> <span class="n">example_name2</span>
-     <span class="n">description</span><span class="p">:</span> <span class="n">exmaple</span> <span class="n">description</span> <span class="mi">2</span>
+   <span class="o">-</span>  <span class="n">name</span><span class="p">:</span> <span class="n">example_name1</span>
+      <span class="n">description</span><span class="p">:</span> <span class="n">exmaple</span> <span class="n">description</span> <span class="mi">1</span>
+      <span class="n">path</span><span class="p">:</span> <span class="n">C</span><span class="p">:</span><span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">sampleuser</span><span class="o">/</span><span class="n">PycharmProjects</span><span class="o">/</span><span class="n">rec_to_nwb</span><span class="o">/</span><span class="n">test</span><span class="o">/</span><span class="n">processing</span><span class="o">/</span><span class="n">res</span><span class="o">/</span><span class="n">test_text_files</span><span class="o">/</span><span class="n">test1_file</span>
+   <span class="o">-</span>  <span class="n">name</span><span class="p">:</span> <span class="n">example_name2</span>
+      <span class="n">description</span><span class="p">:</span> <span class="n">exmaple</span> <span class="n">description</span> <span class="mi">2</span>
+      <span class="n">path</span><span class="p">:</span> <span class="n">C</span><span class="p">:</span><span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">sampleuser</span><span class="o">/</span><span class="n">PycharmProjects</span><span class="o">/</span><span class="n">rec_to_nwb</span><span class="o">/</span><span class="n">test</span><span class="o">/</span><span class="n">processing</span><span class="o">/</span><span class="n">res</span><span class="o">/</span><span class="n">test_text_files</span><span class="o">/</span><span class="n">test2_file</span>
  <span class="c1"># Din/Dout events which filter out files from DIO data in data directory. Each name has to be unique. Stored in behavioral_events section in output nwb file.</span>
  <span class="n">behavioral_events</span><span class="p">:</span> 
-   <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Din1</span>
-   <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Din2</span>
-     <span class="n">description</span><span class="p">:</span> <span class="n">Poke2</span>
+   <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Poke2</span>
+     <span class="n">description</span><span class="p">:</span> <span class="n">Din2</span>
  <span class="c1"># Device name. Stored in output nwb file.</span>
  <span class="n">device</span><span class="p">:</span> 
    <span class="n">name</span><span class="p">:</span>
@@ -353,7 +354,6 @@ If Spike Gadgets is in default location:</p>
           <span class="nv">data_path</span><span class="o">=</span><span class="s1">&#39;../test/test_data/&#39;</span>,
           <span class="nv">dates</span><span class="o">=[</span><span class="s1">&#39;20190718&#39;</span><span class="o">]</span>,
           <span class="nv">nwb_metadata</span><span class="o">=</span>metadata,
-          <span class="nv">associated_files</span><span class="o">=[</span><span class="s1">&#39;../test/test_data/recording_drivers&#39;</span>, <span class="s1">&#39;../test/test_data/device_software&#39;</span><span class="o">]</span>,
           <span class="nv">output_path</span><span class="o">=</span><span class="s1">&#39;/out/nwb&#39;</span>
            <span class="o">)</span>
 builder.build_nwb<span class="o">()</span>
@@ -368,8 +368,6 @@ builder.build_nwb<span class="o">()</span>
 
   **nwb_metadata** = `MetadataManager` object with metadata.yml and probes.yml &lt;br&gt;
   
-  **associated_files** = `list of strings` These elements corespond to the metadata.yml, &#39;associated_files&#39;  section`s. There you should describe in the same order, each file`s name and description &lt;br&gt;
-
   **output_path** = `string` path specifying location and name of result file (dafault &#39;output.nwb&#39;) &lt;br&gt;
 
   **extract_analog** = `boolean` flag specifying if analog data should be extracted from raw (default True) &lt;br&gt;
@@ -386,7 +384,7 @@ builder.build_nwb<span class="o">()</span>
   
   **overwrite** = `boolean`  If true, will overwrite existing files. (default True) &lt;br&gt;
   
-  **analog_export_args** = `tuple of strings` path to rec header file which overrides all headers existing in rec binary files e.g `_DEFAULT_ANALOG_EXPORT_ARGS = (&#39;-reconfig&#39;, str(path) + &#39;/test/processing/res/reconfig_header.xml&#39;)` &lt;br&gt;
+  **trodes_rec_export_args** = `tuple of strings` path to rec header file which overrides all headers existing in rec binary files e.g `_DEFAULT_TRODES_REC_EXPORT_ARGS = (&#39;-reconfig&#39;, str(path) + &#39;/test/processing/res/reconfig_header.xml&#39;)` &lt;br&gt;
 </pre></div>
 </div>
 </div>
@@ -398,7 +396,6 @@ builder.build_nwb<span class="o">()</span>
          <span class="nv">animal_name</span><span class="o">=</span><span class="s1">&#39;beans&#39;</span>,
          <span class="nv">date</span><span class="o">=</span><span class="s1">&#39;20190718&#39;</span>,
          <span class="nv">nwb_metadata</span><span class="o">=</span>metadata,
-         <span class="nv">associated_files</span><span class="o">=[</span><span class="s1">&#39;../test/test_data/recording_drivers&#39;</span>, <span class="s1">&#39;../test/test_data/device_software&#39;</span><span class="o">]</span>,
          <span class="nv">process_dio</span><span class="o">=</span>True,
          <span class="nv">process_mda</span><span class="o">=</span>True,
          <span class="nv">process_analog</span><span class="o">=</span>True
@@ -416,8 +413,6 @@ builder.write<span class="o">(</span>content<span class="o">)</span>
  
  **nwb_metadata** = `MetadataManager` object contains metadata about experiment &lt;br&gt;
 
- **associated_files** = `list of strings` These elements corespond to the metadata.yml, &#39;associated_files&#39;  section`s. There you should describe in the same order, each file`s name and description &lt;br&gt;
- 
  **process_dio** = `boolean` flag if dio data should be processed &lt;br&gt;
  
  **process_mda** = `boolean` flag if mda data should be processed &lt;br&gt;

@@ -15,7 +15,7 @@ Module Contents
 
 .. py:class:: AnalogCreator
 
-   .. method:: create(cls, fl_analog)
+   .. method:: create(cls, fl_analog, unit)
       :classmethod:
 
 
@@ -25,7 +25,7 @@ Module Contents
 
 
 
-   .. method:: __build_timeseries(name, data, timestamps)
+   .. method:: __build_timeseries(name, data, timestamps, unit)
       :staticmethod:
 
 
