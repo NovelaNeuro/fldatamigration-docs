@@ -8,6 +8,6 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlPosition(position_data, timestamps, conversion)
+.. py:class:: FlPosition(position_data, column_labels, timestamps, conversion)
 
 

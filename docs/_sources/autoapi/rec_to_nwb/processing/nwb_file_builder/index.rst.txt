@@ -18,7 +18,7 @@ Module Contents
 
    
 
-.. py:class:: NWBFileBuilder(data_path: str, animal_name: str, date: str, nwb_metadata: MetadataManager, associated_files: list = [], process_dio: bool = True, process_mda: bool = True, process_analog: bool = True, output_file: str = 'output.nwb')
+.. py:class:: NWBFileBuilder(data_path: str, animal_name: str, date: str, nwb_metadata: MetadataManager, process_dio: bool = True, process_mda: bool = True, process_analog: bool = True, process_mda_valid_times: bool = False, process_mda_invalid_times: bool = False, process_pos_valid_times: bool = False, process_pos_invalid_times: bool = False, output_file: str = 'output.nwb')
 
    Unpack data from preprocessing folder specified by arguments, and write those data into NWB file format
 
@@ -30,29 +30,49 @@ Module Contents
    :type date: string
    :param nwb_metadata: object contains metadata about experiment
    :type nwb_metadata: MetadataManager
-   :param associated_files: list of paths to files stored inside nwb
-   :type associated_files: list of strings
    :param process_dio: flag if dio data should be processed
    :type process_dio: boolean
    :param process_mda: flag if mda data should be processed
    :type process_mda: boolean
    :param process_analog: flag if analog data should be processed
    :type process_analog: boolean
+   :param process_mda_valid_times: flag if mda valid times should be processed
+   :type process_mda_valid_times: boolean
+   :param process_mda_invalid_times: flag if mda invalid times should be processed
+   :type process_mda_invalid_times: boolean
+   :param process_pos_valid_times: flag if pos valid times should be processed
+   :type process_pos_valid_times: boolean
+   :param process_pos_invalid_times: flag if pos invalid times should be processed
+   :type process_pos_invalid_times: boolean
    :param output_file: path and name specifying where .nwb file gonna be written
    :type output_file: string
 
-   .. method:: extract_datasets(self, animal_name, date)
+   .. method:: build()
+
+      
+
+   .. method:: write()
+
+      
+      
+
+   .. method:: __extract_datasets(self, animal_name, date)
 
 
 
    .. method:: build(self)
 
 
+      Build NWBFile
+
+      :returns: Return NWBFile content
+      :rtype: NWBFile
+
 
    .. method:: write(self, content)
 
 
-      write nwb file handler with colected data into actual file
+      Write nwb file handler with colected data into actual file
 
 
    .. method:: __build_corrupted_data_manager(self)
@@ -115,15 +135,19 @@ Module Contents
 
 
 
-   .. method:: build_and_inject_mda_invalid_times(self, nwb_content)
+   .. method:: __build_and_inject_mda_valid_times(self, nwb_content)
 
 
 
-   .. method:: build_and_inject_pos_invalid_times(self, nwb_content)
+   .. method:: __build_and_inject_mda_invalid_times(self, nwb_content)
 
 
 
-   .. method:: build_and_inject_pos_valid_times(self, nwb_content)
+   .. method:: __build_and_inject_pos_invalid_times(self, nwb_content)
+
+
+
+   .. method:: __build_and_inject_pos_valid_times(self, nwb_content)
 
 
 

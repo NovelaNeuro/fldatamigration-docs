@@ -10,6 +10,8 @@ Submodules
    :titlesonly:
    :maxdepth: 1
 
+   associated_files_validation/index.rst
+   associated_files_validation_summary/index.rst
    metadata_validation_summary/index.rst
    metadata_validator/index.rst
    not_empty_validation_summary/index.rst

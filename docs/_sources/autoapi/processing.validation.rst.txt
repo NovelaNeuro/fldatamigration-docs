@@ -10,6 +10,18 @@ Submodules
 ----------
 
 
+.. automodule:: processing.validation.associated_files_validation
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.validation.associated_files_validation_summary
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: processing.validation.metadata_validation_summary
    :members:
    :undoc-members:

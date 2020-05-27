@@ -13,7 +13,7 @@ Module Contents
 
    
 
-.. py:class:: DioBuilder(data, dio_metadata)
+.. py:class:: DioBuilder(data, dio_metadata, unit)
 
    .. method:: build(self)
 
@@ -24,7 +24,7 @@ Module Contents
 
 
 
-   .. method:: __build_timeseries(cls, name, description, data)
+   .. method:: __build_timeseries(cls, name, description, data, unit)
       :classmethod:
 
 

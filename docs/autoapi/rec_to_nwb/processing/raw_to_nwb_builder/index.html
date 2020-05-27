@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>rec_to_nwb.processing.raw_to_nwb_builder &mdash; rec_to_nwb 0.1.009 documentation</title>
+  <title>rec_to_nwb.processing.raw_to_nwb_builder &mdash; rec_to_nwb 0.1.010 documentation</title>
   
 
   
@@ -175,13 +175,13 @@
 <dd></dd></dl>
 
 <dl class="py data">
-<dt id="rec_to_nwb.processing.raw_to_nwb_builder._DEFAULT_ANALOG_EXPORT_ARGS">
-<code class="sig-name descname">_DEFAULT_ANALOG_EXPORT_ARGS</code><em class="property"> = []</em><a class="headerlink" href="#rec_to_nwb.processing.raw_to_nwb_builder._DEFAULT_ANALOG_EXPORT_ARGS" title="Permalink to this definition">¶</a></dt>
+<dt id="rec_to_nwb.processing.raw_to_nwb_builder._DEFAULT_TRODES_REC_EXPORT_ARGS">
+<code class="sig-name descname">_DEFAULT_TRODES_REC_EXPORT_ARGS</code><em class="property"> = []</em><a class="headerlink" href="#rec_to_nwb.processing.raw_to_nwb_builder._DEFAULT_TRODES_REC_EXPORT_ARGS" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 <dl class="py class">
 <dt id="rec_to_nwb.processing.raw_to_nwb_builder.RawToNWBBuilder">
-<em class="property">class </em><code class="sig-name descname">RawToNWBBuilder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_path</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">animal_name</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">dates</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">nwb_metadata</span><span class="p">:</span> <span class="n">MetadataManager</span></em>, <em class="sig-param"><span class="n">associated_files</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">output_path</span><span class="p">:</span> <span class="n">str</span> <span class="o">=</span> <span class="default_value">''</span></em>, <em class="sig-param"><span class="n">extract_analog</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">extract_spikes</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">False</span></em>, <em class="sig-param"><span class="n">extract_lfps</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">False</span></em>, <em class="sig-param"><span class="n">extract_dio</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">extract_mda</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">overwrite</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">lfp_export_args</span><span class="p">:</span> <span class="n">tuple</span> <span class="o">=</span> <span class="default_value">_DEFAULT_LFP_EXPORT_ARGS</span></em>, <em class="sig-param"><span class="n">mda_export_args</span><span class="p">:</span> <span class="n">tuple</span> <span class="o">=</span> <span class="default_value">_DEFAULT_MDA_EXPORT_ARGS</span></em>, <em class="sig-param"><span class="n">parallel_instances</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">4</span></em>, <em class="sig-param"><span class="n">analog_export_args</span><span class="p">:</span> <span class="n">tuple</span> <span class="o">=</span> <span class="default_value">_DEFAULT_ANALOG_EXPORT_ARGS</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.raw_to_nwb_builder.RawToNWBBuilder" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">RawToNWBBuilder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_path</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">animal_name</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">dates</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">nwb_metadata</span><span class="p">:</span> <span class="n">MetadataManager</span></em>, <em class="sig-param"><span class="n">output_path</span><span class="p">:</span> <span class="n">str</span> <span class="o">=</span> <span class="default_value">''</span></em>, <em class="sig-param"><span class="n">extract_analog</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">extract_spikes</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">False</span></em>, <em class="sig-param"><span class="n">extract_lfps</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">False</span></em>, <em class="sig-param"><span class="n">extract_dio</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">extract_mda</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_mda_valid_times</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_mda_invalid_times</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_pos_valid_times</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_pos_invalid_times</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">overwrite</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">lfp_export_args</span><span class="p">:</span> <span class="n">tuple</span> <span class="o">=</span> <span class="default_value">_DEFAULT_LFP_EXPORT_ARGS</span></em>, <em class="sig-param"><span class="n">mda_export_args</span><span class="p">:</span> <span class="n">tuple</span> <span class="o">=</span> <span class="default_value">_DEFAULT_MDA_EXPORT_ARGS</span></em>, <em class="sig-param"><span class="n">parallel_instances</span><span class="p">:</span> <span class="n">int</span> <span class="o">=</span> <span class="default_value">4</span></em>, <em class="sig-param"><span class="n">trodes_rec_export_args</span><span class="p">:</span> <span class="n">tuple</span> <span class="o">=</span> <span class="default_value">_DEFAULT_TRODES_REC_EXPORT_ARGS</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.raw_to_nwb_builder.RawToNWBBuilder" title="Permalink to this definition">¶</a></dt>
 <dd><p>Unpack data from raw folder specified by arguments, and write those data into NWB file format</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -196,14 +196,28 @@
 <li><p><strong>extract_lfps</strong> (<em>boolean</em>) – flag  if lfps data should be extracted and processed from raw data</p></li>
 <li><p><strong>extract_dio</strong> (<em>boolean</em>) – flag if dio data should be extracted and processed from raw data</p></li>
 <li><p><strong>extract_mda</strong> (<em>boolean</em>) – flag if mda data should be extracted and processed from raw data</p></li>
+<li><p><strong>process_mda_valid_times</strong> (<em>boolean</em>) – flag if mda valid times should be processed</p></li>
+<li><p><strong>process_mda_invalid_times</strong> (<em>boolean</em>) – flag if mda invalid times should be processed</p></li>
+<li><p><strong>process_pos_valid_times</strong> (<em>boolean</em>) – flag if pos valid times should be processed</p></li>
+<li><p><strong>process_pos_invalid_times</strong> (<em>boolean</em>) – flag if pos invalid times should be processed</p></li>
 <li><p><strong>overwrite</strong> (<em>boolean</em>) – flag if current extracted data in preprocessed folder content should be overwritten</p></li>
 <li><p><strong>lfp_export_args</strong> (<em>tuple of strings</em>) – parameters to launch lfp extraction from spikegadgets</p></li>
 <li><p><strong>mda_export_args</strong> (<em>tuple of strings</em>) – parameters to launch mda extraction from spikegadgets</p></li>
-<li><p><strong>analog_export_args</strong> (<em>tuple of strings</em>) – parameters to launch analog extraction from spikegadgets</p></li>
+<li><p><strong>trodes_rec_export_args</strong> (<em>tuple of strings</em>) – parameters to launch analog extraction from spikegadgets</p></li>
 <li><p><strong>parallel_instances</strong> (<em>int</em>) – number of parallel processes used during processing data</p></li>
 </ul>
 </dd>
 </dl>
+<dl class="py method">
+<dt id="rec_to_nwb.processing.raw_to_nwb_builder.RawToNWBBuilder.build_nwb">
+<code class="sig-name descname">build_nwb</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.raw_to_nwb_builder.RawToNWBBuilder.build_nwb" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.raw_to_nwb_builder.RawToNWBBuilder.cleanup">
+<code class="sig-name descname">cleanup</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.raw_to_nwb_builder.RawToNWBBuilder.cleanup" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
 <dl class="py method">
 <dt id="rec_to_nwb.processing.raw_to_nwb_builder.RawToNWBBuilder.__preprocess_data">
 <code class="sig-name descname">__preprocess_data</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.raw_to_nwb_builder.RawToNWBBuilder.__preprocess_data" title="Permalink to this definition">¶</a></dt>
@@ -211,15 +225,15 @@
 </dd></dl>
 
 <dl class="py method">
-<dt id="rec_to_nwb.processing.raw_to_nwb_builder.RawToNWBBuilder.build_nwb">
-<code class="sig-name descname">build_nwb</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.raw_to_nwb_builder.RawToNWBBuilder.build_nwb" title="Permalink to this definition">¶</a></dt>
-<dd><p>builds nwb file for experiments from given dates</p>
+<dt id="id0">
+<code class="sig-name descname">build_nwb</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#id0" title="Permalink to this definition">¶</a></dt>
+<dd><p>Builds nwb file for experiments from given dates</p>
 </dd></dl>
 
 <dl class="py method">
-<dt id="rec_to_nwb.processing.raw_to_nwb_builder.RawToNWBBuilder.cleanup">
-<code class="sig-name descname">cleanup</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.raw_to_nwb_builder.RawToNWBBuilder.cleanup" title="Permalink to this definition">¶</a></dt>
-<dd><p>remove all temporary files structure from preprocessing folder</p>
+<dt id="id1">
+<code class="sig-name descname">cleanup</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#id1" title="Permalink to this definition">¶</a></dt>
+<dd><p>Remove all temporary files structure from preprocessing folder</p>
 </dd></dl>
 
 <dl class="py method">

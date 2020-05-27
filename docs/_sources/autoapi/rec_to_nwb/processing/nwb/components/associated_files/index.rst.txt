@@ -14,7 +14,7 @@ Submodules
    associated_files_injector/index.rst
    fl_associated_file/index.rst
    fl_associated_files_builder/index.rst
-   fl_associated_files_extractor/index.rst
    fl_associated_files_manager/index.rst
+   fl_associated_files_reader/index.rst
 
 

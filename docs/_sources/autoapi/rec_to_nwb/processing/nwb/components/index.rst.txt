@@ -24,7 +24,6 @@ Subpackages
    pos_valid_times/index.rst
    position/index.rst
    processing_module/index.rst
-   table_region/index.rst
    task/index.rst
 
 
