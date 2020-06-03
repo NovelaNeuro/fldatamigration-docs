@@ -16,8 +16,6 @@ Submodules
    metadata_validator/index.rst
    not_empty_validation_summary/index.rst
    not_empty_validator/index.rst
-   not_none_validation_summary/index.rst
-   not_none_validator/index.rst
    ntrode_validation_summary/index.rst
    ntrode_validator/index.rst
    preprocessing_validation_summary/index.rst

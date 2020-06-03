@@ -8,7 +8,7 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlAnalogManager(analog_files, continuous_time_files)
+.. py:class:: FlAnalogManager(analog_files: list, continuous_time_files: list)
 
    .. method:: get_analog(self)
 

@@ -8,6 +8,6 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlProbe(metadata, probe_id, shanks)
+.. py:class:: FlProbe(probe_id, name, probe_type, units, probe_description, contact_side_numbering, contact_size, shanks)
 
 

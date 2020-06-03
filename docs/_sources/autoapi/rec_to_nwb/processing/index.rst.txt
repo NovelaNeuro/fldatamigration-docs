@@ -10,6 +10,7 @@ Subpackages
    :titlesonly:
    :maxdepth: 3
 
+   builder/index.rst
    exceptions/index.rst
    header/index.rst
    metadata/index.rst
@@ -17,15 +18,5 @@ Subpackages
    time/index.rst
    tools/index.rst
    validation/index.rst
-
-
-Submodules
-----------
-.. toctree::
-   :titlesonly:
-   :maxdepth: 1
-
-   nwb_file_builder/index.rst
-   raw_to_nwb_builder/index.rst
 
 

@@ -10,17 +10,17 @@ Module Contents
 
 .. py:class:: DeviceFactory
 
-   .. method:: create_device(cls, fl_device)
+   .. method:: create_device(cls, fl_device: FlDevice)
       :classmethod:
 
 
 
-   .. method:: create_probe(cls, fl_probe)
+   .. method:: create_probe(cls, fl_probe: FlProbe)
       :classmethod:
 
 
 
-   .. method:: create_header_device(cls, fl_header_device)
+   .. method:: create_header_device(cls, fl_header_device: FlHeaderDevice)
       :classmethod:
 
 
