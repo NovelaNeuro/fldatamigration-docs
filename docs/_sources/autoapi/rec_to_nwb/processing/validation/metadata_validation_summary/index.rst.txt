@@ -13,7 +13,6 @@ Module Contents
    Bases: :class:`rec_to_nwb.processing.validation.validation_summary.ValidationSummary`
 
    .. method:: is_valid(self)
-      :property:
 
 
 

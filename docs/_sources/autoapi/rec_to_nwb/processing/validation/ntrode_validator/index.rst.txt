@@ -18,11 +18,16 @@ Module Contents
 
    
 
-.. py:class:: NTrodeValidator(metadata, header)
+.. py:class:: NTrodeValidator(metadata: dict, header: Header, probes_metadata: list)
 
    Bases: :class:`rec_to_nwb.processing.validation.validator.Validator`
 
    .. method:: create_summary(self)
+
+
+
+   .. method:: validate_ntrode_metadata_with_probe_metadata(metadata, probes_metadata)
+      :staticmethod:
 
 
 

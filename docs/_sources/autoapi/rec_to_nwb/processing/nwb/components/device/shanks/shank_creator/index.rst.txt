@@ -10,7 +10,7 @@ Module Contents
 
 .. py:class:: ShankCreator
 
-   .. method:: create(cls, fl_shank)
+   .. method:: create(cls, fl_shank: FlShank)
       :classmethod:
 
 

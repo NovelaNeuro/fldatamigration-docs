@@ -1,0 +1,27 @@
+:mod:`rec_to_nwb.processing.builder.originators.probe_originator`
+=================================================================
+
+.. py:module:: rec_to_nwb.processing.builder.originators.probe_originator
+
+
+Module Contents
+---------------
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: ProbeOriginator(device_factory, device_injector, probes_metadata)
+
+   .. method:: make(self, nwb_content, shanks_dict, probes_valid_map)
+
+
+
+

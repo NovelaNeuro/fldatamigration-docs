@@ -11,13 +11,11 @@ Submodules
    :maxdepth: 1
 
    corrupted_data_exception/index.rst
-   different_number_of_tasks_and_epochs_exception/index.rst
-   empty_string_exception/index.rst
-   incorrect_type_exception/index.rst
    invalid_exception/index.rst
    invalid_header_exception/index.rst
    invalid_input_exception/index.rst
    invalid_metadata_exception/index.rst
+   invalid_xml_exception/index.rst
    missing_data_exception/index.rst
    none_param_exception/index.rst
    not_compatible_metadata/index.rst

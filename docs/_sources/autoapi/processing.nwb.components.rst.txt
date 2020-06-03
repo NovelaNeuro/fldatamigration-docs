@@ -21,10 +21,6 @@ Subpackages
    processing.nwb.components.epochs
    processing.nwb.components.iterator
    processing.nwb.components.mda
-   processing.nwb.components.mda_invalid_times
-   processing.nwb.components.pos_invalid_times
-   processing.nwb.components.pos_valid_times
    processing.nwb.components.position
    processing.nwb.components.processing_module
-   processing.nwb.components.table_region
    processing.nwb.components.task

@@ -37,12 +37,6 @@ Submodules
    :show-inheritance:
 
 
-.. automodule:: processing.nwb.components.device.fl_device_header_manager
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
 .. automodule:: processing.nwb.components.device.fl_header_device
    :members:
    :undoc-members:
@@ -50,6 +44,12 @@ Submodules
 
 
 .. automodule:: processing.nwb.components.device.fl_header_device_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.device.fl_header_device_manager
    :members:
    :undoc-members:
    :show-inheritance:

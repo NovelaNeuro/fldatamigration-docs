@@ -7,8 +7,12 @@
 Module Contents
 ---------------
 
-.. py:exception:: MissingDataException
+.. py:exception:: MissingDataException(*args)
 
-   Bases: :class:`Exception`
+   Bases: :class:`rec_to_nwb.processing.exceptions.invalid_exception.InvalidException`
+
+   .. method:: __str__(self)
+
+
 
 

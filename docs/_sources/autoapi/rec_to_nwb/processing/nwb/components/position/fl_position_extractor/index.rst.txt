@@ -8,13 +8,17 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlPositionExtractor(datasets)
+.. py:class:: FlPositionExtractor(datasets: list)
 
    .. method:: __extract_data(self)
 
 
 
    .. method:: get_position(self)
+
+
+
+   .. method:: get_column_labels(self)
 
 
 

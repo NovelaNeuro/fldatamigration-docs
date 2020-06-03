@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>processing.validation package &mdash; rec_to_nwb 0.1.008 documentation</title>
+  <title>processing.validation package &mdash; rec_to_nwb 0.1.011 documentation</title>
   
 
   
@@ -87,6 +87,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../README.html#how-to-use-it">How to use it</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../api.html">API Documentation</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="processing.html">processing package</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="processing.builder.html">processing.builder package</a></li>
 <li class="toctree-l3"><a class="reference internal" href="processing.exceptions.html">processing.exceptions package</a></li>
 <li class="toctree-l3"><a class="reference internal" href="processing.header.html">processing.header package</a></li>
 <li class="toctree-l3"><a class="reference internal" href="processing.metadata.html">processing.metadata package</a></li>
@@ -170,15 +171,37 @@
             
   <div class="section" id="module-processing.validation">
 <span id="processing-validation-package"></span><h1>processing.validation package<a class="headerlink" href="#module-processing.validation" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="module-processing.validation.metadata_validation_summary">
-<span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-processing.validation.metadata_validation_summary" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-processing.validation.associated_files_validation">
+<span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-processing.validation.associated_files_validation" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
+<dt id="processing.validation.associated_files_validation.AssociatedFilesValidator">
+<em class="property">class </em><code class="sig-name descname">AssociatedFilesValidator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">associated_files</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.associated_files_validation.AssociatedFilesValidator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="rec_to_nwb/processing/validation/validator/index.html#rec_to_nwb.processing.validation.validator.Validator" title="rec_to_nwb.processing.validation.validator.Validator"><code class="xref py py-class docutils literal notranslate"><span class="pre">rec_to_nwb.processing.validation.validator.Validator</span></code></a></p>
+<dl class="py method">
+<dt id="processing.validation.associated_files_validation.AssociatedFilesValidator.create_summary">
+<code class="sig-name descname">create_summary</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.associated_files_validation.AssociatedFilesValidator.create_summary" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-processing.validation.associated_files_validation_summary"></span><dl class="py class">
+<dt id="processing.validation.associated_files_validation_summary.AssociatedFilesValidationSummary">
+<em class="property">class </em><code class="sig-name descname">AssociatedFilesValidationSummary</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">associated_files</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.associated_files_validation_summary.AssociatedFilesValidationSummary" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="rec_to_nwb/processing/validation/validation_summary/index.html#rec_to_nwb.processing.validation.validation_summary.ValidationSummary" title="rec_to_nwb.processing.validation.validation_summary.ValidationSummary"><code class="xref py py-class docutils literal notranslate"><span class="pre">rec_to_nwb.processing.validation.validation_summary.ValidationSummary</span></code></a></p>
+<dl class="py method">
+<dt id="processing.validation.associated_files_validation_summary.AssociatedFilesValidationSummary.is_valid">
+<code class="sig-name descname">is_valid</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.associated_files_validation_summary.AssociatedFilesValidationSummary.is_valid" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-processing.validation.metadata_validation_summary"></span><dl class="py class">
 <dt id="processing.validation.metadata_validation_summary.MetadataValidationSummary">
 <em class="property">class </em><code class="sig-name descname">MetadataValidationSummary</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">missing_metadata</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.metadata_validation_summary.MetadataValidationSummary" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="rec_to_nwb/processing/validation/validation_summary/index.html#rec_to_nwb.processing.validation.validation_summary.ValidationSummary" title="rec_to_nwb.processing.validation.validation_summary.ValidationSummary"><code class="xref py py-class docutils literal notranslate"><span class="pre">rec_to_nwb.processing.validation.validation_summary.ValidationSummary</span></code></a></p>
 <dl class="py method">
 <dt id="processing.validation.metadata_validation_summary.MetadataValidationSummary.is_valid">
-<em class="property">property </em><code class="sig-name descname">is_valid</code><a class="headerlink" href="#processing.validation.metadata_validation_summary.MetadataValidationSummary.is_valid" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">is_valid</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.metadata_validation_summary.MetadataValidationSummary.is_valid" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -230,28 +253,6 @@
 
 </dd></dl>
 
-<span class="target" id="module-processing.validation.not_none_validation_summary"></span><dl class="py class">
-<dt id="processing.validation.not_none_validation_summary.NotNoneValidationSummary">
-<em class="property">class </em><code class="sig-name descname">NotNoneValidationSummary</code><a class="headerlink" href="#processing.validation.not_none_validation_summary.NotNoneValidationSummary" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="rec_to_nwb/processing/validation/validation_summary/index.html#rec_to_nwb.processing.validation.validation_summary.ValidationSummary" title="rec_to_nwb.processing.validation.validation_summary.ValidationSummary"><code class="xref py py-class docutils literal notranslate"><span class="pre">rec_to_nwb.processing.validation.validation_summary.ValidationSummary</span></code></a></p>
-<dl class="py method">
-<dt id="processing.validation.not_none_validation_summary.NotNoneValidationSummary.is_valid">
-<code class="sig-name descname">is_valid</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.not_none_validation_summary.NotNoneValidationSummary.is_valid" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</dd></dl>
-
-<span class="target" id="module-processing.validation.not_none_validator"></span><dl class="py class">
-<dt id="processing.validation.not_none_validator.NotNoneValidator">
-<em class="property">class </em><code class="sig-name descname">NotNoneValidator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">parameter</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.not_none_validator.NotNoneValidator" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <a class="reference internal" href="rec_to_nwb/processing/validation/validator/index.html#rec_to_nwb.processing.validation.validator.Validator" title="rec_to_nwb.processing.validation.validator.Validator"><code class="xref py py-class docutils literal notranslate"><span class="pre">rec_to_nwb.processing.validation.validator.Validator</span></code></a></p>
-<dl class="py method">
-<dt id="processing.validation.not_none_validator.NotNoneValidator.create_summary">
-<code class="sig-name descname">create_summary</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.not_none_validator.NotNoneValidator.create_summary" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
-
-</dd></dl>
-
 <span class="target" id="module-processing.validation.ntrode_validation_summary"></span><dl class="py class">
 <dt id="processing.validation.ntrode_validation_summary.NTrodeValidationSummary">
 <em class="property">class </em><code class="sig-name descname">NTrodeValidationSummary</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">ntrodes_num</span></em>, <em class="sig-param"><span class="n">spike_ntrodes_num</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.ntrode_validation_summary.NTrodeValidationSummary" title="Permalink to this definition">¶</a></dt>
@@ -265,11 +266,16 @@
 
 <span class="target" id="module-processing.validation.ntrode_validator"></span><dl class="py class">
 <dt id="processing.validation.ntrode_validator.NTrodeValidator">
-<em class="property">class </em><code class="sig-name descname">NTrodeValidator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">metadata</span></em>, <em class="sig-param"><span class="n">header</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.ntrode_validator.NTrodeValidator" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">NTrodeValidator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">metadata</span><span class="p">:</span> <span class="n">dict</span></em>, <em class="sig-param"><span class="n">header</span><span class="p">:</span> <span class="n"><a class="reference internal" href="rec_to_nwb/processing/header/module/header/index.html#rec_to_nwb.processing.header.module.header.Header" title="rec_to_nwb.processing.header.module.header.Header">rec_to_nwb.processing.header.module.header.Header</a></span></em>, <em class="sig-param"><span class="n">probes_metadata</span><span class="p">:</span> <span class="n">list</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.ntrode_validator.NTrodeValidator" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="rec_to_nwb/processing/validation/validator/index.html#rec_to_nwb.processing.validation.validator.Validator" title="rec_to_nwb.processing.validation.validator.Validator"><code class="xref py py-class docutils literal notranslate"><span class="pre">rec_to_nwb.processing.validation.validator.Validator</span></code></a></p>
 <dl class="py method">
 <dt id="processing.validation.ntrode_validator.NTrodeValidator.create_summary">
 <code class="sig-name descname">create_summary</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.ntrode_validator.NTrodeValidator.create_summary" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="processing.validation.ntrode_validator.NTrodeValidator.validate_ntrode_metadata_with_probe_metadata">
+<em class="property">static </em><code class="sig-name descname">validate_ntrode_metadata_with_probe_metadata</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">metadata</span></em>, <em class="sig-param"><span class="n">probes_metadata</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.validation.ntrode_validator.NTrodeValidator.validate_ntrode_metadata_with_probe_metadata" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

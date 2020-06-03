@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>processing.nwb.components.device.shanks package &mdash; rec_to_nwb 0.1.008 documentation</title>
+  <title>processing.nwb.components.device.shanks package &mdash; rec_to_nwb 0.1.011 documentation</title>
   
 
   
@@ -87,6 +87,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../README.html#how-to-use-it">How to use it</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../api.html">API Documentation</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="processing.html">processing package</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="processing.builder.html">processing.builder package</a></li>
 <li class="toctree-l3"><a class="reference internal" href="processing.exceptions.html">processing.exceptions package</a></li>
 <li class="toctree-l3"><a class="reference internal" href="processing.header.html">processing.header package</a></li>
 <li class="toctree-l3"><a class="reference internal" href="processing.metadata.html">processing.metadata package</a></li>
@@ -201,11 +202,11 @@
 
 <span class="target" id="module-processing.nwb.components.device.shanks.fl_shank_manager"></span><dl class="py class">
 <dt id="processing.nwb.components.device.shanks.fl_shank_manager.FlShankManager">
-<em class="property">class </em><code class="sig-name descname">FlShankManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">probes_metadata</span></em>, <em class="sig-param"><span class="n">electrode_groups_metadata</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.device.shanks.fl_shank_manager.FlShankManager" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlShankManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">probes_metadata</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">electrode_groups_metadata</span><span class="p">:</span> <span class="n">list</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.device.shanks.fl_shank_manager.FlShankManager" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="py method">
 <dt id="processing.nwb.components.device.shanks.fl_shank_manager.FlShankManager.get_fl_shanks_dict">
-<code class="sig-name descname">get_fl_shanks_dict</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">shanks_electrodes_dict</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.device.shanks.fl_shank_manager.FlShankManager.get_fl_shanks_dict" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_fl_shanks_dict</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">shanks_electrodes_dict</span><span class="p">:</span> <span class="n">dict</span></em><span class="sig-paren">)</span> &#x2192; dict<a class="headerlink" href="#processing.nwb.components.device.shanks.fl_shank_manager.FlShankManager.get_fl_shanks_dict" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -216,7 +217,7 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="py method">
 <dt id="processing.nwb.components.device.shanks.shank_creator.ShankCreator.create">
-<em class="property">classmethod </em><code class="sig-name descname">create</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">fl_shank</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.device.shanks.shank_creator.ShankCreator.create" title="Permalink to this definition">¶</a></dt>
+<em class="property">classmethod </em><code class="sig-name descname">create</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">fl_shank</span><span class="p">:</span> <span class="n"><a class="reference internal" href="rec_to_nwb/processing/nwb/components/device/shanks/fl_shank/index.html#rec_to_nwb.processing.nwb.components.device.shanks.fl_shank.FlShank" title="rec_to_nwb.processing.nwb.components.device.shanks.fl_shank.FlShank">rec_to_nwb.processing.nwb.components.device.shanks.fl_shank.FlShank</a></span></em><span class="sig-paren">)</span> &#x2192; ndx_franklab_novela.probe.Shank<a class="headerlink" href="#processing.nwb.components.device.shanks.shank_creator.ShankCreator.create" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

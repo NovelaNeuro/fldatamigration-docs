@@ -10,7 +10,7 @@ Module Contents
 
 .. py:class:: DeviceInjector
 
-   .. method:: inject_all_devices(self, nwb_content, devices)
+   .. method:: inject_all_devices(self, nwb_content: NWBFile, devices: list)
 
 
 

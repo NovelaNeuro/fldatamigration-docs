@@ -10,37 +10,47 @@ Module Contents
 
 .. py:class:: FlElectrodeExtensionFactory
 
-   .. method:: create_rel(cls, probes_metadata, electrode_groups_metadata)
+   .. method:: create_rel(cls, probes_metadata: list, electrode_groups_metadata: list)
       :classmethod:
 
 
 
-   .. method:: create_ntrode_id(cls, ntrode_metadata)
+   .. method:: create_ntrode_id(cls, ntrode_metadata: list)
       :classmethod:
 
 
 
-   .. method:: create_channel_id(cls, ntrode_metadata)
+   .. method:: create_channel_id(cls, ntrode_metadata: list)
       :classmethod:
 
 
 
-   .. method:: create_bad_channels(cls, ntrode_metadata)
+   .. method:: create_bad_channels(cls, ntrode_metadata: list)
       :classmethod:
 
 
 
-   .. method:: create_hw_chan(cls, spike_n_trodes)
+   .. method:: create_hw_chan(cls, spike_n_trodes: list)
       :classmethod:
 
 
 
-   .. method:: create_probe_shank(cls, probes_metadata, electrode_groups_metadata)
+   .. method:: create_probe_shank(cls, probes_metadata: list, electrode_groups_metadata: list)
       :classmethod:
 
 
 
-   .. method:: create_probe_channel(cls, ntrode_metadata)
+   .. method:: create_probe_electrode(cls, probes_metadata: list, electrode_groups_metadata: list)
+      :classmethod:
+
+
+
+   .. method:: create_ref_n_trode_id(cls, spike_n_trodes: list)
+      :classmethod:
+
+
+
+   .. method:: create_ref_chan(cls, spike_n_trodes: list)
       :classmethod:
 
 

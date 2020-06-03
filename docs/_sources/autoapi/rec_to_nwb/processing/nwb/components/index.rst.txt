@@ -19,12 +19,8 @@ Subpackages
    epochs/index.rst
    iterator/index.rst
    mda/index.rst
-   mda_invalid_times/index.rst
-   pos_invalid_times/index.rst
-   pos_valid_times/index.rst
    position/index.rst
    processing_module/index.rst
-   table_region/index.rst
    task/index.rst
 
 

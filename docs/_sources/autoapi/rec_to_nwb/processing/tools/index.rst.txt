@@ -20,13 +20,14 @@ Submodules
    :maxdepth: 1
 
    abstract_file_downloader/index.rst
-   adjust_length/index.rst
+   count_electrodes_in_ntrode/index.rst
+   count_electrodes_in_probe/index.rst
    data_scanner/index.rst
    dataset/index.rst
    file_downloader/index.rst
    file_sorter/index.rst
    filter_probe_by_type/index.rst
-   task_names_extractor/index.rst
+   get_times_period_multiplier/index.rst
    validate_parameters/index.rst
 
 

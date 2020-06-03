@@ -10,7 +10,7 @@ Module Contents
 
 .. py:class:: ShanksElectrodeCreator
 
-   .. method:: create(cls, fl_shanks_electrode)
+   .. method:: create(cls, fl_shanks_electrode: FlShanksElectrode)
       :classmethod:
 
 

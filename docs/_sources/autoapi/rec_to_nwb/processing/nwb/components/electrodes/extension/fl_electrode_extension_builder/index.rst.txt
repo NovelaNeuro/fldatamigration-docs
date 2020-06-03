@@ -10,7 +10,7 @@ Module Contents
 
 .. py:class:: FlElectrodeExtensionBuilder
 
-   .. method:: build(rel_x: list, rel_y: list, rel_z: list, hw_chan: list, ntrode_id: list, channel_id: list, bad_channels: list, probe_shank: list, probe_channel: list)
+   .. method:: build(rel_x: list, rel_y: list, rel_z: list, hw_chan: list, ntrode_id: list, channel_id: list, bad_channels: list, probe_shank: list, probe_electrode: list, ref_n_trode_id: list, ref_chan: list)
       :staticmethod:
 
 
