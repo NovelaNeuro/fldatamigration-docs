@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>processing.exceptions package &mdash; rec_to_nwb 0.1.010 documentation</title>
+  <title>processing.exceptions package &mdash; rec_to_nwb 0.1.011 documentation</title>
   
 
   
@@ -37,7 +37,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="processing.header package" href="processing.header.html" />
-    <link rel="prev" title="processing package" href="processing.html" /> 
+    <link rel="prev" title="processing.builder.originators package" href="processing.builder.originators.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -87,6 +87,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../README.html#how-to-use-it">How to use it</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../api.html">API Documentation</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="processing.html">processing package</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="processing.builder.html">processing.builder package</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">processing.exceptions package</a></li>
 <li class="toctree-l3"><a class="reference internal" href="processing.header.html">processing.header package</a></li>
 <li class="toctree-l3"><a class="reference internal" href="processing.metadata.html">processing.metadata package</a></li>
@@ -178,24 +179,6 @@
 <dd><p>Bases: <a class="reference internal" href="rec_to_nwb/processing/exceptions/invalid_exception/index.html#rec_to_nwb.processing.exceptions.invalid_exception.InvalidException" title="rec_to_nwb.processing.exceptions.invalid_exception.InvalidException"><code class="xref py py-class docutils literal notranslate"><span class="pre">rec_to_nwb.processing.exceptions.invalid_exception.InvalidException</span></code></a></p>
 </dd></dl>
 
-<span class="target" id="module-processing.exceptions.different_number_of_tasks_and_epochs_exception"></span><dl class="py exception">
-<dt id="processing.exceptions.different_number_of_tasks_and_epochs_exception.DifferentNumberOfTasksAndEpochsException">
-<em class="property">exception </em><code class="sig-name descname">DifferentNumberOfTasksAndEpochsException</code><a class="headerlink" href="#processing.exceptions.different_number_of_tasks_and_epochs_exception.DifferentNumberOfTasksAndEpochsException" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
-</dd></dl>
-
-<span class="target" id="module-processing.exceptions.empty_string_exception"></span><dl class="py exception">
-<dt id="processing.exceptions.empty_string_exception.EmptyStringException">
-<em class="property">exception </em><code class="sig-name descname">EmptyStringException</code><a class="headerlink" href="#processing.exceptions.empty_string_exception.EmptyStringException" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
-</dd></dl>
-
-<span class="target" id="module-processing.exceptions.incorrect_type_exception"></span><dl class="py exception">
-<dt id="processing.exceptions.incorrect_type_exception.IncorrectTypeException">
-<em class="property">exception </em><code class="sig-name descname">IncorrectTypeException</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">parameter</span></em>, <em class="sig-param"><span class="n">expected_type</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.exceptions.incorrect_type_exception.IncorrectTypeException" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
-</dd></dl>
-
 <span class="target" id="module-processing.exceptions.invalid_exception"></span><dl class="py exception">
 <dt id="processing.exceptions.invalid_exception.InvalidException">
 <em class="property">exception </em><code class="sig-name descname">InvalidException</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.exceptions.invalid_exception.InvalidException" title="Permalink to this definition">¶</a></dt>
@@ -228,8 +211,8 @@
 
 <span class="target" id="module-processing.exceptions.missing_data_exception"></span><dl class="py exception">
 <dt id="processing.exceptions.missing_data_exception.MissingDataException">
-<em class="property">exception </em><code class="sig-name descname">MissingDataException</code><a class="headerlink" href="#processing.exceptions.missing_data_exception.MissingDataException" title="Permalink to this definition">¶</a></dt>
-<dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">Exception</span></code></p>
+<em class="property">exception </em><code class="sig-name descname">MissingDataException</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.exceptions.missing_data_exception.MissingDataException" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="rec_to_nwb/processing/exceptions/invalid_exception/index.html#rec_to_nwb.processing.exceptions.invalid_exception.InvalidException" title="rec_to_nwb.processing.exceptions.invalid_exception.InvalidException"><code class="xref py py-class docutils literal notranslate"><span class="pre">rec_to_nwb.processing.exceptions.invalid_exception.InvalidException</span></code></a></p>
 </dd></dl>
 
 <span class="target" id="module-processing.exceptions.none_param_exception"></span><dl class="py exception">
@@ -264,7 +247,7 @@
         <a href="processing.header.html" class="btn btn-neutral float-right" title="processing.header package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="processing.html" class="btn btn-neutral float-left" title="processing package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="processing.builder.originators.html" class="btn btn-neutral float-left" title="processing.builder.originators package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -46,18 +46,6 @@ Submodules
    :show-inheritance:
 
 
-.. automodule:: processing.validation.not_none_validation_summary
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: processing.validation.not_none_validator
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
 .. automodule:: processing.validation.ntrode_validation_summary
    :members:
    :undoc-members:

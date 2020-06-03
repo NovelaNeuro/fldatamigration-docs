@@ -10,7 +10,7 @@ Module Contents
 
 .. py:class:: ElectrodeGroupInjector
 
-   .. method:: inject_all_electrode_groups(self, nwb_content, electrode_groups)
+   .. method:: inject_all_electrode_groups(self, nwb_content: NWBFile, electrode_groups: list)
 
 
       insert electrode groups to nwb file

@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.builder`
+====================================
+
+.. py:module:: rec_to_nwb.processing.builder
+
+
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   originators/index.rst
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   nwb_file_builder/index.rst
+   raw_to_nwb_builder/index.rst
+
+

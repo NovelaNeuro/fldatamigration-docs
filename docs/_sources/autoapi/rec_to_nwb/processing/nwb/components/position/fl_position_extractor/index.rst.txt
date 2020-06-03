@@ -8,7 +8,7 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlPositionExtractor(datasets)
+.. py:class:: FlPositionExtractor(datasets: list)
 
    .. method:: __extract_data(self)
 

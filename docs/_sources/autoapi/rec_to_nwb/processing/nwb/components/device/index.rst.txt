@@ -23,9 +23,9 @@ Submodules
    device_factory/index.rst
    device_injector/index.rst
    fl_device/index.rst
-   fl_device_header_manager/index.rst
    fl_header_device/index.rst
    fl_header_device_builder/index.rst
+   fl_header_device_manager/index.rst
    fl_probe/index.rst
    fl_probe_builder/index.rst
    fl_probe_extractor/index.rst

@@ -10,12 +10,8 @@ Module Contents
 
 .. py:class:: ElectrodesCreator
 
-   .. method:: create(self, nwb_content, fl_electrode)
-
-
-
-   .. method:: __validate_parameters(fl_electrode, nwb_content)
-      :staticmethod:
+   .. method:: create(cls, nwb_content: NWBFile, fl_electrode: FlElectrode)
+      :classmethod:
 
 
 

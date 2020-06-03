@@ -8,9 +8,9 @@ Module Contents
 ---------------
 
 
-.. py:class:: FlShankManager(probes_metadata, electrode_groups_metadata)
+.. py:class:: FlShankManager(probes_metadata: list, electrode_groups_metadata: list)
 
-   .. method:: get_fl_shanks_dict(self, shanks_electrodes_dict)
+   .. method:: get_fl_shanks_dict(self, shanks_electrodes_dict: dict)
 
 
 

@@ -24,12 +24,6 @@ Submodules
    :show-inheritance:
 
 
-.. automodule:: processing.tools.adjust_length
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
 .. automodule:: processing.tools.count_electrodes_in_ntrode
    :members:
    :undoc-members:
@@ -72,7 +66,7 @@ Submodules
    :show-inheritance:
 
 
-.. automodule:: processing.tools.task_names_extractor
+.. automodule:: processing.tools.get_times_period_multiplier
    :members:
    :undoc-members:
    :show-inheritance:

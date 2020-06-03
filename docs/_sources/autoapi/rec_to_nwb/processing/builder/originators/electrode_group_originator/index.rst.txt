@@ -1,0 +1,27 @@
+:mod:`rec_to_nwb.processing.builder.originators.electrode_group_originator`
+===========================================================================
+
+.. py:module:: rec_to_nwb.processing.builder.originators.electrode_group_originator
+
+
+Module Contents
+---------------
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: ElectrodeGroupOriginator(metadata)
+
+   .. method:: make(self, nwb_content, probes, electrode_groups_valid_map)
+
+
+
+

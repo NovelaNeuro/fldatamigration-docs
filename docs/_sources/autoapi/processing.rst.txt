@@ -12,6 +12,7 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
+   processing.builder
    processing.exceptions
    processing.header
    processing.metadata
@@ -19,19 +20,3 @@ Subpackages
    processing.time
    processing.tools
    processing.validation
-
-Submodules
-----------
-
-
-.. automodule:: processing.nwb_file_builder
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: processing.raw_to_nwb_builder
-   :members:
-   :undoc-members:
-   :show-inheritance:
-

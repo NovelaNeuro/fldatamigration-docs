@@ -6,6 +6,14 @@ processing.nwb.components.position package
    :undoc-members:
    :show-inheritance:
 
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   processing.nwb.components.position.time
+
 Submodules
 ----------
 
