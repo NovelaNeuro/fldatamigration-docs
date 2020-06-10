@@ -1,0 +1,28 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.probe`
+========================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.probe
+
+
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   shanks/index.rst
+   shanks_electrodes/index.rst
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   fl_probe/index.rst
+   fl_probe_builder/index.rst
+   fl_probe_extractor/index.rst
+   fl_probe_manager/index.rst
+
+

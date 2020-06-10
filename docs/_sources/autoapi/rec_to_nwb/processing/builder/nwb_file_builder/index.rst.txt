@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.builder.nwb_file_builder.NWBFileBuilder
+
+
 
 .. data:: path
    
@@ -72,10 +80,6 @@ Module Contents
 
 
    .. method:: __build_corrupted_data_manager(self)
-
-
-
-   .. method:: __build_and_inject_probes(self, nwb_content, shanks_dict, probes_valid_map)
 
 
 

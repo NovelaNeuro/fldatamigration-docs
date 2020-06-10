@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator &mdash; rec_to_nwb 0.1.011 documentation</title>
+  <title>rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator &mdash; rec_to_nwb 0.1.012 documentation</title>
   
 
   
@@ -154,10 +154,26 @@
 <span id="rec-to-nwb-processing-nwb-components-iterator-multi-thread-data-iterator"></span><h1><a class="reference internal" href="#module-rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator" title="rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator"><code class="xref py py-mod docutils literal notranslate"><span class="pre">rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator</span></code></a><a class="headerlink" href="#module-rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-contents">
 <h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="classes">
+<h3>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator" title="rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">MultiThreadDataIterator</span></code></a>(data, number_of_threads=6)</p></td>
+<td><p>Abstract iterator class used to iterate over DataChunks.</p></td>
+</tr>
+</tbody>
+</table>
 <dl class="py class">
 <dt id="rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator">
 <em class="property">class </em><code class="sig-name descname">MultiThreadDataIterator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">number_of_threads</span><span class="o">=</span><span class="default_value">6</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <a class="reference internal" href="../data_iterator/index.html#rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator" title="rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator"><code class="xref py py-class docutils literal notranslate"><span class="pre">rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator</span></code></a></p>
+<p>Abstract iterator class used to iterate over DataChunks.</p>
+<p>Derived classes must ensure that all abstract methods and abstract properties are implemented, in
+particular, dtype, maxshape, __iter__, ___next__, recommended_chunk_shape, and recommended_data_shape.</p>
 <dl class="py attribute">
 <dt id="rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator.next">
 <code class="sig-name descname">next</code><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator.next" title="Permalink to this definition">¶</a></dt>
@@ -166,7 +182,18 @@
 <dl class="py method">
 <dt id="rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator.__next__">
 <code class="sig-name descname">__next__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator.__next__" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Return the next data chunk or raise a StopIteration exception if all chunks have been retrieved.</p>
+<p>HINT: numpy.s_ provides a convenient way to generate index tuples using standard array slicing. This
+is often useful to define the DataChunk.selection of the current chunk</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>DataChunk object with the data and selection of the current chunk</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>DataChunk</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="rec_to_nwb.processing.nwb.components.iterator.multi_thread_data_iterator.MultiThreadDataIterator.get_data_from_file">
@@ -175,6 +202,7 @@
 
 </dd></dl>
 
+</div>
 </div>
 </div>
 

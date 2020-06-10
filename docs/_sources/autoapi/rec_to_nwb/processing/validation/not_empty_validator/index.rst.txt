@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.validation.not_empty_validator.NotEmptyValidator
+
+
 
 .. py:class:: NotEmptyValidator(parameter)
 

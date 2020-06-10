@@ -11,8 +11,12 @@ Module Contents
 
    Bases: :class:`rec_to_nwb.processing.exceptions.invalid_exception.InvalidException`
 
+   Common base class for all non-exit exceptions.
+
    .. method:: __str__(self)
 
+
+      Return str(self).
 
 
 

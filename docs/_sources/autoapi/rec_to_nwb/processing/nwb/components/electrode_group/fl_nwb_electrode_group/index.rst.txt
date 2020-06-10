@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.electrode_group.fl_nwb_electrode_group.FlNwbElectrodeGroup
+
+
 
 .. py:class:: FlNwbElectrodeGroup(name, description, location, device, targeted_location, targeted_x, targeted_y, targeted_z, units)
 

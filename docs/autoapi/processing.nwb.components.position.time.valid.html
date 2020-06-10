@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>processing.nwb.components.position.time.valid package &mdash; rec_to_nwb 0.1.011 documentation</title>
+  <title>processing.nwb.components.position.time.valid package &mdash; rec_to_nwb 0.1.012 documentation</title>
   
 
   
@@ -187,7 +187,7 @@
 <span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-processing.nwb.components.position.time.valid.fl_pos_valid_time" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt id="processing.nwb.components.position.time.valid.fl_pos_valid_time.FlPosValidTime">
-<em class="property">class </em><code class="sig-name descname">FlPosValidTime</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">start_time</span><span class="p">:</span> <span class="n">float</span></em>, <em class="sig-param"><span class="n">stop_time</span><span class="p">:</span> <span class="n">float</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.position.time.valid.fl_pos_valid_time.FlPosValidTime" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlPosValidTime</code><span class="sig-paren">(</span><em class="sig-param">*</em>, <em class="sig-param">__beartype_func=&lt;function FlPosValidTime.__init__&gt;</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.position.time.valid.fl_pos_valid_time.FlPosValidTime" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 </dd></dl>
 
@@ -197,7 +197,7 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="py method">
 <dt id="processing.nwb.components.position.time.valid.fl_pos_valid_time_builder.FlPosValidTimeBuilder.build">
-<em class="property">static </em><code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">start_time</span><span class="p">:</span> <span class="n">float</span></em>, <em class="sig-param"><span class="n">stop_time</span><span class="p">:</span> <span class="n">float</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.position.time.valid.fl_pos_valid_time_builder.FlPosValidTimeBuilder.build" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param">*args</em>, <em class="sig-param">__beartype_func=&lt;function FlPosValidTimeBuilder.build&gt;</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.position.time.valid.fl_pos_valid_time_builder.FlPosValidTimeBuilder.build" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
@@ -219,7 +219,7 @@
 
 <dl class="py method">
 <dt id="id0">
-<code class="sig-name descname">get_fl_pos_valid_times</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nwb_content</span><span class="p">:</span> <span class="n">pynwb.file.NWBFile</span></em>, <em class="sig-param"><span class="n">gaps_margin</span><span class="p">:</span> <span class="n">float</span> <span class="o">=</span> <span class="default_value">1e-06</span></em><span class="sig-paren">)</span> &#x2192; list<a class="headerlink" href="#id0" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_fl_pos_valid_times</code><span class="sig-paren">(</span><em class="sig-param">*</em>, <em class="sig-param">__beartype_func=&lt;function FlPosValidTimeManager.get_fl_pos_valid_times&gt;</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span> &#x2192; list<a class="headerlink" href="#id0" title="Permalink to this definition">¶</a></dt>
 <dd><p>Manage POS data and call FlPosValidTimeBuilder for every valid gap.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>

@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.metadata.metadata_manager.MetadataManager
+
+
 
 .. py:class:: MetadataManager(metadata_path: str, probes_paths: list)
 
@@ -30,6 +38,8 @@ Module Contents
 
    .. method:: __str__(self)
 
+
+      Return str(self).
 
 
 

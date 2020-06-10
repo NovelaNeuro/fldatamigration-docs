@@ -1,0 +1,35 @@
+processing.nwb.components.device.probe.shanks package
+=====================================================
+
+.. automodule:: processing.nwb.components.device.probe.shanks
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: processing.nwb.components.device.probe.shanks.fl_shank
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.device.probe.shanks.fl_shank_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.device.probe.shanks.fl_shank_manager
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.device.probe.shanks.shank_creator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+

@@ -12,6 +12,7 @@ Submodules
 
    analog_originator/index.rst
    associated_files_originator/index.rst
+   data_acq_device_originator/index.rst
    dio_originator/index.rst
    electrode_group_originator/index.rst
    electrodes_extension_originator/index.rst
