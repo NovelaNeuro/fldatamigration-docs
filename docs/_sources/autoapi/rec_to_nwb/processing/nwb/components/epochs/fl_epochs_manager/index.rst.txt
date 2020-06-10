@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.epochs.fl_epochs_manager.FlEpochsManager
+
+
 
 .. py:class:: FlEpochsManager(datasets: list)
 

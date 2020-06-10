@@ -10,8 +10,9 @@ Subpackages
    :titlesonly:
    :maxdepth: 3
 
-   shanks/index.rst
-   shanks_electrodes/index.rst
+   acq/index.rst
+   header/index.rst
+   probe/index.rst
 
 
 Submodules
@@ -23,12 +24,5 @@ Submodules
    device_factory/index.rst
    device_injector/index.rst
    fl_device/index.rst
-   fl_header_device/index.rst
-   fl_header_device_builder/index.rst
-   fl_header_device_manager/index.rst
-   fl_probe/index.rst
-   fl_probe_builder/index.rst
-   fl_probe_extractor/index.rst
-   fl_probe_manager/index.rst
 
 

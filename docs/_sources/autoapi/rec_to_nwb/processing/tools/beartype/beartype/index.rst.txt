@@ -19,6 +19,14 @@ Module Contents
 ---------------
 
 
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.tools.beartype.beartype.beartype
+
+
 .. function:: beartype(func: callable) -> callable
 
    Decorate the passed **callable** (e.g., function, method) to validate

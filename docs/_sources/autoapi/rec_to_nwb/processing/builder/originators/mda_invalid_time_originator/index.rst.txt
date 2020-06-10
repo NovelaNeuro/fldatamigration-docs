@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.builder.originators.mda_invalid_time_originator.MdaInvalidTimeOriginator
+
+
 
 .. data:: path
    

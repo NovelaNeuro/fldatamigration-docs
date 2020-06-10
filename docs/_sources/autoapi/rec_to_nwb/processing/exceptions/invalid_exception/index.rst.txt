@@ -11,8 +11,12 @@ Module Contents
 
    Bases: :class:`Exception`
 
+   Common base class for all non-exit exceptions.
+
    .. method:: __str__(self)
 
+
+      Return str(self).
 
 
 

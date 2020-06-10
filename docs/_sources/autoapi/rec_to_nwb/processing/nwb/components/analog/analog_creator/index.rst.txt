@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.analog.analog_creator.AnalogCreator
+
+
 
 .. data:: path
    

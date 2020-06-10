@@ -1,0 +1,30 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.acq.fl_data_acq_device_manager`
+=================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.acq.fl_data_acq_device_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.device.acq.fl_data_acq_device_manager.FlDataAcqDeviceManager
+
+
+
+.. py:class:: FlDataAcqDeviceManager(metadata: list)
+
+   .. method:: get_fl_data_acq_device(self)
+
+
+
+   .. method:: __build_single_data_acq_device(acq_device_metadata: dict)
+      :staticmethod:
+
+
+
+

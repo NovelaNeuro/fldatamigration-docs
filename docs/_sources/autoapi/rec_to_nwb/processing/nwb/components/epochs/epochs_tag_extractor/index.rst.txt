@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.epochs.epochs_tag_extractor.EpochsTagExtractor
+
+
 
 .. py:class:: EpochsTagExtractor(datasets)
 

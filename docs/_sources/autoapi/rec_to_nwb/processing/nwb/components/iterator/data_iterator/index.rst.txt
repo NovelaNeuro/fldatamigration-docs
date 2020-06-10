@@ -7,13 +7,28 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator
+
+
 
 .. py:class:: DataIterator(data)
 
    Bases: :class:`hdmf.data_utils.AbstractDataChunkIterator`
 
+   Abstract iterator class used to iterate over DataChunks.
+
+   Derived classes must ensure that all abstract methods and abstract properties are implemented, in
+   particular, dtype, maxshape, __iter__, ___next__, recommended_chunk_shape, and recommended_data_shape.
+
    .. method:: __iter__(self)
 
+
+      Return the iterator object
 
 
    .. method:: _get_selection(self)
@@ -28,19 +43,44 @@ Module Contents
    .. method:: recommended_chunk_shape(self)
 
 
+      Recommend the chunk shape for the data array.
+
+      :return: NumPy-style shape tuple describing the recommended shape for the chunks of the target
+               array or None. This may or may not be the same as the shape of the chunks returned in the
+               iteration process.
+
 
    .. method:: recommended_data_shape(self)
 
+
+      Recommend the initial shape for the data array.
+
+      This is useful in particular to avoid repeated resized of the target array when reading from
+      this data iterator. This should typically be either the final size of the array or the known
+      minimal shape of the array.
+
+      :return: NumPy-style shape tuple indicating the recommended initial shape for the target array.
+               This may or may not be the final full shape of the array, i.e., the array is allowed
+               to grow. This should not be None.
 
 
    .. method:: dtype(self)
       :property:
 
 
+      Define the data type of the array
+
+      :return: NumPy style dtype or otherwise compliant dtype string
+
 
    .. method:: maxshape(self)
       :property:
 
+
+      Property describing the maximum shape of the data array that is being iterated over
+
+      :return: NumPy-style shape tuple indicating the maxiumum dimensions up to which the dataset may be
+               resized. Axes with None are unlimited.
 
 
 

@@ -8,6 +8,14 @@ Module Contents
 ---------------
 
 
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.tools.count_electrodes_in_probe.count_electrodes_in_probe
+
+
 .. function:: count_electrodes_in_probe(probe_content: dict) -> int
 
 

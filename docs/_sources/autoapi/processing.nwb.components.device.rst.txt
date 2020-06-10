@@ -12,8 +12,9 @@ Subpackages
 .. toctree::
    :maxdepth: 4
 
-   processing.nwb.components.device.shanks
-   processing.nwb.components.device.shanks_electrodes
+   processing.nwb.components.device.acq
+   processing.nwb.components.device.header
+   processing.nwb.components.device.probe
 
 Submodules
 ----------
@@ -32,48 +33,6 @@ Submodules
 
 
 .. automodule:: processing.nwb.components.device.fl_device
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: processing.nwb.components.device.fl_header_device
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: processing.nwb.components.device.fl_header_device_builder
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: processing.nwb.components.device.fl_header_device_manager
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: processing.nwb.components.device.fl_probe
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: processing.nwb.components.device.fl_probe_builder
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: processing.nwb.components.device.fl_probe_extractor
-   :members:
-   :undoc-members:
-   :show-inheritance:
-
-
-.. automodule:: processing.nwb.components.device.fl_probe_manager
    :members:
    :undoc-members:
    :show-inheritance:

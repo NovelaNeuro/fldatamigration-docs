@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.builder.originators.analog_originator.AnalogOriginator
+
+
 
 .. py:class:: AnalogOriginator(datasets, metadata)
 

@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.mda.time.invalid.fl_mda_invalid_time.FlMdaInvalidTime
+
+
 
 .. py:class:: FlMdaInvalidTime(start_time: float, stop_time: float)
 

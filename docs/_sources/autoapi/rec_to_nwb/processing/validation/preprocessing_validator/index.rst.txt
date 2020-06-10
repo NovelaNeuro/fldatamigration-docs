@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.validation.preprocessing_validator.PreprocessingValidator
+
+
 
 .. py:class:: PreprocessingValidator(data_path, epochs, data_types_for_scanning)
 
