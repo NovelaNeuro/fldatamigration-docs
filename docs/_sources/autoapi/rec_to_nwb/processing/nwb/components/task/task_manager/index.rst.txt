@@ -1,0 +1,29 @@
+:mod:`rec_to_nwb.processing.nwb.components.task.task_manager`
+=============================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.task.task_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.task.task_manager.TaskManager
+
+
+
+.. py:class:: TaskManager(metadata: dict)
+
+   .. method:: get_fl_tasks(self)
+
+
+
+   .. method:: __get_single_fl_task(self, task_name, task_description, camera_id, task_epochs)
+
+
+
+

@@ -10,6 +10,9 @@ Submodules
    :titlesonly:
    :maxdepth: 1
 
+   fl_task/index.rst
    task_builder/index.rst
+   task_creator/index.rst
+   task_manager/index.rst
 
 
