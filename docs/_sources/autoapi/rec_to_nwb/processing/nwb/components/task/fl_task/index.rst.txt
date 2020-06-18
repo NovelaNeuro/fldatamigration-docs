@@ -1,0 +1,21 @@
+:mod:`rec_to_nwb.processing.nwb.components.task.fl_task`
+========================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.task.fl_task
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.task.fl_task.FlTask
+
+
+
+.. py:class:: FlTask(name, description, columns)
+
+

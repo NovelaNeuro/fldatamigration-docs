@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>rec_to_nwb.processing.nwb.components.device.fl_probe_builder &mdash; rec_to_nwb 0.1.011 documentation</title>
+  <title>rec_to_nwb.processing.nwb.components.task.task_creator &mdash; rec_to_nwb 0.1.013 documentation</title>
   
 
   
@@ -131,13 +131,13 @@
     
       <li><a href="../../../../../../../index.html">Docs</a> &raquo;</li>
         
-      <li><code class="xref py py-mod docutils literal notranslate"><span class="pre">rec_to_nwb.processing.nwb.components.device.fl_probe_builder</span></code></li>
+      <li><code class="xref py py-mod docutils literal notranslate"><span class="pre">rec_to_nwb.processing.nwb.components.task.task_creator</span></code></li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../../../../../../../_sources/autoapi/rec_to_nwb/processing/nwb/components/device/fl_probe_builder/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../../../../../../_sources/autoapi/rec_to_nwb/processing/nwb/components/task/task_creator/index.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -150,20 +150,34 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="module-rec_to_nwb.processing.nwb.components.device.fl_probe_builder">
-<span id="rec-to-nwb-processing-nwb-components-device-fl-probe-builder"></span><h1><a class="reference internal" href="#module-rec_to_nwb.processing.nwb.components.device.fl_probe_builder" title="rec_to_nwb.processing.nwb.components.device.fl_probe_builder"><code class="xref py py-mod docutils literal notranslate"><span class="pre">rec_to_nwb.processing.nwb.components.device.fl_probe_builder</span></code></a><a class="headerlink" href="#module-rec_to_nwb.processing.nwb.components.device.fl_probe_builder" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="module-rec_to_nwb.processing.nwb.components.task.task_creator">
+<span id="rec-to-nwb-processing-nwb-components-task-task-creator"></span><h1><a class="reference internal" href="#module-rec_to_nwb.processing.nwb.components.task.task_creator" title="rec_to_nwb.processing.nwb.components.task.task_creator"><code class="xref py py-mod docutils literal notranslate"><span class="pre">rec_to_nwb.processing.nwb.components.task.task_creator</span></code></a><a class="headerlink" href="#module-rec_to_nwb.processing.nwb.components.task.task_creator" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-contents">
 <h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="classes">
+<h3>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#rec_to_nwb.processing.nwb.components.task.task_creator.TaskCreator" title="rec_to_nwb.processing.nwb.components.task.task_creator.TaskCreator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">TaskCreator</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
 <dl class="py class">
-<dt id="rec_to_nwb.processing.nwb.components.device.fl_probe_builder.FlProbeBuilder">
-<em class="property">class </em><code class="sig-name descname">FlProbeBuilder</code><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.device.fl_probe_builder.FlProbeBuilder" title="Permalink to this definition">¶</a></dt>
+<dt id="rec_to_nwb.processing.nwb.components.task.task_creator.TaskCreator">
+<em class="property">class </em><code class="sig-name descname">TaskCreator</code><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.task.task_creator.TaskCreator" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py method">
-<dt id="rec_to_nwb.processing.nwb.components.device.fl_probe_builder.FlProbeBuilder.build">
-<em class="property">static </em><code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">probe_id</span><span class="p">:</span> <span class="n">int</span></em>, <em class="sig-param"><span class="n">name</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">probe_type</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">units</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">probe_description</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">contact_side_numbering</span><span class="p">:</span> <span class="n">bool</span></em>, <em class="sig-param"><span class="n">contact_size</span><span class="p">:</span> <span class="n">float</span></em>, <em class="sig-param"><span class="n">shanks</span><span class="p">:</span> <span class="n">list</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.device.fl_probe_builder.FlProbeBuilder.build" title="Permalink to this definition">¶</a></dt>
+<dt id="rec_to_nwb.processing.nwb.components.task.task_creator.TaskCreator.create">
+<em class="property">classmethod </em><code class="sig-name descname">create</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cls</span></em>, <em class="sig-param"><span class="n">fl_task</span><span class="p">:</span> <span class="n">FlTask</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.task.task_creator.TaskCreator.create" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
+</div>
 </div>
 </div>
 

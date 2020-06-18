@@ -16,13 +16,10 @@ Classes
 
 
 
-.. py:class:: TaskBuilder(metadata)
+.. py:class:: TaskBuilder
 
-   .. method:: build(self)
-
-
-
-   .. method:: __build_tasks_dynamictable(self)
+   .. method:: build(name, description, task_name, task_description, camera_id, task_epochs)
+      :staticmethod:
 
 
 
