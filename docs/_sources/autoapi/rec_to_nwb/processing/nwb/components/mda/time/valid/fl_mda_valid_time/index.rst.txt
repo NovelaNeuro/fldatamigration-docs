@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.mda.time.valid.fl_mda_valid_time.FlMdaValidTime
+
+
 
 .. py:class:: FlMdaValidTime(start_time: float, stop_time: float)
 

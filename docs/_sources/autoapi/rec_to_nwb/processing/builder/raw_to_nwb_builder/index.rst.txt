@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.builder.raw_to_nwb_builder.RawToNWBBuilder
+
+
 
 .. data:: path
    

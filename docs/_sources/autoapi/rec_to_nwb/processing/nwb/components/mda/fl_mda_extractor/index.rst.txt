@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.mda.fl_mda_extractor.FlMdaExtractor
+
+
 
 .. py:class:: FlMdaExtractor(datasets)
 

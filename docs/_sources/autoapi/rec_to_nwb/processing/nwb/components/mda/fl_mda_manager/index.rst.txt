@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.mda.fl_mda_manager.FlMdaManager
+
+
 
 .. py:class:: FlMdaManager(nwb_content, sampling_rate, datasets)
 

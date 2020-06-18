@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.common.timestamps_manager.TimestampManager
+
+
 
 .. data:: path
    
@@ -21,6 +29,9 @@ Module Contents
 .. py:class:: TimestampManager(directories, continuous_time_directories)
 
    Bases: :class:`abc.ABC`
+
+   Helper class that provides a standard way to create an ABC using
+   inheritance.
 
    .. method:: _get_timestamps(self, dataset_id)
       :abstractmethod:

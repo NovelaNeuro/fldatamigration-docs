@@ -15,6 +15,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.header.xml_extractor.XMLExtractor
+
+
 
 .. py:class:: XMLExtractor(rec_path='../data/REC_sample.xml', xml_path='../data/output.xml', xsd_path=None)
 

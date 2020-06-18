@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>processing.nwb.components.mda.time.valid package &mdash; rec_to_nwb 0.1.011 documentation</title>
+  <title>processing.nwb.components.mda.time.valid package &mdash; rec_to_nwb 0.1.013 documentation</title>
   
 
   
@@ -187,7 +187,7 @@
 <span id="submodules"></span><h2>Submodules<a class="headerlink" href="#module-processing.nwb.components.mda.time.valid.fl_mda_valid_time" title="Permalink to this headline">¶</a></h2>
 <dl class="py class">
 <dt id="processing.nwb.components.mda.time.valid.fl_mda_valid_time.FlMdaValidTime">
-<em class="property">class </em><code class="sig-name descname">FlMdaValidTime</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">start_time</span><span class="p">:</span> <span class="n">float</span></em>, <em class="sig-param"><span class="n">stop_time</span><span class="p">:</span> <span class="n">float</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.mda.time.valid.fl_mda_valid_time.FlMdaValidTime" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlMdaValidTime</code><span class="sig-paren">(</span><em class="sig-param">*</em>, <em class="sig-param">__beartype_func=&lt;function FlMdaValidTime.__init__&gt;</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.mda.time.valid.fl_mda_valid_time.FlMdaValidTime" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 </dd></dl>
 
@@ -197,14 +197,14 @@
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <dl class="py method">
 <dt id="processing.nwb.components.mda.time.valid.fl_mda_valid_time_builder.FlMdaValidTimeBuilder.build">
-<em class="property">static </em><code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">start_time</span><span class="p">:</span> <span class="n">float</span></em>, <em class="sig-param"><span class="n">stop_time</span><span class="p">:</span> <span class="n">float</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.mda.time.valid.fl_mda_valid_time_builder.FlMdaValidTimeBuilder.build" title="Permalink to this definition">¶</a></dt>
+<em class="property">static </em><code class="sig-name descname">build</code><span class="sig-paren">(</span><em class="sig-param">*args</em>, <em class="sig-param">__beartype_func=&lt;function FlMdaValidTimeBuilder.build&gt;</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.mda.time.valid.fl_mda_valid_time_builder.FlMdaValidTimeBuilder.build" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>
 
 <span class="target" id="module-processing.nwb.components.mda.time.valid.fl_mda_valid_time_manager"></span><dl class="py class">
 <dt id="processing.nwb.components.mda.time.valid.fl_mda_valid_time_manager.FlMdaValidTimeManager">
-<em class="property">class </em><code class="sig-name descname">FlMdaValidTimeManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">sampling_rate</span><span class="p">:</span> <span class="n">float</span></em>, <em class="sig-param"><span class="n">metadata</span><span class="p">:</span> <span class="n">dict</span></em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.mda.time.valid.fl_mda_valid_time_manager.FlMdaValidTimeManager" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlMdaValidTimeManager</code><span class="sig-paren">(</span><em class="sig-param">*</em>, <em class="sig-param">__beartype_func=&lt;function FlMdaValidTimeManager.__init__&gt;</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#processing.nwb.components.mda.time.valid.fl_mda_valid_time_manager.FlMdaValidTimeManager" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
 <p>” Manage MDA data and call FLMdaValidTimeBuilder to create list of FLMdaValidTime objects.</p>
 <dl class="field-list simple">
@@ -222,7 +222,7 @@
 
 <dl class="py method">
 <dt id="id0">
-<code class="sig-name descname">get_fl_mda_valid_times</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">nwb_content</span><span class="p">:</span> <span class="n">pynwb.file.NWBFile</span></em>, <em class="sig-param"><span class="n">gaps_margin</span><span class="p">:</span> <span class="n">float</span> <span class="o">=</span> <span class="default_value">1e-06</span></em><span class="sig-paren">)</span> &#x2192; list<a class="headerlink" href="#id0" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname">get_fl_mda_valid_times</code><span class="sig-paren">(</span><em class="sig-param">*</em>, <em class="sig-param">__beartype_func=&lt;function FlMdaValidTimeManager.get_fl_mda_valid_times&gt;</em>, <em class="sig-param">**kwargs</em><span class="sig-paren">)</span> &#x2192; list<a class="headerlink" href="#id0" title="Permalink to this definition">¶</a></dt>
 <dd><p>Manage MDA data and call FlMdaValidTimeBuilder for every valid gap.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>

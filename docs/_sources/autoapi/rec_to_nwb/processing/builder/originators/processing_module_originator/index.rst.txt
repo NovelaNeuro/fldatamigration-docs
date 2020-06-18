@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.builder.originators.processing_module_originator.ProcessingModuleOriginator
+
+
 
 .. data:: path
    

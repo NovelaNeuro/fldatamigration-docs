@@ -7,14 +7,19 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
 
-.. py:class:: TaskBuilder(metadata)
+.. autoapisummary::
 
-   .. method:: build(self)
+   rec_to_nwb.processing.nwb.components.task.task_builder.TaskBuilder
 
 
 
-   .. method:: __build_tasks_dynamictable(self)
+.. py:class:: TaskBuilder
+
+   .. method:: build(name, description, task_name, task_description, camera_id, task_epochs)
+      :staticmethod:
 
 
 

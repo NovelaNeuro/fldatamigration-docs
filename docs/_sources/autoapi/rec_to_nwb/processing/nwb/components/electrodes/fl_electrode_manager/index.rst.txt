@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.electrodes.fl_electrode_manager.FlElectrodeManager
+
+
 
 .. py:class:: FlElectrodeManager(probes_metadata: list, electrode_groups_metadata: list)
 

@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.electrode_group.electrode_group_injector.ElectrodeGroupInjector
+
+
 
 .. py:class:: ElectrodeGroupInjector
 

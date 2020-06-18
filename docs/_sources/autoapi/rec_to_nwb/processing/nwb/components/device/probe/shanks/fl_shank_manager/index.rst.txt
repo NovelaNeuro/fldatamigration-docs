@@ -1,0 +1,33 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.probe.shanks.fl_shank_manager`
+================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.probe.shanks.fl_shank_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.device.probe.shanks.fl_shank_manager.FlShankManager
+
+
+
+.. py:class:: FlShankManager(probes_metadata: list, electrode_groups_metadata: list)
+
+   .. method:: get_fl_shanks_dict(self, shanks_electrodes_dict: dict)
+
+
+
+   .. method:: __build_fl_shanks(self, probe_metadata, shanks_electrodes)
+
+
+
+   .. method:: __build_single_fl_shank(self, shank_id, shanks_electrodes)
+
+
+
+

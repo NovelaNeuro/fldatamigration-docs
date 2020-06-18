@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.common.session_time_extractor.SessionTimeExtractor
+
+
 
 .. py:class:: SessionTimeExtractor(datasets, animal_name, date, dataset_names)
 

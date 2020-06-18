@@ -1,0 +1,21 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.probe.shanks.fl_shank`
+========================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.probe.shanks.fl_shank
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.device.probe.shanks.fl_shank.FlShank
+
+
+
+.. py:class:: FlShank(shank_id, shanks_electrodes)
+
+

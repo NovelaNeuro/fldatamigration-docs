@@ -7,6 +7,14 @@
 Module Contents
 ---------------
 
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.electrodes.extension.fl_electrode_extension_factory.FlElectrodeExtensionFactory
+
+
 
 .. py:class:: FlElectrodeExtensionFactory
 
@@ -45,12 +53,7 @@ Module Contents
 
 
 
-   .. method:: create_ref_n_trode_id(cls, spike_n_trodes: list)
-      :classmethod:
-
-
-
-   .. method:: create_ref_chan(cls, spike_n_trodes: list)
+   .. method:: create_ref_elect_id(cls, spike_n_trodes: list, ntrode_metadata: dict)
       :classmethod:
 
 

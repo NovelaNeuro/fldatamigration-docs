@@ -8,6 +8,15 @@ Module Contents
 ---------------
 
 
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.tools.get_times_period_multiplier.get_times_period_multiplier
+   rec_to_nwb.processing.tools.get_times_period_multiplier.return_validated_period
+
+
 .. function:: get_times_period_multiplier(metadata)
 
 

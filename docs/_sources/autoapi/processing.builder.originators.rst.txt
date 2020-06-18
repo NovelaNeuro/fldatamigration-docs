@@ -22,6 +22,12 @@ Submodules
    :show-inheritance:
 
 
+.. automodule:: processing.builder.originators.data_acq_device_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: processing.builder.originators.dio_originator
    :members:
    :undoc-members:

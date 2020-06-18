@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>rec_to_nwb.processing.nwb.components.iterator.data_iterator &mdash; rec_to_nwb 0.1.011 documentation</title>
+  <title>rec_to_nwb.processing.nwb.components.iterator.data_iterator &mdash; rec_to_nwb 0.1.013 documentation</title>
   
 
   
@@ -154,14 +154,31 @@
 <span id="rec-to-nwb-processing-nwb-components-iterator-data-iterator"></span><h1><a class="reference internal" href="#module-rec_to_nwb.processing.nwb.components.iterator.data_iterator" title="rec_to_nwb.processing.nwb.components.iterator.data_iterator"><code class="xref py py-mod docutils literal notranslate"><span class="pre">rec_to_nwb.processing.nwb.components.iterator.data_iterator</span></code></a><a class="headerlink" href="#module-rec_to_nwb.processing.nwb.components.iterator.data_iterator" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="module-contents">
 <h2>Module Contents<a class="headerlink" href="#module-contents" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="classes">
+<h3>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h3>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="#rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator" title="rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator"><code class="xref py py-obj docutils literal notranslate"><span class="pre">DataIterator</span></code></a>(data)</p></td>
+<td><p>Abstract iterator class used to iterate over DataChunks.</p></td>
+</tr>
+</tbody>
+</table>
 <dl class="py class">
 <dt id="rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator">
 <em class="property">class </em><code class="sig-name descname">DataIterator</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator" title="Permalink to this definition">¶</a></dt>
 <dd><p>Bases: <code class="xref py py-class docutils literal notranslate"><span class="pre">hdmf.data_utils.AbstractDataChunkIterator</span></code></p>
+<p>Abstract iterator class used to iterate over DataChunks.</p>
+<p>Derived classes must ensure that all abstract methods and abstract properties are implemented, in
+particular, dtype, maxshape, __iter__, ___next__, recommended_chunk_shape, and recommended_data_shape.</p>
 <dl class="py method">
 <dt id="rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator.__iter__">
 <code class="sig-name descname">__iter__</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator.__iter__" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Return the iterator object</p>
+</dd></dl>
 
 <dl class="py method">
 <dt id="rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator._get_selection">
@@ -176,25 +193,58 @@
 <dl class="py method">
 <dt id="rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator.recommended_chunk_shape">
 <code class="sig-name descname">recommended_chunk_shape</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator.recommended_chunk_shape" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Recommend the chunk shape for the data array.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>NumPy-style shape tuple describing the recommended shape for the chunks of the target
+array or None. This may or may not be the same as the shape of the chunks returned in the
+iteration process.</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator.recommended_data_shape">
 <code class="sig-name descname">recommended_data_shape</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator.recommended_data_shape" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Recommend the initial shape for the data array.</p>
+<p>This is useful in particular to avoid repeated resized of the target array when reading from
+this data iterator. This should typically be either the final size of the array or the known
+minimal shape of the array.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>NumPy-style shape tuple indicating the recommended initial shape for the target array.
+This may or may not be the final full shape of the array, i.e., the array is allowed
+to grow. This should not be None.</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator.dtype">
 <em class="property">property </em><code class="sig-name descname">dtype</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator.dtype" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Define the data type of the array</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>NumPy style dtype or otherwise compliant dtype string</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py method">
 <dt id="rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator.maxshape">
 <em class="property">property </em><code class="sig-name descname">maxshape</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.iterator.data_iterator.DataIterator.maxshape" title="Permalink to this definition">¶</a></dt>
-<dd></dd></dl>
+<dd><p>Property describing the maximum shape of the data array that is being iterated over</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>NumPy-style shape tuple indicating the maxiumum dimensions up to which the dataset may be
+resized. Axes with None are unlimited.</p>
+</dd>
+</dl>
+</dd></dl>
 
 </dd></dl>
 
+</div>
 </div>
 </div>
 

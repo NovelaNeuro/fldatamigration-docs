@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.header.fl_header_device_manager`
+==================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.header.fl_header_device_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.device.header.fl_header_device_manager.FlHeaderDeviceManager
+
+
+
+.. py:class:: FlHeaderDeviceManager(name, global_configuration)
+
+   .. method:: get_fl_header_device(self)
+
+
+
+
