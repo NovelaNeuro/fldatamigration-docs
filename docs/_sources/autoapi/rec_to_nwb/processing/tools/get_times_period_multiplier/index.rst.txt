@@ -20,6 +20,6 @@ Functions
 .. function:: get_times_period_multiplier(metadata)
 
 
-.. function:: return_validated_period(period: (int, float)) -> float
+.. function:: return_validated_period(period: (int, float, str)) -> float
 
 

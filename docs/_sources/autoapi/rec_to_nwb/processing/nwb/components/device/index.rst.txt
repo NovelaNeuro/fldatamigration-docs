@@ -11,6 +11,7 @@ Subpackages
    :maxdepth: 3
 
    acq/index.rst
+   camera/index.rst
    header/index.rst
    probe/index.rst
 

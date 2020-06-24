@@ -1,0 +1,29 @@
+:mod:`rec_to_nwb.processing.nwb.components.video_files.fl_video_files_extractor`
+================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.video_files.fl_video_files_extractor
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.video_files.fl_video_files_extractor.FlVideoFilesExtractor
+
+
+
+.. py:class:: FlVideoFilesExtractor(raw_data_path: str, video_directory: str, video_files_metadata: list)
+
+   .. method:: extract_video_files(self)
+
+
+
+   .. method:: convert_timestamps(self, timestamps)
+
+
+
+

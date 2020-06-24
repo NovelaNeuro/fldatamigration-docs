@@ -1,0 +1,20 @@
+:mod:`rec_to_nwb.processing.nwb.components.video_files`
+=======================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.video_files
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   fl_video_file/index.rst
+   fl_video_files_builder/index.rst
+   fl_video_files_extractor/index.rst
+   fl_video_files_manager/index.rst
+   video_files_creator/index.rst
+   video_files_injector/index.rst
+
+

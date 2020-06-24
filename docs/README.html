@@ -1,15 +1,19 @@
 
 
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html class="writer-html5" lang="en" >
 <head>
   <meta charset="utf-8">
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>About &mdash; rec_to_nwb 0.1.013 documentation</title>
+  <title>About &mdash; rec_to_nwb 0.1.014 documentation</title>
   
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
 
   
   
@@ -17,7 +21,9 @@
   
 
   
-  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -29,11 +35,6 @@
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
     
-
-  
-  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-  <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="API Documentation" href="api.html" />
@@ -51,7 +52,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> rec_to_nwb
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> rec_to_nwb
           
 
           
@@ -74,6 +75,7 @@
           
         </div>
 
+        
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
           
             
@@ -93,6 +95,7 @@
             
           
         </div>
+        
       </div>
     </nav>
 
@@ -131,7 +134,7 @@
 
   <ul class="wy-breadcrumbs">
     
-      <li><a href="index.html">Docs</a> &raquo;</li>
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
         
       <li>About</li>
     
@@ -269,6 +272,10 @@ If Spike Gadgets is in default location:</p>
    <span class="o">-</span>  <span class="n">name</span><span class="p">:</span> <span class="n">example_name2</span>
       <span class="n">description</span><span class="p">:</span> <span class="n">exmaple</span> <span class="n">description</span> <span class="mi">2</span>
       <span class="n">path</span><span class="p">:</span> <span class="n">C</span><span class="p">:</span><span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">sampleuser</span><span class="o">/</span><span class="n">PycharmProjects</span><span class="o">/</span><span class="n">rec_to_nwb</span><span class="o">/</span><span class="n">test</span><span class="o">/</span><span class="n">processing</span><span class="o">/</span><span class="n">res</span><span class="o">/</span><span class="n">test_text_files</span><span class="o">/</span><span class="n">test2_file</span>
+ <span class="c1"># Associated video files describe .h264 files stored as ImageSeries in nwb.</span>
+    <span class="n">associated_video_files</span><span class="p">:</span>
+   <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="mi">20190718</span><span class="n">_beans_01_s1</span><span class="o">.</span><span class="mf">1.</span><span class="n">h264</span>
+     <span class="n">camera_id</span> <span class="p">:</span> <span class="mi">0</span>
  <span class="c1"># Times period multiplier is used in pos/mda invalid/valid times, to multiply the period when detecting gaps,</span>
      <span class="n">to</span> <span class="n">avoid</span> <span class="n">creating</span> <span class="n">invalid</span> <span class="n">times</span> <span class="ow">in</span> <span class="n">case</span> <span class="n">of</span> <span class="n">only</span> <span class="n">small</span> <span class="n">deviations</span><span class="o">.</span> <span class="p">(</span><span class="n">optional</span> <span class="n">parameter</span><span class="p">,</span> <span class="n">default</span> <span class="mf">1.5</span><span class="p">)</span>
     <span class="n">times_period_multiplier</span><span class="p">:</span> <span class="mf">1.5</span>      
@@ -374,6 +381,8 @@ builder.build_nwb<span class="o">()</span>
   **nwb_metadata** = `MetadataManager` object with metadata.yml and probes.yml &lt;br&gt;
   
   **output_path** = `string` path specifying location and name of result file (dafault &#39;output.nwb&#39;) &lt;br&gt;
+  
+  **video_directory** = `string` path specifying location of video files .h264 where those are copied &lt;b4&gt;
 
   **extract_analog** = `boolean` flag specifying if analog data should be extracted from raw (default True) &lt;br&gt;
 
@@ -438,6 +447,8 @@ builder.write<span class="o">(</span>content<span class="o">)</span>
  **process_mda** = `boolean` flag if mda data should be processed &lt;br&gt;
  
  **process_analog** = `boolean` flag if analog data should be processed &lt;br&gt;
+ 
+ **video_directory** = `string` path specifying location of video files .h264 where those are copied &lt;b4&gt;
  
  **output_file** = `string` path and name specifying where .nwb file gonna be written &lt;br&gt;
 </pre></div>
@@ -712,11 +723,19 @@ builder.write<span class="o">(</span>content<span class="o">)</span>
 
   <div role="contentinfo">
     <p>
+        
         &copy; Copyright 2020, Novela
 
     </p>
   </div>
-  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
 
 </footer>
 
@@ -727,7 +746,6 @@ builder.write<span class="o">(</span>content<span class="o">)</span>
 
   </div>
   
-
 
   <script type="text/javascript">
       jQuery(function () {

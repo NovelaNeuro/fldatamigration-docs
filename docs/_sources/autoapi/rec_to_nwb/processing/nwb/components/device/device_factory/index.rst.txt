@@ -23,6 +23,11 @@ Classes
 
 
 
+   .. method:: create_camera_device(cls, fl_camera_device: FlCameraDevice)
+      :classmethod:
+
+
+
    .. method:: create_probe(cls, fl_probe: FlProbe)
       :classmethod:
 

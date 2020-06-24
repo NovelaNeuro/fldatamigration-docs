@@ -22,6 +22,12 @@ Submodules
    :show-inheritance:
 
 
+.. automodule:: processing.builder.originators.camera_device_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: processing.builder.originators.data_acq_device_originator
    :members:
    :undoc-members:
@@ -94,6 +100,12 @@ Submodules
    :show-inheritance:
 
 
+.. automodule:: processing.builder.originators.position_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: processing.builder.originators.probe_originator
    :members:
    :undoc-members:
@@ -113,6 +125,18 @@ Submodules
 
 
 .. automodule:: processing.builder.originators.shanks_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.task_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.video_files_originator
    :members:
    :undoc-members:
    :show-inheritance:
