@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.builder.originators.video_files_originator`
+=======================================================================
+
+.. py:module:: rec_to_nwb.processing.builder.originators.video_files_originator
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.builder.originators.video_files_originator.VideoFilesOriginator
+
+
+
+.. py:class:: VideoFilesOriginator(raw_data_path, video_directory, video_files_metadata)
+
+   .. method:: make(self, nwb_content)
+
+
+
+

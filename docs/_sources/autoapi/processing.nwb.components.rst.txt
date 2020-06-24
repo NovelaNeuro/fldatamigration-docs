@@ -24,3 +24,4 @@ Subpackages
    processing.nwb.components.position
    processing.nwb.components.processing_module
    processing.nwb.components.task
+   processing.nwb.components.video_files

@@ -1,0 +1,26 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.camera.fl_camera_device_builder`
+==================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.camera.fl_camera_device_builder
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.device.camera.fl_camera_device_builder.FlCameraDeviceBuilder
+
+
+
+.. py:class:: FlCameraDeviceBuilder
+
+   .. method:: build(name: str, meters_per_pixel: float)
+      :staticmethod:
+
+
+
+

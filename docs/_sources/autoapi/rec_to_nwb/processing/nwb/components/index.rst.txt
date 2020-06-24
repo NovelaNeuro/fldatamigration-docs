@@ -22,5 +22,6 @@ Subpackages
    position/index.rst
    processing_module/index.rst
    task/index.rst
+   video_files/index.rst
 
 

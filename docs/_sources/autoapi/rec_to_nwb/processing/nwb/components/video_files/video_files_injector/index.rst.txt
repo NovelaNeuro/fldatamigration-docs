@@ -1,0 +1,26 @@
+:mod:`rec_to_nwb.processing.nwb.components.video_files.video_files_injector`
+============================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.video_files.video_files_injector
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.video_files.video_files_injector.VideoFilesInjector
+
+
+
+.. py:class:: VideoFilesInjector
+
+   .. method:: inject(nwb_content: NWBFile, processing_module_name: str, image_series: ImageSeries)
+      :staticmethod:
+
+
+
+

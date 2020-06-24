@@ -1,0 +1,30 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.camera.fl_camera_device_manager`
+==================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.camera.fl_camera_device_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.device.camera.fl_camera_device_manager.FlCameraDeviceManager
+
+
+
+.. py:class:: FlCameraDeviceManager(metadata: dict)
+
+   .. method:: get_fl_device_manager(self)
+
+
+
+   .. method:: __build_single_camera_device(camera_metadata)
+      :staticmethod:
+
+
+
+

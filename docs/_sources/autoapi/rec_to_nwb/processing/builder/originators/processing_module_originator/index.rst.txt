@@ -26,9 +26,10 @@ Classes
 
    
 
-.. py:class:: ProcessingModuleOriginator(datasets, metadata)
+.. py:class:: ProcessingModuleOriginator
 
-   .. method:: make(self, nwb_content)
+   .. method:: make(nwb_content)
+      :staticmethod:
 
 
 
