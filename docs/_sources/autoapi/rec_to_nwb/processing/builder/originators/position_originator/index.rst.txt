@@ -26,9 +26,9 @@ Classes
 
    
 
-.. py:class:: PositionOriginator(datasets, metadata)
+.. py:class:: PositionOriginator(datasets: list, metadata: dict, dataset_names: list)
 
-   .. method:: make(self, nwb_content)
+   .. method:: make(self, nwb_content: NWBFile)
 
 
 

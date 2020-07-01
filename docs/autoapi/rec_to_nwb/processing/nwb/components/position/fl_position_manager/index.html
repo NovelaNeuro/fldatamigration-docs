@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>rec_to_nwb.processing.nwb.components.position.fl_position_manager &mdash; rec_to_nwb 0.1.014 documentation</title>
+  <title>rec_to_nwb.processing.nwb.components.position.fl_position_manager &mdash; rec_to_nwb 0.1.015 documentation</title>
   
 
   
@@ -165,17 +165,27 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager" title="rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FlPositionManager</span></code></a>(datasets, conversion)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager" title="rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager"><code class="xref py py-obj docutils literal notranslate"><span class="pre">FlPositionManager</span></code></a>(datasets: list, metadata: dict, dataset_names: list)</p></td>
 <td><p></p></td>
 </tr>
 </tbody>
 </table>
 <dl class="py class">
 <dt id="rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager">
-<em class="property">class </em><code class="sig-name descname">FlPositionManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">datasets</span></em>, <em class="sig-param"><span class="n">conversion</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">FlPositionManager</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">datasets</span><span class="p">:</span> <span class="n">list</span></em>, <em class="sig-param"><span class="n">metadata</span><span class="p">:</span> <span class="n">dict</span></em>, <em class="sig-param"><span class="n">dataset_names</span><span class="p">:</span> <span class="n">list</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager" title="Permalink to this definition">¶</a></dt>
 <dd><dl class="py method">
-<dt id="rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager.get_fl_position">
-<code class="sig-name descname">get_fl_position</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager.get_fl_position" title="Permalink to this definition">¶</a></dt>
+<dt id="rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager.get_fl_positions">
+<code class="sig-name descname">get_fl_positions</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager.get_fl_positions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager.__get_cameras_ids">
+<em class="property">static </em><code class="sig-name descname">__get_cameras_ids</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">dataset_names</span></em>, <em class="sig-param"><span class="n">metadata</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager.__get_cameras_ids" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager.__get_meters_per_pixels">
+<em class="property">static </em><code class="sig-name descname">__get_meters_per_pixels</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">cameras_ids</span></em>, <em class="sig-param"><span class="n">metadata</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager.__get_meters_per_pixels" title="Permalink to this definition">¶</a></dt>
 <dd></dd></dl>
 
 </dd></dl>

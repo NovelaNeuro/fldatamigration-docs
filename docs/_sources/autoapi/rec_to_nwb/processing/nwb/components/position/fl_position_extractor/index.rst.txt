@@ -22,11 +22,11 @@ Classes
 
 
 
-   .. method:: get_position(self)
+   .. method:: get_positions(self)
 
 
 
-   .. method:: get_column_labels(self)
+   .. method:: get_columns_labels(self)
 
 
 
