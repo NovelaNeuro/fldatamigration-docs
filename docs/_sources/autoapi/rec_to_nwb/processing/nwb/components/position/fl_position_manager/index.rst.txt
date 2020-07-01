@@ -16,9 +16,19 @@ Classes
 
 
 
-.. py:class:: FlPositionManager(datasets, conversion)
+.. py:class:: FlPositionManager(datasets: list, metadata: dict, dataset_names: list)
 
-   .. method:: get_fl_position(self)
+   .. method:: get_fl_positions(self)
+
+
+
+   .. method:: __get_cameras_ids(dataset_names, metadata)
+      :staticmethod:
+
+
+
+   .. method:: __get_meters_per_pixels(cameras_ids, metadata)
+      :staticmethod:
 
 
 

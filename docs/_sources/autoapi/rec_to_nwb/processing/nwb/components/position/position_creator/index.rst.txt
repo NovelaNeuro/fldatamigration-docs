@@ -18,7 +18,11 @@ Classes
 
 .. py:class:: PositionCreator
 
-   .. method:: create(fl_position: FlPosition)
+   .. method:: create_all(self, fl_positions: list)
+
+
+
+   .. method:: create(position: Position, series_id: int, fl_position: FlPosition)
       :staticmethod:
 
 
