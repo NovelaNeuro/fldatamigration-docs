@@ -18,6 +18,8 @@ Submodules
    not_empty_validator/index.rst
    ntrode_validation_summary/index.rst
    ntrode_validator/index.rst
+   path_validation_summary/index.rst
+   path_validator/index.rst
    preprocessing_validation_summary/index.rst
    preprocessing_validator/index.rst
    task_validation_summary/index.rst
@@ -25,5 +27,7 @@ Submodules
    validation_registrator/index.rst
    validation_summary/index.rst
    validator/index.rst
+   xml_files_validation/index.rst
+   xml_files_validation_summary/index.rst
 
 

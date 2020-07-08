@@ -34,6 +34,12 @@ Submodules
    :show-inheritance:
 
 
+.. automodule:: processing.nwb.components.video_files.video_files_copy_maker
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: processing.nwb.components.video_files.video_files_creator
    :members:
    :undoc-members:

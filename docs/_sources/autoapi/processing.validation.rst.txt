@@ -58,6 +58,18 @@ Submodules
    :show-inheritance:
 
 
+.. automodule:: processing.validation.path_validation_summary
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.validation.path_validator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: processing.validation.preprocessing_validation_summary
    :members:
    :undoc-members:
@@ -95,6 +107,18 @@ Submodules
 
 
 .. automodule:: processing.validation.validator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.validation.xml_files_validation
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.validation.xml_files_validation_summary
    :members:
    :undoc-members:
    :show-inheritance:
