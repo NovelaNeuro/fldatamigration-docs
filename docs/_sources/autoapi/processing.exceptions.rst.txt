@@ -40,6 +40,12 @@ Submodules
    :show-inheritance:
 
 
+.. automodule:: processing.exceptions.invalid_path_exception
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: processing.exceptions.invalid_xml_exception
    :members:
    :undoc-members:

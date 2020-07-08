@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>About &mdash; rec_to_nwb 0.1.015 documentation</title>
+  <title>About &mdash; rec_to_nwb 0.1.016 documentation</title>
   
 
   
@@ -253,17 +253,43 @@ If Spike Gadgets is in default location:</p>
    <span class="n">species</span><span class="p">:</span> <span class="n">Rat</span>
    <span class="n">subject</span> <span class="nb">id</span><span class="p">:</span> <span class="n">Beans</span>
    <span class="n">weight</span><span class="p">:</span> <span class="n">Unknown</span>
- <span class="c1">#Tasks represent epochs in experiment. Contain task_name and task_description in the list. Stored in behavioral section in output nwb file.</span>
- <span class="n">tasks</span><span class="p">:</span>   <span class="p">[</span>
-   <span class="p">{</span>
-     <span class="n">task_name</span><span class="p">:</span> <span class="n">Sleep</span><span class="p">,</span>
-     <span class="n">task_description</span><span class="p">:</span> <span class="n">The</span> <span class="n">animal</span> <span class="n">sleeps</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">small</span> <span class="n">empty</span> <span class="n">box</span><span class="o">.</span>
-   <span class="p">},</span>
-   <span class="p">{</span>
-     <span class="n">task_name</span><span class="p">:</span> <span class="n">Stem</span><span class="o">+</span><span class="n">Leaf</span><span class="p">,</span>
-     <span class="n">task_description</span><span class="p">:</span> <span class="n">Spatial</span> <span class="n">Bandit</span><span class="p">,</span>
-   <span class="p">}</span>
-   <span class="p">]</span>
+<span class="c1">#Units of analog and behavioral_events</span>
+<span class="n">units</span><span class="p">:</span>
+   <span class="n">analog</span><span class="p">:</span> <span class="s1">&#39;unspecified&#39;</span>
+   <span class="n">behavioral_events</span><span class="p">:</span> <span class="s1">&#39;unspecified&#39;</span>  
+<span class="c1">#data acq device used in experiment   </span>
+<span class="n">data</span> <span class="n">acq</span> <span class="n">device</span><span class="p">:</span>
+   <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">acq_0</span>
+     <span class="n">system</span><span class="p">:</span> <span class="n">sample_system</span>
+     <span class="n">amplifier</span><span class="p">:</span> <span class="n">sample_amplifier</span>
+     <span class="n">adc_circuit</span><span class="p">:</span> <span class="n">sample_adc_circuit</span>
+   <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">acq_1</span>
+     <span class="n">system</span><span class="p">:</span> <span class="n">sample_system_2</span>
+<span class="c1">#CameraDevice that were used in experiment    </span>
+ <span class="n">cameras</span><span class="p">:</span>
+   <span class="o">-</span> <span class="nb">id</span><span class="p">:</span> <span class="mi">0</span>
+     <span class="n">meters_per_pixel</span><span class="p">:</span> <span class="mf">0.02</span>
+   <span class="o">-</span> <span class="nb">id</span><span class="p">:</span> <span class="mi">1</span>
+     <span class="n">meters_per_pixel</span><span class="p">:</span> <span class="mf">0.03</span>
+   <span class="o">-</span> <span class="nb">id</span><span class="p">:</span> <span class="mi">2</span>
+     <span class="n">meters_per_pixel</span><span class="p">:</span> <span class="mf">0.05</span>  
+ <span class="c1">#Tasks represent epochs in experiment. Contains task_name, task_description, camera_id that were used in this task and task_epochs that this task correspond to. Stored in behavioral section in output nwb file.</span>
+ <span class="n">tasks</span><span class="p">:</span>
+   <span class="o">-</span> <span class="n">task_name</span><span class="p">:</span>          <span class="n">Sleep</span><span class="p">,</span>
+     <span class="n">task_description</span><span class="p">:</span>   <span class="n">The</span> <span class="n">animal</span> <span class="n">sleeps</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">small</span> <span class="n">empty</span> <span class="n">box</span><span class="o">.</span>
+     <span class="n">camera_id</span><span class="p">:</span>
+       <span class="o">-</span> <span class="mi">0</span>
+     <span class="n">task_epochs</span><span class="p">:</span>
+       <span class="o">-</span> <span class="mi">1</span>
+       <span class="o">-</span> <span class="mi">3</span>
+       <span class="o">-</span> <span class="mi">5</span>
+   <span class="o">-</span> <span class="n">task_name</span><span class="p">:</span>            <span class="n">Stem</span><span class="o">+</span><span class="n">Leaf</span><span class="p">,</span>
+     <span class="n">task_description</span><span class="p">:</span>     <span class="n">Spatial</span> <span class="n">Bandit</span><span class="p">,</span>
+     <span class="n">camera_id</span><span class="p">:</span>
+       <span class="o">-</span> <span class="mi">1</span>
+     <span class="n">task_epochs</span><span class="p">:</span>
+       <span class="o">-</span> <span class="mi">2</span>
+       <span class="o">-</span> <span class="mi">4</span>
  <span class="c1"># Associated files which describe content of files stored inside nwb as text.</span>
     <span class="n">associated_files</span><span class="p">:</span>
    <span class="o">-</span>  <span class="n">name</span><span class="p">:</span> <span class="n">example_name1</span>
@@ -287,16 +313,26 @@ If Spike Gadgets is in default location:</p>
  <span class="n">device</span><span class="p">:</span> 
    <span class="n">name</span><span class="p">:</span>
      <span class="o">-</span> <span class="n">Trodes</span>
- <span class="c1"># Probes/Electrode Groups list used in experiment. Each Id has to be unique, device_type has to refer to existing device_type in probe.yml</span>
+ <span class="c1"># Electrode Groups list used in experiment. Each Id has to be unique, device_type has to refer to existing device_type in probe.yml. Target_x,y,z fields describe the specified location where this group should be. Possible value of units: &#39;um&#39; or &#39;mm&#39; </span>
  <span class="n">electrode</span> <span class="n">groups</span><span class="p">:</span>
    <span class="o">-</span> <span class="nb">id</span><span class="p">:</span> <span class="mi">0</span>
      <span class="n">location</span><span class="p">:</span> <span class="n">mPFC</span>
-     <span class="n">device_type</span><span class="p">:</span> <span class="mi">128</span><span class="n">c</span><span class="o">-</span><span class="mi">4</span><span class="n">s8mm6cm</span><span class="o">-</span><span class="mi">20</span><span class="n">um</span><span class="o">-</span><span class="mi">40</span><span class="n">um</span><span class="o">-</span><span class="n">sl</span> 
+     <span class="n">device_type</span><span class="p">:</span> <span class="mi">128</span><span class="n">c</span><span class="o">-</span><span class="mi">4</span><span class="n">s8mm6cm</span><span class="o">-</span><span class="mi">20</span><span class="n">um</span><span class="o">-</span><span class="mi">40</span><span class="n">um</span><span class="o">-</span><span class="n">sl</span>
      <span class="n">description</span><span class="p">:</span> <span class="s1">&#39;Probe 1&#39;</span>
+     <span class="n">targeted_location</span><span class="p">:</span> <span class="s1">&#39;Sample predicted location&#39;</span>
+     <span class="n">targeted_x</span><span class="p">:</span> <span class="mf">0.0</span>
+     <span class="n">targeted_y</span><span class="p">:</span> <span class="mf">0.0</span>
+     <span class="n">targeted_z</span><span class="p">:</span> <span class="mf">0.0</span>
+     <span class="n">units</span><span class="p">:</span> <span class="s1">&#39;um&#39;</span>
    <span class="o">-</span> <span class="nb">id</span><span class="p">:</span> <span class="mi">1</span>
      <span class="n">location</span><span class="p">:</span> <span class="n">mPFC</span>
      <span class="n">device_type</span><span class="p">:</span> <span class="mi">128</span><span class="n">c</span><span class="o">-</span><span class="mi">4</span><span class="n">s8mm6cm</span><span class="o">-</span><span class="mi">20</span><span class="n">um</span><span class="o">-</span><span class="mi">40</span><span class="n">um</span><span class="o">-</span><span class="n">sl</span>
      <span class="n">description</span><span class="p">:</span> <span class="s1">&#39;Probe 2&#39;</span>
+     <span class="n">targeted_location</span><span class="p">:</span> <span class="s1">&#39;Sample predicted location&#39;</span>
+     <span class="n">targeted_x</span><span class="p">:</span> <span class="mf">0.0</span>
+     <span class="n">targeted_y</span><span class="p">:</span> <span class="mf">0.0</span>
+     <span class="n">targeted_z</span><span class="p">:</span> <span class="mf">0.0</span>
+     <span class="n">units</span><span class="p">:</span> <span class="s1">&#39;um&#39;</span>
  <span class="c1"># Ntrodes list which refer 1:1 to &lt;SpikeNTrode&gt; elements from xml header existing in rec binary file.</span>
  <span class="c1"># ntrode_id has to match to SpikeNTrode id, electrode_group_id refers to electrode group,</span>
  <span class="c1"># bad_channels is a list of broken channels in the map, where map corresponds to the electrode channels</span>

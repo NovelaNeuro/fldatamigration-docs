@@ -14,6 +14,7 @@ Submodules
    fl_video_files_builder/index.rst
    fl_video_files_extractor/index.rst
    fl_video_files_manager/index.rst
+   video_files_copy_maker/index.rst
    video_files_creator/index.rst
    video_files_injector/index.rst
 

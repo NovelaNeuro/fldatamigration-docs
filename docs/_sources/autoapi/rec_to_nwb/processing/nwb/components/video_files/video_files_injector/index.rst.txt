@@ -18,7 +18,12 @@ Classes
 
 .. py:class:: VideoFilesInjector
 
-   .. method:: inject(nwb_content: NWBFile, processing_module_name: str, image_series: ImageSeries)
+   .. method:: inject_all(nwb_content: NWBFile, image_series_list: list)
+      :staticmethod:
+
+
+
+   .. method:: __add_single_image_series(video, image_series)
       :staticmethod:
 
 
