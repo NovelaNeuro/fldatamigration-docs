@@ -16,7 +16,7 @@ Classes
 
 
 
-.. py:class:: VideoFilesOriginator(raw_data_path, video_directory, video_files_metadata)
+.. py:class:: VideoFilesOriginator(raw_data_path, video_path, video_files_metadata)
 
    .. method:: make(self, nwb_content)
 

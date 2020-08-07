@@ -16,6 +16,6 @@ Classes
 
 
 
-.. py:class:: FlAnalog(data, timestamps)
+.. py:class:: FlAnalog(data, timestamps, description)
 
 

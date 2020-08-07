@@ -18,7 +18,7 @@ Classes
 
 .. py:class:: FlAnalogBuilder
 
-   .. method:: build(data, timestamps)
+   .. method:: build(data, timestamps, description)
       :staticmethod:
 
 

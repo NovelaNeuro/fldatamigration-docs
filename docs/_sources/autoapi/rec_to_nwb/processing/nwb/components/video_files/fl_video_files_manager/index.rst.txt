@@ -16,7 +16,7 @@ Classes
 
 
 
-.. py:class:: FlVideoFilesManager(raw_data_path: str, video_directory: str, video_files_metadata: list)
+.. py:class:: FlVideoFilesManager(raw_data_path: str, video_path: str, video_files_metadata: list)
 
    .. method:: get_video_files(self)
 

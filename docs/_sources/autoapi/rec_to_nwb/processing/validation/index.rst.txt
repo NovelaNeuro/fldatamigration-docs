@@ -12,6 +12,7 @@ Submodules
 
    associated_files_validation/index.rst
    associated_files_validation_summary/index.rst
+   metadata_section_validator/index.rst
    metadata_validation_summary/index.rst
    metadata_validator/index.rst
    not_empty_validation_summary/index.rst

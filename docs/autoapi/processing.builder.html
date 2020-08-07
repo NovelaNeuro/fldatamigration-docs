@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>processing.builder package &mdash; rec_to_nwb 0.1.016 documentation</title>
+  <title>processing.builder package &mdash; rec_to_nwb 0.1.018 documentation</title>
   
 
   
@@ -205,7 +205,7 @@
 <li><p><strong>process_dio</strong> (<em>boolean</em>) – flag if dio data should be processed</p></li>
 <li><p><strong>process_mda</strong> (<em>boolean</em>) – flag if mda data should be processed</p></li>
 <li><p><strong>process_analog</strong> (<em>boolean</em>) – flag if analog data should be processed</p></li>
-<li><p><strong>video_directory</strong> (<em>string</em>) – path to directory with video files associated to nwb file</p></li>
+<li><p><strong>video_path</strong> (<em>string</em>) – path to directory with video files associated to nwb file</p></li>
 <li><p><strong>output_file</strong> (<em>string</em>) – path and name specifying where .nwb file gonna be written</p></li>
 </ul>
 </dd>
@@ -289,7 +289,7 @@ Need the pos data inside the nwb. (default True)</p></li>
 <li><p><strong>dates</strong> (<em>list of strings</em>) – dates of experiments on above animal</p></li>
 <li><p><strong>nwb_metadata</strong> (<a class="reference internal" href="processing.metadata.html#processing.metadata.metadata_manager.MetadataManager" title="processing.metadata.metadata_manager.MetadataManager"><em>MetadataManager</em></a>) – object containig metadata about experiment</p></li>
 <li><p><strong>output_path</strong> (<em>string</em>) – path and name specifying where .nwb file gonna be written</p></li>
-<li><p><strong>video_directory</strong> (<em>string</em>) – path to directory with video files associated to nwb file</p></li>
+<li><p><strong>video_path</strong> (<em>string</em>) – path to directory with video files associated to nwb file</p></li>
 <li><p><strong>extract_analog</strong> (<em>boolean</em>) – flag if analog data should be extracted and processed from raw data</p></li>
 <li><p><strong>extract_spikes</strong> (<em>boolean</em>) – flag if spikes data should be extracted and processed from raw data</p></li>
 <li><p><strong>extract_lfps</strong> (<em>boolean</em>) – flag  if lfps data should be extracted and processed from raw data</p></li>
@@ -298,6 +298,10 @@ Need the pos data inside the nwb. (default True)</p></li>
 <li><p><strong>overwrite</strong> (<em>boolean</em>) – flag if current extracted data in preprocessed folder content should be overwritten</p></li>
 <li><p><strong>lfp_export_args</strong> (<em>tuple of strings</em>) – parameters to launch lfp extraction from spikegadgets</p></li>
 <li><p><strong>mda_export_args</strong> (<em>tuple of strings</em>) – parameters to launch mda extraction from spikegadgets</p></li>
+<li><p><strong>dio_export_args</strong> (<em>tuple of strings</em>) – parameters to launch dio extraction from spikegadgets</p></li>
+<li><p><strong>analog_export_args</strong> (<em>tuple of strings</em>) – parameters to launch analog extraction from spikegadgets</p></li>
+<li><p><strong>spikes_export_args</strong> (<em>tuple of strings</em>) – parameters to launch spikes extraction from spikegadgets</p></li>
+<li><p><strong>time_export_args</strong> (<em>tuple of strings</em>) – parameters to launch time extraction from spikegadgets</p></li>
 <li><p><strong>trodes_rec_export_args</strong> (<em>tuple of strings</em>) – parameters to launch analog extraction from spikegadgets</p></li>
 <li><p><strong>parallel_instances</strong> (<em>int</em>) – number of parallel processes used during processing data</p></li>
 </ul>

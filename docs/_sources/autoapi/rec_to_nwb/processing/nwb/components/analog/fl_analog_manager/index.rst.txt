@@ -29,6 +29,11 @@ Classes
 
 
 
+   .. method:: __merge_row_description(data_from_multiple_datasets)
+      :staticmethod:
+
+
+
    .. method:: __merge_analog_sensors(cls, merged_epochs)
       :classmethod:
 

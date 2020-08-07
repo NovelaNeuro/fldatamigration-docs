@@ -16,6 +16,6 @@ Classes
 
 
 
-.. py:class:: FlCameraDevice(name, meters_per_pixel)
+.. py:class:: FlCameraDevice(name, meters_per_pixel, manufacturer, model, lens, camera_name)
 
 

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>rec_to_nwb.processing.builder.nwb_file_builder &mdash; rec_to_nwb 0.1.016 documentation</title>
+  <title>rec_to_nwb.processing.builder.nwb_file_builder &mdash; rec_to_nwb 0.1.018 documentation</title>
   
 
   
@@ -165,7 +165,7 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="#rec_to_nwb.processing.builder.nwb_file_builder.NWBFileBuilder" title="rec_to_nwb.processing.builder.nwb_file_builder.NWBFileBuilder"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NWBFileBuilder</span></code></a>(data_path: str, animal_name: str, date: str, nwb_metadata: MetadataManager, process_dio: bool = True, process_mda: bool = True, process_analog: bool = True, video_directory: str = '', output_file: str = 'output.nwb')</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="#rec_to_nwb.processing.builder.nwb_file_builder.NWBFileBuilder" title="rec_to_nwb.processing.builder.nwb_file_builder.NWBFileBuilder"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NWBFileBuilder</span></code></a>(data_path: str, animal_name: str, date: str, nwb_metadata: MetadataManager, process_dio: bool = True, process_mda: bool = True, process_analog: bool = True, video_path: str = '', output_file: str = 'output.nwb', reconfig_header: str = '')</p></td>
 <td><p>Unpack data from preprocessing folder specified by arguments, and write those data into NWB file format</p></td>
 </tr>
 </tbody>
@@ -182,7 +182,7 @@
 
 <dl class="py class">
 <dt id="rec_to_nwb.processing.builder.nwb_file_builder.NWBFileBuilder">
-<em class="property">class </em><code class="sig-name descname">NWBFileBuilder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_path</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">animal_name</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">date</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">nwb_metadata</span><span class="p">:</span> <span class="n">MetadataManager</span></em>, <em class="sig-param"><span class="n">process_dio</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_mda</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_analog</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">video_directory</span><span class="p">:</span> <span class="n">str</span> <span class="o">=</span> <span class="default_value">''</span></em>, <em class="sig-param"><span class="n">output_file</span><span class="p">:</span> <span class="n">str</span> <span class="o">=</span> <span class="default_value">'output.nwb'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.builder.nwb_file_builder.NWBFileBuilder" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-name descname">NWBFileBuilder</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data_path</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">animal_name</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">date</span><span class="p">:</span> <span class="n">str</span></em>, <em class="sig-param"><span class="n">nwb_metadata</span><span class="p">:</span> <span class="n">MetadataManager</span></em>, <em class="sig-param"><span class="n">process_dio</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_mda</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">process_analog</span><span class="p">:</span> <span class="n">bool</span> <span class="o">=</span> <span class="default_value">True</span></em>, <em class="sig-param"><span class="n">video_path</span><span class="p">:</span> <span class="n">str</span> <span class="o">=</span> <span class="default_value">''</span></em>, <em class="sig-param"><span class="n">output_file</span><span class="p">:</span> <span class="n">str</span> <span class="o">=</span> <span class="default_value">'output.nwb'</span></em>, <em class="sig-param"><span class="n">reconfig_header</span><span class="p">:</span> <span class="n">str</span> <span class="o">=</span> <span class="default_value">''</span></em><span class="sig-paren">)</span><a class="headerlink" href="#rec_to_nwb.processing.builder.nwb_file_builder.NWBFileBuilder" title="Permalink to this definition">¶</a></dt>
 <dd><p>Unpack data from preprocessing folder specified by arguments, and write those data into NWB file format</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -194,7 +194,7 @@
 <li><p><strong>process_dio</strong> (<em>boolean</em>) – flag if dio data should be processed</p></li>
 <li><p><strong>process_mda</strong> (<em>boolean</em>) – flag if mda data should be processed</p></li>
 <li><p><strong>process_analog</strong> (<em>boolean</em>) – flag if analog data should be processed</p></li>
-<li><p><strong>video_directory</strong> (<em>string</em>) – path to directory with video files associated to nwb file</p></li>
+<li><p><strong>video_path</strong> (<em>string</em>) – path to directory with video files associated to nwb file</p></li>
 <li><p><strong>output_file</strong> (<em>string</em>) – path and name specifying where .nwb file gonna be written</p></li>
 </ul>
 </dd>

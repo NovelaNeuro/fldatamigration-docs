@@ -22,7 +22,7 @@ Classes
 
 
 
-   .. method:: __build_single_data_acq_device(acq_device_metadata: dict)
+   .. method:: __build_single_data_acq_device(acq_device_metadata: dict, device_id: int)
       :staticmethod:
 
 

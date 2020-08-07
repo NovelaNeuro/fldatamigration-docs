@@ -26,7 +26,7 @@ Classes
 
    
 
-.. py:class:: NWBFileBuilder(data_path: str, animal_name: str, date: str, nwb_metadata: MetadataManager, process_dio: bool = True, process_mda: bool = True, process_analog: bool = True, video_directory: str = '', output_file: str = 'output.nwb')
+.. py:class:: NWBFileBuilder(data_path: str, animal_name: str, date: str, nwb_metadata: MetadataManager, process_dio: bool = True, process_mda: bool = True, process_analog: bool = True, video_path: str = '', output_file: str = 'output.nwb', reconfig_header: str = '')
 
    Unpack data from preprocessing folder specified by arguments, and write those data into NWB file format
 
@@ -44,8 +44,8 @@ Classes
    :type process_mda: boolean
    :param process_analog: flag if analog data should be processed
    :type process_analog: boolean
-   :param video_directory: path to directory with video files associated to nwb file
-   :type video_directory: string
+   :param video_path: path to directory with video files associated to nwb file
+   :type video_path: string
    :param output_file: path and name specifying where .nwb file gonna be written
    :type output_file: string
 

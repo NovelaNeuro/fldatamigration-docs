@@ -22,6 +22,12 @@ Submodules
    :show-inheritance:
 
 
+.. automodule:: processing.validation.metadata_section_validator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
 .. automodule:: processing.validation.metadata_validation_summary
    :members:
    :undoc-members:
