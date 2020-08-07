@@ -18,7 +18,7 @@ Classes
 
 .. py:class:: FlAssociatedFilesBuilder
 
-   .. method:: build(name, description, content)
+   .. method:: build(name, description, content, task_epochs)
       :staticmethod:
 
 

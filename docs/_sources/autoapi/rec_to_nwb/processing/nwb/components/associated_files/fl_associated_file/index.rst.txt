@@ -16,6 +16,6 @@ Classes
 
 
 
-.. py:class:: FlAssociatedFile(name: str, description: str, content: str)
+.. py:class:: FlAssociatedFile(name: str, description: str, content: str, task_epochs: str)
 
 

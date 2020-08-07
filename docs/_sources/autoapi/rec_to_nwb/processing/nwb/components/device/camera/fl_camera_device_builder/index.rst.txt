@@ -18,7 +18,7 @@ Classes
 
 .. py:class:: FlCameraDeviceBuilder
 
-   .. method:: build(name: str, meters_per_pixel: float)
+   .. method:: build(name: str, meters_per_pixel: float, manufacturer: str, model: str, lens: str, camera_name: str)
       :staticmethod:
 
 

@@ -33,7 +33,7 @@ Classes
 
 
 
-   .. method:: __build_timeseries(name, data, timestamps, unit)
+   .. method:: __build_timeseries(name, description, data, timestamps, unit)
       :staticmethod:
 
 
