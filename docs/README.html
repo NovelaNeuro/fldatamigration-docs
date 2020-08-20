@@ -1,0 +1,800 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>About &mdash; rec_to_nwb 0.1.019 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="API Documentation" href="api.html" />
+    <link rel="prev" title="Welcome to rec_to_nwb documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> rec_to_nwb
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="#how-to-use-it">How to use it</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="help.html">Need help?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="LICENSE.html">License</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">rec_to_nwb</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>About</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/README.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="about">
+<h1>About<a class="headerlink" href="#about" title="Permalink to this headline">¶</a></h1>
+<p>rec_to_nwb is a python conda package for converting SpikeGadgets rec files to NWB files.<br>
+It converts experiment data from <code class="docutils literal notranslate"><span class="pre">/raw</span></code> or <code class="docutils literal notranslate"><span class="pre">/preprocessing</span></code> folder to <code class="docutils literal notranslate"><span class="pre">.nwb</span></code> file. It utilizes rec_to_binaries package for preprocessing phase.<br>
+<a class="reference external" href="https://github.com/LorenFrankLab/rec_to_binaries">https://github.com/LorenFrankLab/rec_to_binaries</a><br></p>
+</div>
+<div class="section" id="prerequisites">
+<h1>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="for-users">
+<h2>For users<a class="headerlink" href="#for-users" title="Permalink to this headline">¶</a></h2>
+<ol>
+<li><p>Install Spike Gadgets <br>
+<a class="reference external" href="https://bitbucket.org/mkarlsso/trodes/downloads/">https://bitbucket.org/mkarlsso/trodes/downloads/</a></p></li>
+<li><p>Add SpikeGadgets to path. <br>
+If Spike Gadgets is in default location: <br></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/SpikeGadgets/:</span><span class="nv">$PATH</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
+</li>
+<li><p>Download miniconda from <br>
+<a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">https://docs.conda.io/en/latest/miniconda.html</a> <br></p></li>
+<li><p>Install rec_to_nwb package:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install -c conda-forge -c novelakrk rec_to_nwb
+</pre></div>
+</div>
+</li>
+<li><p>Install Jupyter notebook</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install jupyter notebook
+</pre></div>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="for-developers">
+<h2>For developers<a class="headerlink" href="#for-developers" title="Permalink to this headline">¶</a></h2>
+<ol>
+<li><p>Install Spike Gadgets <br>
+<a class="reference external" href="https://bitbucket.org/mkarlsso/trodes/downloads/">https://bitbucket.org/mkarlsso/trodes/downloads/</a></p></li>
+<li><p>Add SpikeGadgets to path. <br>
+If Spike Gadgets is in default location:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="s2">&quot;</span><span class="nv">$HOME</span><span class="s2">/SpikeGadgets/:</span><span class="nv">$PATH</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
+</li>
+<li><p>Download miniconda from<br>
+<a class="reference external" href="https://docs.conda.io/en/latest/miniconda.html">https://docs.conda.io/en/latest/miniconda.html</a><br></p></li>
+<li><p>clone repository</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/NovelaNeuro/rec_to_nwb.git
+
+<span class="nb">cd</span> rec_to_nwb/rec_to_nwb
+</pre></div>
+</div>
+</li>
+<li><p>Create conda environment.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda env create -f environment.yml
+</pre></div>
+</div>
+</li>
+<li><p>jupyter notebook installation</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pip install jupyter notebook
+</pre></div>
+</div>
+</li>
+<li><p>Documentation can be viewed at <br>
+<a class="reference external" href="https://novelaneuro.github.io/rec_to_nwb-docs/">https://novelaneuro.github.io/rec_to_nwb-docs/</a></p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="how-to-use-it">
+<h1>How to use it<a class="headerlink" href="#how-to-use-it" title="Permalink to this headline">¶</a></h1>
+<ol>
+<li><p>Download example notebook file from <br>
+<a class="reference external" href="https://anaconda.org/NovelaKRK/nwb_generation/notebook">https://anaconda.org/NovelaKRK/nwb_generation/notebook</a></p></li>
+<li><p>In terminal navigate to notebook file location</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rec_to_nwb/rec_to_nwb/notebooks
+</pre></div>
+</div>
+</li>
+<li><p>Run jupyter notebook</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>jupyter notebook nwb_generation.ipynb
+</pre></div>
+</div>
+</li>
+<li><p>Metadata.yml description:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> <span class="c1"># general information about the experiment </span>
+ <span class="n">experimenter</span> <span class="n">name</span><span class="p">:</span> <span class="n">Alison</span> <span class="n">Comrie</span>
+ <span class="n">lab</span><span class="p">:</span> <span class="n">Loren</span> <span class="n">Frank</span>
+ <span class="n">institution</span><span class="p">:</span> <span class="n">University</span> <span class="n">of</span> <span class="n">California</span><span class="p">,</span> <span class="n">San</span> <span class="n">Francisco</span>
+ <span class="n">experiment</span> <span class="n">description</span><span class="p">:</span> <span class="n">Reinforcement</span> <span class="n">learning</span>
+ <span class="n">session</span> <span class="n">description</span><span class="p">:</span> <span class="n">Reinforcement</span> <span class="n">leaarning</span>
+ <span class="n">session_id</span><span class="p">:</span> <span class="n">beans_01</span>
+ <span class="n">subject</span><span class="p">:</span>
+   <span class="n">description</span><span class="p">:</span> <span class="n">Long</span> <span class="n">Evans</span> <span class="n">Rat</span>
+   <span class="n">genotype</span><span class="p">:</span> <span class="n">Wild</span> <span class="n">Type</span>
+   <span class="n">sex</span><span class="p">:</span> <span class="n">Male</span>
+   <span class="n">species</span><span class="p">:</span> <span class="n">Rat</span>
+   <span class="n">subject</span> <span class="nb">id</span><span class="p">:</span> <span class="n">Beans</span>
+   <span class="n">weight</span><span class="p">:</span> <span class="n">Unknown</span>
+<span class="c1">#Units of analog and behavioral_events</span>
+<span class="n">units</span><span class="p">:</span>
+   <span class="n">analog</span><span class="p">:</span> <span class="s1">&#39;unspecified&#39;</span>
+   <span class="n">behavioral_events</span><span class="p">:</span> <span class="s1">&#39;unspecified&#39;</span>  
+<span class="c1">#data acq device used in experiment   </span>
+<span class="n">data</span> <span class="n">acq</span> <span class="n">device</span><span class="p">:</span>
+   <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">acq_0</span>
+     <span class="n">system</span><span class="p">:</span> <span class="n">sample_system</span>
+     <span class="n">amplifier</span><span class="p">:</span> <span class="n">sample_amplifier</span>
+     <span class="n">adc_circuit</span><span class="p">:</span> <span class="n">sample_adc_circuit</span>
+   <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">acq_1</span>
+     <span class="n">system</span><span class="p">:</span> <span class="n">sample_system_2</span>
+<span class="c1">#CameraDevice that were used in experiment    </span>
+ <span class="n">cameras</span><span class="p">:</span>
+   <span class="o">-</span> <span class="nb">id</span><span class="p">:</span> <span class="mi">0</span>
+     <span class="n">meters_per_pixel</span><span class="p">:</span> <span class="mf">0.02</span>
+   <span class="o">-</span> <span class="nb">id</span><span class="p">:</span> <span class="mi">1</span>
+     <span class="n">meters_per_pixel</span><span class="p">:</span> <span class="mf">0.03</span>
+   <span class="o">-</span> <span class="nb">id</span><span class="p">:</span> <span class="mi">2</span>
+     <span class="n">meters_per_pixel</span><span class="p">:</span> <span class="mf">0.05</span>  
+ <span class="c1">#Tasks represent epochs in experiment. Contains task_name, task_description, camera_id that were used in this task and task_epochs that this task correspond to. Stored in behavioral section in output nwb file.</span>
+ <span class="n">tasks</span><span class="p">:</span>
+   <span class="o">-</span> <span class="n">task_name</span><span class="p">:</span>          <span class="n">Sleep</span><span class="p">,</span>
+     <span class="n">task_description</span><span class="p">:</span>   <span class="n">The</span> <span class="n">animal</span> <span class="n">sleeps</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">small</span> <span class="n">empty</span> <span class="n">box</span><span class="o">.</span>
+     <span class="n">camera_id</span><span class="p">:</span>
+       <span class="o">-</span> <span class="mi">0</span>
+     <span class="n">task_epochs</span><span class="p">:</span>
+       <span class="o">-</span> <span class="mi">1</span>
+       <span class="o">-</span> <span class="mi">3</span>
+       <span class="o">-</span> <span class="mi">5</span>
+   <span class="o">-</span> <span class="n">task_name</span><span class="p">:</span>            <span class="n">Stem</span><span class="o">+</span><span class="n">Leaf</span><span class="p">,</span>
+     <span class="n">task_description</span><span class="p">:</span>     <span class="n">Spatial</span> <span class="n">Bandit</span><span class="p">,</span>
+     <span class="n">camera_id</span><span class="p">:</span>
+       <span class="o">-</span> <span class="mi">1</span>
+     <span class="n">task_epochs</span><span class="p">:</span>
+       <span class="o">-</span> <span class="mi">2</span>
+       <span class="o">-</span> <span class="mi">4</span>
+ <span class="c1"># Associated files which describe content of files stored inside nwb as text.</span>
+    <span class="n">associated_files</span><span class="p">:</span>
+   <span class="o">-</span>  <span class="n">name</span><span class="p">:</span> <span class="n">example_name1</span>
+      <span class="n">description</span><span class="p">:</span> <span class="n">exmaple</span> <span class="n">description</span> <span class="mi">1</span>
+      <span class="n">path</span><span class="p">:</span> <span class="n">C</span><span class="p">:</span><span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">sampleuser</span><span class="o">/</span><span class="n">PycharmProjects</span><span class="o">/</span><span class="n">rec_to_nwb</span><span class="o">/</span><span class="n">test</span><span class="o">/</span><span class="n">processing</span><span class="o">/</span><span class="n">res</span><span class="o">/</span><span class="n">test_text_files</span><span class="o">/</span><span class="n">test1_file</span>
+      <span class="n">task_epochs</span><span class="p">:</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+   <span class="o">-</span>  <span class="n">name</span><span class="p">:</span> <span class="n">example_name2</span>
+      <span class="n">description</span><span class="p">:</span> <span class="n">exmaple</span> <span class="n">description</span> <span class="mi">2</span>
+      <span class="n">path</span><span class="p">:</span> <span class="n">C</span><span class="p">:</span><span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">sampleuser</span><span class="o">/</span><span class="n">PycharmProjects</span><span class="o">/</span><span class="n">rec_to_nwb</span><span class="o">/</span><span class="n">test</span><span class="o">/</span><span class="n">processing</span><span class="o">/</span><span class="n">res</span><span class="o">/</span><span class="n">test_text_files</span><span class="o">/</span><span class="n">test2_file</span>
+      <span class="n">task_epochs</span><span class="p">:</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+ <span class="c1"># Associated video files describe .h264 files stored as ImageSeries in nwb.</span>
+    <span class="n">associated_video_files</span><span class="p">:</span>
+   <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="mi">20190718</span><span class="n">_beans_01_s1</span><span class="o">.</span><span class="mf">1.</span><span class="n">h264</span>
+     <span class="n">camera_id</span> <span class="p">:</span> <span class="mi">0</span>
+ <span class="c1"># Times period multiplier is used in pos/mda invalid/valid times, to multiply the period when detecting gaps,</span>
+     <span class="n">to</span> <span class="n">avoid</span> <span class="n">creating</span> <span class="n">invalid</span> <span class="n">times</span> <span class="ow">in</span> <span class="n">case</span> <span class="n">of</span> <span class="n">only</span> <span class="n">small</span> <span class="n">deviations</span><span class="o">.</span> <span class="p">(</span><span class="n">optional</span> <span class="n">parameter</span><span class="p">,</span> <span class="n">default</span> <span class="mf">1.5</span><span class="p">)</span>
+    <span class="n">times_period_multiplier</span><span class="p">:</span> <span class="mf">1.5</span>      
+ <span class="c1"># Din/Dout events which filter out files from DIO data in data directory. Each name has to be unique. Stored in behavioral_events section in output nwb file.</span>
+ <span class="n">behavioral_events</span><span class="p">:</span> 
+   <span class="o">-</span> <span class="n">name</span><span class="p">:</span> <span class="n">Poke2</span>
+     <span class="n">description</span><span class="p">:</span> <span class="n">Din2</span>
+ <span class="c1"># Device name. Stored in output nwb file.</span>
+ <span class="n">device</span><span class="p">:</span> 
+   <span class="n">name</span><span class="p">:</span>
+     <span class="o">-</span> <span class="n">Trodes</span>
+ <span class="c1"># Electrode Groups list used in experiment. Each Id has to be unique, device_type has to refer to existing device_type in probe.yml. Target_x,y,z fields describe the specified location where this group should be. Possible value of units: &#39;um&#39; or &#39;mm&#39; </span>
+ <span class="n">electrode</span> <span class="n">groups</span><span class="p">:</span>
+   <span class="o">-</span> <span class="nb">id</span><span class="p">:</span> <span class="mi">0</span>
+     <span class="n">location</span><span class="p">:</span> <span class="n">mPFC</span>
+     <span class="n">device_type</span><span class="p">:</span> <span class="mi">128</span><span class="n">c</span><span class="o">-</span><span class="mi">4</span><span class="n">s8mm6cm</span><span class="o">-</span><span class="mi">20</span><span class="n">um</span><span class="o">-</span><span class="mi">40</span><span class="n">um</span><span class="o">-</span><span class="n">sl</span>
+     <span class="n">description</span><span class="p">:</span> <span class="s1">&#39;Probe 1&#39;</span>
+     <span class="n">targeted_location</span><span class="p">:</span> <span class="s1">&#39;Sample predicted location&#39;</span>
+     <span class="n">targeted_x</span><span class="p">:</span> <span class="mf">0.0</span>
+     <span class="n">targeted_y</span><span class="p">:</span> <span class="mf">0.0</span>
+     <span class="n">targeted_z</span><span class="p">:</span> <span class="mf">0.0</span>
+     <span class="n">units</span><span class="p">:</span> <span class="s1">&#39;um&#39;</span>
+   <span class="o">-</span> <span class="nb">id</span><span class="p">:</span> <span class="mi">1</span>
+     <span class="n">location</span><span class="p">:</span> <span class="n">mPFC</span>
+     <span class="n">device_type</span><span class="p">:</span> <span class="mi">128</span><span class="n">c</span><span class="o">-</span><span class="mi">4</span><span class="n">s8mm6cm</span><span class="o">-</span><span class="mi">20</span><span class="n">um</span><span class="o">-</span><span class="mi">40</span><span class="n">um</span><span class="o">-</span><span class="n">sl</span>
+     <span class="n">description</span><span class="p">:</span> <span class="s1">&#39;Probe 2&#39;</span>
+     <span class="n">targeted_location</span><span class="p">:</span> <span class="s1">&#39;Sample predicted location&#39;</span>
+     <span class="n">targeted_x</span><span class="p">:</span> <span class="mf">0.0</span>
+     <span class="n">targeted_y</span><span class="p">:</span> <span class="mf">0.0</span>
+     <span class="n">targeted_z</span><span class="p">:</span> <span class="mf">0.0</span>
+     <span class="n">units</span><span class="p">:</span> <span class="s1">&#39;um&#39;</span>
+ <span class="c1"># Ntrodes list which refer 1:1 to &lt;SpikeNTrode&gt; elements from xml header existing in rec binary file.</span>
+ <span class="c1"># ntrode_id has to match to SpikeNTrode id, electrode_group_id refers to electrode group,</span>
+ <span class="c1"># bad_channels is a list of broken channels in the map, where map corresponds to the electrode channels</span>
+   <span class="o">-</span> <span class="n">ntrode_id</span><span class="p">:</span> <span class="mi">1</span> 
+     <span class="n">electrode_group_id</span><span class="p">:</span> <span class="mi">0</span> 
+     <span class="n">bad_channels</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
+     <span class="nb">map</span><span class="p">:</span>  
+       <span class="mi">0</span><span class="p">:</span> <span class="mi">0</span>
+       <span class="mi">1</span><span class="p">:</span> <span class="mi">1</span>
+       <span class="mi">2</span><span class="p">:</span> <span class="mi">2</span>
+       <span class="mi">3</span><span class="p">:</span> <span class="mi">3</span>
+   <span class="o">-</span> <span class="n">ntrode_id</span><span class="p">:</span> <span class="mi">2</span>
+     <span class="n">electrode_group_id</span><span class="p">:</span> <span class="mi">0</span>
+     <span class="n">bad_channels</span><span class="p">:</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span>
+     <span class="nb">map</span><span class="p">:</span>
+       <span class="mi">0</span><span class="p">:</span> <span class="mi">4</span>
+       <span class="mi">1</span><span class="p">:</span> <span class="mi">5</span>
+       <span class="mi">2</span><span class="p">:</span> <span class="mi">6</span>
+       <span class="mi">3</span><span class="p">:</span> <span class="mi">7</span>
+</pre></div>
+</div>
+</li>
+<li><p>Probe.yml description:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> <span class="n">probe_type</span><span class="p">:</span> <span class="n">tetrode_12</span><span class="o">.</span><span class="mi">5</span> <span class="c1"># Type of the probe that refers to device_type in electrode_group in metadata.yml</span>
+ <span class="n">units</span><span class="p">:</span> <span class="s1">&#39;um&#39;</span> <span class="c1"># possible value for unit is um or mm</span>
+ <span class="n">probe_description</span><span class="p">:</span> <span class="s1">&#39;four wire electrode&#39;</span>
+ <span class="n">num_shanks</span><span class="p">:</span> <span class="mi">1</span> <span class="c1"># Number of shanks (sets of electrodes) in this probe type</span>
+ <span class="n">contact_side_numbering</span><span class="p">:</span> <span class="n">true</span>
+ <span class="n">contact_size</span><span class="p">:</span> <span class="mf">12.5</span>
+ <span class="n">shanks</span><span class="p">:</span>
+   <span class="o">-</span> <span class="n">shank_id</span><span class="p">:</span> <span class="mi">0</span> <span class="c1"># Shank_id has to be unique</span>
+     <span class="n">electrodes</span><span class="p">:</span> <span class="c1"># List of electrodes that is used to initialize the electrode_table in output nwb file</span>
+       <span class="o">-</span> <span class="nb">id</span><span class="p">:</span> <span class="mi">0</span> <span class="c1"># Electrode id has to be unique</span>
+         <span class="n">rel_x</span><span class="p">:</span> <span class="mf">0.0</span>
+         <span class="n">rel_y</span><span class="p">:</span> <span class="mf">0.0</span>
+         <span class="n">rel_z</span><span class="p">:</span> <span class="mf">0.0</span>
+       <span class="o">-</span> <span class="nb">id</span><span class="p">:</span> <span class="mi">1</span>
+         <span class="n">rel_x</span><span class="p">:</span> <span class="mf">0.0</span>
+         <span class="n">rel_y</span><span class="p">:</span> <span class="mf">0.0</span>
+         <span class="n">rel_z</span><span class="p">:</span> <span class="mf">0.0</span>
+</pre></div>
+</div>
+</li>
+<li><p>Set up paths to metadata and probe <code class="docutils literal notranslate"><span class="pre">yaml</span></code> files, which corresponds to the experiment you are going to process.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">metadata</span> <span class="o">=</span> MetadataManager<span class="o">(</span>
+     <span class="s1">&#39;../test/processing/res/metadata.yml&#39;</span>,
+     <span class="o">[</span><span class="s1">&#39;../test/processing/res/probe1.yml&#39;</span>,
+     <span class="s1">&#39;../test/processing/res/probe2.yml&#39;</span>,
+     <span class="s1">&#39;../test/processing/res/probe3.yml&#39;</span><span class="o">]</span>  
+<span class="o">)</span>
+</pre></div>
+</div>
+</li>
+<li><p>Input files <code class="docutils literal notranslate"><span class="pre">metadata.yml</span></code> as well as <code class="docutils literal notranslate"><span class="pre">probe[1-N].yml</span></code> are validated against rec files headers.</p></li>
+<li><p>We provide two class to generate the NWB file. <br></p></li>
+</ol>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">RawToNWBBuilder</span></code> - To generate NWB file from raw data. <br></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">NWBFileBuilder</span></code> - To generate NWB file from preprocessed data. <br></p></li>
+</ul>
+<div class="section" id="raw-data">
+<h2>Raw data<a class="headerlink" href="#raw-data" title="Permalink to this headline">¶</a></h2>
+<p>Initialize RawToNWBBuilder, which requires <code class="docutils literal notranslate"><span class="pre">animal_name</span></code>, <code class="docutils literal notranslate"><span class="pre">data_path</span></code> and <code class="docutils literal notranslate"><span class="pre">dates</span></code> which exist in your experiment folder. Next build the NWB using <code class="docutils literal notranslate"><span class="pre">build_nwb()</span></code>. <br>
+If you don’t want mda or pos invalid/valid times in your nwb, set accordingly flag to false in ‘build_nwb’ method.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">builder</span> <span class="o">=</span> RawToNWBBuilder<span class="o">(</span>
+          <span class="nv">animal_name</span><span class="o">=</span><span class="s1">&#39;beans&#39;</span>,
+          <span class="nv">data_path</span><span class="o">=</span><span class="s1">&#39;../test/test_data/&#39;</span>,
+          <span class="nv">dates</span><span class="o">=[</span><span class="s1">&#39;20190718&#39;</span><span class="o">]</span>,
+          <span class="nv">nwb_metadata</span><span class="o">=</span>metadata,
+          <span class="nv">output_path</span><span class="o">=</span><span class="s1">&#39;/out/nwb&#39;</span>
+           <span class="o">)</span>
+builder.build_nwb<span class="o">()</span>
+</pre></div>
+</div>
+<p>raw_to_nwb_builder arguments</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>  **data_path** = `string` path to the parent folder of animal_name &lt;br&gt;
+
+  **animal_name** = `string` name of the folder that contain few dates-folders &lt;br&gt;
+
+  **dates** = `list of strings` names of folders that contain experiment data &lt;br&gt;
+
+  **nwb_metadata** = `MetadataManager` object with metadata.yml and probes.yml &lt;br&gt;
+  
+  **output_path** = `string` path specifying location and name of result file (dafault &#39;output.nwb&#39;) &lt;br&gt;
+  
+  **video_path** = `string` path specifying location of video files .h264 where those are copied &lt;b4&gt;
+
+  **extract_analog** = `boolean` flag specifying if analog data should be extracted from raw (default True) &lt;br&gt;
+
+  **extract_spikes** = `boolean` flag specifying if spikes data should be extracted from raw (default False) &lt;br&gt;
+
+  **extract_lfps** = `boolean` flag specifying if lfp data should be extracted from raw (default False) &lt;br&gt;
+
+  **extract_dio** = `boolean` flag specifying if dio data should be extracted from raw (default True) &lt;br&gt;
+
+  **extract_mda** = `boolean` flag specifying if mda data should be extracted from raw (default True) &lt;br&gt;
+
+  **parallel_instances** = `int` number of threads, optimal value highly depends on hardware (default 4) &lt;br&gt;
+  
+  **overwrite** = `boolean`  If true, will overwrite existing files. (default True) &lt;br&gt;
+  
+  **trodes_rec_export_args** = `tuple of strings` path to rec header file which overrides all headers existing in rec binary files e.g `_DEFAULT_TRODES_REC_EXPORT_ARGS = (&#39;-reconfig&#39;, str(path) + &#39;/test/processing/res/reconfig_header.xml&#39;)` &lt;br&gt;  
+</pre></div>
+</div>
+<p>build_nwb arguments:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> <span class="o">**</span><span class="n">process_mda_valid_time</span><span class="o">**</span> <span class="o">=</span> <span class="s1">&#39;boolean&#39;</span> <span class="kc">True</span> <span class="k">if</span> <span class="n">the</span> <span class="n">mda</span> <span class="n">valid</span> <span class="n">times</span> <span class="n">should</span> <span class="n">be</span> <span class="n">build</span> <span class="ow">and</span> <span class="n">append</span> <span class="n">to</span> <span class="n">nwb</span><span class="o">.</span>
+            <span class="n">Need</span> <span class="n">the</span> <span class="n">mda</span> <span class="n">data</span> <span class="n">inside</span> <span class="n">the</span> <span class="n">nwb</span><span class="o">.</span> <span class="p">(</span><span class="n">default</span> <span class="kc">True</span><span class="p">)</span> <span class="o">&lt;</span><span class="n">br</span><span class="o">&gt;</span>
+ 
+ <span class="o">**</span><span class="n">process_mda_invalid_time</span><span class="o">**</span> <span class="o">=</span> <span class="s1">&#39;boolean&#39;</span> <span class="kc">True</span> <span class="k">if</span> <span class="n">the</span> <span class="n">mda</span> <span class="n">invalid</span> <span class="n">times</span> <span class="n">should</span> <span class="n">be</span> <span class="n">build</span> <span class="ow">and</span> <span class="n">append</span> <span class="n">to</span> <span class="n">nwb</span><span class="o">.</span>
+            <span class="n">Need</span> <span class="n">the</span> <span class="n">mda</span> <span class="n">data</span> <span class="n">inside</span> <span class="n">the</span> <span class="n">nwb</span><span class="o">.</span> <span class="p">(</span><span class="n">default</span> <span class="kc">True</span><span class="p">)</span> <span class="o">&lt;</span><span class="n">br</span><span class="o">&gt;</span>
+ 
+ <span class="o">**</span><span class="n">process_pos_valid_time</span><span class="o">**</span> <span class="o">=</span> <span class="s1">&#39;boolean&#39;</span> <span class="kc">True</span> <span class="k">if</span> <span class="n">the</span> <span class="n">pos</span> <span class="n">valid</span> <span class="n">times</span> <span class="n">should</span> <span class="n">be</span> <span class="n">build</span> <span class="ow">and</span> <span class="n">append</span> <span class="n">to</span> <span class="n">nwb</span><span class="o">.</span>
+            <span class="n">Need</span> <span class="n">the</span> <span class="n">pos</span> <span class="n">data</span> <span class="n">inside</span> <span class="n">the</span> <span class="n">nwb</span><span class="o">.</span> <span class="p">(</span><span class="n">default</span> <span class="kc">True</span><span class="p">)</span> <span class="o">&lt;</span><span class="n">br</span><span class="o">&gt;</span>
+ 
+ <span class="o">**</span><span class="n">process_pos_invalid_time</span><span class="o">**</span> <span class="o">=</span> <span class="s1">&#39;boolean&#39;</span> <span class="kc">True</span> <span class="k">if</span> <span class="n">the</span> <span class="n">pos</span> <span class="n">invalid</span> <span class="n">times</span> <span class="n">should</span> <span class="n">be</span> <span class="n">build</span> <span class="ow">and</span> <span class="n">append</span> <span class="n">to</span> <span class="n">nwb</span><span class="o">.</span>
+            <span class="n">Need</span> <span class="n">the</span> <span class="n">pos</span> <span class="n">data</span> <span class="n">inside</span> <span class="n">the</span> <span class="n">nwb</span><span class="o">.</span> <span class="p">(</span><span class="n">default</span> <span class="kc">True</span><span class="p">)</span> <span class="o">&lt;</span><span class="n">br</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="preprocessed-data">
+<h2>Preprocessed data<a class="headerlink" href="#preprocessed-data" title="Permalink to this headline">¶</a></h2>
+<p>If you have already preprocessed data or RawToNwb process crashed during building file you can initialize NWBFileBuilder, which requires <code class="docutils literal notranslate"><span class="pre">data_path</span></code>, <code class="docutils literal notranslate"><span class="pre">animal_name</span></code>, <code class="docutils literal notranslate"><span class="pre">date</span></code>, <code class="docutils literal notranslate"><span class="pre">nwb_metadata</span></code>.<br />Next build the NWB using <code class="docutils literal notranslate"><span class="pre">build()</span></code> and write it to file by <code class="docutils literal notranslate"><span class="pre">write(content)</span></code> method.
+After that, you can add mda or pos invalid/valid data to your NWB, using ‘build_and_append_to_nwb’ method.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">builder</span> <span class="o">=</span> NWBFileBuilder<span class="o">(</span>
+         <span class="nv">data_path</span><span class="o">=</span><span class="s1">&#39;../data/&#39;</span>,
+         <span class="nv">animal_name</span><span class="o">=</span><span class="s1">&#39;beans&#39;</span>,
+         <span class="nv">date</span><span class="o">=</span><span class="s1">&#39;20190718&#39;</span>,
+         <span class="nv">nwb_metadata</span><span class="o">=</span>metadata,
+         <span class="nv">process_dio</span><span class="o">=</span>True,
+         <span class="nv">process_mda</span><span class="o">=</span>True,
+         <span class="nv">process_analog</span><span class="o">=</span>True
+     <span class="o">)</span>
+<span class="nv">content</span> <span class="o">=</span> builder.build<span class="o">()</span>
+builder.write<span class="o">(</span>content<span class="o">)</span>
+</pre></div>
+</div>
+<p>NWBFileBuilder arguments</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> **data_path** = `string` path to directory containing all experiments data &lt;br&gt;
+ 
+ **animal_name** = `string` directory name which represents animal subject of experiment &lt;br&gt;
+ 
+ **date** = `string` date of experiment &lt;br&gt;
+ 
+ **nwb_metadata** = `MetadataManager` object contains metadata about experiment &lt;br&gt;
+
+ **process_dio** = `boolean` flag if dio data should be processed &lt;br&gt;
+ 
+ **process_mda** = `boolean` flag if mda data should be processed &lt;br&gt;
+ 
+ **process_analog** = `boolean` flag if analog data should be processed &lt;br&gt;
+ 
+ **video_path** = `string` path specifying location of video files .h264 where those are copied &lt;b4&gt;
+ 
+ **output_file** = `string` path and name specifying where .nwb file gonna be written &lt;br&gt;
+</pre></div>
+</div>
+<p>build_and_append_to_nwb arguments:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> <span class="o">**</span><span class="n">process_mda_valid_time</span><span class="o">**</span> <span class="o">=</span> <span class="s1">&#39;boolean&#39;</span> <span class="kc">True</span> <span class="k">if</span> <span class="n">the</span> <span class="n">mda</span> <span class="n">valid</span> <span class="n">times</span> <span class="n">should</span> <span class="n">be</span> <span class="n">build</span> <span class="ow">and</span> <span class="n">append</span> <span class="n">to</span> <span class="n">nwb</span><span class="o">.</span>
+            <span class="n">Need</span> <span class="n">the</span> <span class="n">mda</span> <span class="n">data</span> <span class="n">inside</span> <span class="n">the</span> <span class="n">nwb</span><span class="o">.</span> <span class="p">(</span><span class="n">default</span> <span class="kc">True</span><span class="p">)</span> <span class="o">&lt;</span><span class="n">br</span><span class="o">&gt;</span>
+ 
+ <span class="o">**</span><span class="n">process_mda_invalid_time</span><span class="o">**</span> <span class="o">=</span> <span class="s1">&#39;boolean&#39;</span> <span class="kc">True</span> <span class="k">if</span> <span class="n">the</span> <span class="n">mda</span> <span class="n">invalid</span> <span class="n">times</span> <span class="n">should</span> <span class="n">be</span> <span class="n">build</span> <span class="ow">and</span> <span class="n">append</span> <span class="n">to</span> <span class="n">nwb</span><span class="o">.</span>
+            <span class="n">Need</span> <span class="n">the</span> <span class="n">mda</span> <span class="n">data</span> <span class="n">inside</span> <span class="n">the</span> <span class="n">nwb</span><span class="o">.</span> <span class="p">(</span><span class="n">default</span> <span class="kc">True</span><span class="p">)</span> <span class="o">&lt;</span><span class="n">br</span><span class="o">&gt;</span>
+ 
+ <span class="o">**</span><span class="n">process_pos_valid_time</span><span class="o">**</span> <span class="o">=</span> <span class="s1">&#39;boolean&#39;</span> <span class="kc">True</span> <span class="k">if</span> <span class="n">the</span> <span class="n">pos</span> <span class="n">valid</span> <span class="n">times</span> <span class="n">should</span> <span class="n">be</span> <span class="n">build</span> <span class="ow">and</span> <span class="n">append</span> <span class="n">to</span> <span class="n">nwb</span><span class="o">.</span>
+            <span class="n">Need</span> <span class="n">the</span> <span class="n">pos</span> <span class="n">data</span> <span class="n">inside</span> <span class="n">the</span> <span class="n">nwb</span><span class="o">.</span> <span class="p">(</span><span class="n">default</span> <span class="kc">True</span><span class="p">)</span> <span class="o">&lt;</span><span class="n">br</span><span class="o">&gt;</span>
+ 
+ <span class="o">**</span><span class="n">process_pos_invalid_time</span><span class="o">**</span> <span class="o">=</span> <span class="s1">&#39;boolean&#39;</span> <span class="kc">True</span> <span class="k">if</span> <span class="n">the</span> <span class="n">pos</span> <span class="n">invalid</span> <span class="n">times</span> <span class="n">should</span> <span class="n">be</span> <span class="n">build</span> <span class="ow">and</span> <span class="n">append</span> <span class="n">to</span> <span class="n">nwb</span><span class="o">.</span>
+            <span class="n">Need</span> <span class="n">the</span> <span class="n">pos</span> <span class="n">data</span> <span class="n">inside</span> <span class="n">the</span> <span class="n">nwb</span><span class="o">.</span> <span class="p">(</span><span class="n">default</span> <span class="kc">True</span><span class="p">)</span> <span class="o">&lt;</span><span class="n">br</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+<ol>
+<li><p>Make sure that the data structure in given directory (in that case <code class="docutils literal notranslate"><span class="pre">test_data</span></code>) looks similar to following example:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span> --test_data
+   <span class="p">|</span>
+   <span class="sb">`</span>-- beans
+       <span class="p">|</span>   <span class="p">|</span>
+       <span class="p">|</span>   <span class="sb">`</span>-- raw
+       <span class="p">|</span>       <span class="p">|</span>
+       <span class="p">|</span>       <span class="sb">`</span>-- <span class="m">20190718</span>
+       <span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.1.h264
+       <span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.1.trackgeometry
+       <span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.1.videoPositionTracking
+       <span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.1.videoTimeStamps
+       <span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.1.videoTimeStamps.cameraHWSync
+       <span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.rec
+       <span class="p">|</span>           <span class="sb">`</span>-- 20190718_beans_01_s1.stateScriptLog
+       <span class="sb">`</span>-- README.md
+</pre></div>
+</div>
+</li>
+<li><p>Double check if there is enough disc space on your Laptop/PC.</p></li>
+<li><p>Run processing (generation may take from mins to even hours and it depends on the size of experiment datasets).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">rec_to_nwb.log</span></code> contains useful information about processing phases as well as all of the exceptions and errors.</p></li>
+<li><p>Example structure of preprocessed experiment data</p></li>
+</ol>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="p">|</span>-- beans
+<span class="p">|</span>   <span class="p">|</span>-- preprocessing
+<span class="p">|</span>   <span class="p">|</span>   <span class="p">|</span>
+<span class="p">|</span>   <span class="p">|</span>   <span class="p">|</span>-- <span class="m">20190718</span>
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>-- 20190718_beans_01_s1.1.pos
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.1.pos_cameraHWFrameCount.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.1.pos_online.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.1.pos_timestamps.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>-- 20190718_beans_01_s1.analog
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.analog_AccelX.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.analog_AccelY.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.analog_AccelZ.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.analog_GyroX.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.analog_GyroY.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.analog_GyroZ.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.analog_MagX.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.analog_MagY.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.analog_MagZ.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.exportanalog.log
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.timestamps.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>-- 20190718_beans_01_s1.DIO
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din10.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din11.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din12.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din13.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din14.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din15.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din16.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din17.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din18.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din19.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din20.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din21.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din22.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din23.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din24.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din25.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din26.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din27.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din28.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din29.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din2.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din30.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din31.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din32.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din3.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din4.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din5.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din6.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din7.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din8.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Din9.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout10.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout11.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout12.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout13.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout14.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout15.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout16.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout17.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout18.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout19.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout20.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout21.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout22.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout23.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout24.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout25.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout26.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout27.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout28.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout29.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout2.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout30.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout31.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout32.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout3.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout4.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout5.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout6.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout7.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout8.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.dio_Dout9.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.exportdio.log
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>-- 20190718_beans_01_s1.LFP
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.exportLFP.log
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt10ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt11ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt12ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt13ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt14ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt15ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt16ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt17ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt18ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt19ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt1ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt20ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt21ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt22ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt23ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt24ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt25ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt26ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt27ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt28ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt29ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt2ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt30ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt31ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt32ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt3ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt4ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt5ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt6ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt7ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt8ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.LFP_nt9ch1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.timestamps.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>-- 20190718_beans_01_s1.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.exportmda.log
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt10.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt11.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt12.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt13.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt14.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt15.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt16.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt17.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt18.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt19.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt1.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt20.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt21.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt22.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt23.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt24.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt25.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt26.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt27.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt28.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt29.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt2.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt30.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt31.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt32.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt3.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt4.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt5.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt6.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt7.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt8.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.nt9.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.timestamps.mda
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>-- 20190718_beans_01_s1.mountain
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>-- 20190718_beans_01_s1.spikes
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.exportspikes.log
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt10.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt11.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt12.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt13.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt14.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt15.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt16.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt17.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt18.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt19.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt1.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt20.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt21.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt22.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt23.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt24.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt25.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt26.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt27.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt28.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt29.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt2.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt30.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt31.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt32.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt3.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt4.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt5.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt6.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt7.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt8.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>   <span class="p">|</span>-- 20190718_beans_01_s1.spikes_nt9.dat
+<span class="p">|</span>   <span class="p">|</span>       <span class="p">|</span>-- 20190718_beans_01_s1.time
+<span class="p">|</span>   <span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.continuoustime.dat
+<span class="p">|</span>   <span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.exporttime.log
+<span class="p">|</span>   <span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.time.dat
+<span class="p">|</span>   <span class="p">|</span>-- raw
+<span class="p">|</span>       <span class="p">|</span>-- <span class="m">20190718</span>
+<span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.1.h264
+<span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.1.trackgeometry
+<span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.1.videoPositionTracking
+<span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.1.videoTimeStamps
+<span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.1.videoTimeStamps.cameraHWSync
+<span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.rec
+<span class="p">|</span>           <span class="p">|</span>-- 20190718_beans_01_s1.stateScriptLog
+<span class="p">|</span>-- README.md
+</pre></div>
+</div>
+<p>When processing completes, a nwb file is created in the output_path directory</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="api.html" class="btn btn-neutral float-right" title="API Documentation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to rec_to_nwb documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Novela
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
