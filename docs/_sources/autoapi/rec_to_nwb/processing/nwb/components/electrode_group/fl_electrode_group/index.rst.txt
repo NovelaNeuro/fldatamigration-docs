@@ -1,0 +1,21 @@
+:mod:`rec_to_nwb.processing.nwb.components.electrode_group.fl_electrode_group`
+==============================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.electrode_group.fl_electrode_group
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.electrode_group.fl_electrode_group.FlElectrodeGroup
+
+
+
+.. py:class:: FlElectrodeGroup(name, description, location, device)
+
+

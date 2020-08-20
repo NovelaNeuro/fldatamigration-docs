@@ -1,0 +1,63 @@
+:mod:`rec_to_nwb.processing.nwb.common.data_manager`
+====================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.common.data_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.common.data_manager.DataManager
+
+
+
+.. py:class:: DataManager(directories)
+
+   Bases: :class:`abc.ABC`
+
+   Helper class that provides a standard way to create an ABC using
+   inheritance.
+
+   .. method:: read_data(self, dataset_id, file_id)
+      :abstractmethod:
+
+
+
+   .. method:: get_number_of_files_per_dataset(self)
+
+
+
+   .. method:: _get_data_shape(self, dataset_num)
+
+
+
+   .. method:: _get_file_length(self, number_of_datasets)
+
+
+
+   .. method:: get_number_of_datasets(self)
+
+
+
+   .. method:: get_final_data_shape(self)
+
+
+
+   .. method:: get_directories(self)
+
+
+
+   .. method:: get_number_of_rows_per_file(self)
+
+
+
+   .. method:: get_file_lenghts_in_datasets(self)
+
+
+
+

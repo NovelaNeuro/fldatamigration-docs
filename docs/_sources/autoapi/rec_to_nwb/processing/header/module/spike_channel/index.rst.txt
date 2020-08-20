@@ -1,0 +1,21 @@
+:mod:`rec_to_nwb.processing.header.module.spike_channel`
+========================================================
+
+.. py:module:: rec_to_nwb.processing.header.module.spike_channel
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.header.module.spike_channel.SpikeChannel
+
+
+
+.. py:class:: SpikeChannel(element)
+
+

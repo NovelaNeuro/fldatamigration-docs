@@ -1,0 +1,50 @@
+:mod:`rec_to_nwb.processing.nwb.components.electrode_group.fl_nwb_electrode_group_manager`
+==========================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.electrode_group.fl_nwb_electrode_group_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.electrode_group.fl_nwb_electrode_group_manager.FlNwbElectrodeGroupManager
+
+
+
+.. py:class:: FlNwbElectrodeGroupManager(electrode_groups_metadata: list)
+
+   Manage ElectrodeGroup data and call FlNwbElectrodeGroupBuilder to create list of FlNwbElectrodeGroupBuilder.
+
+   :param electrode_groups_metadata: list that contains electrode group metadata dicts
+   :type electrode_groups_metadata: list
+
+   .. method:: get_fl_nwb_electrode_groups()
+
+      
+      
+
+   .. method:: get_fl_nwb_electrode_groups(self, probes: list, electrode_groups_valid_map: set)
+
+
+      Manage ElectrodeGroup data and call FlNwbElectrodeGroupBuilder to create list of FlNwbElectrodeGroupBuilder.
+
+      :param probes: list of existing probes
+      :type probes: list
+      :param electrode_groups_valid_map: Set of electrode groups ids that are not corrupted
+      :type electrode_groups_valid_map: set
+
+      :returns: list with FlNwbElectrodeGroupBuilder objects
+      :rtype: list
+
+
+   .. method:: __get_probe_by_type(probes: list, probe_type: str)
+      :staticmethod:
+
+
+
+

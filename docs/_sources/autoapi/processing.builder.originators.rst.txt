@@ -1,0 +1,154 @@
+processing.builder.originators package
+======================================
+
+.. automodule:: processing.builder.originators
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: processing.builder.originators.analog_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.associated_files_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.camera_device_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.camera_sample_frame_counts_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.data_acq_device_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.dio_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.electrode_group_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.electrodes_extension_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.electrodes_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.epochs_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.header_device_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.mda_invalid_time_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.mda_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.mda_valid_time_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.pos_invalid_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.pos_valid_time_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.position_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.probe_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.processing_module_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.sample_count_timestamp_corespondence_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.shanks_electrodes_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.shanks_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.task_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.builder.originators.video_files_originator
+   :members:
+   :undoc-members:
+   :show-inheritance:

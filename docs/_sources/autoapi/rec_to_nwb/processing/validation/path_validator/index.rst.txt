@@ -1,0 +1,27 @@
+:mod:`rec_to_nwb.processing.validation.path_validator`
+======================================================
+
+.. py:module:: rec_to_nwb.processing.validation.path_validator
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.validation.path_validator.PathValidator
+
+
+
+.. py:class:: PathValidator(path)
+
+   Bases: :class:`rec_to_nwb.processing.validation.validator.Validator`
+
+   .. method:: create_summary(self)
+
+
+
+

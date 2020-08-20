@@ -1,0 +1,35 @@
+:mod:`rec_to_nwb.processing.builder.originators.mda_originator`
+===============================================================
+
+.. py:module:: rec_to_nwb.processing.builder.originators.mda_originator
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.builder.originators.mda_originator.MdaOriginator
+
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: MdaOriginator(datasets, header, metadata)
+
+   .. method:: make(self, nwb_content)
+
+
+
+

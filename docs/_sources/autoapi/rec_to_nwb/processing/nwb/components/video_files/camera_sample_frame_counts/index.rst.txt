@@ -1,0 +1,19 @@
+:mod:`rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts`
+==================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   camera_sample_frame_counts/index.rst
+   camera_sample_frame_counts_builder/index.rst
+   camera_sample_frame_counts_extractor/index.rst
+   camera_sample_frame_counts_injector/index.rst
+   camera_sample_frame_counts_manager/index.rst
+
+

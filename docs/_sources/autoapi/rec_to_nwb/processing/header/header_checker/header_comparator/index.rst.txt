@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.header.header_checker.header_comparator`
+====================================================================
+
+.. py:module:: rec_to_nwb.processing.header.header_checker.header_comparator
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.header.header_checker.header_comparator.HeaderComparator
+
+
+
+.. py:class:: HeaderComparator(xml_headers)
+
+   .. method:: compare(self)
+
+
+
+

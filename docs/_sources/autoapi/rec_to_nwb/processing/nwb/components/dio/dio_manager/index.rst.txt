@@ -1,0 +1,32 @@
+:mod:`rec_to_nwb.processing.nwb.components.dio.dio_manager`
+===========================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.dio.dio_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.dio.dio_manager.DioManager
+
+
+
+.. py:class:: DioManager(dio_files, dio_metadata, continuous_time_files)
+
+   .. method:: get_dio(self)
+
+
+      "extract data from DIO files and match them with metadata
+
+
+   .. method:: __merge_dio_data(cls, data_from_multiple_datasets)
+      :classmethod:
+
+
+
+

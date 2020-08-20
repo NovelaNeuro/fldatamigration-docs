@@ -1,0 +1,34 @@
+processing.nwb.components.task package
+======================================
+
+.. automodule:: processing.nwb.components.task
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: processing.nwb.components.task.fl_task
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.task.task_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.task.task_creator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.task.task_manager
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.nwb.components.mda.fl_mda_builder`
+==============================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.mda.fl_mda_builder
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.mda.fl_mda_builder.FlMdaBuilder
+
+
+
+.. py:class:: FlMdaBuilder(sampling_rate)
+
+   .. method:: build(self, electrode_table_region, data)
+
+
+
+

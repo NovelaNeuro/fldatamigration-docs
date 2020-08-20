@@ -1,0 +1,26 @@
+:mod:`rec_to_nwb.processing.metadata.metadata_extractor`
+========================================================
+
+.. py:module:: rec_to_nwb.processing.metadata.metadata_extractor
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.metadata.metadata_extractor.MetadataExtractor
+
+
+
+.. py:class:: MetadataExtractor
+
+   .. method:: extract_metadata(metadata_path)
+      :staticmethod:
+
+
+
+

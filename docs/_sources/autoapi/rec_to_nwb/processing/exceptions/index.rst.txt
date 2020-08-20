@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.exceptions`
+=======================================
+
+.. py:module:: rec_to_nwb.processing.exceptions
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   corrupted_data_exception/index.rst
+   invalid_exception/index.rst
+   invalid_header_exception/index.rst
+   invalid_input_exception/index.rst
+   invalid_metadata_exception/index.rst
+   invalid_path_exception/index.rst
+   invalid_xml_exception/index.rst
+   missing_data_exception/index.rst
+   none_param_exception/index.rst
+   not_compatible_metadata/index.rst
+   not_equal_param_length_exception/index.rst
+
+

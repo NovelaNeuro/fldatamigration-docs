@@ -1,0 +1,21 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.probe.fl_probe`
+=================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.probe.fl_probe
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.device.probe.fl_probe.FlProbe
+
+
+
+.. py:class:: FlProbe(probe_id, name, probe_type, units, probe_description, contact_side_numbering, contact_size, shanks)
+
+

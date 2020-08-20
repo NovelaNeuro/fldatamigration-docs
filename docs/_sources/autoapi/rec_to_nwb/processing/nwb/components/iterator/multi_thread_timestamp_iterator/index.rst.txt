@@ -1,0 +1,39 @@
+:mod:`rec_to_nwb.processing.nwb.components.iterator.multi_thread_timestamp_iterator`
+====================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.iterator.multi_thread_timestamp_iterator
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.iterator.multi_thread_timestamp_iterator.MultiThreadTimestampIterator
+
+
+
+.. py:class:: MultiThreadTimestampIterator(data, number_of_threads=6)
+
+   Bases: :class:`rec_to_nwb.processing.nwb.components.iterator.timestamp_iterator.TimestampIterator`
+
+   Helper class that provides a standard way to create an ABC using
+   inheritance.
+
+   .. attribute:: next
+      
+
+      
+
+   .. method:: __next__(self)
+
+
+
+   .. method:: __get_selection(self, number_of_threads_in_current_step)
+
+
+
+

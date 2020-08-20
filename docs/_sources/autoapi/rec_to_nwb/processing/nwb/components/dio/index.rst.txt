@@ -1,0 +1,19 @@
+:mod:`rec_to_nwb.processing.nwb.components.dio`
+===============================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.dio
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   dio_builder/index.rst
+   dio_extractor/index.rst
+   dio_files/index.rst
+   dio_injector/index.rst
+   dio_manager/index.rst
+
+

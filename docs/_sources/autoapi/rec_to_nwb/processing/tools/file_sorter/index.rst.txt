@@ -1,0 +1,26 @@
+:mod:`rec_to_nwb.processing.tools.file_sorter`
+==============================================
+
+.. py:module:: rec_to_nwb.processing.tools.file_sorter
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.tools.file_sorter.FileSorter
+
+
+
+.. py:class:: FileSorter
+
+   .. method:: sort_filenames(filenames)
+      :staticmethod:
+
+
+
+

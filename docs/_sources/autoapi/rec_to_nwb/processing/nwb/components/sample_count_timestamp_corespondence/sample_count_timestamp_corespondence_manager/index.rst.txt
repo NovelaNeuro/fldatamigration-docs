@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.nwb.components.sample_count_timestamp_corespondence.sample_count_timestamp_corespondence_manager`
+=============================================================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.sample_count_timestamp_corespondence.sample_count_timestamp_corespondence_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.sample_count_timestamp_corespondence.sample_count_timestamp_corespondence_manager.SampleCountTimestampCorespondenceManager
+
+
+
+.. py:class:: SampleCountTimestampCorespondenceManager(datasets)
+
+   .. method:: get_timeseries(self)
+
+
+
+

@@ -1,0 +1,30 @@
+:mod:`rec_to_nwb.processing.nwb.components.position.position_creator`
+=====================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.position.position_creator
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.position.position_creator.PositionCreator
+
+
+
+.. py:class:: PositionCreator
+
+   .. method:: create_all(self, fl_positions: list)
+
+
+
+   .. method:: create(position: Position, series_id: int, fl_position: FlPosition)
+      :staticmethod:
+
+
+
+

@@ -1,0 +1,29 @@
+:mod:`rec_to_nwb.processing.builder.originators.analog_originator`
+==================================================================
+
+.. py:module:: rec_to_nwb.processing.builder.originators.analog_originator
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.builder.originators.analog_originator.AnalogOriginator
+
+
+
+.. py:class:: AnalogOriginator(datasets, metadata)
+
+   .. method:: make(self, nwb_content)
+
+
+
+   .. method:: __get_continuous_time_files(self)
+
+
+
+

@@ -1,0 +1,26 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.probe.fl_probe_extractor`
+===========================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.probe.fl_probe_extractor
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.device.probe.fl_probe_extractor.FlProbesExtractor
+
+
+
+.. py:class:: FlProbesExtractor
+
+   .. method:: extract_probes_metadata(cls, probes_paths)
+      :classmethod:
+
+
+
+

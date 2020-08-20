@@ -1,0 +1,28 @@
+processing.nwb.components package
+=================================
+
+.. automodule:: processing.nwb.components
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   processing.nwb.components.analog
+   processing.nwb.components.associated_files
+   processing.nwb.components.device
+   processing.nwb.components.dio
+   processing.nwb.components.electrode_group
+   processing.nwb.components.electrodes
+   processing.nwb.components.epochs
+   processing.nwb.components.iterator
+   processing.nwb.components.mda
+   processing.nwb.components.position
+   processing.nwb.components.processing_module
+   processing.nwb.components.sample_count_timestamp_corespondence
+   processing.nwb.components.task
+   processing.nwb.components.video_files

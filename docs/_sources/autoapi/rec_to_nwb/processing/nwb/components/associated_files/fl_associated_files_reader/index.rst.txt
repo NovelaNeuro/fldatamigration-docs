@@ -1,0 +1,31 @@
+:mod:`rec_to_nwb.processing.nwb.components.associated_files.fl_associated_files_reader`
+=======================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.associated_files.fl_associated_files_reader
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.associated_files.fl_associated_files_reader.FlAssociatedFilesReader
+
+
+
+.. data:: path
+   
+
+   
+
+.. py:class:: FlAssociatedFilesReader
+
+   .. method:: read(file_path)
+      :staticmethod:
+
+
+
+

@@ -1,0 +1,73 @@
+:mod:`rec_to_nwb.processing.nwb.common.timestamps_manager`
+==========================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.common.timestamps_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.common.timestamps_manager.TimestampManager
+
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: TimestampManager(directories, continuous_time_directories)
+
+   Bases: :class:`abc.ABC`
+
+   Helper class that provides a standard way to create an ABC using
+   inheritance.
+
+   .. method:: _get_timestamps(self, dataset_id)
+      :abstractmethod:
+
+
+
+   .. method:: retrieve_real_timestamps(self, dataset_id)
+
+
+
+   .. method:: read_timestamps_ids(self, dataset_id)
+
+
+
+   .. method:: get_final_data_shape(self)
+
+
+
+   .. method:: get_number_of_datasets(self)
+
+
+
+   .. method:: get_file_lenghts_in_datasets(self)
+
+
+
+   .. method:: __calculate_file_lenghts_in_datasets(self)
+
+
+
+   .. method:: _get_number_of_datasets(self)
+
+
+
+   .. method:: _get_data_shape(self, dataset_num)
+
+
+
+
