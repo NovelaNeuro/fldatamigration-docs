@@ -1,0 +1,61 @@
+:mod:`rec_to_nwb.processing.metadata.corrupted_data_manager`
+============================================================
+
+.. py:module:: rec_to_nwb.processing.metadata.corrupted_data_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.metadata.corrupted_data_manager.CorruptedDataManager
+
+
+
+.. py:class:: CorruptedDataManager(metadata: dict)
+
+   Manager collect only correct data. Raise exception if data are corrupted.
+
+   :param metadata: parsed metadata
+   :type metadata: dict
+
+   .. method:: get_valid_map_dict(self)
+
+
+      Get dictionary with correct data or raise exception
+
+      :returns: Dictionary with correct data.
+      :rtype: dict
+
+      :raises CorruptedDataException: If all data in metadata are corrupted
+
+
+   .. method:: __get_electrodes_valid_map(ntrode_metadata: list)
+      :staticmethod:
+
+
+
+   .. method:: __get_electrode_groups_valid_map(self, ntrode_metadata: list, electrodes_valid_map: list)
+
+
+
+   .. method:: __is_ntrode_valid(ntrode, electrodes_valid_map)
+      :staticmethod:
+
+
+
+   .. method:: __get_probes_valid_map(electrode_groups_metadata: list, electrode_groups_valid_map: set)
+      :staticmethod:
+
+
+
+   .. method:: __validate_data(probes_valid_map)
+      :staticmethod:
+
+
+
+

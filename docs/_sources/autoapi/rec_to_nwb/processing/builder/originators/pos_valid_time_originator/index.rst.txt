@@ -1,0 +1,35 @@
+:mod:`rec_to_nwb.processing.builder.originators.pos_valid_time_originator`
+==========================================================================
+
+.. py:module:: rec_to_nwb.processing.builder.originators.pos_valid_time_originator
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.builder.originators.pos_valid_time_originator.PosValidTimeOriginator
+
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: PosValidTimeOriginator(metadata)
+
+   .. method:: make(self, nwb_content)
+
+
+
+

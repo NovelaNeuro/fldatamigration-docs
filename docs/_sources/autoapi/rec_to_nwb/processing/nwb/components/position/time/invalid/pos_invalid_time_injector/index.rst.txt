@@ -1,0 +1,30 @@
+:mod:`rec_to_nwb.processing.nwb.components.position.time.invalid.pos_invalid_time_injector`
+===========================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.position.time.invalid.pos_invalid_time_injector
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.position.time.invalid.pos_invalid_time_injector.PosInvalidTimeInjector
+
+
+
+.. py:class:: PosInvalidTimeInjector
+
+   .. method:: inject_all(self, valid_times, nwb_content)
+
+
+
+   .. method:: inject(single_interval, intervals)
+      :staticmethod:
+
+
+
+

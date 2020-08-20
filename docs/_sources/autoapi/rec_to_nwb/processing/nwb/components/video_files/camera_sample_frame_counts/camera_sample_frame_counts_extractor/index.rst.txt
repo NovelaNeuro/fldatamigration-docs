@@ -1,0 +1,38 @@
+:mod:`rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_extractor`
+=======================================================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_extractor
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_extractor.CameraSampleFrameCountsExtractor
+
+
+
+.. py:class:: CameraSampleFrameCountsExtractor(raw_data_path)
+
+   .. method:: extract(self)
+
+
+
+   .. method:: __get_all_hwsync_files(self)
+
+
+
+   .. method:: __merge_data_from_multiple_files(data)
+      :staticmethod:
+
+
+
+   .. method:: __extract_single(self, hw_frame_count_filename)
+
+
+
+

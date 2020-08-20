@@ -1,0 +1,46 @@
+:mod:`rec_to_nwb.processing.nwb.components.device.device_factory`
+=================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.device.device_factory
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.device.device_factory.DeviceFactory
+
+
+
+.. py:class:: DeviceFactory
+
+   .. method:: create_device(cls, fl_device: FlDevice)
+      :classmethod:
+
+
+
+   .. method:: create_camera_device(cls, fl_camera_device: FlCameraDevice)
+      :classmethod:
+
+
+
+   .. method:: create_probe(cls, fl_probe: FlProbe)
+      :classmethod:
+
+
+
+   .. method:: create_data_acq_device(cls, fl_data_acq_device: FlDataAcqDevice)
+      :classmethod:
+
+
+
+   .. method:: create_header_device(cls, fl_header_device: FlHeaderDevice)
+      :classmethod:
+
+
+
+

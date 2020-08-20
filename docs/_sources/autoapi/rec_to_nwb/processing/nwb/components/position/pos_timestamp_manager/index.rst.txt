@@ -1,0 +1,40 @@
+:mod:`rec_to_nwb.processing.nwb.components.position.pos_timestamp_manager`
+==========================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.position.pos_timestamp_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.position.pos_timestamp_manager.PosTimestampManager
+
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: PosTimestampManager(directories, continuous_time_directories)
+
+   Bases: :class:`rec_to_nwb.processing.nwb.common.timestamps_manager.TimestampManager`
+
+   Helper class that provides a standard way to create an ABC using
+   inheritance.
+
+   .. method:: _get_timestamps(self, dataset_id)
+
+
+
+

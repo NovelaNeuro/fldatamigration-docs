@@ -1,0 +1,30 @@
+:mod:`rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_builder`
+=====================================================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_builder
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_builder.CameraSampleFrameCountsBuilder
+
+
+
+.. py:class:: CameraSampleFrameCountsBuilder(data)
+
+   .. method:: build(self)
+
+
+
+   .. method:: __build_timeseries(cls, data)
+      :classmethod:
+
+
+
+

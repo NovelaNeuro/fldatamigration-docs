@@ -1,0 +1,36 @@
+:mod:`rec_to_nwb.processing.builder.originators.processing_module_originator`
+=============================================================================
+
+.. py:module:: rec_to_nwb.processing.builder.originators.processing_module_originator
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.builder.originators.processing_module_originator.ProcessingModuleOriginator
+
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: ProcessingModuleOriginator
+
+   .. method:: make(nwb_content)
+      :staticmethod:
+
+
+
+

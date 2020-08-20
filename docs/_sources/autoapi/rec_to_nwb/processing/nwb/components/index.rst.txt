@@ -1,0 +1,28 @@
+:mod:`rec_to_nwb.processing.nwb.components`
+===========================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components
+
+
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   analog/index.rst
+   associated_files/index.rst
+   device/index.rst
+   dio/index.rst
+   electrode_group/index.rst
+   electrodes/index.rst
+   epochs/index.rst
+   iterator/index.rst
+   mda/index.rst
+   position/index.rst
+   processing_module/index.rst
+   sample_count_timestamp_corespondence/index.rst
+   task/index.rst
+   video_files/index.rst
+
+

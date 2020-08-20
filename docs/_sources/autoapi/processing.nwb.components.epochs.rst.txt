@@ -1,0 +1,46 @@
+processing.nwb.components.epochs package
+========================================
+
+.. automodule:: processing.nwb.components.epochs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: processing.nwb.components.epochs.epochs_injector
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.epochs.epochs_tag_extractor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.epochs.fl_epochs
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.epochs.fl_epochs_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.epochs.fl_epochs_extractor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.epochs.fl_epochs_manager
+   :members:
+   :undoc-members:
+   :show-inheritance:

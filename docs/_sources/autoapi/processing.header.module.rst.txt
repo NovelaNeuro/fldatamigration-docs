@@ -1,0 +1,100 @@
+processing.header.module package
+================================
+
+.. automodule:: processing.header.module
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: processing.header.module.argument
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.aux_display_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.channel
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.device
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.disp_channel
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.global_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.hardware_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.header
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.module_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.single_module_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.spike_channel
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.spike_configuration
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.spike_n_trode
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.header.module.stream_display
+   :members:
+   :undoc-members:
+   :show-inheritance:

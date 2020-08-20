@@ -1,0 +1,28 @@
+:mod:`rec_to_nwb.processing.nwb.components.mda.mda_injector`
+============================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.mda.mda_injector
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.mda.mda_injector.MdaInjector
+
+
+
+.. py:class:: MdaInjector
+
+   .. method:: inject_mda(electrical_series, nwb_content)
+      :staticmethod:
+
+
+      insert electrical series to nwb file
+
+
+

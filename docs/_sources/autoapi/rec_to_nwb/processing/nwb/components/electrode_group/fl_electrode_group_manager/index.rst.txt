@@ -1,0 +1,30 @@
+:mod:`rec_to_nwb.processing.nwb.components.electrode_group.fl_electrode_group_manager`
+======================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.electrode_group.fl_electrode_group_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.electrode_group.fl_electrode_group_manager.FlElectrodeGroupManager
+
+
+
+.. py:class:: FlElectrodeGroupManager(electrode_groups_metadata: list)
+
+   .. method:: get_fl_electrode_groups(self, probes: list, electrode_groups_valid_map: set)
+
+
+
+   .. method:: __get_probe_by_type(probes: list, probe_type: str)
+      :staticmethod:
+
+
+
+

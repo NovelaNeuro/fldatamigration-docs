@@ -1,0 +1,21 @@
+:mod:`rec_to_nwb.processing.nwb.components.epochs.fl_epochs`
+============================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.epochs.fl_epochs
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.epochs.fl_epochs.FlEpochs
+
+
+
+.. py:class:: FlEpochs(session_start_times, session_end_times, tags)
+
+

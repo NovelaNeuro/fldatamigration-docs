@@ -1,0 +1,27 @@
+:mod:`rec_to_nwb.processing.nwb.components.analog.analog_injector`
+==================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.analog.analog_injector
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.analog.analog_injector.AnalogInjector
+
+
+
+.. py:class:: AnalogInjector(nwb_content)
+
+   .. method:: inject(self, behavioral_events, processing_module_name)
+
+
+      insert behavioral events to specified processing module in nwb file
+
+
+

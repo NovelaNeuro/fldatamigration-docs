@@ -1,0 +1,27 @@
+:mod:`rec_to_nwb.processing.validation.associated_files_validation_summary`
+===========================================================================
+
+.. py:module:: rec_to_nwb.processing.validation.associated_files_validation_summary
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.validation.associated_files_validation_summary.AssociatedFilesValidationSummary
+
+
+
+.. py:class:: AssociatedFilesValidationSummary(associated_files)
+
+   Bases: :class:`rec_to_nwb.processing.validation.validation_summary.ValidationSummary`
+
+   .. method:: is_valid(self)
+
+
+
+

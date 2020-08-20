@@ -1,0 +1,16 @@
+:mod:`rec_to_nwb.processing.nwb.components.mda.time`
+====================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.mda.time
+
+
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   invalid/index.rst
+   valid/index.rst
+
+

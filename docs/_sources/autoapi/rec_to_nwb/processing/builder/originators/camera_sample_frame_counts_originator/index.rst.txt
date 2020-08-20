@@ -1,0 +1,35 @@
+:mod:`rec_to_nwb.processing.builder.originators.camera_sample_frame_counts_originator`
+======================================================================================
+
+.. py:module:: rec_to_nwb.processing.builder.originators.camera_sample_frame_counts_originator
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.builder.originators.camera_sample_frame_counts_originator.CameraSampleFrameCountsOriginator
+
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: CameraSampleFrameCountsOriginator(raw_data_path)
+
+   .. method:: make(self, nwb_content)
+
+
+
+

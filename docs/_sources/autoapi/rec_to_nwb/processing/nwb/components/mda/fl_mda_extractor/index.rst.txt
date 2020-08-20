@@ -1,0 +1,43 @@
+:mod:`rec_to_nwb.processing.nwb.components.mda.fl_mda_extractor`
+================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.mda.fl_mda_extractor
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.mda.fl_mda_extractor.FlMdaExtractor
+
+
+
+.. py:class:: FlMdaExtractor(datasets, conversion)
+
+   .. method:: get_data(self)
+
+
+
+   .. method:: __extract_data(self)
+
+
+
+   .. method:: __extract_data_for_single_dataset(self, dataset)
+
+
+
+   .. method:: __get_data_from_current_dataset(dataset)
+      :staticmethod:
+
+
+
+   .. method:: __data_exist(data_from_current_dataset, dataset)
+      :staticmethod:
+
+
+
+

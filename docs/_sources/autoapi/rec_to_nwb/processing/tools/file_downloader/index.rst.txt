@@ -1,0 +1,75 @@
+:mod:`rec_to_nwb.processing.tools.file_downloader`
+==================================================
+
+.. py:module:: rec_to_nwb.processing.tools.file_downloader
+
+.. autoapi-nested-parse::
+
+   Module to download a file from url
+
+   Class:
+       FileDownloader()
+
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.tools.file_downloader.FileDownloader
+
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: FileDownloader(url='https://www.dropbox.com/s/a7ddruxoffgbe7y/AC13_d27_WhereAreWeNow.rec?dl=1', download_path='../data/file.rec')
+
+   Bases: :class:`rec_to_nwb.processing.tools.abstract_file_downloader.AbstractFileDownloader`
+
+   Class to download a file
+
+   .. method:: download_file()
+
+      
+
+   .. method:: start_downloading()
+
+      
+      
+
+   Variable:
+       :var download_path: path where file should be saved
+       :var url: url to file
+
+   .. method:: download_file(self, url='')
+
+
+      Check if User type custom url. If yes, start downloading,
+      if no check if file already exist.
+      If no, start downloading from default url.
+
+          Parameters:
+              :param url: custom url to file
+
+
+   .. method:: start_downloading(self, url)
+
+
+      Start downloading from url and save file to default path
+
+      :param : param url: url to file
+
+
+

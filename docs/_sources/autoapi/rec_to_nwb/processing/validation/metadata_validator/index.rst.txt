@@ -1,0 +1,48 @@
+:mod:`rec_to_nwb.processing.validation.metadata_validator`
+==========================================================
+
+.. py:module:: rec_to_nwb.processing.validation.metadata_validator
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.validation.metadata_validator.MetadataValidator
+
+
+
+.. py:class:: MetadataValidator(metadata_path, probes_paths)
+
+   Bases: :class:`rec_to_nwb.processing.validation.validator.Validator`
+
+   Class to validate if metadata is complete
+
+   :param metadata_path: path to metadata.yml file
+   :type metadata_path: string
+   :param probes_paths: list paths to yml files containing informations about probe types
+   :type probes_paths: list of strings
+
+   .. method:: get_missing_metadata()
+
+      
+      
+
+   .. method:: create_summary(self)
+
+
+
+   .. method:: __get_missing_metadata(self)
+
+
+      Gets all missing yml files
+
+      :returns: list of all missing yml files
+      :rtype: list of strings
+
+
+
