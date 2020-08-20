@@ -1,0 +1,35 @@
+:mod:`rec_to_nwb.processing.nwb.components.position.fl_position_manager`
+========================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.position.fl_position_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.position.fl_position_manager.FlPositionManager
+
+
+
+.. py:class:: FlPositionManager(datasets: list, metadata: dict, dataset_names: list, process_timestamps: bool)
+
+   .. method:: get_fl_positions(self)
+
+
+
+   .. method:: __get_cameras_ids(dataset_names, metadata)
+      :staticmethod:
+
+
+
+   .. method:: __get_meters_per_pixels(cameras_ids, metadata)
+      :staticmethod:
+
+
+
+

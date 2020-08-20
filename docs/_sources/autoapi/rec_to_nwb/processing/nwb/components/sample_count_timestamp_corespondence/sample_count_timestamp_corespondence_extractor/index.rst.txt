@@ -1,0 +1,33 @@
+:mod:`rec_to_nwb.processing.nwb.components.sample_count_timestamp_corespondence.sample_count_timestamp_corespondence_extractor`
+===============================================================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.sample_count_timestamp_corespondence.sample_count_timestamp_corespondence_extractor
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.sample_count_timestamp_corespondence.sample_count_timestamp_corespondence_extractor.SampleCountTimestampCorespondenceExtractor
+
+
+
+.. py:class:: SampleCountTimestampCorespondenceExtractor(files)
+
+   .. method:: extract(self)
+
+
+
+   .. method:: __merge_data_from_multiple_files(self, data)
+
+
+
+   .. method:: __get_continuous_time_data_from_single_file(self, continuous_time_file)
+
+
+
+

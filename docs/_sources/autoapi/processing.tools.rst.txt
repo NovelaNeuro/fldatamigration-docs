@@ -1,0 +1,78 @@
+processing.tools package
+========================
+
+.. automodule:: processing.tools
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   processing.tools.beartype
+
+Submodules
+----------
+
+
+.. automodule:: processing.tools.abstract_file_downloader
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.tools.count_electrodes_in_ntrode
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.tools.count_electrodes_in_probe
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.tools.data_scanner
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.tools.dataset
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.tools.file_downloader
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.tools.file_sorter
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.tools.filter_probe_by_type
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.tools.get_times_period_multiplier
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.tools.validate_parameters
+   :members:
+   :undoc-members:
+   :show-inheritance:

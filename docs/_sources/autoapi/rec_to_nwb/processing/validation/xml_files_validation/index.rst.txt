@@ -1,0 +1,27 @@
+:mod:`rec_to_nwb.processing.validation.xml_files_validation`
+============================================================
+
+.. py:module:: rec_to_nwb.processing.validation.xml_files_validation
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.validation.xml_files_validation.XmlFilesValidator
+
+
+
+.. py:class:: XmlFilesValidator(path)
+
+   Bases: :class:`rec_to_nwb.processing.validation.validation_registrator.ValidationRegistrator`
+
+   .. method:: create_summary(self)
+
+
+
+

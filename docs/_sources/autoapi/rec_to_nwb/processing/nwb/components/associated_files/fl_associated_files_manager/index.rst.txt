@@ -1,0 +1,30 @@
+:mod:`rec_to_nwb.processing.nwb.components.associated_files.fl_associated_files_manager`
+========================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.associated_files.fl_associated_files_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.associated_files.fl_associated_files_manager.FlAssociatedFilesManager
+
+
+
+.. py:class:: FlAssociatedFilesManager(associated_files_metadata: list)
+
+   .. method:: get_fl_associated_files(self)
+
+
+
+   .. method:: __convert_iterable_to_string(iterable)
+      :staticmethod:
+
+
+
+

@@ -1,0 +1,42 @@
+processing.nwb.components.electrodes package
+============================================
+
+.. automodule:: processing.nwb.components.electrodes
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   processing.nwb.components.electrodes.extension
+
+Submodules
+----------
+
+
+.. automodule:: processing.nwb.components.electrodes.electrode_creator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.electrodes.fl_electrode_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.electrodes.fl_electrode_manager
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.electrodes.fl_electrodes
+   :members:
+   :undoc-members:
+   :show-inheritance:

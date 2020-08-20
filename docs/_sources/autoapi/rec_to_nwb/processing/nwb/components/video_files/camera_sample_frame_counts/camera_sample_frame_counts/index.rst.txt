@@ -1,0 +1,21 @@
+:mod:`rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts`
+=============================================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts.CameraSampleFrameCounts
+
+
+
+.. py:class:: CameraSampleFrameCounts(frame_count, timestamps)
+
+

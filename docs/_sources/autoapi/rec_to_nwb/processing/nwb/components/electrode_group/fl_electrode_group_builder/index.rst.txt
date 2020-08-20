@@ -1,0 +1,26 @@
+:mod:`rec_to_nwb.processing.nwb.components.electrode_group.fl_electrode_group_builder`
+======================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.electrode_group.fl_electrode_group_builder
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.electrode_group.fl_electrode_group_builder.FlElectrodeGroupBuilder
+
+
+
+.. py:class:: FlElectrodeGroupBuilder
+
+   .. method:: build(metadata: dict, device: Device)
+      :staticmethod:
+
+
+
+

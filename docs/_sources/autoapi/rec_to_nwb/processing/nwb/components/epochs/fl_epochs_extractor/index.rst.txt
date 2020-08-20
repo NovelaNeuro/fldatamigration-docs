@@ -1,0 +1,29 @@
+:mod:`rec_to_nwb.processing.nwb.components.epochs.fl_epochs_extractor`
+======================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.epochs.fl_epochs_extractor
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.epochs.fl_epochs_extractor.FlEpochsExtractor
+
+
+
+.. py:class:: FlEpochsExtractor(continuous_time_files)
+
+   .. method:: extract_epochs(self)
+
+
+
+   .. method:: __read_contunious_time_file(self, continuous_time_file)
+
+
+
+

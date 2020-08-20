@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.tools.get_times_period_multiplier`
+==============================================================
+
+.. py:module:: rec_to_nwb.processing.tools.get_times_period_multiplier
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.tools.get_times_period_multiplier.get_times_period_multiplier
+   rec_to_nwb.processing.tools.get_times_period_multiplier.return_validated_period
+
+
+.. function:: get_times_period_multiplier(metadata)
+
+
+.. function:: return_validated_period(period: (int, float, str)) -> float
+
+

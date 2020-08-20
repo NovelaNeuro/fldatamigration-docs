@@ -1,0 +1,41 @@
+:mod:`rec_to_nwb.processing.nwb.components.analog.analog_creator`
+=================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.analog.analog_creator
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.analog.analog_creator.AnalogCreator
+
+
+
+.. data:: path
+   
+
+   
+
+.. py:class:: AnalogCreator
+
+   .. method:: create(cls, fl_analog, unit)
+      :classmethod:
+
+
+
+   .. method:: __create_behavioral_events()
+      :staticmethod:
+
+
+
+   .. method:: __build_timeseries(name, description, data, timestamps, unit)
+      :staticmethod:
+
+
+
+

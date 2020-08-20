@@ -1,0 +1,33 @@
+:mod:`rec_to_nwb.processing.tools`
+==================================
+
+.. py:module:: rec_to_nwb.processing.tools
+
+
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   beartype/index.rst
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   abstract_file_downloader/index.rst
+   count_electrodes_in_ntrode/index.rst
+   count_electrodes_in_probe/index.rst
+   data_scanner/index.rst
+   dataset/index.rst
+   file_downloader/index.rst
+   file_sorter/index.rst
+   filter_probe_by_type/index.rst
+   get_times_period_multiplier/index.rst
+   validate_parameters/index.rst
+
+

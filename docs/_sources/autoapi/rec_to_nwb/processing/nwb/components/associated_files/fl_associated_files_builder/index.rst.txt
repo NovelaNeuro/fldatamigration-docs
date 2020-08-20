@@ -1,0 +1,26 @@
+:mod:`rec_to_nwb.processing.nwb.components.associated_files.fl_associated_files_builder`
+========================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.associated_files.fl_associated_files_builder
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.associated_files.fl_associated_files_builder.FlAssociatedFilesBuilder
+
+
+
+.. py:class:: FlAssociatedFilesBuilder
+
+   .. method:: build(name, description, content, task_epochs)
+      :staticmethod:
+
+
+
+

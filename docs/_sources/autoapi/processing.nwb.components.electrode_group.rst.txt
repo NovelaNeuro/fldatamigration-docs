@@ -1,0 +1,58 @@
+processing.nwb.components.electrode\_group package
+==================================================
+
+.. automodule:: processing.nwb.components.electrode_group
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: processing.nwb.components.electrode_group.electrode_group_factory
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.electrode_group.electrode_group_injector
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.electrode_group.fl_electrode_group
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.electrode_group.fl_electrode_group_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.electrode_group.fl_electrode_group_manager
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.electrode_group.fl_nwb_electrode_group
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.electrode_group.fl_nwb_electrode_group_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.electrode_group.fl_nwb_electrode_group_manager
+   :members:
+   :undoc-members:
+   :show-inheritance:

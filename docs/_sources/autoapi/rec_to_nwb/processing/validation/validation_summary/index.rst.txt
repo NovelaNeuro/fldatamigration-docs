@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.validation.validation_summary`
+==========================================================
+
+.. py:module:: rec_to_nwb.processing.validation.validation_summary
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.validation.validation_summary.ValidationSummary
+
+
+
+.. py:class:: ValidationSummary
+
+   .. method:: is_valid(self)
+
+
+
+

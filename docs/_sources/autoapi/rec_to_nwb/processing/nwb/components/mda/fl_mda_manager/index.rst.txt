@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.nwb.components.mda.fl_mda_manager`
+==============================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.mda.fl_mda_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.mda.fl_mda_manager.FlMdaManager
+
+
+
+.. py:class:: FlMdaManager(nwb_content, sampling_rate, datasets, conversion)
+
+   .. method:: get_data(self)
+
+
+
+

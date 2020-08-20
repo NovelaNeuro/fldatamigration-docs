@@ -1,0 +1,19 @@
+:mod:`rec_to_nwb.processing.nwb.components.electrodes.extension`
+================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.electrodes.extension
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   electrode_extension_injector/index.rst
+   fl_electrode_extension/index.rst
+   fl_electrode_extension_builder/index.rst
+   fl_electrode_extension_factory/index.rst
+   fl_electrode_extension_manager/index.rst
+
+

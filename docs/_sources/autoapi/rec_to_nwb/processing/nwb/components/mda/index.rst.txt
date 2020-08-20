@@ -1,0 +1,33 @@
+:mod:`rec_to_nwb.processing.nwb.components.mda`
+===============================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.mda
+
+
+Subpackages
+-----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 3
+
+   time/index.rst
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   electrical_series_creator/index.rst
+   fl_mda/index.rst
+   fl_mda_builder/index.rst
+   fl_mda_extractor/index.rst
+   fl_mda_manager/index.rst
+   mda_content/index.rst
+   mda_data_manager/index.rst
+   mda_injector/index.rst
+   mda_timestamp_manager/index.rst
+   table_region_builder/index.rst
+
+

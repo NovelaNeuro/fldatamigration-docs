@@ -1,0 +1,28 @@
+:mod:`rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_injector`
+======================================================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_injector
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_injector.CameraSampleFrameCountsInjector
+
+
+
+.. py:class:: CameraSampleFrameCountsInjector
+
+   .. method:: inject(timeseries, processing_module_name, nwb_content)
+      :staticmethod:
+
+
+      insert timeseries series to nwb file
+
+
+

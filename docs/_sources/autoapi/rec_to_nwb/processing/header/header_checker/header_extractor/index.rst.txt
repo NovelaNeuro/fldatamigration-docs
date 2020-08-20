@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.header.header_checker.header_extractor`
+===================================================================
+
+.. py:module:: rec_to_nwb.processing.header.header_checker.header_extractor
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.header.header_checker.header_extractor.HeaderFilesExtractor
+
+
+
+.. py:class:: HeaderFilesExtractor
+
+   .. method:: extract_headers_from_rec_files(self, rec_files)
+
+
+
+

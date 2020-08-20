@@ -1,0 +1,17 @@
+:mod:`rec_to_nwb.processing.metadata`
+=====================================
+
+.. py:module:: rec_to_nwb.processing.metadata
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   corrupted_data_manager/index.rst
+   metadata_extractor/index.rst
+   metadata_manager/index.rst
+
+

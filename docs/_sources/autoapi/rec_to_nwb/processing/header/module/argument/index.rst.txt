@@ -1,0 +1,21 @@
+:mod:`rec_to_nwb.processing.header.module.argument`
+===================================================
+
+.. py:module:: rec_to_nwb.processing.header.module.argument
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.header.module.argument.Argument
+
+
+
+.. py:class:: Argument(element)
+
+

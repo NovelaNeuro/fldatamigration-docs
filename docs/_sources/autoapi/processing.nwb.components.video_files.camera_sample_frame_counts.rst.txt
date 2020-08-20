@@ -1,0 +1,40 @@
+processing.nwb.components.video\_files.camera\_sample\_frame\_counts package
+============================================================================
+
+.. automodule:: processing.nwb.components.video_files.camera_sample_frame_counts
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+
+.. automodule:: processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_builder
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_extractor
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_injector
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+
+.. automodule:: processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_manager
+   :members:
+   :undoc-members:
+   :show-inheritance:

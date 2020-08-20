@@ -1,0 +1,25 @@
+:mod:`rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_manager`
+=====================================================================================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_manager
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.video_files.camera_sample_frame_counts.camera_sample_frame_counts_manager.CameraSampleFrameCountsManager
+
+
+
+.. py:class:: CameraSampleFrameCountsManager(raw_data_path)
+
+   .. method:: get_timeseries(self)
+
+
+
+

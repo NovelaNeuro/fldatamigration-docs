@@ -1,0 +1,35 @@
+:mod:`rec_to_nwb.processing.builder.originators.camera_device_originator`
+=========================================================================
+
+.. py:module:: rec_to_nwb.processing.builder.originators.camera_device_originator
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.builder.originators.camera_device_originator.CameraDeviceOriginator
+
+
+
+.. data:: path
+   
+
+   
+
+.. data:: logger
+   
+
+   
+
+.. py:class:: CameraDeviceOriginator(metadata)
+
+   .. method:: make(self, nwb_content)
+
+
+
+

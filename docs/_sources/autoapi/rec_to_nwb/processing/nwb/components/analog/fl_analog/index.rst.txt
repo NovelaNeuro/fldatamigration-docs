@@ -1,0 +1,21 @@
+:mod:`rec_to_nwb.processing.nwb.components.analog.fl_analog`
+============================================================
+
+.. py:module:: rec_to_nwb.processing.nwb.components.analog.fl_analog
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.nwb.components.analog.fl_analog.FlAnalog
+
+
+
+.. py:class:: FlAnalog(data, timestamps, description)
+
+

@@ -1,0 +1,41 @@
+:mod:`rec_to_nwb.processing.header.reconfig_header_checker`
+===========================================================
+
+.. py:module:: rec_to_nwb.processing.header.reconfig_header_checker
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   rec_to_nwb.processing.header.reconfig_header_checker.ReconfigHeaderChecker
+
+
+
+.. data:: path
+   
+
+   
+
+.. py:class:: ReconfigHeaderChecker
+
+   .. method:: validate(cls, xml_header_path)
+      :classmethod:
+
+
+
+   .. method:: __validate_xml_header(cls, xml_header_path)
+      :classmethod:
+
+
+
+   .. method:: __compare_with_xml_schema(cls, xml_header_path)
+      :classmethod:
+
+
+
+
